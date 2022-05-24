@@ -1,0 +1,116 @@
+xfce-superkey-mx (21.09.01) の設定ファイルを削除しています ...
+xfce4-notes (1.9.0-1~mx21+1) の設定ファイルを削除しています ...
+xfce4-whiskermenu-plugin:amd64 (2.6.1-1~mx21+1) の設定ファイルを削除しています ...
+desktop-defaults-mx-xfce-desktop (22.03.02mx21) の設定ファイルを削除しています ...
+dpkg: 警告: desktop-defaults-mx-xfce-desktop の削除中、ディレクトリ '/root/.config/Thunar' が空でな
+いため削除できませんでした
+dpkg: 警告: desktop-defaults-mx-xfce-desktop の削除中、ディレクトリ '/etc/skel/.config/Thunar' が空
+でないため削除できませんでした
+apt-notifier (22.01.01mx21) の設定ファイルを削除しています ...
+xfce4-power-manager (4.16.0-1) の設定ファイルを削除しています ...
+blueman (2.1.4-1+b1) の設定ファイルを削除しています ...
+thunar-volman (4.16.0-1) の設定ファイルを削除しています ...
+libgarcon-common (4.16.1-1) の設定ファイルを削除しています ...
+desktop-defaults-mx-xfce-system (22.03.02mx21) の設定ファイルを削除しています ...
+unattended-upgrades (2.8) の設定ファイルを削除しています ...
+thunar (4.16.8-1) の設定ファイルを削除しています ...
+xfce4-session (4.16.0-1) の設定ファイルを削除しています ...
+xfce4-panel (4.16.3-1~mx21+1) の設定ファイルを削除しています ...
+xfce4-notifyd (0.6.2-1) の設定ファイルを削除しています ...
+xfce4-settings (4.16.2-1~mx21+1) の設定ファイルを削除しています ...
+libxfce4ui-common (4.16.1-1~mx21+1) の設定ファイルを削除しています ...
+xfce4-clipman (2:1.6.2-1~mx21+1) の設定ファイルを削除しています ...
+xfce4-helpers (4.16.2-1~mx21+1) の設定ファイルを削除しています ...
+thunar-modified-desktop-file (21.07.01) の設定ファイルを削除しています ...
+dbus (1.12.20-2) のトリガを処理しています ...
+root@mx1:/home/demo# 
+
+
+root@mx1:/home/demo# apt install mate-desktop-environment-extras
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下の追加パッケージがインストールされます:
+  caja caja-common debian-mate-default-settings gir1.2-matemenu-2.0 libcaja-extension1 libexempi8
+  libgail-3-0 libgtk-layer-shell0 libgtop-2.0-11 libgtop2-common libmarco-private2
+  libmate-desktop-2-17 libmate-menu2 libmate-panel-applet-4-1 libmate-slab0
+  libmate-window-settings1 libmatekbd-common libmatekbd4 libmatemixer-common libmatemixer0
+  libmateweather-common libmateweather1 librda-common librda0 libstartup-notification0 libwnck-3-0
+  libwnck-3-common libxpresent1 libxres1 marco marco-common mate-control-center
+  mate-control-center-common mate-desktop mate-desktop-common mate-desktop-environment
+  mate-desktop-environment-core mate-icon-theme mate-menus mate-notification-daemon
+  mate-notification-daemon-common mate-panel mate-panel-common mate-polkit mate-polkit-common
+  mate-session-manager mate-settings-daemon mate-settings-daemon-common mate-terminal
+  mate-terminal-common mate-themes zenity zenity-common
+提案パッケージ:
+  engrampa gstreamer1.0-tools meld caja-share mate-netbook mate-user-guide
+推奨パッケージ:
+  mate-user-guide atril desktop-base | ubuntu-mate-wallpapers engrampa eom ffmpegthumbnailer
+  mate-backgrounds | ubuntu-mate-wallpapers mate-calc mate-applet-brisk-menu mate-applets
+  mate-media mate-power-manager mate-screensaver mate-system-monitor mate-utils pluma blueman
+  caja-admin caja-eiciel caja-gtkhash caja-image-converter caja-open-terminal caja-rename
+  caja-seahorse caja-sendto caja-wallpaper gnome-system-tools mate-dock-applet mate-menu
+  mate-sensors-applet mate-tweak mate-user-share mozo
+以下のパッケージが新たにインストールされます:
+  caja caja-common debian-mate-default-settings gir1.2-matemenu-2.0 libcaja-extension1 libexempi8
+  libgail-3-0 libgtk-layer-shell0 libgtop-2.0-11 libgtop2-common libmarco-private2
+  libmate-desktop-2-17 libmate-menu2 libmate-panel-applet-4-1 libmate-slab0
+  libmate-window-settings1 libmatekbd-common libmatekbd4 libmatemixer-common libmatemixer0
+  libmateweather-common libmateweather1 librda-common librda0 libstartup-notification0 libwnck-3-0
+  libwnck-3-common libxpresent1 libxres1 marco marco-common mate-control-center
+  mate-control-center-common mate-desktop mate-desktop-common mate-desktop-environment
+  mate-desktop-environment-core mate-desktop-environment-extras mate-icon-theme mate-menus
+  mate-notification-daemon mate-notification-daemon-common mate-panel mate-panel-common
+  mate-polkit mate-polkit-common mate-session-manager mate-settings-daemon
+  mate-settings-daemon-common mate-terminal mate-terminal-common mate-themes zenity zenity-common
+アップグレード: 0 個、新規インストール: 54 個、削除: 0 個、保留: 38 個。
+40.9 MB のアーカイブを取得する必要があります。
+この操作後に追加で 226 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+
+root@mx1:/home/demo# apt install mate-utils mate-tweak
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下の追加パッケージがインストールされます:
+  libmatedict6 mate-utils-common python3-psutil python3-setproctitle
+提案パッケージ:
+  ayatana-indicator-application | indicator-application ayatana-indicator-datetime
+  | indicator-datetime ayatana-indicator-messages | indicator-messages ayatana-indicator-sound
+  | indicator-sound ayatana-indicator-session | indicator-session ayatana-indicator-power
+  | indicator-power python-psutil-doc
+推奨パッケージ:
+  mate-indicator-applet
+以下のパッケージが新たにインストールされます:
+  libmatedict6 mate-tweak mate-utils mate-utils-common python3-psutil python3-setproctitle
+アップグレード: 0 個、新規インストール: 6 個、削除: 0 個、保留: 38 個。
+7,147 kB のアーカイブを取得する必要があります。
+この操作後に追加で 31.4 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+
+
+root@mx1:/home/demo# apt install uim-anthy uim uim-mozc im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+zenity はすでに最新バージョン (3.32.0-6) です。
+zenity は手動でインストールしたと設定されました。
+以下の追加パッケージがインストールされます:
+  anthy anthy-common libabsl20200923 libanthy1 libanthyinput0 libgcroots0
+  libm17n-0 libotf0 libuim-custom2 libuim-data libuim-scm0 libuim8 m17n-db
+  mozc-data mozc-server uim-data uim-gtk2.0-immodule uim-gtk3-immodule
+  uim-plugins uim-qt5-immodule
+提案パッケージ:
+  m17n-docs
+推奨パッケージ:
+  uim-xim uim-fep mozc-utils-gui
+以下のパッケージが新たにインストールされます:
+  anthy anthy-common im-config kasumi libabsl20200923 libanthy1 libanthyinput0
+  libgcroots0 libm17n-0 libotf0 libuim-custom2 libuim-data libuim-scm0 libuim8
+  m17n-db mozc-data mozc-server uim uim-anthy uim-data uim-gtk2.0
+  uim-gtk2.0-immodule uim-gtk3 uim-gtk3-immodule uim-mozc uim-plugins uim-qt5
+  uim-qt5-immodule
+アップグレード: 0 個、新規インストール: 28 個、削除: 0 個、保留: 38 個。
+21.5 MB のアーカイブを取得する必要があります。
+この操作後に追加で 68.0 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 

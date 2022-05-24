@@ -1,0 +1,15 @@
+Known problem:
+
+Install launcher icon is sometimes missing on the desktop
+in some locales.
+Then execute a command as follows,
+
+demo@mx1:~
+$ minstall-launcher
+
+But it is fixed anyhow after reboot, and it does not happen again.
+
+As for default or English locale,
+The icon is normally exist. No plobrem.
+
+END.

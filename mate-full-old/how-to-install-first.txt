@@ -1,0 +1,15 @@
+https://wiki.mate-desktop.org/introduction/installation/#manual-installation
+
+https://mxlinux.org/wiki/xfce/how-to-completely-remove-xfce/
+
+dpkg -l | grep .xfce. | awk '{print $2}' | xargs apt purge -V --auto-remove -yy
+
+apt install desktop-defaults-mx-common
+
+apt update
+
+apt upgrade
+
+apt install mate-desktop-environment
+
+apt install lightdm lightdm-gtk-greeter
