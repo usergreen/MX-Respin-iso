@@ -1,0 +1,13 @@
+https://packages.debian.org/ja/stretch/anthy
+パッケージ: anthy (9100h-25 など) 
+日本語用入力メソッド - バックエンド、辞書およびユーティリティ
+
+Anthy は日本語入力メソッドで、X11 および Emacs 上で動作します。ひらがな のテキストを仮名漢字混じりテキストに変換します。ライブラリとして実装さ れており、ユーザのプライベート情報は ~/.anthy/ ディレクトリに保存され ます。これにより、Anthy はシンプルかつセキュアとなっています (あなたの 情報は、偽装や覗き見から守られます)。
+
+
+https://packages.debian.org/en/stretch/anthy
+Package: anthy (9100h-25 and others)
+input method for Japanese - backend, dictionary and utility
+
+Anthy is a Japanese input method working on X11 and Emacs. It converts hiragana text to mixed kana and kanji. It is implemented as a library and stores private information securely in ~/.anthy/. Thus, Anthy is simple and secure (information is protected from spoofing and snooping).
+
