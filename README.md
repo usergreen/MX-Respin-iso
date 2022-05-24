@@ -1,5 +1,6 @@
 # MX-Respin-iso
-Unofficial MX Respin iso (personally customized snapshots)
+This is a project to create<br>
+an Unofficial MX Respin iso (personally customized snapshots)
 
 ISO image files already created, are distributed at:
 
