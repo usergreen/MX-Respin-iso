@@ -1,9 +1,9 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-19-26 19:50 JST
+updated: 2022-05-26 19:57 JST
 
 This page shows my plans for future releases.
-For example, adding new features, applications, or fix redundancy and bug.
+For example, adding new features, applications, or fix redundancy and bugs.
 
 
 As for MATE Desktop (Core):
@@ -14,7 +14,7 @@ Include complete MATE's extra components.
 Set default locale to "None".
 
 As for Xfce Desktop (minimal components):
-Include several major locales besides EN and JP.
+Include several major locales besides EN and JA.
 Set default locale to "None".
 
 END
