@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-29 18:24 JST
+updated: 2022-05-29 19:22 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs.
@@ -14,7 +14,7 @@ As for MATE Desktop with Extras:
 Include complete MATE's extra components.
 Set default locale to "None".
 Add libreoffice-l10n-*, firefox-esr-l10n-*.
-Replace video player with SMplayer as it is accompanied by l10n.
+If needed, replace video player with SMplayer as it has l10n support, too.
 
 As for Xfce Desktop (minimal components):
 Include several major locales besides EN and JA.
