@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-29 12:10 JST
+updated: 2022-05-29 18:24 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs.
