@@ -1,7 +1,10 @@
 # MX-Respin-iso
 This is a project to create an<br>
 Unofficial MX Respin iso (personally customized snapshots)<br>
- These products are based on MX Linux but are not connected with it. 
+These products are based on MX Linux but are not connected with it.
+ 
+The ultimate goal of the project is to create and provide Linux users around the world with a complete Japanese environment by default.<br>
+（このプロジェクトの目標は、完全な日本語環境を構築することによって、標準（デフォルト）で世界中の Linux ユーザーに完全な日本語環境を提供することです。ほぼ完全な日本語環境（日本語入力も含む）を備えているので、起動直後から日本語で利用できます。インターネット接続環境は一切要りません。）
 
 ISO image files already created, are distributed at:
 
