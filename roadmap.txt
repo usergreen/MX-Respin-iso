@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-29 11:55 JST
+updated: 2022-05-29 12:10 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs.
@@ -18,7 +18,7 @@ Add libreoffice-l10n-*, firefox-esr-l10n-*.
 As for Xfce Desktop (minimal components):
 Include several major locales besides EN and JA.
 Set default locale to "None".
-Add applications like mailer, audio/video player, libreoffice
+Add applications like mailer, audio/video player, libreoffice, printing
 Add libreoffice-l10n-*, firefox-esr-l10n-*.
 
 END
