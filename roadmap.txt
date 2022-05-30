@@ -1,13 +1,14 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-30 21:30 JST
+updated: 2022-05-31 08:33 JST
 
 This page shows my plans for future releases.
-For example, adding new features, applications, or fix redundancy and bugs.
+For example, adding new features, applications, or fix redundancy and bugs, etc.
 
 ---------------------
 
 As for MATE Desktop (Core):
+Done: Added missing mate-backgrounds mate-common mate-power-manager mate-screensaver mate-system-monitor
 Done: Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
 Done: Remove pavucontrol package due to redundancy.
 Done: Add firefox-l10n-xpi-*.
