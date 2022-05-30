@@ -14,7 +14,7 @@ Add firefox-esr-l10n-*.
 As for MATE Desktop with Extras:
 Include complete MATE's extra components.
 Set default locale to "None".
-Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese), zh-中文(Chinese)
+Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
 Add libreoffice-l10n-*, firefox-esr-l10n-*.
 If needed, replace video player with SMplayer as it has l10n support, too.
 
