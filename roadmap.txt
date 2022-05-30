@@ -20,7 +20,7 @@ If needed, replace video player with SMplayer as it has l10n support, too.
 
 As for Xfce Desktop (minimal components):
 Add several major locales: es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
-Add also: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese), zh-中文(Chinese) 
+Add also: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
 Set default locale to "None".
 Add applications like mailer, audio/video player, libreoffice, printing
 Add libreoffice-l10n-*, firefox-esr-l10n-*.
