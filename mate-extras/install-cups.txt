@@ -1,0 +1,45 @@
+root@mx1:/home/demo# apt install cups
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common
+  fonts-urw-base35 ghostscript libcupsfilters1 libfontembed1 libgs9
+  libgs9-common libidn11 libijs-0.35 libjbig2dec0 libpaper1 libpoppler-cpp0v5
+  libqpdf28 poppler-data poppler-utils
+Suggested packages:
+  cups-bsd cups-pdf foomatic-db-compressed-ppds | foomatic-db smbclient
+  antiword docx2txt fonts-texgyre ghostscript-x fonts-japanese-mincho
+  | fonts-ipafont-mincho fonts-japanese-gothic | fonts-ipafont-gothic
+  fonts-arphic-ukai fonts-arphic-uming fonts-nanum
+Recommended packages:
+  colord cups-browsed ipp-usb liblouisutdml-bin | liblouis-bin
+  fonts-droid-fallback libpaper-utils
+The following NEW packages will be installed:
+  cups cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common
+  fonts-urw-base35 ghostscript libcupsfilters1 libfontembed1 libgs9
+  libgs9-common libidn11 libijs-0.35 libjbig2dec0 libpaper1 libpoppler-cpp0v5
+  libqpdf28 poppler-data poppler-utils
+0 upgraded, 24 newly installed, 0 to remove and 2 not upgraded.
+Need to get 15.6 MB of archives.
+After this operation, 61.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install cups-pdf
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'printer-driver-cups-pdf' instead of 'cups-pdf'
+The following additional packages will be installed:
+  libpaper-utils
+Suggested packages:
+  system-config-printer
+The following NEW packages will be installed:
+  libpaper-utils printer-driver-cups-pdf
+0 upgraded, 2 newly installed, 0 to remove and 2 not upgraded.
+Need to get 55.7 kB of archives.
+After this operation, 300 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
