@@ -1,10 +1,11 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-29 19:22 JST
+updated: 2022-05-30 18:37 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs.
 
+---------------------
 
 As for MATE Desktop (Core):
 Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
@@ -19,7 +20,7 @@ Add libreoffice-l10n-*, firefox-esr-l10n-*.
 If needed, replace video player with SMplayer as it has l10n support, too.
 
 As for Xfce Desktop (minimal components):
-Add several major locales: es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
+Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
 Add also: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
 Set default locale to "None".
 Add applications like mailer, audio/video player, libreoffice, printing
