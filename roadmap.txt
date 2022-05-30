@@ -8,9 +8,9 @@ For example, adding new features, applications, or fix redundancy and bugs.
 ---------------------
 
 As for MATE Desktop (Core):
-Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
-Remove pavucontrol package due to redundancy.
-Add firefox-esr-l10n-*.
+Done: Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
+Done: Remove pavucontrol package due to redundancy.
+Done: Add firefox-esr-l10n-*.
 
 As for MATE Desktop with Extras:
 Include complete MATE's extra components.
