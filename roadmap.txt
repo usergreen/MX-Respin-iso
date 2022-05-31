@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-06-01 08:43 JST
+updated: 2022-06-01 08:48 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -26,8 +26,8 @@ Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, 
 Add pt-Portuges(Portuguese)
 Add also: nl-Nederlands(Dutch), no-Norsk(Norwegian)
 Set default locale to "None".
-Add applications like mailer, audio/video player, libreoffice, printing
+Add applications like mailer, audio/video player
 Add firefox-l10n-xpi-*
-Add libreoffice-l10n-*
+Add libreoffice, libreoffice-l10n-*, printing
 
 END
