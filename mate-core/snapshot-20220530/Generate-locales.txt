@@ -1,0 +1,16 @@
+Generating locales (this might take a while)...
+de_DE.UTF-8... done - German locale for Germany
+en_US.UTF-8... done - English locale for the USA
+es_ES.UTF-8... done - Spanish locale for Spain
+fr_FR.UTF-8... done - French locale for France
+it_IT.UTF-8... done - Italian locale for Italy
+ja_JP.UTF-8... done - Japanese language locale for Japan
+nl_NL.UTF-8... done - Dutch locale for the Netherlands
+nn_NO.UTF-8... done - Nynorsk language locale for Norway
+pt_PT.UTF-8... done - Portuguese locale for Portugal
+ru_RU.UTF-8... done - Russian locale for Russia
+zh_CN.UTF-8... done - Chinese locale for Peoples Republic of China
+Generation complete.
+--
+System locale:
+-

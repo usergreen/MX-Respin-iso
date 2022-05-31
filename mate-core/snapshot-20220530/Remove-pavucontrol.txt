@@ -1,0 +1,11 @@
+root@mx1:/home/demo# apt remove pavucontrol
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages will be REMOVED:
+  pavucontrol
+0 upgraded, 0 newly installed, 1 to remove and 13 not upgraded.
+After this operation, 1,083 kB disk space will be freed.
+Do you want to continue? [Y/n] 
+
+

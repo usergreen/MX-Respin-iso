@@ -1,0 +1,11 @@
+
+Start-Date: 2022-05-30  09:51:22
+Commandline: apt remove pavucontrol
+Remove: pavucontrol:amd64 (4.0-2)
+End-Date: 2022-05-30  09:51:23
+
+Start-Date: 2022-05-30  10:16:34
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: firefox-l10n-xpi-de:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-fr:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-it:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-ja:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-nl:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-ru:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-pt-pt:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-zh-tw:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-nn-noany:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-es-es:amd64 (100.0.2~mozillabinaries-1mx21+1)
+End-Date: 2022-05-30  10:16:35
