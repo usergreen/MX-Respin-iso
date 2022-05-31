@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-31 14:48 JST
+updated: 2022-05-31 18:05 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -14,10 +14,11 @@ Done: Remove pavucontrol package due to redundancy.
 Done: Add firefox-l10n-xpi-*.
 
 As for MATE Desktop with Extras:
-Include missing MATE components: mate-backgrounds mate-common mate-power-manager mate-screensaver caja-dropbox mate-applets
-Set default locale to "None".
-Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
-Add libreoffice-l10n-*, firefox-l10n-xpi-*.
+Done: Include missing MATE components: mate-backgrounds mate-common mate-power-manager mate-screensaver caja-dropbox mate-applets
+Done: Set default locale to "None".
+Done: Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
+Done: Remove pavucontrol package due to redundancy.
+Done: Add libreoffice-l10n-*, firefox-l10n-xpi-*.
 If needed, replace video player with SMplayer as it has l10n support, too.
 
 As for Xfce Desktop (minimal components):
