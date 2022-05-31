@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-05-31 08:33 JST
+updated: 2022-05-31 14:48 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -14,7 +14,7 @@ Done: Remove pavucontrol package due to redundancy.
 Done: Add firefox-l10n-xpi-*.
 
 As for MATE Desktop with Extras:
-Include complete MATE's extra components.
+Include missing MATE components: mate-backgrounds mate-common mate-power-manager mate-screensaver caja-dropbox mate-applets
 Set default locale to "None".
 Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portuguese)
 Add libreoffice-l10n-*, firefox-l10n-xpi-*.
