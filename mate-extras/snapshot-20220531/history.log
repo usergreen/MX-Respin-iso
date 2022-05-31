@@ -1,0 +1,23 @@
+
+Start-Date: 2022-05-31  03:41:18
+Commandline: apt install mate-backgrounds mate-common mate-power-manager mate-screensaver caja-dropbox mate-applets
+Install: libgucharmap-2-90-7:amd64 (1:13.0.5-1, automatic), mate-screensaver-common:amd64 (1.24.1-1, automatic), sgml-base:amd64 (1.30, automatic), xsltproc:amd64 (1.1.34-4, automatic), autoconf-archive:amd64 (20190106-2.1, automatic), automake:amd64 (1:1.16.3-2, automatic), caja-dropbox:amd64 (1.24.0-1), file:amd64 (1:5.39-3, automatic), intltool:amd64 (0.51.0-6, automatic), mate-backgrounds:amd64 (1.24.2-1), mate-screensaver:amd64 (1.24.1-1), mate-power-manager:amd64 (1.24.2-1), mate-power-manager-common:amd64 (1.24.2-1, automatic), python3-lxml:amd64 (4.6.3+dfsg-0.1+deb11u1, automatic), autoconf:amd64 (2.69-14, automatic), docbook-xml:amd64 (4.5-9, automatic), docbook-xsl:amd64 (1.79.2+dfsg-1, automatic), sgml-data:amd64 (2.0.11+nmu1, automatic), mate-common:amd64 (1.24.2-1), docbook:amd64 (4.5-6, automatic), python3-gpg:amd64 (1.14.0-1+b2, automatic), autotools-dev:amd64 (20180224.1+nmu1, automatic), gettext:amd64 (0.21-4, automatic), libtool:amd64 (2.4.6-15, automatic), mate-applets:amd64 (1.24.1-1), mate-applets-common:amd64 (1.24.1-1, automatic), libosp5:amd64 (1.5.2-13+b2, automatic), gtk-doc-tools:amd64 (1.33.2-1, automatic), m4:amd64 (1.4.18-5, automatic), opensp:amd64 (1.5.2-13+b2, automatic), python3-pygments:amd64 (2.7.1+dfsg-2.1, automatic), libcpupower1:amd64 (5.10.113-1, automatic), xml-core:amd64 (0.18+nmu1, automatic), docbook-to-man:amd64 (1:2.0.0-45, automatic)
+End-Date: 2022-05-31  03:42:01
+
+Start-Date: 2022-05-31  03:47:09
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: libreoffice-l10n-de:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-es:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-fr:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-it:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-ja:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-nl:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-nn:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-pt:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-ru:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-zh-cn:amd64 (1:7.0.4-4+deb11u1)
+End-Date: 2022-05-31  03:47:41
+
+Start-Date: 2022-05-31  03:52:16
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: firefox-l10n-xpi-de:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-fr:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-it:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-ja:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-nl:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-ru:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-pt-pt:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-zh-tw:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-nn-noany:amd64 (100.0.2~mozillabinaries-1mx21+1), firefox-l10n-xpi-es-es:amd64 (100.0.2~mozillabinaries-1mx21+1)
+End-Date: 2022-05-31  03:52:17
+
+Start-Date: 2022-05-31  03:53:23
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: pavucontrol:amd64 (4.0-2)
+End-Date: 2022-05-31  03:53:25

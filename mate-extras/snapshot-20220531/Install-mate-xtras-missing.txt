@@ -1,0 +1,33 @@
+root@mx1:/home/demo# apt install mate-backgrounds mate-common mate-power-manager mate-screensaver caja-dropbox mate-applets
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  autoconf autoconf-archive automake autotools-dev docbook docbook-to-man
+  docbook-xml docbook-xsl file gettext gtk-doc-tools intltool libcpupower1
+  libgucharmap-2-90-7 libosp5 libtool m4 mate-applets-common
+  mate-power-manager-common mate-screensaver-common opensp python3-gpg
+  python3-lxml python3-pygments sgml-base sgml-data xml-core xsltproc
+Suggested packages:
+  gnu-standards autoconf-doc docbook-defguide docbook-dsssl psgml dbtoepub
+  docbook-xsl-doc-html | docbook-xsl-doc-pdf | docbook-xsl-doc-text
+  | docbook-xsl-doc docbook-xsl-saxon fop libsaxon-java libxalan2-java
+  libxslthl-java xalan gettext-doc autopoint libasprintf-dev libgettextpo-dev
+  dblatex libtool-doc gfortran | fortran95-compiler gcj-jdk m4-doc rss-glx
+  xscreensaver-data doc-base python3-lxml-dbg python-lxml-doc
+  python-pygments-doc sgml-base-doc perlsgml w3-recs libxml2-utils debhelper
+Recommended packages:
+  libltdl-dev python3-bs4 python3-html5lib
+The following NEW packages will be installed:
+  autoconf autoconf-archive automake autotools-dev caja-dropbox docbook
+  docbook-to-man docbook-xml docbook-xsl file gettext gtk-doc-tools intltool
+  libcpupower1 libgucharmap-2-90-7 libosp5 libtool m4 mate-applets
+  mate-applets-common mate-backgrounds mate-common mate-power-manager
+  mate-power-manager-common mate-screensaver mate-screensaver-common opensp
+  python3-gpg python3-lxml python3-pygments sgml-base sgml-data xml-core
+  xsltproc
+0 upgraded, 34 newly installed, 0 to remove and 21 not upgraded.
+Need to get 75.9 MB of archives.
+After this operation, 186 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
