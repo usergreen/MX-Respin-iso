@@ -1,0 +1,21 @@
+[Known bugs]
+2022-06-01 20:45 JST
+updated: ------- JST
+
+This page shows reports about release bugs or errors if confirmed.
+---------------------
+
+As for all the releases below:
+Sound volume is set mute as default, but this is not a bug.
+
+
+As for MATE Desktop (Core):
+Not found.
+
+As for MATE Desktop with Extras:
+Not found.
+
+As for Xfce Desktop (with Japanese input):
+LibreOffce does NOT allow Japanese input, therefore searching for a turnaroud now.
+
+END
