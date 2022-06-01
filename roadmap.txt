@@ -22,12 +22,12 @@ Done: Add libreoffice-l10n-*, firefox-l10n-xpi-*.
 If needed, replace video player with SMplayer as it has l10n support, too.
 
 As for Xfce Desktop (with Japanese input):
-Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
-Add pt-Portuges(Portuguese)
-Add also: nl-Nederlands(Dutch), no-Norsk(Norwegian)
-Set default locale to "None".
-Add applications like mailer, audio/video player
-Add firefox-l10n-xpi-*
-Add libreoffice, libreoffice-l10n-*, printing
+Done: Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
+Done: Add pt-Portuges(Portuguese)
+Done: Set default locale to "None".
+Done: Done: Add applications like mailer, office suite, audio/video player, printing
+Done: Add firefox-l10n-xpi-*, libreoffice, libreoffice-l10n-*
+Done: Add pt-Portuges(Portuguese)
+If needed, add nl-Nederlands(Dutch), no-Norsk(Norwegian), too
 
 END
