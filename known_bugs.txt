@@ -1,6 +1,6 @@
 [Known bugs]
 2022-06-01 20:45 JST
-updated: 2022-06-02 12:41 JST
+updated: 2022-06-02 18:12 JST
 
 This page shows reports about release bugs or errors when confirmed.
 ---------------------
@@ -13,10 +13,13 @@ As for MATE Desktop (Core):
 Not found.
 
 As for MATE Desktop with Extras:
-LibreOffice does NOT allow Japanese input, too. It was the same as Xfce respin below.(2022-06-02)
+Fixed: LibreOffice does NOT allow Japanese input, too. It was the same as Xfce respin below.(2022-06-02)
 
 As for Xfce Desktop (with Japanese input):
-LibreOffce does NOT allow Japanese input, therefore searching for a workaround now.(2022-06-01)
+Fixed: LibreOffce does NOT allow Japanese input, therefore searching for a workaround now.(2022-06-01)
+
+----------------------------------------------
+The bugs below (on 2022-06-01/2022-06-02) has been already fixed at 2022-06-02 07:41 UTC.
 
 A workaround was just foud, comparing with Debian 11 bulleseye which does not cause this problem.
 It seems that installation of LibreOffice afterwards changed default input settings to
