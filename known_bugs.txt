@@ -1,6 +1,6 @@
 [Known bugs]
 2022-06-01 20:45 JST
-updated: 2022-06-01 21:00 JST
+updated: 2022-06-02 12:18 JST
 
 This page shows reports about release bugs or errors when confirmed.
 ---------------------
@@ -22,6 +22,6 @@ A turnaroud was just foud, comparing Debian 11 bulleseye which does not cause th
 It seems that installation of libreoffice afterwards changed default input settings to
 not use uim-anthy anyhow. But re-installing uim-anthy can fixthis bag as I tested here.(2022-06-02)
 
-Therefore, I would like to an updating releases which fix this uim-anthy input problem, soon.
+Therefore, I would like to release an updating snapshots which fix this uim-anthy input problem, soon.
 
 END
