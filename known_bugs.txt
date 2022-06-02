@@ -16,9 +16,9 @@ As for MATE Desktop with Extras:
 LibreOffce does NOT allow Japanese input, too. it was the same as Xfce respin below.(2022-06-02)
 
 As for Xfce Desktop (with Japanese input):
-LibreOffce does NOT allow Japanese input, therefore searching for a turnaroud now.(2022-06-01)
+LibreOffce does NOT allow Japanese input, therefore searching for a workaround now.(2022-06-01)
 
-A turnaroud was just foud, comparing Debian 11 bulleseye which does not cause this problem.
+A workaround was just foud, comparing Debian 11 bulleseye which does not cause this problem.
 It seems that installation of libreoffice afterwards changed default input settings to
 not use uim-anthy anyhow. But re-installing uim-anthy can fixthis bag as I tested here.(2022-06-02)
 
