@@ -18,9 +18,9 @@ LibreOffce does NOT allow Japanese input, too. it was the same as Xfce respin be
 As for Xfce Desktop (with Japanese input):
 LibreOffce does NOT allow Japanese input, therefore searching for a workaround now.(2022-06-01)
 
-A workaround was just foud, comparing Debian 11 bulleseye which does not cause this problem.
+A workaround was just foud, comparing with Debian 11 bulleseye which does not cause this problem.
 It seems that installation of libreoffice afterwards changed default input settings to
-not use uim-anthy anyhow. But re-installing uim-anthy can fixthis bag as I tested here.(2022-06-02)
+not use uim-anthy anyhow. But re-installing uim-anthy can fix this bag as I tested here.(2022-06-02)
 
 Therefore, I would like to release an updating snapshots which fix this uim-anthy input problem, soon.
 
