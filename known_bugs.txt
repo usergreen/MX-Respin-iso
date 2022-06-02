@@ -1,6 +1,6 @@
 [Known bugs]
 2022-06-01 20:45 JST
-updated: 2022-06-02 12:18 JST
+updated: 2022-06-02 12:19 JST
 
 This page shows reports about release bugs or errors when confirmed.
 ---------------------
@@ -13,7 +13,7 @@ As for MATE Desktop (Core):
 Not found.
 
 As for MATE Desktop with Extras:
-LibreOffce does NOT allow Japanese input, too. it was tha same as Xfce respin.(2022-06-02)
+LibreOffce does NOT allow Japanese input, too. it was the same as Xfce respin below.(2022-06-02)
 
 As for Xfce Desktop (with Japanese input):
 LibreOffce does NOT allow Japanese input, therefore searching for a turnaroud now.(2022-06-01)
