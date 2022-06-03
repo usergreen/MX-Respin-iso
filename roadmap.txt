@@ -22,7 +22,7 @@ Done: Add libreoffice-l10n-*, firefox-l10n-xpi-*.
 If needed, replace video player with SMplayer as it has l10n support, too.
 Remove fcitx due to redundancy
 Replace Xine with SMplayer due to L10n support
-Add Audicious audio player
+Add Audacious audio player
 Add Gimp image editor
 
 As for Xfce Desktop (with Japanese input):
