@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-06-01 08:48 JST
+updated: 2022-06-03 15:00 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -20,6 +20,10 @@ Done: Add locales: nl-Nederlands(Dutch), no-Norsk(Norwegian), pt-Portuges(Portug
 Done: Remove pavucontrol package due to redundancy.
 Done: Add libreoffice-l10n-*, firefox-l10n-xpi-*.
 If needed, replace video player with SMplayer as it has l10n support, too.
+Remove fcitx due to redundancy
+Replace Xine with SMplayer due to L10n support
+Add Audicious audio player
+Add Gimp image editor
 
 As for Xfce Desktop (with Japanese input):
 Done: Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
