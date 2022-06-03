@@ -1,0 +1,107 @@
+root@mx1:/home/demo# apt install cups
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  cups-client cups-common cups-core-drivers cups-daemon cups-filters cups-filters-core-drivers
+  cups-ipp-utils cups-ppdc cups-server-common fonts-urw-base35 ghostscript libcups2
+  libcupsfilters1 libfontembed1 libgs9 libgs9-common libidn11 libijs-0.35 libjbig2dec0 libpaper1
+  libpoppler-cpp0v5 libqpdf28 poppler-data poppler-utils
+Suggested packages:
+  cups-bsd cups-pdf foomatic-db-compressed-ppds | foomatic-db smbclient antiword docx2txt
+  imagemagick fonts-texgyre ghostscript-x fonts-japanese-mincho | fonts-ipafont-mincho
+  fonts-arphic-ukai fonts-arphic-uming fonts-nanum
+Recommended packages:
+  colord cups-browsed ipp-usb liblouisutdml-bin | liblouis-bin fonts-droid-fallback libpaper-utils
+The following NEW packages will be installed:
+  cups cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common fonts-urw-base35
+  ghostscript libcupsfilters1 libfontembed1 libgs9 libgs9-common libidn11 libijs-0.35 libjbig2dec0
+  libpaper1 libpoppler-cpp0v5 libqpdf28 poppler-data poppler-utils
+The following packages will be upgraded:
+  libcups2
+1 upgraded, 24 newly installed, 0 to remove and 13 not upgraded.
+Need to get 15.9 MB of archives.
+After this operation, 61.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install cups-pdf
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'printer-driver-cups-pdf' instead of 'cups-pdf'
+The following additional packages will be installed:
+  libpaper-utils
+Suggested packages:
+  system-config-printer
+The following NEW packages will be installed:
+  libpaper-utils printer-driver-cups-pdf
+0 upgraded, 2 newly installed, 0 to remove and 13 not upgraded.
+Need to get 55.7 kB of archives.
+After this operation, 300 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install sylpheed sylpheed-i18n sylpheed-doc bogofilter bsfilter
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  bogofilter-bdb bogofilter-common libcompfaceg1 libgsl25 libgslcblas0 libgtkspell0 libonig5
+  libruby2.7 rake ruby ruby-minitest ruby-net-telnet ruby-power-assert ruby-rubygems
+  ruby-test-unit ruby-xmlrpc ruby2.7 rubygems-integration
+Suggested packages:
+  db5.3-util doc-base ruby-mecab ruby-qdbm gsl-ref-psdoc | gsl-doc-pdf | gsl-doc-info
+  | gsl-ref-html ri ruby-dev bundler claws-mail-tools sylpheed-plugins
+Recommended packages:
+  zip fonts-lato libjs-jquery aspell-en | aspell-dictionary
+The following NEW packages will be installed:
+  bogofilter bogofilter-bdb bogofilter-common bsfilter libcompfaceg1 libgsl25 libgslcblas0
+  libgtkspell0 libonig5 libruby2.7 rake ruby ruby-minitest ruby-net-telnet ruby-power-assert
+  ruby-rubygems ruby-test-unit ruby-xmlrpc ruby2.7 rubygems-integration sylpheed sylpheed-doc
+  sylpheed-i18n
+0 upgraded, 23 newly installed, 0 to remove and 13 not upgraded.
+Need to get 9,332 kB of archives.
+After this operation, 35.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install gnome-sound-recorder
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  gir1.2-gst-plugins-bad-1.0 gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-handy-1 gjs
+  libgjs0g libgstreamer-plugins-bad1.0-0 libhandy-1-0 libmozjs-78-0
+The following NEW packages will be installed:
+  gir1.2-gst-plugins-bad-1.0 gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-handy-1 gjs
+  gnome-sound-recorder libgjs0g libgstreamer-plugins-bad1.0-0 libhandy-1-0 libmozjs-78-0
+0 upgraded, 10 newly installed, 0 to remove and 13 not upgraded.
+Need to get 11.4 MB of archives.
+After this operation, 24.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install smplayer smplayer-l10n
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libavdevice58 libcdio-cdda2 libcdio-paranoia2 libcdio19 libdc1394-25 libdvdnav4 libdvdread8
+  libldb2 liblua5.2-0 libopenal-data libopenal1 libsdl2-2.0-0 libsmbclient libsndio7.0 libtalloc2
+  libtevent0 libva-wayland2 libwbclient0 mpv python3-ldb python3-pkg-resources python3-talloc
+  samba-libs smplayer-themes youtube-dl
+Suggested packages:
+  libdvdcss2 libportaudio2 sndiod python3-setuptools smtube libfribidi-bin | bidiv phantomjs
+Recommended packages:
+  smplayer-skins ffmpeg python3-pyxattr rtmpdump
+The following NEW packages will be installed:
+  libavdevice58 libcdio-cdda2 libcdio-paranoia2 libcdio19 libdc1394-25 libdvdnav4 libdvdread8
+  libldb2 liblua5.2-0 libopenal-data libopenal1 libsdl2-2.0-0 libsmbclient libsndio7.0 libtalloc2
+  libtevent0 libva-wayland2 libwbclient0 mpv python3-ldb python3-pkg-resources python3-talloc
+  samba-libs smplayer smplayer-l10n smplayer-themes youtube-dl
+0 upgraded, 27 newly installed, 0 to remove and 13 not upgraded.
+Need to get 16.7 MB of archives.
+After this operation, 61.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 

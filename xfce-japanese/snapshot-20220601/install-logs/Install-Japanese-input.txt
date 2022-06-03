@@ -1,0 +1,29 @@
+root@mx1:/home/demo# apt install uim-anthy uim uim-mozc im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 fonts-vlgothic
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  anthy anthy-common dictionaries-common emacsen-common hunspell-en-us libabsl20200923 libanthy1
+  libanthyinput0 libaspell15 libenchant-2-2 libgcroots0 libgd3 libgstreamer-gl1.0-0
+  libharfbuzz-icu0 libjavascriptcoregtk-4.0-18 libm17n-0 libmanette-0.2-0 libopengl0 libotf0
+  libprotobuf23 libuim-custom2 libuim-data libuim-scm0 libuim8 libwebkit2gtk-4.0-37 libwebpdemux2
+  libwpe-1.0-1 libwpebackend-fdo-1.0-1 m17n-db mozc-data mozc-server uim-data uim-gtk2.0-immodule
+  uim-gtk3-immodule uim-plugins uim-qt5-immodule zenity-common
+Suggested packages:
+  ispell | aspell | hunspell hunspell openoffice.org-hunspell | openoffice.org-core aspell
+  libenchant-2-voikko libgd-tools m17n-docs
+Recommended packages:
+  aspell-en | aspell-dictionary | aspell6a-dictionary enchant-2 gstreamer1.0-gl
+  gstreamer1.0-plugins-bad uim-xim uim-fep mozc-utils-gui
+The following NEW packages will be installed:
+  anthy anthy-common dictionaries-common emacsen-common fonts-vlgothic hunspell-en-us im-config
+  kasumi libabsl20200923 libanthy1 libanthyinput0 libaspell15 libenchant-2-2 libgcroots0 libgd3
+  libgstreamer-gl1.0-0 libharfbuzz-icu0 libjavascriptcoregtk-4.0-18 libm17n-0 libmanette-0.2-0
+  libopengl0 libotf0 libprotobuf23 libuim-custom2 libuim-data libuim-scm0 libuim8
+  libwebkit2gtk-4.0-37 libwebpdemux2 libwpe-1.0-1 libwpebackend-fdo-1.0-1 m17n-db mozc-data
+  mozc-server uim uim-anthy uim-data uim-gtk2.0 uim-gtk2.0-immodule uim-gtk3 uim-gtk3-immodule
+  uim-mozc uim-plugins uim-qt5 uim-qt5-immodule zenity zenity-common
+0 upgraded, 47 newly installed, 0 to remove and 14 not upgraded.
+Need to get 52.1 MB of archives.
+After this operation, 181 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
