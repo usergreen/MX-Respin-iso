@@ -1,0 +1,10 @@
+
+Start-Date: 2022-06-02  09:44:00
+Commandline: apt reinstall uim-anthy
+Install: libm17n-0:amd64 (1.8.0-2, automatic), libgcroots0:amd64 (0.9.1-1, automatic), uim:amd64 (1:1.8.8-9, automatic), libuim-scm0:amd64 (1:1.8.8-9, automatic), uim-data:amd64 (1:1.8.8-9, automatic), uim-anthy:amd64 (1:1.8.8-9), libuim-data:amd64 (1:1.8.8-9, automatic), libuim-custom2:amd64 (1:1.8.8-9, automatic), m17n-db:amd64 (1.8.0-3, automatic), uim-plugins:amd64 (1:1.8.8-9, automatic), libotf0:amd64 (0.9.13-7, automatic), libuim8:amd64 (1:1.8.8-9, automatic)
+End-Date: 2022-06-02  09:44:04
+
+Start-Date: 2022-06-02  09:52:22
+Commandline: apt install uim-gtk2.0 uim-qt5 uim-gtk3 uim-xim uim-fep
+Install: uim-gtk2.0:amd64 (1:1.8.8-9), uim-gtk3:amd64 (1:1.8.8-9), uim-gtk2.0-immodule:amd64 (1:1.8.8-9, automatic), uim-gtk3-immodule:amd64 (1:1.8.8-9, automatic), uim-qt5-immodule:amd64 (1:1.8.8-9, automatic), uim-fep:amd64 (1:1.8.8-9), uim-qt5:amd64 (1:1.8.8-9), uim-xim:amd64 (1:1.8.8-9)
+End-Date: 2022-06-02  09:52:24
