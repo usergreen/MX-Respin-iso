@@ -1,6 +1,6 @@
 [Known bugs]
 2022-06-01 20:45 JST
-updated: 2022-06-02 18:12 JST
+updated: 2022-06-06 08:17 JST
 
 This page shows reports about release bugs or errors when confirmed.
 ---------------------
@@ -21,10 +21,12 @@ Fixed: LibreOffce does NOT allow Japanese input, therefore searching for a worka
 ----------------------------------------------
 The bugs (on 2022-06-01/2022-06-02) has been already fixed as below at 2022-06-02 07:41 UTC.
 
-A workaround was just foud, comparing with Debian 11 bulleseye which does not cause this problem.
+A workaround was just found, comparing with Debian 11 bulleseye which does not cause this problem.
 It seems that installation of LibreOffice afterwards changed default input settings to
-not use uim-anthy anyhow. But re-installing uim-anthy can fix this bag as I tested here.(2022-06-02)
+not use uim-anthy anyhow. But re-installing uim-anthy can fix this bug as I tested here.(2022-06-02)
 
 Therefore, I would like to release soon an updating snapshot which will fix this uim-anthy input problem.
+
+Done: The above problem has already fixed at the update release.
 
 END
