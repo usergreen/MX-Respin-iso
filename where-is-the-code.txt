@@ -1,7 +1,13 @@
 2022-06-09 23:14 JST
-Updated: 2022-06-14 08:21 JST
+Updated: 2022-06-18 16:58 JST
 
-Sorry, the code for mx-respin-iso is currently at:
+For all source code, they are available to download here in this local
+source-code repository at:
+https://sourceforge.net/projects/mx-respin-iso/files/source-code/ .
+
+You can also obtain source code from the sites below.
+
+The code for mx-respin-iso is currently at:
 https://salsa.debian.org/public
 and
 https://salsa.debian.org/debian-mate-team
@@ -10,11 +16,6 @@ https://salsa.debian.org/xfce-team
 and
 https://mxlinux.org/uncategorized/repos-mx-21/
 
-You can obtain source code from above sites.
-For now all is not ready to distribute here in this local
-source-code repository at:
-https://sourceforge.net/projects/mx-respin-iso/files/source-code/
-So that, when it's ready I will inform you.
 
 Additional information:
 
@@ -29,4 +30,4 @@ http://rsync-mxlinux.org/mirmon/packages.html
 As for Firefox source:
 https://ftp.mozilla.org/pub/firefox/releases/
 
-End.
+END
