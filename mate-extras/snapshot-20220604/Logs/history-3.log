@@ -1,0 +1,28 @@
+
+Start-Date: 2022-06-04  19:12:14
+Commandline: apt install gimp
+Install: libexiv2-27:amd64 (0.27.3-3+deb11u1, automatic), libamd2:amd64 (1:5.8.1+dfsg-2, automatic), libann0:amd64 (1.1.2+doc-7, automatic), libmypaint-common:amd64 (1.6.0-2, automatic), libgexiv2-2:amd64 (0.12.1-1, automatic), libmypaint-1.5-1:amd64 (1.6.0-2, automatic), libpathplan4:amd64 (2.42.2-5, automatic), gimp-data:amd64 (2.10.28-1~mx21+1, automatic), graphviz:amd64 (2.42.2-5, automatic), libgvpr2:amd64 (2.42.2-5, automatic), libgvc6:amd64 (2.42.2-5, automatic), libcamd2:amd64 (1:5.8.1+dfsg-2, automatic), libgegl-common:amd64 (1:0.4.32-2~mx21+1, automatic), libwmf0.2-7:amd64 (0.2.8.4-17, automatic), libmng1:amd64 (1.0.10+dfsg-3.1+b5, automatic), libopenexr25:amd64 (2.5.4-2, automatic), libgegl-0.4-0:amd64 (1:0.4.32-2~mx21+1, automatic), libcgraph6:amd64 (2.42.2-5, automatic), libcholmod3:amd64 (1:5.8.1+dfsg-2, automatic), libcdt5:amd64 (2.42.2-5, automatic), gimp:amd64 (2.10.28-1~mx21+1), libgimp2.0:amd64 (2.10.28-1~mx21+1, automatic), libumfpack5:amd64 (1:5.8.1+dfsg-2, automatic), libilmbase25:amd64 (2.5.4-1, automatic), libbabl-0.1-0:amd64 (1:0.1.86-1~mx21+1, automatic), liblab-gamut1:amd64 (2.42.2-5, automatic), libmetis5:amd64 (5.1.0.dfsg-7, automatic), libraw20:amd64 (0.20.2-1, automatic), libccolamd2:amd64 (1:5.8.1+dfsg-2, automatic), libgts-0.7-5:amd64 (0.7.6+darcs121130-4+b1, automatic)
+End-Date: 2022-06-04  19:12:23
+
+Start-Date: 2022-06-04  19:12:44
+Commandline: apt install cups cups-pdf
+Install: cups-filters:amd64 (1.28.7-1+deb11u1, automatic), cups-common:amd64 (2.3.3op2-3+deb11u2, automatic), cups-client:amd64 (2.3.3op2-3+deb11u2, automatic), cups-ppdc:amd64 (2.3.3op2-3+deb11u2, automatic), cups-daemon:amd64 (2.3.3op2-3+deb11u2, automatic), libfontembed1:amd64 (1.28.7-1+deb11u1, automatic), libqpdf28:amd64 (10.1.0-1, automatic), libpoppler-cpp0v5:amd64 (20.09.0-3.1, automatic), cups-filters-core-drivers:amd64 (1.28.7-1+deb11u1, automatic), poppler-utils:amd64 (20.09.0-3.1, automatic), cups-ipp-utils:amd64 (2.3.3op2-3+deb11u2, automatic), ghostscript:amd64 (9.53.3~dfsg-7+deb11u2, automatic), printer-driver-cups-pdf:amd64 (3.0.1-9), libpaper-utils:amd64 (1.1.28+b1, automatic), cups-core-drivers:amd64 (2.3.3op2-3+deb11u2, automatic), cups:amd64 (2.3.3op2-3+deb11u2), cups-server-common:amd64 (2.3.3op2-3+deb11u2, automatic), libcupsfilters1:amd64 (1.28.7-1+deb11u1, automatic)
+Upgrade: libcups2:amd64 (2.3.3op2-3+deb11u1, 2.3.3op2-3+deb11u2)
+End-Date: 2022-06-04  19:12:52
+
+Start-Date: 2022-06-04  19:13:02
+Commandline: apt install gutenprint-locales
+Install: gutenprint-locales:amd64 (5.3.3-5)
+End-Date: 2022-06-04  19:13:03
+
+Start-Date: 2022-06-04  19:21:28
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: firefox-l10n-xpi-de:amd64 (101.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-fr:amd64 (101.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-it:amd64 (101.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-ru:amd64 (101.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-pt-pt:amd64 (101.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-zh-tw:amd64 (101.0~mozillabinaries-1mx21+1)
+End-Date: 2022-06-04  19:21:29
+
+Start-Date: 2022-06-04  19:22:56
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: libreoffice-l10n-de:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-fr:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-it:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-ja:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-pt:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-ru:amd64 (1:7.0.4-4+deb11u1), libreoffice-l10n-zh-cn:amd64 (1:7.0.4-4+deb11u1)
+End-Date: 2022-06-04  19:23:14

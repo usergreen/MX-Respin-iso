@@ -1,0 +1,5 @@
+
+Start-Date: 2022-06-04  12:05:26
+Commandline: apt reinstall firefox
+Upgrade: firefox:amd64 (100.0.1~mozillabinaries-1mx21+2, 101.0~mozillabinaries-1mx21+1)
+End-Date: 2022-06-04  12:05:36
