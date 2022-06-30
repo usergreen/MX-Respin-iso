@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-06-30 15:01 JST
+updated: 2022-06-30 19:16 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -27,9 +27,9 @@ Done: Replace Xine with SMplayer for better l10n support
 Done: Add Audacious audio player
 Done: Add Gimp image editor
 Done: Add missing MX Format USB
+Done: Add locales: hi_IN for India and id_ID for Indonesia
+Done: Change Portugal locale from pt_PT to pt_BR for Brasil
 Add popular locales Croatian:hr, Dutch:nl and Hungarian:hu, according to /mx-respin-iso/files/stats/map
-Add locales: hi_IN for India and id_ID for Indonesia
-Change locale: pt_PT for Portugal to pt_BR for Brasil
 
 As for Xfce Desktop (with Japanese input):
 Done: Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
