@@ -1,32 +1,37 @@
 [Known bugs]
-2022-06-01 20:45 JST
-updated: 2022-06-06 08:17 JST
 
-This page shows reports about release bugs or errors when confirmed.
+2022-06-01 20:45 JST
+updated: 2022-07-04 19:00 JST
+
+This page shows reports about release bugs or errors when confirmed here.
 ---------------------
 
 As for all the releases below:
 Sound volume is set to mute as default, but it is not a bug.
 
-
 As for MATE Desktop (Core):
-Not found.
+Some garbling in Chinese characters (漢字) in Chinese locale. See below.
 
 As for MATE Desktop with Extras:
+Some garbling in Chinese characters (漢字) in Chinese locale.
 Fixed: LibreOffice does NOT allow Japanese input, too. It was the same as Xfce respin below.(2022-06-02)
 
 As for Xfce Desktop (with Japanese input):
+Some garbling in Chinese characters (漢字) in Chinese locale.
 Fixed: LibreOffce does NOT allow Japanese input, therefore searching for a workaround now.(2022-06-01)
 
 ----------------------------------------------
 The bugs (on 2022-06-01/2022-06-02) has been already fixed as below at 2022-06-02 07:41 UTC.
+Done: The above problem has already been fixed at the next update release.
 
 A workaround was just found, comparing with Debian 11 bulleseye which does not cause this problem.
 It seems that installation of LibreOffice afterwards changed default input settings to
-not use uim-anthy anyhow. But re-installing uim-anthy can fix this bug as I tested here.(2022-06-02)
-
+not use uim-anthy anyhow. But re-installing uim-anthy can fix this bug as I tested here.(2022-06-02).
 Therefore, I would like to release soon an updating snapshot which will fix this uim-anthy input problem.
 
-Done: The above problem has already fixed at the update release.
+-----------------------------------------------
+Some garbling in Chinese characters (漢字) in Chinese locale.
+Under investigation to fix some garbling in Chinese characters (漢字) in Chinese locale.
+A fixed version will be soon available in the upcoming release.
 
-END
+END.
