@@ -1,0 +1,9 @@
+Main changes are as follows;
+
+Add Chinese input method as a default alternative.
+Add hr_HR.UTF-8 for Croatian locale
+Add hu_HU.UTF-8 for Hungarian locale
+Add nl_NL.UTF-8 for the Netherlands
+Add missing es_ES.UTF-8 for Spanish locale
+
+End.

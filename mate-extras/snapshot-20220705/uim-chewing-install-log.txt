@@ -1,0 +1,79 @@
+Uim is an input method module library which supports various scripts and can
+act as a front end for a range of input methods, including Anthy, Canna,
+or SKK (for Japanese), Pinyin (for Chinese), Byeoru (for Korean), and
+M17n (for many other languages). Most of its functions are implemented in
+Scheme, so it's very simple and flexible.
+--------------------------------------------------
+
+root@mx1:/home/demo# apt install uim-chewing
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树... 完成
+正在读取状态信息... 完成                 
+将会同时安装下列软件：
+  libchewing3 libchewing3-data
+下列【新】软件包将被安装：
+  libchewing3 libchewing3-data uim-chewing
+升级了 0 个软件包，新安装了 3 个软件包，要卸载 0 个软件包，有 2 个软件包未被升级。
+需要下载 1,574 kB 的归档。
+解压缩后会消耗 4,107 kB 的额外空间。
+您希望继续执行吗？ [Y/n] 
+获取:1 http://deb.debian.org/debian bullseye/main amd64 libchewing3-data all 0.5.1-4 [1,440 kB]
+获取:2 http://deb.debian.org/debian bullseye/main amd64 libchewing3 amd64 0.5.1-4 [114 kB]
+获取:3 http://deb.debian.org/debian bullseye/main amd64 uim-chewing amd64 0.1.0-6 [20.3 kB]
+已下载 1,574 kB，耗时 2秒 (664 kB/s)   
+debconf: delaying package configuration, since apt-utils is not installed
+正在选中未选择的软件包 libchewing3-data。
+(正在读取数据库 ... 系统当前共安装有 275896 个文件和目录。)
+准备解压 .../libchewing3-data_0.5.1-4_all.deb  ...
+正在解压 libchewing3-data (0.5.1-4) ...
+正在选中未选择的软件包 libchewing3:amd64。
+准备解压 .../libchewing3_0.5.1-4_amd64.deb  ...
+正在解压 libchewing3:amd64 (0.5.1-4) ...
+正在选中未选择的软件包 uim-chewing:amd64。
+准备解压 .../uim-chewing_0.1.0-6_amd64.deb  ...
+正在解压 uim-chewing:amd64 (0.1.0-6) ...
+正在设置 libchewing3-data (0.5.1-4) ...
+正在设置 libchewing3:amd64 (0.5.1-4) ...
+正在设置 uim-chewing:amd64 (0.1.0-6) ...
+正在处理用于 libc-bin (2.31-13+deb11u3) 的触发器 ...
+root@mx1:/home/demo# exit
+exit
+demo@mx1:~
+$ 
+
+root@mx1:/home/demo# apt install uim-chewing
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libchewing3 libchewing3-data
+The following NEW packages will be installed:
+  libchewing3 libchewing3-data uim-chewing
+0 upgraded, 3 newly installed, 0 to remove and 2 not upgraded.
+Need to get 1,574 kB of archives.
+After this operation, 4,107 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+Get:1 http://deb.debian.org/debian bullseye/main amd64 libchewing3-data all 0.5.1-4 [1,440 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 libchewing3 amd64 0.5.1-4 [114 kB]
+Get:3 http://deb.debian.org/debian bullseye/main amd64 uim-chewing amd64 0.1.0-6 [20.3 kB]
+Fetched 1,574 kB in 0s (3,330 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libchewing3-data.
+(Reading database ... 275896 files and directories currently installed.)
+Preparing to unpack .../libchewing3-data_0.5.1-4_all.deb ...
+Unpacking libchewing3-data (0.5.1-4) ...
+Selecting previously unselected package libchewing3:amd64.
+Preparing to unpack .../libchewing3_0.5.1-4_amd64.deb ...
+Unpacking libchewing3:amd64 (0.5.1-4) ...
+Selecting previously unselected package uim-chewing:amd64.
+Preparing to unpack .../uim-chewing_0.1.0-6_amd64.deb ...
+Unpacking uim-chewing:amd64 (0.1.0-6) ...
+Setting up libchewing3-data (0.5.1-4) ...
+Setting up libchewing3:amd64 (0.5.1-4) ...
+Setting up uim-chewing:amd64 (0.1.0-6) ...
+Processing triggers for libc-bin (2.31-13+deb11u3) ...
+root@mx1:/home/demo# exit
+exit
+demo@mx1:~
+$ 
+
