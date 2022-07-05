@@ -1,0 +1,23 @@
+root@mx1:/home/demo# apt install ./fonts-wqy-zenhei_0.9.45-8_all.deb
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'fonts-wqy-zenhei' instead of './fonts-wqy-zenhei_0.9.45-8_all.deb'
+The following NEW packages will be installed:
+  fonts-wqy-zenhei
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/7,479 kB of archives.
+After this operation, 16.8 MB of additional disk space will be used.
+Get:1 /home/demo/fonts-wqy-zenhei_0.9.45-8_all.deb fonts-wqy-zenhei all 0.9.45-8 [7,479 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package fonts-wqy-zenhei.
+(Reading database ... 275884 files and directories currently installed.)
+Preparing to unpack .../fonts-wqy-zenhei_0.9.45-8_all.deb ...
+Unpacking fonts-wqy-zenhei (0.9.45-8) ...
+Setting up fonts-wqy-zenhei (0.9.45-8) ...
+Processing triggers for fontconfig (2.13.1-4.2) ...
+root@mx1:/home/demo# exit
+exit
+demo@mx1:~
+$ 
+
