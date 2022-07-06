@@ -1,0 +1,22 @@
+This is a project to distribute ISO files for Live DVD/USB or HDD installation, which is based upon Debian/ MX Linux and MX community, especially focusing on the features as follows:
+Multilingualization (m17n) support is available -- Complete Japanese language support (includes Japanese input) , Chinese input and other languages as well, plus MATE Desktop Environment as an alternative.
+
+To create bootable USB flash drives, such as USB memory sticks, Windows users are encouraged to use Rufus at https://rufus.ie
+
+
+NOTE:
+MATE Extras: Full components (with Extras) and desktop apps
+MATE Core: Core components and Firefox only
+Xfce Japanese: Xfce and desktop apps
+Features
+
+    Live DVD/USB with GUI Installer
+    Select MATE/Xfce Desktop
+    Based upon Debian 11/MX 21.1
+    Include MX Tools
+    Multilingual support
+    Switch by Language bar (IME)
+    Add browser/mailer/office suite
+    Add audio/video players
+    Add Gimp image editor
+
