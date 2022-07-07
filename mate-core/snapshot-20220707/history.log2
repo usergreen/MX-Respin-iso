@@ -1,0 +1,12 @@
+
+Start-Date: 2022-07-07  10:20:10
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: firefox-l10n-xpi-hi-in:amd64 (102.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-hr:amd64 (102.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-hu:amd64 (102.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-id:amd64 (102.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-pt-br:amd64 (102.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-sv-se:amd64 (102.0~mozillabinaries-1mx21+1)
+Remove: firefox-l10n-xpi-pt-pt:amd64 (102.0~mozillabinaries-1mx21+1), firefox-l10n-xpi-nn-noany:amd64 (102.0~mozillabinaries-1mx21+1)
+End-Date: 2022-07-07  10:20:11
+
+Start-Date: 2022-07-07  10:33:01
+Commandline: apt install fonts-wqy-zenhei uim-chewing
+Install: fonts-wqy-zenhei:amd64 (0.9.45-8), libchewing3-data:amd64 (0.5.1-4, automatic), uim-chewing:amd64 (0.1.0-6), libchewing3:amd64 (0.5.1-4, automatic)
+End-Date: 2022-07-07  10:33:04
