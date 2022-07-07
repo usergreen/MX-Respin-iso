@@ -7,7 +7,7 @@ To create bootable USB flash drives, such as USB memory sticks, Windows users ar
 NOTE:
 MATE Extras: Full components (with Extras) and desktop apps
 MATE Core: Core components and Firefox only
-Xfce Japanese: Xfce and desktop apps
+Xfce m17n: Xfce components and desktop apps
 Features
 
     Live DVD/USB with GUI Installer
