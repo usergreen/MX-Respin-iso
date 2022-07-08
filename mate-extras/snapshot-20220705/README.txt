@@ -1,14 +1,15 @@
 2022-06-04 23:35 JST
-updated: 2022-07-05 23:44 JST
+updated: 2022-07-08 10:00 JST
 
-Please read this README.txt file first, before using this snapshot for x64 architecture.
-The ISO image can be used as LiveUSB/DVD or for HDD installation.
+Read this README.txt file first, before using this snapshot for x64 architecture.
+The ISO image can be used as Live USB/DVD or for HDD installation.
+Firefox browser and Synaptic Package Manager are shipped too, for convenience.
 
 User: demo
 Demo password: demo
 Root password: root
 
-When you are going to install the .iso onto the HDD, please unhold apt-mark as follows. Apt-mark was used to reduce the downloading size up to almost 500 MB of ISO image.
+When you are going to install the .iso onto the HDD, unhold apt-mark as follows. Apt-mark was used to reduce the downloading size up to almost 500 MB of ISO image.
 
  # apt-mark unhold linux-headers-amd64 linux-image-amd64
  # apt update
@@ -18,6 +19,27 @@ When you are going to install the .iso onto the HDD, please unhold apt-mark as f
 Modified from a personal respin of
 MX-21.1_minimal_x64 Wildflower 18 May 2022
 https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Minimal/
+
+** Default localization (L10n)
+Supported default options are:
+de_DE.UTF-8 - German locale for Germany
+en_US.UTF-8 - English locale for the USA
+es_ES.UTF-8 - Spanish locale for Spain
+fr_FR.UTF-8 - French locale for France
+hi_IN.UTF-8 - Hindi  locale for India
+hr_HR.UTF-8 - Croatian locale for Croatia
+hu_HU.UTF-8 - Hungarian locale for Hungary
+id_ID.UTF-8 - Indonesian locale for Indonesia
+it_IT.UTF-8 - Italian locale for Italy
+ja_JP.UTF-8 - Japanese locale for Japan
+nl_NL.UTF-8 - Dutch locale for the Netherlands
+pt_BR.UTF-8 - Portuguese locale for Brasil
+ru_RU.UTF-8 - Russian locale for Russia
+zh_CN.UTF-8 - Chinese locale for China
+
+Note:
+No default language (locale) is set; that is "C" for English.
+To change another locale after system booting, logout a present desktop session. Then, click on the upper right corner on the login screen, and choose a locale from a drop-down list. Simply logout and then login again can change a locale for a desktop session.
 
 ** Multilingualization (m17n) support
 In order to enable Chinese input, click IME toolbar which appears at the right corner on the bottom. Then select item "Chewing". Now you can start Chinese input by pressing Crtl + Space key.
