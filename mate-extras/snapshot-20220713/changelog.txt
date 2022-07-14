@@ -1,0 +1,8 @@
+Main changes are as follows;
+
+Applied the latest Debian 11.4 release
+Applied all updates from MX repsitory
+Update to the latest Linux kernel 
+Add sv_SE.UTF-8 for Swedish locale
+
+End.

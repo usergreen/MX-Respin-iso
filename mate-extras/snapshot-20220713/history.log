@@ -1,0 +1,18 @@
+
+Start-Date: 2022-07-13  14:45:56
+Commandline: apt upgrade
+Install: linux-headers-5.10.0-16-common:amd64 (5.10.127-1, automatic), linux-headers-5.10.0-16-amd64:amd64 (5.10.127-1, automatic), linux-image-5.10.0-16-amd64:amd64 (5.10.127-1, automatic)
+Upgrade: dpkg:amd64 (1.20.10, 1.20.11), linux-kbuild-5.10:amd64 (5.10.120-1, 5.10.127-1), firefox-l10n-xpi-hi-in:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), openssh-client:amd64 (1:8.4p1-5, 1:8.4p1-5+deb11u1), python3-samba:amd64 (2:4.13.13+dfsg-1~deb11u3, 2:4.13.13+dfsg-1~deb11u4), firefox-l10n-xpi-de:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-fr:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-hr:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-hu:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-id:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-it:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-ja:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-nl:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-ru:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), linux-compiler-gcc-10-x86:amd64 (5.10.120-1, 5.10.127-1), libfribidi0:amd64 (1.0.8-2, 1.0.8-2+deb11u1), libfreetype6:amd64 (2.10.4+dfsg-1, 2.10.4+dfsg-1+deb11u1), firefox-l10n-xpi-pt-br:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), logrotate:amd64 (3.18.0-2, 3.18.0-2+deb11u1), libwbclient0:amd64 (2:4.13.13+dfsg-1~deb11u3, 2:4.13.13+dfsg-1~deb11u4), linux-headers-amd64:amd64 (5.10.113-1, 5.10.127-1), wireless-regdb:amd64 (2021.08.28-1~mx21+1, 2022.04.08-2~deb11u1), libsmbclient:amd64 (2:4.13.13+dfsg-1~deb11u3, 2:4.13.13+dfsg-1~deb11u4), firefox-l10n-xpi-zh-tw:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), samba-common-bin:amd64 (2:4.13.13+dfsg-1~deb11u3, 2:4.13.13+dfsg-1~deb11u4), apache2-bin:amd64 (2.4.53-1~deb11u1, 2.4.54-1~deb11u1), firefox:amd64 (102.0~mozillabinaries-1mx21+1, 102.0.1~mozillabinaries-1mx21+1), dpkg-dev:amd64 (1.20.10, 1.20.11), gir1.2-nm-1.0:amd64 (1.30.0-2, 1.30.6-1+deb11u1), linux-image-amd64:amd64 (5.10.113-1, 5.10.127-1), bash:amd64 (5.1-2+b3, 5.1-2+deb11u1), network-manager:amd64 (1.30.0-2, 1.30.6-1+deb11u1), base-files:amd64 (11.1+deb11u3, 11.1+deb11u4), distro-info-data:amd64 (0.51+deb11u1, 0.51+deb11u2), libdpkg-perl:amd64 (1.20.10, 1.20.11), libsdl2-2.0-0:amd64 (2.0.14+dfsg2-3, 2.0.14+dfsg2-3+deb11u1), nano:amd64 (5.4-2, 5.4-2+deb11u1), samba-libs:amd64 (2:4.13.13+dfsg-1~deb11u3, 2:4.13.13+dfsg-1~deb11u4), samba-common:amd64 (2:4.13.13+dfsg-1~deb11u3, 2:4.13.13+dfsg-1~deb11u4), libgnutls30:amd64 (3.7.1-5, 3.7.1-5+deb11u1), ssh-askpass-gnome:amd64 (1:8.4p1-5, 1:8.4p1-5+deb11u1), libcpupower1:amd64 (5.10.120-1, 5.10.127-1), libnm0:amd64 (1.30.0-2, 1.30.6-1+deb11u1), intel-microcode:amd64 (3.20220207.1~deb11u1, 3.20220510.1~deb11u1), linux-libc-dev:amd64 (5.10.120-1, 5.10.127-1)
+End-Date: 2022-07-13  14:55:22
+
+Start-Date: 2022-07-13  14:56:18
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: firefox-l10n-xpi-sv-se:amd64 (102.0.1~mozillabinaries-1mx21+1)
+End-Date: 2022-07-13  14:56:18
+
+Start-Date: 2022-07-13  14:56:53
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: libreoffice-l10n-sv:amd64 (1:7.0.4-4+deb11u1)
+End-Date: 2022-07-13  14:56:56
