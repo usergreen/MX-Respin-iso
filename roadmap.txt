@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-07-14 21:28 JST
+updated: 2022-07-16 00:40 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -42,6 +42,6 @@ Done: Set default locale to "None".
 Done: Done: Add applications like mailer, office suite, audio/video player, printing
 Done: Add firefox-l10n-xpi-*, libreoffice, libreoffice-l10n-*
 Done: Add Chinese input method as a default alternative
-Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
+Done: Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
 
 END
