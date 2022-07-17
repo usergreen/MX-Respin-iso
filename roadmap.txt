@@ -1,6 +1,6 @@
 [Roadmap]
 2022-05-26 19:35 JST
-updated: 2022-07-16 00:40 JST
+updated: 2022-07-17 09:18 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
@@ -24,7 +24,8 @@ Done: Add locales: hi_IN for Hindi and id_ID for Indonesian
 Done: Change Portugal locale from pt_PT to pt_BR for Brasil
 Done: Add popular locales Croatian:hr, Nederlands:nl and Hungarian:hu, according to /mx-respin-iso/files/stats/map
 Done: Add Chinese input method as a default alternative
-Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
+Done: Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
+Done: Upgraded Debian base to the latest 11.4 release
 
 As for MATE Desktop (Core):
 Done: Added missing mate-backgrounds mate-common mate-power-manager mate-screensaver mate-system-monitor
@@ -34,6 +35,7 @@ Done: Add firefox-l10n-xpi-*.
 Done: Set default locale to "None".
 Done: Add Chinese input method as a default alternative
 Done: Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
+Done: Upgraded Debian base to the latest 11.4 release
 
 As for Xfce Desktop (with Japanese input):
 Done: Add several major locales: de-German, es-Spain, fr-France, it-Italy, ru-Russia, zn-Chinese.
@@ -43,5 +45,6 @@ Done: Done: Add applications like mailer, office suite, audio/video player, prin
 Done: Add firefox-l10n-xpi-*, libreoffice, libreoffice-l10n-*
 Done: Add Chinese input method as a default alternative
 Done: Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
+Done: Upgraded Debian base to the latest 11.4 release
 
 END
