@@ -1,7 +1,7 @@
 [Known bugs]
 
 2022-06-01 20:45 JST
-updated: 2022-07-07 23:56 JST
+updated: 2022-07-19 11:54 JST
 
 This page shows reports about release bugs or errors when confirmed here.
 ---------------------
@@ -9,13 +9,17 @@ This page shows reports about release bugs or errors when confirmed here.
 As for all the releases below:
 Sound volume is set to mute as default, but it is not a bug.
 
-As for MATE Desktop (Core):
-Fixed: Some garbling in Chinese characters (漢字) in Chinese locale. See below.
+As for new MATE-Desktop snapshot:
+None is found so far.
 
 As for MATE Desktop with Extras:
 Fixed: Some garbling in Chinese characters (漢字) in Chinese locale.(2022-06-20)
 Fixed: LibreOffice does NOT allow Japanese input, too. It was the same as Xfce respin below.(2022-06-02)
 Missing Spanish locale in snapshot-20220704 (Sorry, I forgot to include this.)
+A bug in uim visual preference was found. Candidate window: Adjacent to cursor do NOT enabled, instead of Left end of preedit area whenever using LibreOffice Writer. This bug was fixed in the new MATE-Desktop snapshot.
+
+As for MATE Desktop (Core):
+Fixed: Some garbling in Chinese characters (漢字) in Chinese locale. See below.
 
 As for Xfce Desktop (with Japanese input):
 Fixed: Some garbling in Chinese characters (漢字) in Chinese locale.
