@@ -1,0 +1,17 @@
+Changes from MX-21.1_minimal_x64 are as follows;
+
+Purged Xfce Desktop from MX-21.1_minimal_x64 Wildflower 18 May 2022
+Installed MATE Desktop instead
+Added some useful desktop applications
+Added zh_TW.UTF-8 - Chinese locale for China (繁体字)
+Purged dkms
+Upgraded to Debian 11.4 “bullseye” base
+Applied latest updates from MX repsitory
+-----------------------------------------------
+
+Main changes from previous snapshot-20220719 are;
+
+Purged dkms, instead of 'remove dkms'
+Installed mate-tweak and mozo as they are useful for users
+
+End.
