@@ -1,0 +1,15 @@
+Main changes are as follows;
+
+Added GNOME Desktop
+
+Added GNOME Flashback
+
+Added some useful desktop applications
+
+Add uim-pinyin for Simplified Chinese
+
+Upgraded to Debian 11.4 “bullseye” base
+
+Applied latest updates from MX repsitory
+
+END.
