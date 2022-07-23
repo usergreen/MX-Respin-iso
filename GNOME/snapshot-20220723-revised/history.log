@@ -1,0 +1,5 @@
+
+Start-Date: 2022-07-23  09:24:41
+Commandline: apt purge ibus*
+Purge: ibus-gtk3:amd64 (1.5.23-2), ibus-data:amd64 (1.5.23-2), ibus-gtk:amd64 (1.5.23-2), ibus:amd64 (1.5.23-2)
+End-Date: 2022-07-23  09:24:43

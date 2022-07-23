@@ -1,0 +1,17 @@
+This is a fied version of the previous snapshot-20220723-0350.
+
+Main changes are as follows;
+
+Removed Xfce-related packages as many as possible to reduce ISO image size. As a result, Xfce Desktop as an option at login is NOT provided anymore. This revised version only supports GNOME Desktop.
+
+GNOME Flashback is optional as well
+
+Added some useful desktop applications
+
+Add uim-pinyin for Simplified Chinese
+
+Upgraded to Debian 11.4 “bullseye” base
+
+Applied latest updates from MX repsitory
+
+END.
