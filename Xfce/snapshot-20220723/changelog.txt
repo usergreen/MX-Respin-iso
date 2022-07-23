@@ -1,0 +1,13 @@
+Main changes from mx-minimal are as follows;
+
+Added Xfce applicatios
+
+Added some useful desktop applications
+
+Added Pinyin input support for Chinese
+
+Upgraded to Debian 11.4 “bullseye” base
+
+Applied latest updates from MX repsitory
+
+END.
