@@ -1,4 +1,6 @@
-Main changes are as follows;
+updated: 2022-07-24 00:03 JST
+
+Main changes from mx-minimal are as follows;
 
 Added GNOME Desktop
 
@@ -6,7 +8,7 @@ Added GNOME Flashback
 
 Added some useful desktop applications
 
-Add uim-pinyin for Simplified Chinese
+Added Pinyin input support for Chinese
 
 Upgraded to Debian 11.4 “bullseye” base
 
