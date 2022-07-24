@@ -1,0 +1,7 @@
+Main changes from previous release are as follows;
+
+Added Pinyin input support for Chinese
+
+Applied all latest updates except Linux-headers and Linux-image to reduce .iso file size. Update yourself after installation.
+
+End.
