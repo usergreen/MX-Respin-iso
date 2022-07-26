@@ -1,5 +1,5 @@
 2022-07-19 23:52 JST
-update: 2022-07-20 10:30 JST
+update: 2022-07-26 10:11 JST
 
 **************************************************************
 This snapshot is an optional for those who do NOT need dkms support, that means you are not required to auto-build kernels which takes much time when updates are automatically applied by APT. Users who manage legacy systems usually do not need dkms.
@@ -17,7 +17,7 @@ User: demo
 Demo password: demo
 Root password: root
 
-** Origin of the "snapshot-20220718_1202.iso"
+** Origin of the "snapshot-20220720_0747.iso"
 Modified from a personal respin of
 MX-21.1_minimal_x64 Wildflower 18 May 2022
 https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Minimal/
@@ -54,6 +54,10 @@ If you need another input method for many other languages, add m17n support by i
 
 ** About Universal Input Method (uim)
 Uim is an input method module library which supports various scripts and can act as a front end for a range of input methods, including Anthy, Canna, or SKK (for Japanese), Pinyin (for Chinese), Byeoru (for Korean), and M17n (for many other languages). Most of its functions are implemented in Scheme, so it's very simple and flexible.
+
+If you want to use UimToolbar utilities, which shows and controls uim mode, for system tray, add the following, too.
+
+ $ uim-toolbar-gtk3-systray &
 
 ** Terms of use
 See https://mxlinux.org/terms-of-use/
