@@ -1,5 +1,5 @@
 2022-06-04 23:35 JST
-updated: 2022-07-24 19:00 JST
+updated: 2022-07-26 10:11 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -48,6 +48,10 @@ If you need another input method for many other languages, add m17n support by i
 
 ** About Universal Input Method (uim)
 Uim is an input method module library which supports various scripts and can act as a front end for a range of input methods, including Anthy, Canna, or SKK (for Japanese), Pinyin (for Chinese), Byeoru (for Korean), and M17n (for many other languages). Most of its functions are implemented in Scheme, so it's very simple and flexible.
+
+If you want to use UimToolbar utilities, which shows and controls uim mode, for system tray, add the following, too.
+
+ $ uim-toolbar-gtk3-systray &
 
 ** Terms of use
 See https://mxlinux.org/terms-of-use/
