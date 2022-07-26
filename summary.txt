@@ -1,17 +1,18 @@
 This is a project to distribute ISO files for live systems or installed systems. ISOs are based upon Debian/ MX Linux and MX community, especially focusing on the features as follows:
 Multilingualization (m17n) support (includes Chinese and Japanese inputs).
-MATE Desktop Environment is optional.
+GNOME and MATE Desktop Environment are optional.
 To create bootable USB flash drives, such as USB memory sticks, Windows users are encouraged to use Rufus at https://rufus.ie
 
 Options:
+GNOME: Classic mode and Flashback are available.
 MATE Desktop: A typical MATE Desktop environment and apps
 MATE Extras: Full components (with Extras) and desktop apps
 MATE Core: Core components and Firefox only
-Xfce m17n: Xfce components and desktop apps
+Xfce: Xfce components and desktop apps
 
 Features
     Live system with GUI installer
-    MATE/Xfce Desktop
+    GNOME/MATE/Xfce Desktop
     Based on Debian 11.4/MX 21.1
     Include MX Tools
     Multilingual support
