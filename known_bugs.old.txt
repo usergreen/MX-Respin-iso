@@ -1,0 +1,45 @@
+[Known bugs]
+
+2022-06-01 20:45 JST
+updated: 2022-07-19 11:54 JST
+
+This page shows reports about release bugs or errors when confirmed here.
+---------------------
+
+As for all the releases below:
+Sound volume is set to mute as default, but it is not a bug.
+
+As for new MATE-Desktop snapshot:
+None is found so far.
+
+As for MATE Desktop with Extras:
+Fixed: Some garbling in Chinese characters (漢字) in Chinese locale.(2022-06-20)
+Fixed: LibreOffice does NOT allow Japanese input, too. It was the same as Xfce respin below.(2022-06-02)
+Missing Spanish locale in snapshot-20220704 (Sorry, I forgot to include this.)
+A bug in uim visual preference was found. Candidate window: Adjacent to cursor do NOT enabled, instead of Left end of preedit area whenever using LibreOffice Writer. This bug was fixed in the new MATE-Desktop snapshot.
+
+As for MATE Desktop (Core):
+Fixed: Some garbling in Chinese characters (漢字) in Chinese locale. See below.
+
+As for Xfce Desktop (with Japanese input):
+Fixed: Some garbling in Chinese characters (漢字) in Chinese locale.
+Fixed: LibreOffce does NOT allow Japanese input, therefore searching for a workaround now.(2022-06-01)
+
+----------------------------------------------
+The bugs (on 2022-06-01/2022-06-02) has been already fixed as below at 2022-06-02 07:41 UTC.
+Done: The above problem has already been fixed at the next update release.
+
+A workaround was just found, comparing with Debian 11 bulleseye which does not cause this problem.
+It seems that installation of LibreOffice afterwards changed default input settings to
+not use uim-anthy anyhow. But re-installing uim-anthy can fix this bug as I tested here.(2022-06-02).
+Therefore, I would like to release soon an updating snapshot which will fix this uim-anthy input problem.
+
+-----------------------------------------------
+Fixed: Some garbling in Chinese characters (漢字) in Chinese locale.(2022-06-20)
+
+Under investigation to fix some garbling in Chinese characters (漢字) in Chinese locale.
+A fixed version for MATE Extras was released in snapshot-20220704.
+As for other versions, there will be available in the updating release.
+This has already fixed now.
+
+END.
