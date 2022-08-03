@@ -1,0 +1,35 @@
+インプットメソッドの現在の設定:
+ * 有効設定: scim (通常 missing)
+ * 通常自動設定: uim (通常 ibus か fcitx か uim)
+ * 優先ルール: zh_CN,fcitx:zh_TW,fcitx:zh_HK,fcitx:zh_SG,fcitx
+ * 現優先設定:  (ja_JP)
+ * 現自動設定: uim
+ * 有効選択肢数: 2 (通常 1)優先ルールは /etc/default/im-config 中に規定されています。
+im-config による設定は X を再起動することで有効になります。 
+もし有効設定がdefault/auto/cjkv/missingの場合は、自動設定を有効にするために明示的選択の必要はありません。
+  使用可能なインプットメソッド: uim xim
+これらすべてが必要でない場合は、必ず一つだけのインプットメソッドツールをインストールするようにしましょう。
+
+---------------------
+ユーザー設定 /home/user/.xinputrc を uim と設定する。
+マニュアル設定による選択: uim
+ユニバーサルインプットメソッド (uim)
+ * 全てに必要: uim
+ * 言語固有の入力変換サポート:
+   * 日本語: uim-mozc (best) または uim-anthy または uim-skk
+   * 韓国語: uim-byeoru
+   * 簡体中国語: uim-pinyin
+   * 繁体中国語: uim-chewing
+   * ヴェトナム語: uim-viqr
+   * 汎用M17n: uim-m17nlib
+ * アプリケーションプラットフォームサポート:
+   * XIM: uim-xim
+   * GNOME/GTK+: uim-gtk2.0 と uim-gtk3 (両方)
+   * KDE/Qt4: uim-qt
+   * EMACS: uim-el
+
+ユーザー設定 が im-config により変更された。
+
+新たなユーザー設定ファイルを有効にするには X セッションを再起動します。
+もし過去の設定によるデーモンプログラムが X セッションマネージャーにより再起動される場合には、kill(1) を用いてそのプロセスをマニュアルで殺す必要があるかもしれません。
+詳細は im-config(8) と /usr/share/doc/im-config/README.Debian.gz を参照。
