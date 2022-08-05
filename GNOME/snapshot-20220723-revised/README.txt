@@ -1,10 +1,10 @@
 2022-07-23 13:40 JST
-updated: 2022-07-26 10:26 JST
+updated: 2022-08-05 22:13 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
 
-This snapshot is a brand-new release, which is a successor of mate-core and mate-extras,
+This snapshot is a brand-new release, which provides GNOME desktop environment,
 and modified thoroughly from MX-21.1_minimal_x64 Wildflower 18 May 2022.
 
 User: demo
