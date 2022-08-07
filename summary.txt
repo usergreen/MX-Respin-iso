@@ -5,9 +5,7 @@ To create bootable USB flash drives, such as USB memory sticks, Windows users ar
 
 Options:
 GNOME: Classic mode and Flashback are available.
-MATE Desktop: A typical MATE Desktop environment and apps
-MATE Extras: Full components (with Extras) and desktop apps
-MATE Core: Core components and Firefox only
+MATE Desktop: A typical MATE Desktop and apps
 Xfce: Xfce components and desktop apps
 
 Features
