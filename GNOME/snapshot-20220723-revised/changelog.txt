@@ -1,6 +1,7 @@
 updated: 2022-07-24 00:03 JST
+fixed typo: 2022-08-31
 
-This is a fied version of the previous snapshot-20220723-0350.
+This is a fixed version of the previous snapshot-20220723-0350.
 
 Main changes from mx-minimal are as follows;
 
