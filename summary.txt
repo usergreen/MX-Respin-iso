@@ -11,7 +11,7 @@ Xfce: Xfce components and desktop apps
 Features
     Live system with GUI installer
     GNOME/MATE/Xfce Desktop
-    Based on Debian 11.4/MX 21.1
+    Based on Debian 11/MX 21
     Include MX Tools
     Multilingual support
     Language tool bar (IME)
