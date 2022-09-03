@@ -1,0 +1,18 @@
+Main changes are as follows;
+
+Delete Xfce Desktop from MX-21.1_minimal_x64 Wildflower 18 May 2022
+
+Added MATE Desktop instead
+
+Added some useful desktop applications
+
+Upgraded to Debian 11.4 “bullseye” base
+
+Applied latest updates from MX repsitory
+
+The bug below was fixed:
+A bug in uim visual preference was found. Candidate window: Adjacent to cursor do NOT enabled, instead of Left end of preedit area whenever using LibreOffice Writer.
+
+Added zh_TW.UTF-8 - Chinese locale for China (繁体字)
+
+End.
