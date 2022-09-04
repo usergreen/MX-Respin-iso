@@ -1,10 +1,10 @@
 The following NEW packages was installed:
   quick-system-info-gui
 
-The following NEW packages was installed:
+The following NEW packages were installed:
   linux-headers-5.10.0-17-amd64 linux-headers-5.10.0-17-common
   linux-image-5.10.0-17-amd64
-The following packages was upgraded:
+The following packages were upgraded:
   antix-libs apt-notifier curl ddm-mx featherpad featherpad-l10n firefox
   firefox-l10n-xpi-de firefox-l10n-xpi-es-es firefox-l10n-xpi-fr
   firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu
@@ -21,5 +21,5 @@ The following packages was upgraded:
   mx-repo-list mx-repo-manager mx-snapshot mx-system mx-tools mx-tweak
   mx-usb-unmounter mx-user python3-ldb samba-libs tzdata unzip xserver-common
   xserver-xorg-core xserver-xorg-legacy zlib1g
-69 upgraded, 3 newly installed, 0 to remove
+69 upgraded.
 
