@@ -4,13 +4,14 @@ GNOME and MATE Desktop Environment are optional.
 To create bootable USB flash drives, such as USB memory sticks, Windows users are encouraged to use Rufus at https://rufus.ie
 
 Options:
+Cinnamon Desktop
 GNOME: Classic mode and Flashback are available.
 MATE Desktop: A typical MATE Desktop and apps
 Xfce: Xfce components and desktop apps
 
 Features
     Live system with GUI installer
-    GNOME/MATE/Xfce Desktop
+    Cinnamon/GNOME/MATE/Xfce
     Based on Debian 11/MX 21
     Include MX Tools
     Multilingual support
