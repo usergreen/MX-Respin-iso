@@ -1,0 +1,9 @@
+Main changes
+
+Removed: Xfce Desktop
+
+Installed: Cinnamon Desktop
+
+Installed: linux-headers-5.10.0-17-amd64:amd64 (5.10.136-1, automatic), linux-image-5.10.0-17-amd64:amd64 (5.10.136-1, automatic), linux-headers-5.10.0-17-common
+
+END.
