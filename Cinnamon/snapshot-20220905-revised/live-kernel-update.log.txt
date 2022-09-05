@@ -1,0 +1,69 @@
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for demo: 
+===============================================================================
+Starting live-kernel-updater
+===============================================================================
+Current running kernel is 5.10.0-14-amd64
+                                                                              
+Please select the system to update                                            
+= The current Live System on sdb1                                             
+Press <Enter> to select the highlighted entry                                 
+Use 'h' for help, 'r' to redraw, 'q' to quit                                  
+Will use running live system                                                  
+Found linuxfs file linuxfs in directory /antiX
+Squashfs file linuxfs uses lz4 compression
+Found:
+  1 total live kernel        (5.10.0-14-amd64)
+  1 default live kernel      (5.10.0-14-amd64)
+  0 old live kernels 
+
+  2 total installed kernels 
+  1 new installed kernel     (5.10.0-17-amd64)
+
+Only one new installed kernel was found:
+ Version         Date
+ 5.10.0-17-amd64 2022-08-13
+                                                                              
+Please select an action to perform                                            
+> Update vmlinuz from 5.10.0-14-amd64 (2022-09-05)                            
+> Update initrd using file /usr/lib/iso-template/template-initrd.gz           
+> Quit                                                                        
+Press <Enter> to select the highlighted entry                                 
+Use 'h' for help, 'r' to redraw, 'q' to quit                                  
+Found one new kernel 5.10.0-17-amd64                                          
+
+-------------------------------------------------------------------------------
+Ready to make the following live kernel update
+-------------------------------------------------------------------------------
+         Version          Date        From    To
+ Current 5.10.0-14-amd64  2022-09-05  vmlinuz vmlinuz.kold
+     New 5.10.0-17-amd64  2022-08-13  (new)   vmlinuz
+                                                                              
+Shall we begin?                                                               
+= yes                                                                         
+> no                                                                          
+> pretend mode                                                                
+Press <Enter> to select the highlighted entry                                 
+Use 'h' for help, 'r' to redraw, 'q' to quit                                  
+>> unpack                                                                     
+Unpack: /live/boot-dev/antiX/initrd.gz --> /run/live-kernel-updater/initrd/
+>> copy-modules
+  -> kernel 5.10.0-17-amd64
+>> repack
+Repack: /run/live-kernel-updater/initrd/ --> /run/live-kernel-updater/initrd.gz.tmp
+>> install
+install initrd.gz
+install vmlinuz
+>> defrag
+
+live-kernel-updater live kernel update done.
+Paused at Exit
+Press <Enter> to continue
+                                                                             
