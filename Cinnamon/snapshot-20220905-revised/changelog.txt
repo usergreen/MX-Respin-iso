@@ -4,6 +4,8 @@ Updated Live-kernel: linux-image-5.10.0-17-amd64 [5.10.136.1]
 
 Removed: linux-headers-5.10.0.14-amd64, linux-image-5.10.0-14-amd64, linux-headers-5.10.0.14-common
 
+Installed: Timeshift
+
 Removed: FeatherPad due to redundancy
 
 END.
