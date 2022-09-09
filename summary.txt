@@ -1,6 +1,6 @@
 This is a project to distribute ISO files for live systems or installed systems. ISOs are based upon Debian/ MX Linux and MX community, especially focusing on the features as follows:
 Multilingualization (m17n) support (includes Chinese and Japanese inputs).
-GNOME and MATE Desktop Environment are optional.
+Cinnamon, GNOME and MATE Desktop Environment are optional.
 To create bootable USB flash drives, such as USB memory sticks, Windows users are encouraged to use Rufus at https://rufus.ie
 
 Options:
