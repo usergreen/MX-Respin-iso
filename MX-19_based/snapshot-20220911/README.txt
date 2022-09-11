@@ -1,12 +1,12 @@
 2022-09-11 16:41 JST
-updated: 2022-09-11 18:10 JST
+updated: 2022-09-11 21:21 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
 
 This snapshot provides MATE Core desktop environment, and modified thoroughly
 from MX-19.3_base_x64.
-Thus, this version is now shown as "snapshot MX-19.4_base_x86 (11 September 2022)" at the boot menu.
+Thus, this version is now shown as "snapshot MX-19.4_base_x64 (11 September 2022)" at the boot menu.
 
 User: demo
 Demo password: demo
@@ -17,7 +17,7 @@ An updated version is usually available at https://sourceforge.net/projects/mx-r
 Alternatively, you could download the same file at a mirror site at https://linux.sakura.ne.jp/mx-respin-iso/ which is mainly for back-ups in case of downtime and might be stored older releases too.
 
 ** Origin of the "snapshot-20220911_0216.iso"
-Modified from a community respin of MX-19.3_Base_x86
+Modified from a community respin of MX-19.3_Base_x64
 https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Base/
 The original ISO is said to be conditionally supported by MX team. For support, you might post your questions, thoughts and issues in the MX Modified forum section at https://forum.mxlinux.org/viewforum.php?f=100
 
