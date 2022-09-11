@@ -1,11 +1,12 @@
 [Roadmap]
 2022-08-03 18:32 JST
-updated: 2022-09-12 00:32 JST
+updated: 2022-09-12 00:51 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
 
-When Debian and/or MX Linux is updated in future,
-these respins should be upgraded to the same base and then released accordingly.
+When Debian and/or MX Linux is updated in future, these respins should be upgraded to the same base and then released accordingly.
+
+Please note that the point release does not constitute a new version of Debian or MX Linux, but only updates some of the packages included. There is no need to throw away old ISO files. After installation, packages can be upgraded to the current versions using an up-to-date mirrors.
 
 End.
