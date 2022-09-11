@@ -12,4 +12,9 @@ Known bugs (or features?):
  * Audio is muted by default
 
 If you want a full working system, download the regular MX release, not this one.
-If you want even smaller ISO (something that fits on a CD for example) you can get MX CLI which as the name says it’s just big enough to boot to a command line interface (CLI), it doesn’t even have Xorg on it. 
+If you want even smaller ISO (something that fits on a CD for example) you can get MX CLI which as the name says it’s just big enough to boot to a command line interface (CLI), it doesn’t even have Xorg on it.
+
+
+Source: README, updated 2022-05-19 
+https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Minimal/
+
