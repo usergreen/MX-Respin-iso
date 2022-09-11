@@ -1,11 +1,11 @@
 [Roadmap]
 2022-08-03 18:32 JST
-updated: ------- JST
+updated: 2022-09-12 00:32 JST
 
 This page shows my plans for future releases.
 For example, adding new features, applications, or fix redundancy and bugs, etc.
 
-When Debian 11.5 “bullseye” base is released in future,
-these respins should be upgraded to the same base and released.
+When Debian and/or MX Linux is updated in future,
+these respins should be upgraded to the same base and then released accordingly.
 
-END
+End.
