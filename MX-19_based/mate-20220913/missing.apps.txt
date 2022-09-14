@@ -1,0 +1,4 @@
+missing applications:
+
+mate-tweak
+mate-power-manager

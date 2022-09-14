@@ -1,0 +1,40 @@
+root@mx1:/home/demo# apt install mate-desktop-environment
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  caja caja-common debian-mate-default-settings fonts-cantarell gtk2-engines libcaja-extension1
+  libexempi8 libgail-3-0 libgtop-2.0-11 libgtop2-common libmarco-private1 libmate-desktop-2-17
+  libmate-menu2 libmate-panel-applet-4-1 libmate-slab0 libmate-window-settings1 libmatekbd-common
+  libmatekbd4 libmatemixer-common libmatemixer0 libmateweather-common libmateweather1
+  librda-common librda0 libstartup-notification0 libwnck-3-0 libwnck-3-common libxpresent1
+  libxres1 marco marco-common mate-control-center mate-control-center-common mate-desktop
+  mate-desktop-common mate-desktop-environment-core mate-icon-theme mate-menus
+  mate-notification-daemon mate-notification-daemon-common mate-panel mate-panel-common
+  mate-polkit mate-polkit-common mate-session-manager mate-settings-daemon
+  mate-settings-daemon-common mate-terminal mate-terminal-common mate-themes python-mate-menu
+  zenity zenity-common
+Suggested packages:
+  engrampa gstreamer1.0-tools meld gconf2 mail-reader | thunderbird
+  mate-desktop-environment-extras
+Recommended packages:
+  mate-user-guide atril desktop-base | ubuntu-mate-wallpapers engrampa eom ffmpegthumbnailer
+  mate-backgrounds | ubuntu-mate-wallpapers mate-calc mate-applet-brisk-menu mate-applets
+  mate-icon-theme-faenza mate-media mate-power-manager mate-screensaver mate-system-monitor
+  mate-utils pluma
+The following NEW packages will be installed:
+  caja caja-common debian-mate-default-settings fonts-cantarell gtk2-engines libcaja-extension1
+  libexempi8 libgail-3-0 libgtop-2.0-11 libgtop2-common libmarco-private1 libmate-desktop-2-17
+  libmate-menu2 libmate-panel-applet-4-1 libmate-slab0 libmate-window-settings1 libmatekbd-common
+  libmatekbd4 libmatemixer-common libmatemixer0 libmateweather-common libmateweather1
+  librda-common librda0 libstartup-notification0 libwnck-3-0 libwnck-3-common libxpresent1
+  libxres1 marco marco-common mate-control-center mate-control-center-common mate-desktop
+  mate-desktop-common mate-desktop-environment mate-desktop-environment-core mate-icon-theme
+  mate-menus mate-notification-daemon mate-notification-daemon-common mate-panel mate-panel-common
+  mate-polkit mate-polkit-common mate-session-manager mate-settings-daemon
+  mate-settings-daemon-common mate-terminal mate-terminal-common mate-themes python-mate-menu
+  zenity zenity-common
+0 upgraded, 54 newly installed, 0 to remove and 0 not upgraded.
+Need to get 49.3 MB of archives.
+After this operation, 233 MB of additional disk space will be used.
+Do you want to continue? [Y/n] n

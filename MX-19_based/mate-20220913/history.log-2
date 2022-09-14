@@ -1,0 +1,18 @@
+
+Start-Date: 2022-09-13  12:04:38
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: linux-headers-4.19.0-12-amd64:amd64 (4.19.152-1), linux-image-4.19.0-12-amd64:amd64 (4.19.152-1), linux-headers-4.19.0-12-common:amd64 (4.19.152-1)
+End-Date: 2022-09-13  12:04:49
+
+Start-Date: 2022-09-13  12:05:11
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: file-roller:amd64 (3.30.1-2+deb10u1)
+End-Date: 2022-09-13  12:05:12
+
+Start-Date: 2022-09-13  12:05:45
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: galculator:amd64 (2.1.4-1+b1)
+End-Date: 2022-09-13  12:05:47
