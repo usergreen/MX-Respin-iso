@@ -1,0 +1,10 @@
+
+To remove:
+
+desktop-defaults-mx-xfce              20.12.02mx19
+desktop-defaults-mx-xfce-desktop      20.12.02mx19
+desktop-defaults-mx-xfce-system       20.12.02mx19
+gtk3-engines-xfce                     3.2.0-4
+thunar-custom-actions-mx              21.07.02mx19
+xfce4-power-manager-data              1.6.6-1really1.6.5mx19+1
+xfce4-taskmanager                     1.2.2-1
