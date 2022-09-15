@@ -10,6 +10,6 @@ $ minstall-launcher
 But it is fixed anyhow after reboot, and it does not happen again.
 
 As for default or English locale,
-The icon is normally exist. No plobrem.
+The icon is normally exist. No problem.
 
 END.
