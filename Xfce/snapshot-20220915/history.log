@@ -1,0 +1,6 @@
+
+Start-Date: 2022-09-15  03:39:17
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: linux-headers-5.10.0-17-amd64:amd64 (5.10.136-1), linux-image-5.10.0-17-amd64:amd64 (5.10.136-1), linux-headers-5.10.0-17-common:amd64 (5.10.136-1)
+End-Date: 2022-09-15  03:40:47
