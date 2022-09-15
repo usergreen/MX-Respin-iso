@@ -1,0 +1,24 @@
+MX Base ISO's have been built for those who love MX but want to do something a little different with it without having to remove a bunch of preloaded apps.
+
+MX Base ISOs are all provided as community repsins, so while not regarded as an official release, these ISO's are conditionally supported by our team. For all support, please post your questions, thoughts and issues in the MX Modified forum section
+https://forum.mxlinux.org/viewforum.php?f=100
+
+These MX-19.2 base ISOs have been designed to contain the full goodness of the MX Linux system, without the accompanying desktop, productivity apps and games etc, normally found on our Full Flavour Xfce ISO. For all intents and purposes, MX Base will work just like any other MX Xfce system, the Desktop look and feel is identical and nothing is missing from the fantastic toolkit we provide. 
+
+With MX Base, you can add your own favorite apps and really make it your own. To ensure usability from the get-go, the 3 most commonly used basic apps are included, Firefox Web Browser, QpdfView and Nomacs Image Viewer, plus a handful of MX default apps for the Xfce Desktop like the Archive Manager, XfBurn, Featherpad and Conky remain fully intact.
+
+The first thing you'll notice is the boot animation has been removed so you'll see a background with progress dots and the second is the Whisker Menu is not quite as full and multimedia apps are not included, though basic support is still there. For modders, only the themes and icon sets used by elements of MX are installed, all the extras have not been included. 
+
+MX-Base is an ideal base for people who desire to run MX in a special use environment. Here are some real world examples of tested deployment of MX-Base systems.
+
+Personal Samba File and Print Server
+VirtualBox host
+Surveillance System host
+Personal Web Server
+Clean Development platform host
+Remote Desktop host
+Wireless DHCP & NAT Router (Personal Hotspot)
+
+
+Source: README-MX-Base, updated 2021-02-08 
+https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Base/
