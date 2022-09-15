@@ -1,0 +1,23 @@
+user@debian:~/mx-respin-iso/MATE/snapshot-20220724$
+sftp usergreen@frs.sourceforge.net
+
+sftp>
+cd /home/frs/project/mx-respin-iso/MATE/snapshot-20220724
+
+sftp>
+put snapshot-20220724_0855.iso
+
+sftp>
+exit
+
+---------------------------------------------------------
+
+user@debian:~/mx-respin-iso/MATE/snapshot-20220901$ sftp usergreen@frs.sourceforge.net
+Connected to usergreen@frs.sourceforge.net.
+sftp> cd /home/frs/project/mx-respin-iso/MATE/snapshot-20220901
+sftp> put snapshot-20220901_0530.iso
+Uploading snapshot-20220901_0530.iso to /home/pfs/project/mx-respin-iso/MATE/snapshot-20220901/snapshot-20220901_0530.iso
+snapshot-20220901_0530.iso                                                      snapshot-20220901_0530.iso                    100% 2568MB   4.4MB/s   09:45    
+sftp> exit
+user@debian:~/mx-respin-iso/MATE/snapshot-20220901$ 
+
