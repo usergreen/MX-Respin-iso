@@ -1,0 +1,9 @@
+Changelog:
+
+The system has been fully updated to Debian 11.5 and MX Linux 21.2.1 bases.
+
+The old Linux kernel was deleted.
+
+Updated Live-kernel: linux-image-5.10.0-18-amd64 [5.10.140.1]
+
+END.
