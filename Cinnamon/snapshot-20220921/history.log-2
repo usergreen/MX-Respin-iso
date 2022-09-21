@@ -1,0 +1,16 @@
+
+Start-Date: 2022-09-21  04:01:25
+Commandline: apt install gnome-screenshot
+Install: gnome-screenshot:amd64 (3.38.0-1)
+End-Date: 2022-09-21  04:01:28
+
+Start-Date: 2022-09-21  04:03:22
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: linux-headers-5.10.0-14-amd64:amd64 (5.10.113-1), linux-image-5.10.0-14-amd64:amd64 (5.10.113-1), linux-headers-5.10.0-14-common:amd64 (5.10.113-1)
+End-Date: 2022-09-21  04:04:23
+
+Start-Date: 2022-09-21  06:03:55
+Commandline: apt install ./leafpad_0.8.18.1-5_amd64.deb
+Install: leafpad:amd64 (0.8.18.1-5)
+End-Date: 2022-09-21  06:03:57

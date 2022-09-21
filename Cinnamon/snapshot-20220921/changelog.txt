@@ -1,0 +1,9 @@
+Changelog:
+
+Reviewed the contents of the previous release and greatly removed relatively not so importtant packages so far, in order to reduce the size of ISO image.
+
+Added some desktop applications for convenience, such as audacious, gnome-screenshot and leafpad.
+
+All packages included are up-to-date.
+
+END.
