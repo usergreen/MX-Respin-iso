@@ -12,7 +12,7 @@ Xfce: Xfce components and desktop apps
 Features
     Live system with GUI installer
     Cinnamon/GNOME/MATE/Xfce
-    Based on Debian 11/MX 21
+    Based on Debian /MX Linux
     Include MX Tools
     Multilingual support
     Language tool bar (IME)
