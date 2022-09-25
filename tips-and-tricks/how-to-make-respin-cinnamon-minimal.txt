@@ -55,8 +55,9 @@ apt install firefox-l10n-xpi-de firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firef
 
 apt install libreoffice-l10n-de libreoffice-l10n-es libreoffice-l10n-fr libreoffice-l10n-hi libreoffice-l10n-hr libreoffice-l10n-hu libreoffice-l10n-id libreoffice-l10n-it libreoffice-l10n-ja libreoffice-l10n-nl libreoffice-l10n-pt-br libreoffice-l10n-ru libreoffice-l10n-sv libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw
 
-from gui: mx system-configure-locales
+system-locales-mx
 
+add:
 de_DE.UTF-8... done - German locale for Germany
 en_US.UTF-8... done - English locale for the USA
 es_ES.UTF-8... done - Spanish locale for Spain
