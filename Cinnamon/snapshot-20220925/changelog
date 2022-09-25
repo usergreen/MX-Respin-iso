@@ -1,6 +1,10 @@
-Add system-config-printer and system-config-printer-udev for convenience of printer setting
+Changelog:
 
-Add background image files
+This is a minor fix of the last release, which mainly includes as follows.
+
+Added system-config-printer and system-config-printer-udev for convenience of printer setting
+
+Added background images for desktop
 
 The ISO image file is up-to-date as of 2022-0925.
 
