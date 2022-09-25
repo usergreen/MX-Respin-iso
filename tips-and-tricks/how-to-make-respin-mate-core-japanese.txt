@@ -1,0 +1,68 @@
+reference:
+https://wiki.mate-desktop.org/introduction/installation/#manual-installation
+
+https://mxlinux.org/wiki/xfce/how-to-completely-remove-xfce/
+
+--------------------------------------
+[Procedure]
+
+apt update
+
+//dpkg -l | grep .xfce. | awk '{print $2}' | xargs apt purge -V --auto-remove -yy
+
+apt remove xfce4 exo-utils gtk2-engines-xfce libexo-1-0 libexo-2-0 libexo-common libexo-helpers libgarcon-1-0 libgarcon-common libnotify-bin libthunarx-3-0 libtumbler-1-0 libwnck-common libwnck22 libxfce4panel-2.0-4 libxfce4ui-1-0 libxfce4ui-2-0 libxfce4ui-common libxfce4ui-utils libxfce4util-bin libxfce4util-common libxfce4util7 libxfconf-0-2 light-locker pavucontrol tango-icon-theme thunar thunar-data thunar-volman tumbler tumbler-common xfce4-appfinder xfce4-notifyd xfce4-panel xfce4-pulseaudio-plugin xfce4-session xfce4-settings xfconf xfdesktop4 xfdesktop4-data xfwm4 thunar-archive-plugin thunar-media-tags-plugin tumbler-plugins-extra gtk3-engines-xfce xfce4-goodies xfce4-power-manager xfwm4-themes
+
+//apt install desktop-defaults-mx-common
+
+//apt-mark hold linux-headers-amd64 linux-image-amd64
+
+apt upgrade
+
+//apt-mark unhold linux-headers-amd64 linux-image-amd64
+
+//apt install mate-desktop-environment
+//apt install lightdm lightdm-gtk-greeter
+
+//apt install tasksel
+
+//tasksel
+
+apt install mate-core (= mate-desktop-environment-core)
+
+//apt install mozo mate-media
+
+//apt install engrampa mate-user-guide mate-tweak
+
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+
+//apt install uim-chewing uim-pinyin fonts-wqy-microhei
+
+apt install sylpheed sylpheed-i18n sylpheed-doc bogofilter bsfilter
+
+apt install gnome-sound-recorder
+
+apt install smplayer smplayer-l10n
+
+apt install formatusb
+
+apt remove pavucontrol
+
+apt install firefox-l10n-xpi-ja
+
+apt install libreoffice-calc libreoffice-writer libreoffice-l10n-ja
+
+//apt install canberra-gtk-module
+
+system-locales-mx
+
+ en_US.UTF-8... done - English locale for the USA
+ ja_JP.UTF-8... done - Japanese language locale for Japan
+ 
+apt install synaptic
+
+apt autoremove
+
+apt clean
+
+END.
+
