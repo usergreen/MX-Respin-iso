@@ -1,0 +1,70 @@
+root@mx1:/home/demo# apt install cinnamon-core cinnamon-l10n
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libfftw3-double3 libqt5sensors5 libqt5webkit5
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  apg cinnamon cinnamon-common cinnamon-control-center cinnamon-control-center-data
+  cinnamon-desktop-data cinnamon-screensaver cinnamon-session cinnamon-session-common
+  cinnamon-settings-daemon cjs cups-pk-helper desktop-base dictionaries-common emacsen-common
+  fonts-quicksand gettext gir1.2-accountsservice-1.0 gir1.2-caribou-1.0 gir1.2-cinnamondesktop-3.0
+  gir1.2-clutter-1.0 gir1.2-cmenu-3.0 gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-cvc-1.0
+  gir1.2-gdesktopenums-3.0 gir1.2-gkbd-3.0 gir1.2-gnomedesktop-3.0 gir1.2-gtkclutter-1.0
+  gir1.2-json-1.0 gir1.2-keybinder-3.0 gir1.2-meta-muffin-0.0 gir1.2-nemo-3.0 gir1.2-nm-1.0
+  gir1.2-nma-1.0 gir1.2-notify-0.7 gir1.2-polkit-1.0 gir1.2-soup-2.4 gir1.2-timezonemap-1.0
+  gir1.2-upowerglib-1.0 gir1.2-xapp-1.0 gir1.2-xkl-1.0 gkbd-capplet gnome-backgrounds
+  gnome-themes-extra gnome-themes-extra-data gtk2-engines-pixbuf hunspell-en-us
+  iso-flags-png-320x240 libaspell15 libcaribou-common libcaribou0 libcinnamon-control-center1
+  libcinnamon-desktop4 libcinnamon-menu-3-0 libcjs0 libclutter-1.0-0 libclutter-gtk-1.0-0
+  libcogl-pango20 libcogl-path20 libcogl20 libcscreensaver0 libcvc0 libenchant-2-2 libexempi8
+  libexif12 libgail-3-0 libgee-0.8-2 libgnomekbd-common libgnomekbd8 libgstreamer-gl1.0-0
+  libharfbuzz-icu0 libimagequant0 libjavascriptcoregtk-4.0-18 libkeybinder-3.0-0 libmanette-0.2-0
+  libmozjs-78-0 libmuffin0 libnemo-extension1 libopengl0 libstartup-notification0
+  libtimezonemap-data libtimezonemap1 libwebkit2gtk-4.0-37 libwpe-1.0-1 libwpebackend-fdo-1.0-1
+  libxapp1 libxcb-res0 mailcap mime-support muffin muffin-common nemo nemo-data
+  python-tinycss2-common python3-distro python3-pampy python3-pexpect python3-pil
+  python3-pkg-resources python3-psutil python3-ptyprocess python3-pyinotify python3-setproctitle
+  python3-six python3-tinycss python3-tinycss2 python3-tz python3-webencodings python3-xapp
+  python3-xlib xapps-common zenity zenity-common
+Suggested packages:
+  cinnamon-desktop-environment cinnamon-doc python3-opencv gnome-calculator | galculator
+  | mate-calc gnome-power-manager gnome-screenshot tracker-gui | gnome-search-tool gnome
+  | kde-standard | xfce4 | wmaker ispell | aspell | hunspell gettext-doc autopoint libasprintf-dev
+  libgettextpo-dev hunspell openoffice.org-hunspell | openoffice.org-core aspell libgles2
+  libenchant-2-voikko eog evince | pdf-viewer totem | mp3-decoder python-pexpect-doc
+  python-pil-doc python3-pil-dbg python3-setuptools python-psutil-doc python-pyinotify-doc
+  python-tinycss-doc python-tinycss2-doc
+Recommended packages:
+  blueman gnome-terminal libcanberra-pulse metacity-common cinnamon-control-center-goa alsa-utils
+  libpam-gnome-keyring plymouth-label gnome-accessibility-themes aspell-en | aspell-dictionary
+  | aspell6a-dictionary hwdata libclutter-1.0-common libcogl-common enchant-2 gstreamer1.0-gl
+  gstreamer1.0-plugins-bad file gvfs-backends nemo-fileroller python3-olefile
+The following NEW packages will be installed:
+  apg cinnamon cinnamon-common cinnamon-control-center cinnamon-control-center-data cinnamon-core
+  cinnamon-desktop-data cinnamon-l10n cinnamon-screensaver cinnamon-session
+  cinnamon-session-common cinnamon-settings-daemon cjs cups-pk-helper desktop-base
+  dictionaries-common emacsen-common fonts-quicksand gettext gir1.2-accountsservice-1.0
+  gir1.2-caribou-1.0 gir1.2-cinnamondesktop-3.0 gir1.2-clutter-1.0 gir1.2-cmenu-3.0
+  gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-cvc-1.0 gir1.2-gdesktopenums-3.0 gir1.2-gkbd-3.0
+  gir1.2-gnomedesktop-3.0 gir1.2-gtkclutter-1.0 gir1.2-json-1.0 gir1.2-keybinder-3.0
+  gir1.2-meta-muffin-0.0 gir1.2-nemo-3.0 gir1.2-nm-1.0 gir1.2-nma-1.0 gir1.2-notify-0.7
+  gir1.2-polkit-1.0 gir1.2-soup-2.4 gir1.2-timezonemap-1.0 gir1.2-upowerglib-1.0 gir1.2-xapp-1.0
+  gir1.2-xkl-1.0 gkbd-capplet gnome-backgrounds gnome-themes-extra gnome-themes-extra-data
+  gtk2-engines-pixbuf hunspell-en-us iso-flags-png-320x240 libaspell15 libcaribou-common
+  libcaribou0 libcinnamon-control-center1 libcinnamon-desktop4 libcinnamon-menu-3-0 libcjs0
+  libclutter-1.0-0 libclutter-gtk-1.0-0 libcogl-pango20 libcogl-path20 libcogl20 libcscreensaver0
+  libcvc0 libenchant-2-2 libexempi8 libexif12 libgail-3-0 libgee-0.8-2 libgnomekbd-common
+  libgnomekbd8 libgstreamer-gl1.0-0 libharfbuzz-icu0 libimagequant0 libjavascriptcoregtk-4.0-18
+  libkeybinder-3.0-0 libmanette-0.2-0 libmozjs-78-0 libmuffin0 libnemo-extension1 libopengl0
+  libstartup-notification0 libtimezonemap-data libtimezonemap1 libwebkit2gtk-4.0-37 libwpe-1.0-1
+  libwpebackend-fdo-1.0-1 libxapp1 libxcb-res0 mailcap mime-support muffin muffin-common nemo
+  nemo-data python-tinycss2-common python3-distro python3-pampy python3-pexpect python3-pil
+  python3-pkg-resources python3-psutil python3-ptyprocess python3-pyinotify python3-setproctitle
+  python3-six python3-tinycss python3-tinycss2 python3-tz python3-webencodings python3-xapp
+  python3-xlib xapps-common zenity zenity-common
+0 upgraded, 116 newly installed, 0 to remove and 0 not upgraded.
+Need to get 103 MB of archives.
+After this operation, 267 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
