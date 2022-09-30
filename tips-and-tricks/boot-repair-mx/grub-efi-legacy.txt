@@ -1,0 +1,145 @@
+root@user-fmva52dawj:/home/user# apt reinstall grub
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+注意、'grub' の代わりに 'grub-legacy' を選択します
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  efibootmgr grub-efi-amd64-bin grub-efi-amd64-signed libbotan-2-17 libtspi1
+  mokutil shim-helpers-amd64-signed shim-signed-common shim-unsigned
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下の追加パッケージがインストールされます:
+  libc6-i386
+提案パッケージ:
+  grub-legacy-doc multiboot
+以下のパッケージは「削除」されます:
+  grub-efi-amd64 grub2-common shim-signed
+以下のパッケージが新たにインストールされます:
+  grub-legacy libc6-i386
+アップグレード: 0 個、新規インストール: 2 個、削除: 3 個、保留: 0 個。
+2,917 kB のアーカイブを取得する必要があります。
+この操作後に追加で 10.5 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+
+
+root@user-fmva52dawj:/home/user# apt show grub-efi
+Package: grub-efi
+Version: 2.06-3~deb11u2
+Priority: optional
+Section: admin
+Source: grub2
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12.3 kB
+Depends: grub-common (= 2.06-3~deb11u2), grub-efi-amd64 (= 2.06-3~deb11u2)
+Homepage: https://www.gnu.org/software/grub/
+Download-Size: 2,400 B
+APT-Sources: http://deb.debian.org/debian bullseye-updates/main amd64 Packages
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy package that depends on the grub-efi-$ARCH package most likely
+ to be appropriate for each architecture.
+
+N: 追加レコードが 1 件あります。表示するには '-a' スイッチを付けてください。
+
+
+root@user-fmva52dawj:/home/user# apt -s install grub-efi
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  grub-pc-bin libbotan-2-17 libc6-i386 libtspi1 mokutil
+  shim-helpers-amd64-signed shim-signed-common shim-unsigned
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下の追加パッケージがインストールされます:
+  grub-efi-amd64
+以下のパッケージは「削除」されます:
+  grub-pc grub2
+以下のパッケージが新たにインストールされます:
+  grub-efi grub-efi-amd64
+アップグレード: 0 個、新規インストール: 2 個、削除: 2 個、保留: 0 個。
+Remv grub2 [2.06-3~deb11u2]
+Remv grub-pc [2.06-3~deb11u2]
+Inst grub-efi-amd64 (2.06-3~deb11u2 Debian:11-updates/stable-updates [amd64])
+Inst grub-efi (2.06-3~deb11u2 Debian:11-updates/stable-updates [amd64])
+Conf grub-efi-amd64 (2.06-3~deb11u2 Debian:11-updates/stable-updates [amd64])
+Conf grub-efi (2.06-3~deb11u2 Debian:11-updates/stable-updates [amd64])
+root@user-fmva52dawj:/home/user# apt show grub2
+Package: grub2
+Version: 2.06-3~deb11u2
+Priority: optional
+Section: admin
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 12.3 kB
+Depends: grub-pc (= 2.06-3~deb11u2), grub-common (= 2.06-3~deb11u2)
+Homepage: https://www.gnu.org/software/grub/
+Tag: admin::boot, role::dummy
+Download-Size: 2,376 B
+APT-Manual-Installed: yes
+APT-Sources: http://deb.debian.org/debian bullseye-updates/main amd64 Packages
+Description: GRand Unified Bootloader バージョン 2 (ダミーパッケージ)
+ これは、GRUB 2 への更新を処理するダミーの移行用パッケージです。安全に削除す
+ ることができます。
+
+N: 追加レコードが 1 件あります。表示するには '-a' スイッチを付けてください。
+root@user-fmva52dawj:/home/user# 
+
+
+root@user-fmva52dawj:/home/user# apt install grub-efi
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  grub-pc-bin libbotan-2-17 libc6-i386 libtspi1 mokutil
+  shim-helpers-amd64-signed shim-signed-common shim-unsigned
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下の追加パッケージがインストールされます:
+  grub-efi-amd64
+以下のパッケージは「削除」されます:
+  grub-pc grub2
+以下のパッケージが新たにインストールされます:
+  grub-efi grub-efi-amd64
+アップグレード: 0 個、新規インストール: 2 個、削除: 2 個、保留: 0 個。
+42.7 kB のアーカイブを取得する必要があります。
+この操作後に 384 kB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+取得:1 http://deb.debian.org/debian bullseye-updates/main amd64 grub-efi-amd64 amd64 2.06-3~deb11u2 [40.3 kB]
+取得:2 http://deb.debian.org/debian bullseye-updates/main amd64 grub-efi amd64 2.06-3~deb11u2 [2,400 B]
+42.7 kB を 1秒 で取得しました (63.6 kB/s)
+パッケージを事前設定しています ...
+(データベースを読み込んでいます ... 現在 286746 個のファイルとディレクトリがイン
+ストールされています。)
+grub2 (2.06-3~deb11u2) を削除しています ...
+grub-pc (2.06-3~deb11u2) を削除しています ...
+Saving menu.lst backup in /boot/grub/menu.lst_backup_by_grub2_prerm
+Running update-grub Legacy to remove our core.img in it
+    Searching for GRUB installation directory ... found: /boot/grub
+    WARNING: tempfile is deprecated; consider using mktemp instead.
+    Searching for default file ... found: /boot/grub/default
+    Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
+    WARNING: tempfile is deprecated; consider using mktemp instead.
+    Searching for splash image ... none found, skipping ...
+    Found kernel: /boot/vmlinuz-5.10.0-18-amd64
+    Updating /boot/grub/menu.lst ... done
+    
+以前に未選択のパッケージ grub-efi-amd64 を選択しています。
+(データベースを読み込んでいます ... 現在 286731 個のファイルとディレクトリがイン
+ストールされています。)
+.../grub-efi-amd64_2.06-3~deb11u2_amd64.deb を展開する準備をしています ...
+grub-efi-amd64 (2.06-3~deb11u2) を展開しています...
+以前に未選択のパッケージ grub-efi を選択しています。
+.../grub-efi_2.06-3~deb11u2_amd64.deb を展開する準備をしています ...
+grub-efi (2.06-3~deb11u2) を展開しています...
+grub-efi-amd64 (2.06-3~deb11u2) を設定しています ...
+Installing for x86_64-efi platform.
+grub-install: 警告: EFI variables are not supported on this system..
+Installation finished. No error reported.
+Generating grub configuration file ...
+Found background image: /usr/share/images/desktop-base/desktop-grub.png
+Found linux image: /boot/vmlinuz-5.10.0-18-amd64
+Found initrd image: /boot/initrd.img-5.10.0-18-amd64
+Warning: os-prober will be executed to detect other bootable partitions.
+Its output will be used to detect bootable binaries on them and create new boot 
+entries.
+done
+grub-efi (2.06-3~deb11u2) を設定しています ...
+man-db (2.9.4-2) のトリガを処理しています ...
+root@user-fmva52dawj:/home/user# 
+
