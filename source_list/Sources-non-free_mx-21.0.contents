@@ -1,0 +1,326 @@
+Package: avidemux
+Format: 3.0 (quilt)
+Binary: avidemux-cli, avidemux-common, avidemux-jobs-qt, avidemux-plugins-cli, avidemux-plugins-common, avidemux-plugins-qt, avidemux-plugins-settings, avidemux-qt, avidemux-qt-data, libavidemux6, libavidemux6-cli, libavidemux-cli-dev, libavidemux-dev, libavidemux6-qt, libavidemux-qt-dev
+Architecture: any all
+Version: 1:2.8.0-2mx21+1
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Homepage: http://avidemux.org
+Standards-Version: 4.5.0
+Vcs-Browser: http://github.com/mean00/avidemux2
+Vcs-Git: git://github.com/mean00/avidemux2.git
+Build-Depends: cmake (>= 3.0), debhelper-compat (= 12), dh-exec, liba52-0.7.4-dev, libaom-dev, libasound2-dev, libass-dev, libavutil-dev, libdca-dev, libfaac-dev, libfdk-aac-dev, libfontconfig1-dev, libfribidi-dev, libmad0-dev, libmp3lame-dev, libogg-dev, libopus-dev, libpng-dev, libpostproc-dev, libpulse-dev, libsqlite3-dev, libswscale-dev, libva-dev, libvdpau-dev, libvorbis-dev, libvpx-dev, libx264-dev, libx265-dev, libxv-dev, libxvidcore-dev, pkg-config, qtbase5-dev, qttools5-dev-tools, yasm
+Package-List:
+ avidemux-cli deb non-free/video optional arch=any
+ avidemux-common deb non-free/video optional arch=all
+ avidemux-jobs-qt deb non-free/video optional arch=any
+ avidemux-plugins-cli deb non-free/video optional arch=any
+ avidemux-plugins-common deb non-free/video optional arch=any
+ avidemux-plugins-qt deb non-free/video optional arch=any
+ avidemux-plugins-settings deb non-free/video optional arch=any
+ avidemux-qt deb non-free/video optional arch=any
+ avidemux-qt-data deb non-free/video optional arch=all
+ libavidemux-cli-dev deb libdevel optional arch=any
+ libavidemux-dev deb libdevel optional arch=any
+ libavidemux-qt-dev deb libdevel optional arch=any
+ libavidemux6 deb libs optional arch=any
+ libavidemux6-cli deb libs optional arch=any
+ libavidemux6-qt deb libs optional arch=any
+Priority: optional
+Section: non-free/video
+Directory: pool/non-free/a/avidemux
+Files: 
+ f0a15adde3a4dd13202076fdaa00711f 3062 avidemux_2.8.0-2mx21+1.dsc
+ ce57eb0c5955a79ca41bf5c781f74e50 25663604 avidemux_2.8.0.orig.tar.gz
+ c5516680d513cac877d717a1517a5d86 75848 avidemux_2.8.0-2mx21+1.debian.tar.xz
+Checksums-Sha1: 
+ d8b1c0e22ddb0a19041b3e4352dad572f93c41f9 3062 avidemux_2.8.0-2mx21+1.dsc
+ 9e3552bba94402a5501becdb59cc606b0906caa2 25663604 avidemux_2.8.0.orig.tar.gz
+ 97e74b8b1e9da6c25b0a31dc9ff2f30efdd83d3e 75848 avidemux_2.8.0-2mx21+1.debian.tar.xz
+Checksums-Sha256: 
+ 6a0cfc4d3a1abef30e46ab26cb3bb51fca4a5daa86c1bb0ce96f2b7e85b92d05 3062 avidemux_2.8.0-2mx21+1.dsc
+ d1ec6f5277e51228ecf0ee1ca89fae24c591f520f87ce96fabec8818d04de33b 25663604 avidemux_2.8.0.orig.tar.gz
+ d3ca09d50bb7e57c09f44bee97ec3dea3529a09b00ef4767f6b98b837246e9d8 75848 avidemux_2.8.0-2mx21+1.debian.tar.xz
+Original-Maintainer: Jhonny Oliveira <jhonny.oliveira@gmail.com>
+
+Package: firmware-nonfree
+Format: 3.0 (quilt)
+Binary: firmware-linux, firmware-linux-nonfree, firmware-qcom-media, firmware-amd-graphics, firmware-atheros, firmware-bnx2, firmware-bnx2x, firmware-brcm80211, firmware-cavium, firmware-intelwimax, firmware-intel-sound, firmware-ipw2x00, firmware-ivtv, firmware-iwlwifi, firmware-libertas, firmware-misc-nonfree, firmware-myricom, firmware-netronome, firmware-netxen, firmware-qcom-soc, firmware-qlogic, firmware-realtek, firmware-samsung, firmware-siano, firmware-ti-connectivity
+Architecture: all
+Version: 20210818-1~mx21+1
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Uploaders: Bastian Blank <waldi@debian.org>, Steve Langasek <vorlon@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <ben@decadent.org.uk>
+Standards-Version: 4.0.1
+Vcs-Browser: https://salsa.debian.org/kernel-team/firmware-nonfree
+Vcs-Git: https://salsa.debian.org/kernel-team/firmware-nonfree.git
+Build-Depends: debhelper (>= 9)
+Package-List:
+ firmware-amd-graphics deb non-free/kernel optional arch=all
+ firmware-atheros deb non-free/kernel optional arch=all
+ firmware-bnx2 deb non-free/kernel optional arch=all
+ firmware-bnx2x deb non-free/kernel optional arch=all
+ firmware-brcm80211 deb non-free/kernel optional arch=all
+ firmware-cavium deb non-free/kernel optional arch=all
+ firmware-intel-sound deb non-free/kernel optional arch=all
+ firmware-intelwimax deb non-free/kernel optional arch=all
+ firmware-ipw2x00 deb non-free/kernel optional arch=all
+ firmware-ivtv deb non-free/kernel optional arch=all
+ firmware-iwlwifi deb non-free/kernel optional arch=all
+ firmware-libertas deb non-free/kernel optional arch=all
+ firmware-linux deb non-free/metapackages optional arch=all
+ firmware-linux-nonfree deb non-free/metapackages optional arch=all
+ firmware-misc-nonfree deb non-free/kernel optional arch=all
+ firmware-myricom deb non-free/kernel optional arch=all
+ firmware-netronome deb non-free/kernel optional arch=all
+ firmware-netxen deb non-free/kernel optional arch=all
+ firmware-qcom-media deb non-free/oldlibs optional arch=all
+ firmware-qcom-soc deb non-free/kernel optional arch=all
+ firmware-qlogic deb non-free/kernel optional arch=all
+ firmware-realtek deb non-free/kernel optional arch=all
+ firmware-samsung deb non-free/kernel optional arch=all
+ firmware-siano deb non-free/kernel optional arch=all
+ firmware-ti-connectivity deb non-free/kernel optional arch=all
+Priority: optional
+Section: non-free/kernel
+Directory: pool/non-free/f/firmware-nonfree
+Files: 
+ 0e1869ad68e21ab571a971931400eac1 3647 firmware-nonfree_20210818-1~mx21+1.dsc
+ 79999b85a2be0b02479dd634df94cfdf 129015316 firmware-nonfree_20210818.orig.tar.xz
+ e7fef3f9c3b45501da62ad4d6cc22202 821712 firmware-nonfree_20210818-1~mx21+1.debian.tar.xz
+Checksums-Sha1: 
+ 4a315a6140538eccb9a28da0cfa5afb9ff746cf9 3647 firmware-nonfree_20210818-1~mx21+1.dsc
+ 85f5e5be04c3cab1a51f112154efd9e07bdbb6d2 129015316 firmware-nonfree_20210818.orig.tar.xz
+ f1bb19ebd1b0ba9e3c13e9819e9fd8f4eb77f36c 821712 firmware-nonfree_20210818-1~mx21+1.debian.tar.xz
+Checksums-Sha256: 
+ 118e83f20d3ded914e2490ba0a8af177062e68bae234e70ea5273e076e73f1a6 3647 firmware-nonfree_20210818-1~mx21+1.dsc
+ fccbdcf7c015d9dc7cbb01c90ee58d7b88b7460b2f29316987402715f82590a9 129015316 firmware-nonfree_20210818.orig.tar.xz
+ ef981c65544d82b11fd094874e37c124f0add1ab2aaafe483428cf5001757ea8 821712 firmware-nonfree_20210818-1~mx21+1.debian.tar.xz
+Autobuild: yes
+
+Package: mx-debian-firmware
+Format: 3.0 (native)
+Binary: mx-debian-firmware
+Architecture: all
+Version: 20.10.11mx19
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Standards-Version: 4.5.0
+Build-Depends: debhelper (>= 10)
+Package-List:
+ mx-debian-firmware deb contrib/misc optional arch=all
+Priority: optional
+Section: contrib/misc
+Directory: pool/non-free/m/mx-debian-firmware
+Files: 
+ 7cd3bad91b19ba37d22794eb715bbfa4 1166 mx-debian-firmware_20.10.11mx19.dsc
+ a8ddd2e49e8f4151b8a5497afe47d283 1700 mx-debian-firmware_20.10.11mx19.tar.xz
+Checksums-Sha1: 
+ 7cde114a8c36b99d78abc84b31962e46e17d2cea 1166 mx-debian-firmware_20.10.11mx19.dsc
+ 87793b66902c40602ec35a27f147b854a037b738 1700 mx-debian-firmware_20.10.11mx19.tar.xz
+Checksums-Sha256: 
+ 0605d992fe5dbae5fc4eff573a0afc8d71039043aa93866b225e4f89b9ea1e1c 1166 mx-debian-firmware_20.10.11mx19.dsc
+ 942bebf7c24854724c2d933a3ef87b0a1d3b8d6b1e771320d68bb2006fb331a5 1700 mx-debian-firmware_20.10.11mx19.tar.xz
+
+Package: nvidia-graphics-drivers-legacy-340xx
+Format: 3.0 (quilt)
+Binary: nvidia-legacy-340xx-driver, nvidia-legacy-340xx-driver-bin, nvidia-legacy-340xx-driver-libs, nvidia-legacy-340xx-driver-libs-i386, xserver-xorg-video-nvidia-legacy-340xx, libgl1-nvidia-legacy-340xx-glx, libnvidia-legacy-340xx-glcore, libegl1-nvidia-legacy-340xx, libgles1-nvidia-legacy-340xx, libgles2-nvidia-legacy-340xx, libnvidia-legacy-340xx-eglcore, libnvidia-legacy-340xx-cfg1, nvidia-legacy-340xx-alternative, nvidia-legacy-340xx-kernel-support, nvidia-legacy-340xx-kernel-dkms, nvidia-legacy-340xx-kernel-source, nvidia-legacy-340xx-vdpau-driver, nvidia-legacy-340xx-smi, libnvidia-legacy-340xx-cuda1, libnvidia-legacy-340xx-cuda1-i386, libnvidia-legacy-340xx-compiler, libnvidia-legacy-340xx-nvcuvid1, libnvidia-legacy-340xx-encode1, libnvidia-legacy-340xx-ifr1, libnvidia-legacy-340xx-fbc1, libnvidia-legacy-340xx-ml1, nvidia-legacy-340xx-opencl-icd
+Architecture: i386 amd64 armhf
+Version: 340.108-11~mx21
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Uploaders:  Andreas Beckmann <anbe@debian.org>, Luca Boccassi <bluca@debian.org>,
+Homepage: https://www.nvidia.com
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers
+Vcs-Git: https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b 340xx/master
+Build-Depends: debhelper (>= 10), dpkg-dev (>= 1.18.8), xz-utils, dkms, libxext6, quilt, po-debconf
+Package-List:
+ libegl1-nvidia-legacy-340xx deb non-free/libs optional arch=i386,amd64,armhf
+ libgl1-nvidia-legacy-340xx-glx deb non-free/libs optional arch=i386,amd64,armhf
+ libgles1-nvidia-legacy-340xx deb non-free/libs optional arch=i386,amd64,armhf
+ libgles2-nvidia-legacy-340xx deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-cfg1 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-compiler deb non-free/libs optional arch=i386,amd64
+ libnvidia-legacy-340xx-cuda1 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-cuda1-i386 deb non-free/libs optional arch=i386
+ libnvidia-legacy-340xx-eglcore deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-encode1 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-fbc1 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-glcore deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-ifr1 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-ml1 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-legacy-340xx-nvcuvid1 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-alternative deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-driver deb non-free/x11 optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-driver-bin deb non-free/x11 optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-driver-libs deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-driver-libs-i386 deb non-free/libs optional arch=i386
+ nvidia-legacy-340xx-kernel-dkms deb non-free/kernel optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-kernel-source deb non-free/kernel optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-kernel-support deb non-free/kernel optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-opencl-icd deb non-free/libs optional arch=i386,amd64
+ nvidia-legacy-340xx-smi deb non-free/utils optional arch=i386,amd64,armhf
+ nvidia-legacy-340xx-vdpau-driver deb non-free/video optional arch=i386,amd64,armhf
+ xserver-xorg-video-nvidia-legacy-340xx deb non-free/x11 optional arch=i386,amd64,armhf
+Priority: optional
+Section: non-free/libs
+Directory: pool/non-free/n/nvidia-graphics-drivers-legacy-340xx
+Files: 
+ e4b9e9483412d5adbb9e4dd8731b4e24 6083 nvidia-graphics-drivers-legacy-340xx_340.108-11~mx21.dsc
+ e6a5fdc432d7905816b55605b0dc8f3f 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz
+ 176c76aedbbf73e626c2b2a359669df0 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz
+ c37794a30675a7680c7afb01bdadc77b 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz
+ d4dac827b22c9dd9f26fdfe1d1c80649 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz
+ 1130ffe5a4c446f427f640caea684dcc 82536 nvidia-graphics-drivers-legacy-340xx_340.108-11~mx21.debian.tar.xz
+Checksums-Sha1: 
+ 0f90d1df198ac5480a2f0f919ded6e2f1759b33c 6083 nvidia-graphics-drivers-legacy-340xx_340.108-11~mx21.dsc
+ 797908dd21e11ec0f582f523d6f842027e469b3c 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz
+ 8d729fb402ff787cce7d1889315fd2dace2dd7ab 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz
+ e39102f8cda1d1a22b53b4ef7f433ebdb480bcf3 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz
+ d3a0b36db0e4b74120716deb5f753dbd75c16c8f 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz
+ 588af6e208b245cd26702bc1f220b7beaa2d3ccc 82536 nvidia-graphics-drivers-legacy-340xx_340.108-11~mx21.debian.tar.xz
+Checksums-Sha256: 
+ b9196475a58bfa0f513815f976abfa778063d17b8c17a87c7569586011dd49a3 6083 nvidia-graphics-drivers-legacy-340xx_340.108-11~mx21.dsc
+ 645fb578dbf76396a99a62ec8a1a3cf574ccc7c3a4e71ca7323f5c5c4ef509e5 70135162 nvidia-graphics-drivers-legacy-340xx_340.108.orig-amd64.tar.gz
+ e85303bac9540f59e864adbf82f45794c47256b53be5013ce1ccc62c35eb2e78 23533259 nvidia-graphics-drivers-legacy-340xx_340.108.orig-armhf.tar.gz
+ 6ae38bc060caa28006765c4100423d3a3267ee130e1f4f89690b0a4215e93b9b 38870067 nvidia-graphics-drivers-legacy-340xx_340.108.orig-i386.tar.gz
+ f8d4226b693508a5ddec36ea2e1b02b0cfefb0d554f7c71f501332313a12ee0b 137 nvidia-graphics-drivers-legacy-340xx_340.108.orig.tar.gz
+ c760374f9ce4db77724ab0db153902d85cffdb77d76298efe456223824326118 82536 nvidia-graphics-drivers-legacy-340xx_340.108-11~mx21.debian.tar.xz
+Autobuild: yes
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: nvidia-graphics-drivers-legacy-390xx
+Format: 3.0 (quilt)
+Binary: nvidia-legacy-390xx-driver, nvidia-legacy-390xx-alternative, nvidia-legacy-390xx-kernel-support, nvidia-legacy-390xx-kernel-dkms, nvidia-legacy-390xx-kernel-source, xserver-xorg-video-nvidia-legacy-390xx, nvidia-legacy-390xx-driver-bin, libnvidia-legacy-390xx-cfg1, nvidia-legacy-390xx-driver-libs, nvidia-legacy-390xx-driver-libs-i386, nvidia-legacy-390xx-driver-libs-nonglvnd, nvidia-legacy-390xx-driver-libs-nonglvnd-i386, libglx-nvidia-legacy-390xx0, libgl1-nvidia-legacy-390xx-glvnd-glx, libgl1-nvidia-legacy-390xx-glx, libnvidia-legacy-390xx-glcore, libegl1-nvidia-legacy-390xx, libegl-nvidia-legacy-390xx0, libgles-nvidia-legacy-390xx1, libgles-nvidia-legacy-390xx2, libnvidia-legacy-390xx-eglcore, nvidia-legacy-390xx-egl-icd, nvidia-legacy-390xx-vdpau-driver, nvidia-legacy-390xx-vulkan-icd, nvidia-legacy-390xx-nonglvnd-vulkan-icd, nvidia-legacy-390xx-smi, libnvidia-legacy-390xx-ml1, libnvidia-legacy-390xx-cuda1, libnvidia-legacy-390xx-cuda1-i386,
+ libnvidia-legacy-390xx-compiler, libnvidia-legacy-390xx-fatbinaryloader, libnvidia-legacy-390xx-ptxjitcompiler1, libnvidia-legacy-390xx-nvcuvid1, libnvidia-legacy-390xx-encode1, libnvidia-legacy-390xx-ifr1, libnvidia-legacy-390xx-fbc1,
+ nvidia-legacy-390xx-opencl-icd
+Architecture: amd64 armhf i386
+Version: 390.147-3~mx21+1
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Uploaders: Andreas Beckmann <anbe@debian.org>, Luca Boccassi <bluca@debian.org>
+Homepage: https://www.nvidia.com
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers
+Vcs-Git: https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b 390xx/master
+Build-Depends: debhelper-compat (= 12), dkms, dpkg-dev (>= 1.18.8), libglvnd-dev, libvulkan1 (>= 1.0.42), libxext6 [!ppc64el], po-debconf, quilt, xz-utils
+Package-List:
+ libegl-nvidia-legacy-390xx0 deb non-free/libs optional arch=amd64,armhf,i386
+ libegl1-nvidia-legacy-390xx deb non-free/libs optional arch=amd64,armhf,i386
+ libgl1-nvidia-legacy-390xx-glvnd-glx deb non-free/libs optional arch=amd64,armhf,i386
+ libgl1-nvidia-legacy-390xx-glx deb non-free/libs optional arch=amd64,armhf,i386
+ libgles-nvidia-legacy-390xx1 deb non-free/libs optional arch=amd64,armhf,i386
+ libgles-nvidia-legacy-390xx2 deb non-free/libs optional arch=amd64,armhf,i386
+ libglx-nvidia-legacy-390xx0 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-cfg1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-compiler deb non-free/libs optional arch=amd64,i386
+ libnvidia-legacy-390xx-cuda1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-cuda1-i386 deb non-free/libs optional arch=i386
+ libnvidia-legacy-390xx-eglcore deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-encode1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-fatbinaryloader deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-fbc1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-glcore deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-ifr1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-ml1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-nvcuvid1 deb non-free/libs optional arch=amd64,armhf,i386
+ libnvidia-legacy-390xx-ptxjitcompiler1 deb non-free/libs optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-alternative deb non-free/libs optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-driver deb non-free/x11 optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-driver-bin deb non-free/x11 optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-driver-libs deb non-free/libs optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-driver-libs-i386 deb non-free/libs optional arch=i386
+ nvidia-legacy-390xx-driver-libs-nonglvnd deb non-free/libs optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-driver-libs-nonglvnd-i386 deb non-free/libs optional arch=i386
+ nvidia-legacy-390xx-egl-icd deb non-free/libs optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-kernel-dkms deb non-free/kernel optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-kernel-source deb non-free/kernel optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-kernel-support deb non-free/kernel optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-nonglvnd-vulkan-icd deb non-free/libs optional arch=amd64,i386
+ nvidia-legacy-390xx-opencl-icd deb non-free/libs optional arch=amd64,i386
+ nvidia-legacy-390xx-smi deb non-free/utils optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-vdpau-driver deb non-free/video optional arch=amd64,armhf,i386
+ nvidia-legacy-390xx-vulkan-icd deb non-free/libs optional arch=amd64,i386
+ xserver-xorg-video-nvidia-legacy-390xx deb non-free/x11 optional arch=amd64,armhf,i386
+Priority: optional
+Section: non-free/libs
+Directory: pool/non-free/n/nvidia-graphics-drivers-legacy-390xx
+Files: 
+ 6bdf141da82316f7ad3794178e0966d1 7334 nvidia-graphics-drivers-legacy-390xx_390.147-3~mx21+1.dsc
+ 1af1c507ba57812011743f30239ac507 85896142 nvidia-graphics-drivers-legacy-390xx_390.147.orig-amd64.tar.gz
+ 7d2b788c99986186829970cfc2fddf1f 30271301 nvidia-graphics-drivers-legacy-390xx_390.147.orig-armhf.tar.gz
+ e5845d5625d4ec6fe1a8c711b4d01931 49266461 nvidia-graphics-drivers-legacy-390xx_390.147.orig-i386.tar.gz
+ 6d6785c80e004cbf1d2c0a94b96d3663 138 nvidia-graphics-drivers-legacy-390xx_390.147.orig.tar.gz
+ e029bf497f78d6e94d5a7a3691529e53 178652 nvidia-graphics-drivers-legacy-390xx_390.147-3~mx21+1.debian.tar.xz
+Checksums-Sha1: 
+ bc059d933b9123c31f518e260726bde01df278e4 7334 nvidia-graphics-drivers-legacy-390xx_390.147-3~mx21+1.dsc
+ 9895a84aedb7615594d0871d5084abf8540ece4f 85896142 nvidia-graphics-drivers-legacy-390xx_390.147.orig-amd64.tar.gz
+ 941969dc7f39c6c65ad0e97ab5cd2e5e7c9dfd38 30271301 nvidia-graphics-drivers-legacy-390xx_390.147.orig-armhf.tar.gz
+ 491407ede1fbf559fc3c876921c890f5d6fbb220 49266461 nvidia-graphics-drivers-legacy-390xx_390.147.orig-i386.tar.gz
+ f11a8808d9118551d57d3fee1a6d8538e3b5972a 138 nvidia-graphics-drivers-legacy-390xx_390.147.orig.tar.gz
+ ad9498cdaf814071ff6dc8b13480a4124d1a351c 178652 nvidia-graphics-drivers-legacy-390xx_390.147-3~mx21+1.debian.tar.xz
+Checksums-Sha256: 
+ 8b37f008f3c99b78009a040198d08857a4e2411ec40d783810f9dc44152b3eeb 7334 nvidia-graphics-drivers-legacy-390xx_390.147-3~mx21+1.dsc
+ 9d8d5f3b592f3ba714fb6ffd325926b4b44b616d8a4712f4d4562a34c49f9456 85896142 nvidia-graphics-drivers-legacy-390xx_390.147.orig-amd64.tar.gz
+ 80ec56c05f3d5b87edd77cbb993f6c24427990fa423e1711d8732cebf8c0ef7c 30271301 nvidia-graphics-drivers-legacy-390xx_390.147.orig-armhf.tar.gz
+ ae1b770629f31a2c3df6da948b787738f682beabc406dccdc35fa0ec5033185d 49266461 nvidia-graphics-drivers-legacy-390xx_390.147.orig-i386.tar.gz
+ 9a52d3c1a243340ee63d681db59e2093b2662bb8236c4f8b06fb20447e36fe1b 138 nvidia-graphics-drivers-legacy-390xx_390.147.orig.tar.gz
+ 2ca0e4a44b0554f22b2b3b57d69352e0f7b9441afb1339c2af640779a532d821 178652 nvidia-graphics-drivers-legacy-390xx_390.147-3~mx21+1.debian.tar.xz
+Autobuild: yes
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: veracrypt
+Format: 3.0 (quilt)
+Binary: veracrypt
+Architecture: any
+Version: 1.24+update7-0.1~mx21+1
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Homepage: https://veracrypt.fr/
+Standards-Version: 4.4.1
+Build-Depends: debhelper (>= 10), libayatana-appindicator3-dev | libappindicator3-dev | libayatana-appindicator-dev | libappindicator-dev, libfuse-dev, libwxgtk3.0-gtk3-dev | libwxgtk3.0-dev, pkg-config, yasm [any-i386 any-amd64]
+Package-List:
+ veracrypt deb non-free/utils optional arch=any
+Priority: optional
+Section: non-free/utils
+Directory: pool/non-free/v/veracrypt
+Files: 
+ e819aa888c5f98ec3f6cec9e0dfc9e2c 1735 veracrypt_1.24+update7-0.1~mx21+1.dsc
+ 9930adde736f28629e2ccbd078a04a90 20441080 veracrypt_1.24+update7.orig.tar.xz
+ 56490eb3dfefabb4d381469267d72c9d 21056 veracrypt_1.24+update7-0.1~mx21+1.debian.tar.xz
+Checksums-Sha1: 
+ 90a28513ca041a376f9ff0cc7bb3da4995370b11 1735 veracrypt_1.24+update7-0.1~mx21+1.dsc
+ 2b5644250d924db42f1c5ae19631e68b56d8930b 20441080 veracrypt_1.24+update7.orig.tar.xz
+ 9410ed36e5c52c43bb468f7ea2c3b967f0334596 21056 veracrypt_1.24+update7-0.1~mx21+1.debian.tar.xz
+Checksums-Sha256: 
+ 60841347896cf980914fcf14f0e13e49dcf0b144bfb07a2a10aa7f81213b2c19 1735 veracrypt_1.24+update7-0.1~mx21+1.dsc
+ 8d7da791534210216fc62ca33985dba9eccd2d92b3f7bc8defe9e17d60812cb5 20441080 veracrypt_1.24+update7.orig.tar.xz
+ 48bff1c2824fae645ee2426269177bdd2909167421b8b19574ad8d06bd6a51f9 21056 veracrypt_1.24+update7-0.1~mx21+1.debian.tar.xz
+Original-Maintainer: Unit 193 <unit193@ubuntu.com>
+
+Package: virtualbox-guest-additions-iso
+Format: 3.0 (quilt)
+Binary: virtualbox-guest-additions-iso
+Architecture: all
+Version: 6.1.22-1~mx21+1
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Homepage: https://www.virtualbox.org
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-guest-additions-iso
+Vcs-Git: https://salsa.debian.org/pkg-virtualbox-team/virtualbox-guest-additions-iso.git
+Build-Depends: debhelper-compat (= 12)
+Package-List:
+ virtualbox-guest-additions-iso deb non-free/misc optional arch=all
+Priority: optional
+Section: non-free/misc
+Directory: pool/non-free/v/virtualbox-guest-additions-iso
+Files: 
+ 9566c8928e58f5244bf60fe65ba822bc 1954 virtualbox-guest-additions-iso_6.1.22-1~mx21+1.dsc
+ 71021bdcc6d58cd5f45cf5471303f574 44757592 virtualbox-guest-additions-iso_6.1.22.orig.tar.xz
+ 9afafadda9fd537532bd804060a92d79 9192 virtualbox-guest-additions-iso_6.1.22-1~mx21+1.debian.tar.xz
+Checksums-Sha1: 
+ 370645fff9edb012381d90d09f2f04f8d2e6ecfb 1954 virtualbox-guest-additions-iso_6.1.22-1~mx21+1.dsc
+ 64b173bbba6369fffeccf5e6e4c3bd771b8feee3 44757592 virtualbox-guest-additions-iso_6.1.22.orig.tar.xz
+ ec0e88f37d12d1868acfb29fa8801ac1baa4bcb0 9192 virtualbox-guest-additions-iso_6.1.22-1~mx21+1.debian.tar.xz
+Checksums-Sha256: 
+ b6156bf3820115d605a266796e1d27a293bbf5d7b51f6bbdd385f48671c8915b 1954 virtualbox-guest-additions-iso_6.1.22-1~mx21+1.dsc
+ 6afe77d657ba8bb15f735871e8b457bb716332896d17bc4766d4710ef9232f3e 44757592 virtualbox-guest-additions-iso_6.1.22.orig.tar.xz
+ a4c50635b7a77bf0e63297f91773684ab53945d6415e61618937facb3328947e 9192 virtualbox-guest-additions-iso_6.1.22-1~mx21+1.debian.tar.xz
+Autobuild: yes
+
