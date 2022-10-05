@@ -1,0 +1,21 @@
+Changes from
+
+MATE-core (the version: snapshot-20220714)
+
+custom:
+
+Added mate-tweak engrampa pluma
+
+Removed featherpad featherpad-l10n
+
+Added leafpad
+
+Added uim-pinyin
+
+Add system locale: zh_CN.UTF-8
+
+Added quick-system-info-gui libcanberra-gtk-module
+
+Update to the latest official MX base
+
+End.
