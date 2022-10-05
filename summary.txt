@@ -9,14 +9,13 @@ GNOME: Classic mode and Flashback are available.
 MATE Desktop: A typical MATE Desktop and apps
 Xfce: Xfce components and desktop apps
 
-Features
+Features:
+    Usable indeed out of the box
+    Need no initial settings via internet
+    Preconfigued for ja and zh inputs
     Live system with GUI installer
     Cinnamon/GNOME/MATE/Xfce
     Based on Debian /MX Linux
     Include MX Tools
     Multilingual support
     Language tool bar (IME)
-    Add browser/mailer/office suite
-    Add audio/video players
-    Add Gimp image editor
-
