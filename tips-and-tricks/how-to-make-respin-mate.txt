@@ -10,23 +10,27 @@ apt update
 
 dpkg -l | grep .xfce. | awk '{print $2}' | xargs apt purge -V --auto-remove -yy
 
-apt install desktop-defaults-mx-common
+//apt install desktop-defaults-mx-common
 
-apt-mark hold linux-headers-amd64 linux-image-amd64
+//apt-mark hold linux-headers-amd64 linux-image-amd64
 
 apt upgrade
 
-apt-mark unhold linux-headers-amd64 linux-image-amd64
+//apt-mark unhold linux-headers-amd64 linux-image-amd64
 
 //apt install mate-desktop-environment
 //apt install lightdm lightdm-gtk-greeter
 
-apt install tasksel
+//apt install tasksel
 
-tasksel
+//tasksel
 // (select task-desktop, task-mate-desktop, task-laptop)
 
+apt install mate-core
+
 apt install mozo mate-tweak
+
+apt install cups cups-pdf
 
 apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
 
