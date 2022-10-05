@@ -1,0 +1,11 @@
+Changelog:
+
+**IMPORTANT**
+Changed the original base from unofficial MX-21.1_minimal_x64 to the Official MX-21.2.1_x64.iso.
+**IMPORTANT**
+
+Added several locales along with Chinese and Japanese input.
+
+No desktop applications are removed from the original version, so as to be available out of the box without any internet connection.
+
+End.
