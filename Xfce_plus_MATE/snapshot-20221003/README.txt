@@ -1,11 +1,12 @@
 2022-10-04 12:41 JST
-updated: 2022-10-04 14:09 JST
+updated: 2022-10-04 19:28 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
 
-This snapshot is modified thoroughly from Official MX-21.2.1_x64 Wildflower 18 September 2022, and applied all latest updates so far.
-Thus, this released version is shown now as "MX-21.2.1_x64 (03 October 2022). No Desktop applications are removed from the original version; only added MATE desktop and many locales as to be available out of the box.
+This snapshot is modified thoroughly from the official MX-21.2.1_x64 Wildflower 18 September 2022, and applied all latest updates so far.
+Thus, this released version is shown now as "MX-21.2.1_x64 (03 October 2022).
+No desktop applications are removed from the original version; only added MATE desktop and many locales as to be available out of the box.
 
 User: demo
 Demo password: demo
