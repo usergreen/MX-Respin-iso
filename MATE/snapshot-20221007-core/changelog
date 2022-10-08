@@ -1,0 +1,11 @@
+Changes from the last snapshot-core:
+
+Added cups and cups-pdf, because they are necessary for printer setting.
+
+Added atril eom mate-calc mate-media mate-system-monitor mozo
+
+Added lightweight Sylpheed e-mail client
+
+LibreOffice office suite is not included in order to reduce the ISO image size. So please install afterwards if you need it.
+
+End.
