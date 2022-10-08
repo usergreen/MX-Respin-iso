@@ -1,0 +1,87 @@
+reference:
+https://wiki.mate-desktop.org/introduction/installation/#manual-installation
+
+https://mxlinux.org/wiki/xfce/how-to-completely-remove-xfce/
+
+--------------------------------------
+[Procedure] # Lines marked by // are commented out.
+
+apt update
+
+dpkg -l | grep .xfce. | awk '{print $2}' | xargs apt purge -V --auto-remove -yy
+
+//apt install desktop-defaults-mx-common
+
+//apt-mark hold linux-headers-amd64 linux-image-amd64
+
+apt upgrade
+
+//apt-mark unhold linux-headers-amd64 linux-image-amd64
+
+//apt install mate-desktop-environment
+//apt install lightdm lightdm-gtk-greeter
+
+//apt install tasksel
+
+//tasksel
+// (select task-desktop, task-mate-desktop, task-laptop)
+
+apt install mate-core
+
+apt install atril engrampa eom mate-calc mate-media mate-power-manager mate-screensaver mate-system-monitor mate-tweak mate-user-guide mate-utils mozo pluma
+
+apt remove featherpad featherpad-l10n
+
+apt install libcanberra-gtk-module libcanberra-gtk3-module
+
+//apt install libreoffice-calc libreoffice-writer
+
+apt install cups cups-pdf
+
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+
+apt install uim-chewing uim-pinyin fonts-wqy-microhei
+
+apt install sylpheed sylpheed-i18n sylpheed-doc bogofilter bsfilter
+
+//apt install gnome-sound-recorder
+
+apt remove pavucontrol
+
+//apt install smplayer smplayer-l10n
+
+apt install formatusb quick-system-info-gui
+
+apt install firefox-l10n-xpi-de firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
+
+//apt install libreoffice-l10n-de libreoffice-l10n-es libreoffice-l10n-fr libreoffice-l10n-hi libreoffice-l10n-hr libreoffice-l10n-hu libreoffice-l10n-id libreoffice-l10n-it libreoffice-l10n-ja libreoffice-l10n-nl libreoffice-l10n-pt-br libreoffice-l10n-ru libreoffice-l10n-sv libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw
+
+system-locales-mx
+add:
+de_DE.UTF-8... done - German locale for Germany
+en_US.UTF-8... done - English locale for the USA
+es_ES.UTF-8... done - Spanish locale for Spain
+fr_FR.UTF-8... done - French locale for France
+hi_IN.UTF-8... done - Hindi language locale for India
+hr_HR.UTF-8... done - Croatian locale for Croatia
+hu_HU.UTF-8... done - Hungarian locale for Hungary
+id_ID.UTF-8... done - Indonesian locale for Indonesia
+it_IT.UTF-8... done - Italian locale for Italy
+ja_JP.UTF-8... done - Japanese language locale for Japan
+nl_NL.UTF-8... done - Dutch locale for the Netherlands
+pt_BR.UTF-8... done - Portuguese locale for Brasil
+ru_RU.UTF-8... done - Russian locale for Russia
+sv_SE.UTF-8... done - Swedish locale for Sweden
+zh_CN.UTF-8... done - Chinese locale for Peoples Republic of China
+zh_TW.UTF-8... done - Chinese locale for Taiwan R.O.C.
+
+apt install synaptic
+
+apt autoremove
+
+apt clean
+
+Add leafpad package from Official Debian archive of buster
+
+END.
+
