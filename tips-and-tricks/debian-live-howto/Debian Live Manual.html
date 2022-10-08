@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    Debian Live Manual
+  </title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="dc.title" content="Debian Live Manual" />
+  <meta name="dc.author" content="Debian Live Project &#60;debian-live@lists.debian.org&#62;" />
+  <meta name="dc.publisher" content="Debian Live Project &#60;debian-live@lists.debian.org&#62;" />
+  <meta name="dc.date" content="2015-09-22"  />
+  <meta name="dc.rights" content="Copyright: Copyright (C) 2006-2015 Live Systems Project, Copyright (C) 2016-2020 The Debian Live team \\ License: This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. \\  \\ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. \\  \\ You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/. \\  \\ The complete text of the GNU General Public License can be found in /usr/share/common-licenses/GPL-3 file." />
+
+  <meta name="generator" content="SiSU 7.2.0 of 2019w35/2 (2019-09-03) (n*x and Ruby!)" />
+    <link rel="generator" href="http://www.sisudoc.org/" />
+  <link rel="shortcut icon" href="../_sisu/image/rb7.ico" />
+
+  <link href="../_sisu/css/html.css" rel="stylesheet">  <link href="../../_sisu/css/html.css" rel="stylesheet">
+</head>
+<body lang="ja">
+<a name="top" id="top"></a>
+
+<table summary="table of contents segment navigation band" id="toc" width="100%" bgcolor="#ffffff">
+<tr><td width="20%">
+ <table summary="home button / home information" border="0" cellpadding="3" cellspacing="0">
+ <tr><td align="left" bgcolor="#ffffff">
+  <p class="tiny_left"><a href="https://live-team.pages.debian.net/live-manual/" target="_top">
+    Live manual
+  </a></p>
+  <p class="tiny_left"><a href="https://wiki.debian.org/DebianLive" target="_top">
+    Debian Live
+  </a></p>
+ </td></tr>
+ </table>
+</td>
+<td width="75%" align="center">
+  
+<table summary="segment navigation available documents types: toc,doc,pdf,concordance" border="0" cellpadding="3" cellspacing="0">
+<tr>
+<td align="center" bgcolor="#ffffff">
+  
+  
+</tr></table>
+</td>
+<td width="5%" align="right">
+  &nbsp;<a href="about-manual.ja.html" target="_top" alt="-&gt;">
+        <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_next_red.png" alt="next&nbsp;&gt;&gt;" /></a>&nbsp;
+</td></tr>
+</table>
+<p>
+
+<table summary="segment instrument cover band, title, author, location" width="100%" border="0" cellpadding="8" align="center">
+<tr><td align="center">
+
+<p class="centerbold">Debian Live Manual
+</p>
+
+<p class="centerbold">Debian Live Project &lt;debian-live@lists.debian.org&gt;
+</p>
+
+</td></tr>
+</table>
+
+<h1 class="toc">
+    Debian Live Manual
+  </h1>
+
+<h1 class="toc">
+    About
+  </h1>
+
+<h1 class="toc">
+    このマニュアルについて
+  </h1>
+
+<h4 class="toc">
+      <a href="about-manual.ja.html" target="_top">
+    1. このマニュアルについて
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="about-manual.ja.html#8">
+    1.1 せっかちな人向け
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="about-manual.ja.html#12">
+    1.2 用語
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="about-manual.ja.html#29">
+    1.3 著者
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="about-manual.ja.html#45">
+    1.4 この文書への貢献
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="about-manual.ja.html#47">
+  1.4.1 変更の適用
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="about-manual.ja.html#61">
+  1.4.2 翻訳
+</a>
+  </h6>
+
+<h1 class="toc">
+    Debian Live Projectへの貢献
+  </h1>
+
+<h4 class="toc">
+      <a href="about-project.ja.html" target="_top">
+    2. Debian Live Projectについて
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="about-project.ja.html#76">
+    2.1 動機
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="about-project.ja.html#77">
+  2.1.1 現在の Live システムの問題点
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="about-project.ja.html#87">
+  2.1.2 自身の Live システムを作成する理由
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="about-project.ja.html#95">
+    2.2 哲学
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="about-project.ja.html#96">
+  2.2.1 Debian「main」の変更しないパッケージしか使いません
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="about-project.ja.html#100">
+  2.2.2 Live システム固有のパッケージ設定はありません
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="about-project.ja.html#104">
+    2.3 連絡先
+  </a>
+  </h5>
+
+<h1 class="toc">
+    ユーザ
+  </h1>
+
+<h1 class="toc">
+    インストール
+  </h1>
+
+<h4 class="toc">
+      <a href="installation.ja.html" target="_top">
+    3. インストール
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="installation.ja.html#111">
+    3.1 要件
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="installation.ja.html#121">
+    3.2 live-build のインストール
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="installation.ja.html#127">
+  3.2.1 Debian リポジトリから
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="installation.ja.html#130">
+  3.2.2 ソースから
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="installation.ja.html#141">
+    3.3 live-boot と live-config のインストール
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="installation.ja.html#143">
+  3.3.1 Debian リポジトリから
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="installation.ja.html#145">
+  3.3.2 ソースから
+</a>
+  </h6>
+
+<h1 class="toc">
+    基本
+  </h1>
+
+<h4 class="toc">
+      <a href="the-basics.ja.html" target="_top">
+    4. 基本
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#162">
+    4.1 Live システムとは何?
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#170">
+    4.2 最初の段階: ISO hybrid イメージのビルド
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#181">
+    4.3 ISO hybrid Live イメージの利用
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#183">
+  4.3.1 ISOイメージの実際のメディアへの書き込み
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#186">
+  4.3.2 ISO hybrid イメージのUSBメモリへのコピー
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#191">
+  4.3.3 USBメモリの空きスペースの利用
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#198">
+  4.3.4 Live メディアのブート
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#202">
+    4.4 仮想マシンを利用したテスト
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#209">
+  4.4.1 QEMU でのISOイメージのテスト
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#216">
+  4.4.2 VirtualBox でのISOイメージのテスト
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#224">
+    4.5 HDDイメージのビルド及び利用
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#236">
+    4.6 netboot イメージのビルド
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#249">
+  4.6.1 DHCP サーバ
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#253">
+  4.6.2 TFTP サーバ
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#258">
+  4.6.3 NFSサーバ
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#266">
+  4.6.4 ネットワーク経由のブートをテストする方法
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#269">
+  4.6.5 Qemu
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="the-basics.ja.html#275">
+    4.7 ウェブブート
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#277">
+  4.7.1 ウェブブートファイルの取得
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="the-basics.ja.html#283">
+  4.7.2 ウェブブートイメージの起動
+</a>
+  </h6>
+
+<h1 class="toc">
+    ツールの概要
+  </h1>
+
+<h4 class="toc">
+      <a href="overview-of-tools.ja.html" target="_top">
+    5. ツールの概要
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="overview-of-tools.ja.html#291">
+    5.1 live-build パッケージ
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="overview-of-tools.ja.html#301">
+  5.1.1 <tt>lb config</tt> コマンド
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="overview-of-tools.ja.html#311">
+  5.1.2 <tt>lb build</tt> コマンド
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="overview-of-tools.ja.html#313">
+  5.1.3 <tt>lb clean</tt> コマンド
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="overview-of-tools.ja.html#315">
+    5.2 live-boot パッケージ
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="overview-of-tools.ja.html#319">
+    5.3 live-config パッケージ
+  </a>
+  </h5>
+
+<h1 class="toc">
+    設定の管理
+  </h1>
+
+<h4 class="toc">
+      <a href="managing-a-configuration.ja.html" target="_top">
+    6. 設定の管理
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="managing-a-configuration.ja.html#324">
+    6.1 設定変更への対応
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="managing-a-configuration.ja.html#326">
+  6.1.1 自動化スクリプトを使う理由は? それは何をするもの?
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="managing-a-configuration.ja.html#329">
+  6.1.2 自動化スクリプトの使用例
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="managing-a-configuration.ja.html#336">
+    6.2 Git経由で公開されている設定の複製
+  </a>
+  </h5>
+
+<h1 class="toc">
+    収録内容の独自化
+  </h1>
+
+<h4 class="toc">
+      <a href="customization-overview.ja.html" target="_top">
+    7. 独自化の概要
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="customization-overview.ja.html#350">
+    7.1 ビルド時とブート時の設定
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customization-overview.ja.html#353">
+    7.2 ビルド段階
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customization-overview.ja.html#356">
+    7.3 ファイルによる lb config の補完
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customization-overview.ja.html#358">
+    7.4 独自化タスク
+  </a>
+  </h5>
+
+<h1 class="toc">
+    インストールするパッケージの独自化
+  </h1>
+
+<h4 class="toc">
+      <a href="customizing-package-installation.ja.html" target="_top">
+    8. インストールするパッケージの独自化
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="customizing-package-installation.ja.html#363">
+    8.1 パッケージソース
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#364">
+  8.1.1 ディストリビューション、アーカイブ領域とモード
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#371">
+  8.1.2 ディストリビューションミラー
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#373">
+  8.1.3 ビルド時に利用するディストリビューションミラー
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#377">
+  8.1.4 実行時に利用するディストリビューションミラー
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#380">
+  8.1.5 追加リポジトリ
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="customizing-package-installation.ja.html#389">
+    8.2 インストールするパッケージの選択
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#391">
+  8.2.1 パッケージ一覧
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#394">
+  8.2.2 メタパッケージの利用
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#402">
+  8.2.3 ローカルパッケージ一覧
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#407">
+  8.2.4 ローカルバイナリパッケージ一覧
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#409">
+  8.2.5 生成されたパッケージ一覧
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#413">
+  8.2.6 条件付き内部パッケージ一覧の利用
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#422">
+  8.2.7 インストール時のパッケージの削除
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#424">
+  8.2.8 デスクトップ及び言語タスク
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#429">
+  8.2.9 カーネルのフレーバー (種類) とバージョン
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#434">
+  8.2.10 独自のカーネル
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="customizing-package-installation.ja.html#442">
+    8.3 変更したあるいはサードパーティ製パッケージのインストール
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#449">
+  8.3.1 <tt>packages.chroot</tt> を利用した独自のパッケージのインストール
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#456">
+  8.3.2 APTリポジトリを利用した独自パッケージのインストール
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#459">
+  8.3.3 独自パッケージとAPT
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="customizing-package-installation.ja.html#462">
+    8.4 ビルド時のAPT設定
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#464">
+  8.4.1 apt と aptitude の選択
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#468">
+  8.4.2 APTでのプロキシの利用
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#471">
+  8.4.3 APTの調整による容量節約
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#485">
+  8.4.4 apt や aptitude へのオプションの受け渡し
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-package-installation.ja.html#490">
+  8.4.5 APTのピン止め
+</a>
+  </h6>
+
+<h1 class="toc">
+    収録内容の独自化
+  </h1>
+
+<h4 class="toc">
+      <a href="customizing-contents.ja.html" target="_top">
+    9. 収録内容の独自化
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="customizing-contents.ja.html#499">
+    9.1 Includes
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-contents.ja.html#504">
+  9.1.1 Live/chroot ローカルインクルード
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-contents.ja.html#511">
+  9.1.2 バイナリローカルインクルード
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="customizing-contents.ja.html#515">
+    9.2 フック
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-contents.ja.html#518">
+  9.2.1 chroot ローカルフック
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-contents.ja.html#520">
+  9.2.2 バイナリローカルフック
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-contents.ja.html#522">
+  9.2.3 ブート時フック
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="customizing-contents.ja.html#524">
+    9.3 Debconf 質問の preseed
+  </a>
+  </h5>
+
+<h1 class="toc">
+    実行時の挙動の独自化
+  </h1>
+
+<h4 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html" target="_top">
+    10. 実行時の挙動の独自化
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html#530">
+    10.1 live ユーザの独自化
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html#539">
+    10.2 ロケールと言語の独自化
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html#556">
+    10.3 保持機能
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html#578">
+  10.3.1 persistence.conf ファイル
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html#583">
+  10.3.2 保持先を複数使いたい場合
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="customizing-run-time-behaviours.ja.html#589">
+  10.3.3 暗号化した保持先の利用
+</a>
+  </h6>
+
+<h1 class="toc">
+    バイナリイメージの独自化
+  </h1>
+
+<h4 class="toc">
+      <a href="customizing-binary.ja.html" target="_top">
+    11. バイナリイメージの独自化
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="customizing-binary.ja.html#617">
+    11.1 ブートローダ
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customizing-binary.ja.html#624">
+    11.2 ISO メタ情報
+  </a>
+  </h5>
+
+<h1 class="toc">
+    Debian インストーラの独自化
+  </h1>
+
+<h4 class="toc">
+      <a href="customizing-installer.ja.html" target="_top">
+    12. Debian インストーラの独自化
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="customizing-installer.ja.html#634">
+    12.1 Debian インストーラの種類
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customizing-installer.ja.html#646">
+    12.2 preseed による Debian インストーラの独自化
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="customizing-installer.ja.html#649">
+    12.3 Debian インストーラの収録内容の独自化
+  </a>
+  </h5>
+
+<h1 class="toc">
+    プロジェクト
+  </h1>
+
+<h1 class="toc">
+    プロジェクトへの貢献
+  </h1>
+
+<h4 class="toc">
+      <a href="contributing-to-project.ja.html" target="_top">
+    13. プロジェクトへの貢献
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="contributing-to-project.ja.html#660">
+    13.1 man ページの翻訳
+  </a>
+  </h5>
+
+<h1 class="toc">
+    バグの報告
+  </h1>
+
+<h4 class="toc">
+      <a href="bugs.ja.html" target="_top">
+    14. バグの報告
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#676">
+    14.1 既知の問題
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#681">
+    14.2 調査してください
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#685">
+    14.3 最初から再ビルド
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#687">
+    14.4 最新のパッケージを使う
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#689">
+    14.5 情報収集
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#706">
+    14.6 可能であれば失敗している状況を分離する
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#708">
+    14.7 正しいパッケージに対してバグを報告する
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="bugs.ja.html#711">
+  14.7.1 ビルド時のパッケージ収集中
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="bugs.ja.html#714">
+  14.7.2 ビルド時のパッケージインストール中
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="bugs.ja.html#718">
+  14.7.3 ブート時
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="bugs.ja.html#720">
+  14.7.4 実行時
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="bugs.ja.html#722">
+    14.8 バグの報告先
+  </a>
+  </h5>
+
+<h1 class="toc">
+    コーディングスタイル
+  </h1>
+
+<h4 class="toc">
+      <a href="coding-style.ja.html" target="_top">
+    15. コーディングスタイル
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="coding-style.ja.html#728">
+    15.1 互換性
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="coding-style.ja.html#733">
+    15.2 インデント
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="coding-style.ja.html#738">
+    15.3 改行
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="coding-style.ja.html#754">
+    15.4 変数
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="coding-style.ja.html#772">
+    15.5 その他
+  </a>
+  </h5>
+
+<h1 class="toc">
+    例
+  </h1>
+
+<h1 class="toc">
+    例
+  </h1>
+
+<h4 class="toc">
+      <a href="examples.ja.html" target="_top">
+    16. 例
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="examples.ja.html#781">
+    16.1 例の使用
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="examples.ja.html#785">
+    16.2 チュートリアル 1: デフォルトイメージ
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="examples.ja.html#794">
+    16.3 チュートリアル 2: ウェブブラウザユーティリティ
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="examples.ja.html#802">
+    16.4 チュートリアル 3: 私的イメージ
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="examples.ja.html#805">
+  16.4.1 最初の改訂
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="examples.ja.html#819">
+  16.4.2 2回目の改訂
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="examples.ja.html#831">
+    16.5 VNC 公衆クライアント
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="examples.ja.html#845">
+    16.6 A minimal image for a 256MB USB key
+  </a>
+  </h5>
+
+<h5 class="toc">
+      <a href="examples.ja.html#858">
+    16.7 地域化した GNOME デスクトップとインストーラ
+  </a>
+  </h5>
+
+<h1 class="toc">
+    付録
+  </h1>
+
+<h1 class="toc">
+    スタイルガイド
+  </h1>
+
+<h4 class="toc">
+      <a href="style-guide.ja.html" target="_top">
+    17. スタイルガイド
+  </a> 
+  </h4>
+
+<h5 class="toc">
+      <a href="style-guide.ja.html#873">
+    17.1 著者向けガイドライン
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="style-guide.ja.html#876">
+  17.1.1 言語特性
+</a>
+  </h6>
+
+<h6 class="toc">
+      <a href="style-guide.ja.html#909">
+  17.1.2 手順
+</a>
+  </h6>
+
+<h5 class="toc">
+      <a href="style-guide.ja.html#948">
+    17.2 翻訳者向けガイドライン
+  </a>
+  </h5>
+
+<h6 class="toc">
+      <a href="style-guide.ja.html#952">
+  17.2.1 翻訳の手がかり
+</a>
+  </h6>
+
+<h1 class="toc">
+    <b><a href="metadata.ja.html">Metadata</a></b>
+  </h1>
+
+<h4 class="toc">
+      <a href="metadata.ja.html" target="_top">
+    SiSU Metadata, document information
+  </a> 
+  </h4>
+
+<p class="small_left">Rights: Copyright: Copyright (C) 2006-2015 Live Systems Project, Copyright (C) 2016-2020 The Debian Live team <br> License: This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. <br>  <br> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. <br>  <br> You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/. <br>  <br> The complete text of the GNU General Public License can be found in /usr/share/common-licenses/GPL-3 file.</p>
+<p>
+
+</p>
+
+<div class="main_column">
+<p>&nbsp;</p>
+
+<a name="bottom" id="bottom"></a>
+<a name="end" id="end"></a>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+

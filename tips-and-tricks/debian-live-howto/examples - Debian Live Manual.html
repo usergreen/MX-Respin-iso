@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    examples -
+    Debian Live Manual
+  </title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <meta name="dc.title" content="Debian Live Manual" />
+  <meta name="dc.author" content="Debian Live Project &#60;debian-live@lists.debian.org&#62;" />
+  <meta name="dc.publisher" content="Debian Live Project &#60;debian-live@lists.debian.org&#62;" />
+  <meta name="dc.date" content="2015-09-22"  />
+  <meta name="dc.rights" content="Copyright: Copyright (C) 2006-2015 Live Systems Project, Copyright (C) 2016-2020 The Debian Live team \\ License: This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. \\  \\ This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. \\  \\ You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/. \\  \\ The complete text of the GNU General Public License can be found in /usr/share/common-licenses/GPL-3 file." />
+
+  <meta name="generator" content="SiSU 7.2.0 of 2019w35/2 (2019-09-03) (n*x and Ruby!)" />
+    <link rel="generator" href="http://www.sisudoc.org/" />
+  <link rel="shortcut icon" href="../_sisu/image/rb7.ico" />
+
+  <link href="../../_sisu/css/html.css" rel="stylesheet">
+</head>
+<body lang="ja">
+<a name="top" id="top"></a><table summary="segment navigation band with banner" bgcolor="#ffffff" width="100%"><tr>
+<td width="20%" align="left">
+ <table summary="home button / home information" border="0" cellpadding="3" cellspacing="0">
+ <tr><td align="left" bgcolor="#ffffff">
+  <p class="tiny_left"><a href="https://live-team.pages.debian.net/live-manual/" target="_top">
+    Live manual
+  </a></p>
+  <p class="tiny_left"><a href="https://wiki.debian.org/DebianLive" target="_top">
+    Debian Live
+  </a></p>
+ </td></tr>
+ </table>
+</td>
+<td width="75%" align="center">
+  
+<table summary="segment navigation available documents types: toc,doc,pdf,concordance" border="0" cellpadding="3" cellspacing="0">
+<tr>
+<td align="center" bgcolor="#ffffff">
+  
+  
+</tr></table>
+</td>
+<td width="5%" align="right">
+  <table summary="segment navigation pre/next" border="0" cellpadding="3" cellspacing="0">
+<tr>
+<td align="center" bgcolor="#ffffff">
+  <a href="coding-style.ja.html" target="_top">
+    <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_prev_red.png" alt="&lt;&lt;&nbsp;previous" />
+  </a>
+</td>
+<td align="center" bgcolor="#ffffff">
+  <a href="toc.ja.html" target="_top">
+    <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_up_red.png" alt="toc" />
+  </a>
+</td>
+<td align="center" bgcolor="#ffffff">
+  <a href="style-guide.ja.html" target="_top">
+    <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_next_red.png" alt="next&nbsp;&gt;&gt;" />
+  </a>
+</td>
+<td>
+</td></tr>
+</table>
+</td></tr>
+</table><div class="content0">
+<h1 class="tiny">
+    Debian Live Manual
+  </h1>
+</div><div class="content0">
+<h1 class="tiny">
+    例
+  </h1>
+</div><div class="content0"><div class="substance">
+  <label class="ocn"><a href="#779" class="lnkocn">779</a></label>
+  <h1 class="norm" id="779"><a name="779"></a>
+    16. 例
+  </h1>
+</div><div class="substance">
+  <label class="ocn"><a href="#780" class="lnkocn">780</a></label>
+  <p class="i0" id="780">
+    この章では特定の Live システム活用事例向けの見本ビルドについて触れます。自分用の Live システムイメージのビルドが初めてであれば、まず3つのチュートリアルを順に調べてみることを勧めます。それぞれで他の例の利用、理解を支援する新しい技術を学ぶようになっているためです。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#781" class="lnkocn">781</a></label>
+  <p class="bold" id="781"><a name="781"></a> <a id="husing-the-examples"></a>
+    <a name="h16.1" ></a><a name="using-the-examples" ></a>16.1 例の使用
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#782" class="lnkocn">782</a></label>
+  <p class="i0" id="782">
+    提示している例を利用するためには、ビルドするために <a href="installation.ja.html#requirements">要件</a>  に記載されている要件一覧に合致するシステムと、 <a href="installation.ja.html#installing-live-build"><i>live-build</i> のインストール</a>  で説明しているように <i>live-build</i> がインストールされていることが必要となります。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#783" class="lnkocn">783</a></label>
+  <p class="i0" id="783">
+    簡潔にするため、ここに挙げる例ではビルドで利用するローカルミラーを指定していないことに注意してください。ローカルミラーを利用するとダウンロード速度をかなり高速化できます。 <a href="customizing-package-installation.ja.html#distribution-mirrors-build-time">ビルド時に利用するディストリビューションのミラー</a>  で説明しているように、<tt>lb config</tt> を使った場合はオプションを指定することができます。ビルドシステムのデフォルト値を <tt>/etc/live/build.conf</tt> でセットするともっと便利になります。このファイルを単純に作成し、対応する <tt>LB_MIRROR_*</tt> 変数に望ましいミラーをセットしてください。ビルドで利用する他のミラーは全て、これにより設定した値をデフォルト値として使います。例えば:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#784" class="lnkocn">784</a></label>
+  <p class="code" id="784">
+    LB_MIRROR_BOOTSTRAP="http://mirror/debian/" <br>
+LB_MIRROR_CHROOT_SECURITY="http://mirror/debian-security/" <br>
+LB_MIRROR_CHROOT_BACKPORTS="http://mirror/debian-backports/"<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#785" class="lnkocn">785</a></label>
+  <p class="bold" id="785"><a name="785"></a> <a id="htutorial-1"></a>
+    <a name="h16.2" ></a><a name="tutorial-1" ></a>16.2 チュートリアル 1: デフォルトイメージ
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#786" class="lnkocn">786</a></label>
+  <p class="i0" id="786">
+    <b>事例:</b> 簡単な最初のイメージを作成して <i>live-build</i> の基礎を学びます。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#787" class="lnkocn">787</a></label>
+  <p class="i0" id="787">
+    このチュートリアルでは、<i>live-build</i> を利用した最初の演習としてbase パッケージ (Xorg は含まない) と Live システムを支援するパッケージだけを収録する、デフォルトの ISO hybrid 形式の Live システムイメージをビルドします。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#788" class="lnkocn">788</a></label>
+  <p class="i0" id="788">
+    これ以上簡単にすることはなかなかできないでしょう:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#789" class="lnkocn">789</a></label>
+  <p class="code" id="789">
+    $ mkdir tutorial1 ; cd tutorial1 ; lb config<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#790" class="lnkocn">790</a></label>
+  <p class="i0" id="790">
+    何か望むことがあれば <tt>config/</tt> ディレクトリの内容を調べてください。ここには概略の設定があり、すぐ独自化もできますが、ここではそのままでデフォルトのイメージをビルドします。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#791" class="lnkocn">791</a></label>
+  <p class="i0" id="791">
+    スーパーユーザでイメージをビルドし、そのログを <tt>tee</tt> により保存します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#792" class="lnkocn">792</a></label>
+  <p class="code" id="792">
+    # lb build 2&gt;&amp;1 | tee build.log<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#793" class="lnkocn">793</a></label>
+  <p class="i0" id="793">
+    すべてがうまくいくとして、しばらくすると現在のディレクトリに <tt>live-image-i386.hybrid.iso</tt> が出来上がります。この ISO hybrid イメージは  <a href="the-basics.ja.html#testing-iso-with-qemu">Qemu でのISOイメージのテスト</a>  や  <a href="the-basics.ja.html#testing-iso-with-virtualbox">VirtualBox でのISOイメージのテスト</a>  で説明しているように仮想マシンで直接、あるいは <a href="the-basics.ja.html#burning-iso-image">物理メディアへのISOイメージ書き込み</a>  や  <a href="the-basics.ja.html#copying-iso-hybrid-to-usb">USBメモリへの ISO hybrid イメージのコピー</a>  で説明しているように光学メディアやUSBフラッシュ機器に書き込んだイメージ、それぞれからブートできます。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#794" class="lnkocn">794</a></label>
+  <p class="bold" id="794"><a name="794"></a> <a id="htutorial-2"></a>
+    <a name="h16.3" ></a><a name="tutorial-2" ></a>16.3 チュートリアル 2: ウェブブラウザユーティリティ
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#795" class="lnkocn">795</a></label>
+  <p class="i0" id="795">
+    <b>事例:</b> ウェブブラウザユーティリティイメージを作成し、独自化の適用方法を学びます。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#796" class="lnkocn">796</a></label>
+  <p class="i0" id="796">
+    このチュートリアルでは Live システムイメージを独自化する方法の紹介として、ウェブブラウザユーティリティとしての利用に適するイメージを作成します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#797" class="lnkocn">797</a></label>
+  <p class="code" id="797">
+    $ mkdir tutorial2<br>
+$ cd tutorial2<br>
+$ lb config<br>
+$ echo "task-lxde-desktop iceweasel" &gt;&gt; config/package-lists/my.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#798" class="lnkocn">798</a></label>
+  <p class="i0" id="798">
+    この例で LXDE を選択しているのは最小限のデスクトップ環境を提供するという私達の目的を反映しています。念頭に置いているこのイメージの目的はただ一つ、ウェブブラウザだけだからです。もっと細かく、<tt>config/includes.chroot/etc/iceweasel/profile/</tt> でのウェブブラウザ向けデフォルト設定やウェブ上の様々な種類の内容を表示するための追加のサポートパッケージを提供することはできますが、それは読み手の演習として残しておきます。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#799" class="lnkocn">799</a></label>
+  <p class="i0" id="799">
+    <a href="examples.ja.html#tutorial-1">チュートリアル 1</a>  と同様、ここでもスーパーユーザでイメージをビルドし、ログを残します:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#800" class="lnkocn">800</a></label>
+  <p class="code" id="800">
+    # lb build 2&gt;&amp;1 | tee build.log<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#801" class="lnkocn">801</a></label>
+  <p class="i0" id="801">
+    ここでも <a href="examples.ja.html#tutorial-1">チュートリアル 1</a>  と同様、イメージがうまくできているか検証し、テストします。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#802" class="lnkocn">802</a></label>
+  <p class="bold" id="802"><a name="802"></a> <a id="htutorial-3"></a>
+    <a name="h16.4" ></a><a name="tutorial-3" ></a>16.4 チュートリアル 3: 私的イメージ
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#803" class="lnkocn">803</a></label>
+  <p class="i0" id="803">
+    <b>事例:</b> プロジェクトを作成して個人用イメージをビルドします。USBメモリを使って好みのソフトウェアを自由に収録し、要求や設定を変更しながらこのイメージを続けて改訂します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#804" class="lnkocn">804</a></label>
+  <p class="i0" id="804">
+    この個人用イメージを何度も改訂し、変更を追跡しておいて実験的に試してみてうまくいかなかったときには差し戻せるようにしたいため、人気のある#{git}#バージョン管理システムに設定を残します。 <a href="managing-a-configuration.ja.html#managing-a-configuration">設定管理</a>  で説明している <tt>auto</tt> スクリプトによる自動設定を経由した最善の実践も利用します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#805" class="lnkocn">805</a></label>
+  <p class="bold" id="805"><a name="805"></a> <a id="hc16.4.1"></a>
+    <a name="c16.4.1" ></a><a name="h16.4.1" ></a>16.4.1 最初の改訂
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#806" class="lnkocn">806</a></label>
+  <p class="code" id="806">
+    $ mkdir -p tutorial3/auto<br>
+$ cp /usr/share/doc/live-build/examples/auto/* tutorial3/auto/<br>
+$ cd tutorial3<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#807" class="lnkocn">807</a></label>
+  <p class="i0" id="807">
+    <tt>auto/config</tt> を以下のように変更します:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#808" class="lnkocn">808</a></label>
+  <p class="code" id="808">
+    #!/bin/sh<br><br>
+lb config noauto \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--architectures i386 \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--linux-flavours 686-pae \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"${@}"<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#809" class="lnkocn">809</a></label>
+  <p class="i0" id="809">
+    <tt>lb config</tt> を実行して設定ツリーを生成し、生成された <tt>auto/config</tt> スクリプトを使います:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#810" class="lnkocn">810</a></label>
+  <p class="code" id="810">
+    $ lb config<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#811" class="lnkocn">811</a></label>
+  <p class="i0" id="811">
+    ここでローカルパッケージ一覧を設定します:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#812" class="lnkocn">812</a></label>
+  <p class="code" id="812">
+    $ echo "task-lxde-desktop iceweasel xchat" &gt;&gt; config/package-lists/my.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#813" class="lnkocn">813</a></label>
+  <p class="i0" id="813">
+    まず、<tt>--architectures i386</tt> により必ず <tt>amd64</tt> ビルドシステムでほとんどのマシンでの利用に適応する32ビット版をビルドするようにします。次に、相当に古いシステムでのこのイメージの利用を想定しないため <tt>--linux-flavours 686-pae</tt> を使います。<i>lxde</i> のタスクメタパッケージを選択して最小限のデスクトップを揃えます。最後に、好みのパッケージの初期値として <i>iceweasel</i> と <i>xchat</i> を追加しています。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#814" class="lnkocn">814</a></label>
+  <p class="i0" id="814">
+    そして、イメージをビルドします:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#815" class="lnkocn">815</a></label>
+  <p class="code" id="815">
+    # lb build<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#816" class="lnkocn">816</a></label>
+  <p class="i0" id="816">
+    最初の2つのチュートリアルとは異なり、<tt>2&gt;&amp;1 | tee build.log</tt> は <tt>auto/build</tt> に書かれているため打ち込む必要がなくなっていることに注意してください。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#817" class="lnkocn">817</a></label>
+  <p class="i0" id="817">
+    ( <a href="examples.ja.html#tutorial-1">チュートリアル 1</a>  にあるように) イメージをテストしてうまく機能する確信を得たら#{git}#リポジトリを初期化し、作成したばかりの auto スクリプトだけを追加し、最初のコミットを行います:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#818" class="lnkocn">818</a></label>
+  <p class="code" id="818">
+    $ git init<br>
+$ cp /usr/share/doc/live-build/examples/gitignore .gitignore<br>
+$ git add .<br>
+$ git commit -m "Initial import."<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#819" class="lnkocn">819</a></label>
+  <p class="bold" id="819"><a name="819"></a> <a id="hc16.4.2"></a>
+    <a name="c16.4.2" ></a><a name="h16.4.2" ></a>16.4.2 2回目の改訂
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#820" class="lnkocn">820</a></label>
+  <p class="i0" id="820">
+    この改訂では、最初のビルドをきれいにし、<i>vlc</i> パッケージを設定に追加して再ビルド、テストコミットを行います。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#821" class="lnkocn">821</a></label>
+  <p class="i0" id="821">
+    <tt>lb clean</tt> コマンドは前のビルドで生成したファイルを、パッケージを再びダウンロードせずに済むようにキャッシュを除いて全てきれいにします。これにより以降の <tt>lb build</tt> が全段階で再び実行され、必ず新しい設定でファイルを再生成するようになります。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#822" class="lnkocn">822</a></label>
+  <p class="code" id="822">
+    # lb clean<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#823" class="lnkocn">823</a></label>
+  <p class="i0" id="823">
+    <i>vlc</i> パッケージを <tt>config/package-lists/my.list.chroot</tt> のローカルパッケージ一覧に追記します:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#824" class="lnkocn">824</a></label>
+  <p class="code" id="824">
+    $ echo vlc &gt;&gt; config/package-lists/my.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#825" class="lnkocn">825</a></label>
+  <p class="i0" id="825">
+    再びビルドします:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#826" class="lnkocn">826</a></label>
+  <p class="code" id="826">
+    # lb build<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#827" class="lnkocn">827</a></label>
+  <p class="i0" id="827">
+    テストして満足したら次の改訂としてコミットします:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#828" class="lnkocn">828</a></label>
+  <p class="code" id="828">
+    $ git commit -a -m "Adding vlc media player."<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#829" class="lnkocn">829</a></label>
+  <p class="i0" id="829">
+    もちろん、<tt>config/</tt> 以下のサブディレクトリにファイルを追加する等により設定をもっと複雑に変更することも可能です。新しい改訂版をコミットする際、<tt>config</tt> の最上位にある、<tt>LB_*</tt> 変数を設定しているファイルもビルドされてできたもので、<tt>lb clean</tt> と、対応する <tt>auto</tt> スクリプトを経由して再作成した <tt>lb config</tt> により常に整理されるものなので、手で編集したりコミットすることのないように注意してください。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#830" class="lnkocn">830</a></label>
+  <p class="i0" id="830">
+    一連のチュートリアルもこれで終わりです。もっと多様な独自化はできますが、ここまでの簡単な例で見てきた少しの機能を使うだけでも、イメージはほぼ無限の異なる組み合わせを作成することができます。この節の残りの例では、収集してきた Live システムのユーザの経験を元にした他の事例についていくつか触れます。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#831" class="lnkocn">831</a></label>
+  <p class="bold" id="831"><a name="831"></a> <a id="hc16.5"></a>
+    <a name="c16.5" ></a><a name="h16.5" ></a>16.5 VNC 公衆クライアント
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#832" class="lnkocn">832</a></label>
+  <p class="i0" id="832">
+    <b>事例:</b> <i>live-build</i> を使って、ブートすると直接 VNC サーバに接続するイメージを作成します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#833" class="lnkocn">833</a></label>
+  <p class="i0" id="833">
+    ビルド用ディレクトリを作ってそこに概略設定を作成し、推奨パッケージを無効にして最小限のシステムを作成します。それから初期パッケージ一覧を2つ作成します: 1つ目は <i>live-build</i> により提供される <tt>Packages</tt> というスクリプト ( <a href="customizing-package-installation.ja.html#generated-package-lists">生成されるパッケージ一覧</a>  参照) により生成し、2つ目では <i>xorg</i>、<i>gdm3</i>、<i>metacity</i>、<i>xvnc4viewer</i> を収録します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#834" class="lnkocn">834</a></label>
+  <p class="code" id="834">
+    $ mkdir vnc-kiosk-client<br>
+$ cd vnc-kiosk-client<br>
+$ lb config -a i386 -k 686-pae --apt-recommends false<br>
+$ echo '! Packages Priority standard' &gt; config/package-lists/standard.list.chroot<br>
+$ echo "xorg gdm3 metacity xvnc4viewer" &gt; config/package-lists/my.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#835" class="lnkocn">835</a></label>
+  <p class="i0" id="835">
+    <a href="customizing-package-installation.ja.html#tweaking-apt-to-save-space">APT の調整による容量の節約</a>  で説明しているように、イメージが適切に機能するためには推奨パッケージを再びいくらか追加する必要があるかもしれません。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#836" class="lnkocn">836</a></label>
+  <p class="i0" id="836">
+    推奨パッケージ一覧を調べるための簡単な方法として <i>apt-cache</i> の利用があります。例えば:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#837" class="lnkocn">837</a></label>
+  <p class="code" id="837">
+    $ apt-cache depends live-config live-boot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#838" class="lnkocn">838</a></label>
+  <p class="i0" id="838">
+    この例では <i>live-config</i> 及び <i>live-boot</i> により推奨されるパッケージを複数、再び収録する必要があることがわかっています: 自動ログインが機能するためには <tt>user-setup</tt>、システムをシャットダウンするための不可欠なプログラムとして <tt>sudo</tt>。他に、イメージをRAMにコピーできるようになる <tt>live-tools</tt> や Live メディアを最終的に取り出す <tt>eject</tt> を追加しておくと便利でしょう。それを反映すると:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#839" class="lnkocn">839</a></label>
+  <p class="code" id="839">
+    $ echo "live-tools user-setup sudo eject" &gt; config/package-lists/recommends.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#840" class="lnkocn">840</a></label>
+  <p class="i0" id="840">
+    その後ディレクトリ <tt>/etc/skel</tt> を <tt>config/includes.chroot</tt> に作成し、その中にデフォルトユーザ向けの独自の <tt>.xsession</tt> を置きます。このファイルは <i>metacity</i> を立ち上げて <i>xvncviewer</i> を起動し、<tt>192.168.1.2</tt> にあるサーバのポート <tt>5901</tt> に接続します:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#841" class="lnkocn">841</a></label>
+  <p class="code" id="841">
+    $ mkdir -p config/includes.chroot/etc/skel<br>
+$ cat &gt; config/includes.chroot/etc/skel/.xsession &lt;&lt; EOF<br>
+#!/bin/sh<br><br>
+/usr/bin/metacity &amp;<br>
+/usr/bin/xvncviewer 192.168.1.2:1<br><br>
+exit<br>
+EOF<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#842" class="lnkocn">842</a></label>
+  <p class="i0" id="842">
+    イメージをビルドします:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#843" class="lnkocn">843</a></label>
+  <p class="code" id="843">
+    # lb build<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#844" class="lnkocn">844</a></label>
+  <p class="i0" id="844">
+    楽しみましょう。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#845" class="lnkocn">845</a></label>
+  <p class="bold" id="845"><a name="845"></a> <a id="hc16.6"></a>
+    <a name="c16.6" ></a><a name="h16.6" ></a>16.6 A minimal image for a 256MB USB key
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#846" class="lnkocn">846</a></label>
+  <p class="i0" id="846">
+    <b>Use case:</b> Create a default image with some components removed in order to fit on a 256MB USB key with a little space left over to use as you see fit.
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#847" class="lnkocn">847</a></label>
+  <p class="i0" id="847">
+    When optimizing an image to fit a certain media size, you need to understand the tradeoffs you are making between size and functionality. In this example, we trim only so much as to make room for additional material within a 256MB media size, but without doing anything to destroy the integrity of the packages contained within, such as the purging of locale data via the <i>localepurge</i> package, or other such "intrusive" optimizations. Of particular note, we use <tt>--debootstrap-options</tt> to create a minimal system from scratch and <tt>--binary image hdd</tt> to create an image that can be copied to a USB key.
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#848" class="lnkocn">848</a></label>
+  <p class="code" id="848">
+    $ lb config --binary-image hdd --apt-indices false --apt-recommends false --debootstrap-options "--variant=minbase" --firmware-chroot false --memtest none<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#849" class="lnkocn">849</a></label>
+  <p class="i0" id="849">
+    イメージを適切に機能させるためには、最低でも <tt>--apt-recommends false</tt> オプションにより外されていた推奨パッケージを2つ追加しなおす必要があります。 <a href="customizing-package-installation.ja.html#tweaking-apt-to-save-space">APTの調整による容量の節約</a>  を見てください。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#850" class="lnkocn">850</a></label>
+  <p class="code" id="850">
+    $ echo "user-setup sudo" &gt; config/package-lists/recommends.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#851" class="lnkocn">851</a></label>
+  <p class="i0" id="851">
+    Additionally, you'll want to have network access, so another two recommended packages need to be re-added:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#852" class="lnkocn">852</a></label>
+  <p class="code" id="852">
+    $ echo "ifupdown isc-dhcp-client" &gt;&gt; config/package-lists/recommends.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#853" class="lnkocn">853</a></label>
+  <p class="i0" id="853">
+    ここで、普通の方法でイメージをビルドしてみます:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#854" class="lnkocn">854</a></label>
+  <p class="code" id="854">
+    # lb build 2&gt;&amp;1 | tee build.log<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#855" class="lnkocn">855</a></label>
+  <p class="i0" id="855">
+    On the author's system at the time of writing this, the above configuration produced a 227MB image. This compares favourably with the 288MB image produced by the default configuration in  <a href="examples.ja.html#tutorial-1">Tutorial 1</a>,  when <tt>--binary-image hdd</tt> is added.
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#856" class="lnkocn">856</a></label>
+  <p class="i0" id="856">
+    <tt>--apt-indices false</tt> によりAPTの索引を省くことでかなりの容量を節約していますが、その代わりに Live システムで <i>apt</i> を使う前に <tt>apt-get update</tt> を実行する必要があります。<tt>--apt-recommends false</tt> により推奨パッケージを除外することで、本来あるはずのパッケージをいくらか除外する代わりにいくらか追加で容量を節約します。<tt>--debootstrap-options "--variant=minbase"</tt> で最初から最小限のシステムを構成します。<tt>--firmware-chroot false</tt> でファームウェアパッケージを自動的に収録しないようにすることでもさらに容量をいくらか節約します。そして最後に、<tt>--memtest none</tt> によりメモリテスターのインストールを抑制します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#857" class="lnkocn">857</a></label>
+  <p class="i0" id="857">
+    <b>Note:</b> A minimal system can also be achieved using hooks, like for example the <tt>stripped.hook.chroot</tt> hook found in <tt>/usr/share/doc/live-build/examples/hooks</tt>. It may shave off additional small amounts of space and produce an image of 204MB. However, it does so by removal of documentation and other files from packages installed on the system. This violates the integrity of those packages and that, as the comment header warns, may have unforeseen consequences. That is why using a minimal <i>debootstrap</i> is the recommended way of achieving this goal.
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#858" class="lnkocn">858</a></label>
+  <p class="bold" id="858"><a name="858"></a> <a id="hc16.7"></a>
+    <a name="c16.7" ></a><a name="h16.7" ></a>16.7 地域化した GNOME デスクトップとインストーラ
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#859" class="lnkocn">859</a></label>
+  <p class="i0" id="859">
+    <b>事例:</b> GNOME デスクトップのイメージを作成し、スイス用の地域化とインストーラを収録する
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#860" class="lnkocn">860</a></label>
+  <p class="i0" id="860">
+    好みのデスクトップを使った i386 アーキテクチャ向けの iso-hybrid イメージを作りたい。ここでは GNOME を使用して、GNOME 用の標準の Debian インストーラによりインストールされるのと同一のパッケージを全て収録します。
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#861" class="lnkocn">861</a></label>
+  <p class="i0" id="861">
+    最初の問題は適切な言語用タスクの名前を判断する方法です。現在 <i>live-build</i> はこれを支援できません。運良くこれを試行錯誤で見つけられるかもしれませんが、そのためのツールがあります。<tt>grep-dctrl</tt> を利用して tasksel-data にあるタスクの説明を見つけることができます。そのため、準備としてこの両方が揃っていることを確認してください:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#862" class="lnkocn">862</a></label>
+  <p class="code" id="862">
+    # apt-get install dctrl-tools tasksel-data<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#863" class="lnkocn">863</a></label>
+  <p class="i0" id="863">
+    これで適切なタスクを検索できるようになりました。まず、
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#864" class="lnkocn">864</a></label>
+  <p class="code" id="864">
+    $ grep-dctrl -FTest-lang de /usr/share/tasksel/descs/debian-tasks.desc -sTask<br>
+Task: german<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#865" class="lnkocn">865</a></label>
+  <p class="i0" id="865">
+    というコマンドにより、呼ばれたタスクが、簡単に言うとここではドイツだということがわかります。次は関連タスクを見つけます:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#866" class="lnkocn">866</a></label>
+  <p class="code" id="866">
+    $ grep-dctrl -FEnhances german /usr/share/tasksel/descs/debian-tasks.desc -sTask<br>
+Task: german-desktop<br>
+Task: german-kde-desktop<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#867" class="lnkocn">867</a></label>
+  <p class="i0" id="867">
+    ブート時に <b>de_CH.UTF-8</b> ロケールを生成して <b>ch</b> のキーボードレイアウトを選択します。一緒に見ていきましょう。 <a href="customizing-package-installation.ja.html#using-metapackages">メタパッケージの利用</a>  から、タスクのメタパッケージには先頭に <tt>task-</tt> が付くことを思いだしてください。こういった言語のブートパラメータを指定し、それから優先度が標準のパッケージと発見したタスクの全メタパッケージをパッケージ一覧に追加するだけです:
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#868" class="lnkocn">868</a></label>
+  <p class="code" id="868">
+    $ mkdir live-gnome-ch<br>
+$ cd live-gnome-ch<br>
+$ lb config \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-a i386 \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--bootappend-live "boot=live components locales=de_CH.UTF-8 keyboard-layouts=ch" \<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--debian-installer live<br>
+$ echo '! Packages Priority standard' &gt; config/package-lists/standard.list.chroot<br>
+$ echo task-gnome-desktop task-german task-german-desktop &gt;&gt; config/package-lists/desktop.list.chroot<br>
+$ echo debian-installer-launcher &gt;&gt; config/package-lists/installer.list.chroot<br>
+  </p>
+</div><div class="substance">
+  <label class="ocn"><a href="#869" class="lnkocn">869</a></label>
+  <p class="i0" id="869">
+    のようになります。インストーラを Live デスクトップから立ち上げるために <i>debian-installer-launcher</i> パッケージを収録していることに注意してください。さらに、インストーラを立ち上げる機能が適切に動作するために現在必要な <tt>586</tt> 用のカーネルがデフォルトで収録されます。
+  </p>
+</div></div><br><div class="main_column">
+  <table summary="segment navigation band" bgcolor="#ffffff" width="100%"><tr>
+  <td width="70%" align="center">
+    
+<table summary="segment navigation available documents types: toc,doc,pdf,concordance" border="0" cellpadding="3" cellspacing="0">
+<tr>
+<td align="center" bgcolor="#ffffff">
+  
+  
+</tr></table>
+  </td>
+  <td width="5%" align="right">
+    <table summary="segment navigation pre/next" border="0" cellpadding="3" cellspacing="0">
+<tr>
+<td align="center" bgcolor="#ffffff">
+  <a href="coding-style.ja.html" target="_top">
+    <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_prev_red.png" alt="&lt;&lt;&nbsp;previous" />
+  </a>
+</td>
+<td align="center" bgcolor="#ffffff">
+  <a href="toc.ja.html" target="_top">
+    <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_up_red.png" alt="toc" />
+  </a>
+</td>
+<td align="center" bgcolor="#ffffff">
+  <a href="style-guide.ja.html" target="_top">
+    <img border="0" width="22" height="22" src="../../_sisu/image_sys/arrow_next_red.png" alt="next&nbsp;&gt;&gt;" />
+  </a>
+</td>
+<td>
+</td></tr>
+</table>
+  </td></tr>
+  </table>
+  
+</div><div class="main_column">
+
+<a name="bottom" id="bottom"></a>
+<a name="end" id="end"></a>
+</div></div></body>
+</html>

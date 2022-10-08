@@ -1,0 +1,13 @@
+official debian live manual URL:
+
+https://debian-live-config.readthedocs.io/en/latest/custom.html
+
+https://live-team.pages.debian.net/live-manual/html/live-manual/index.en.html
+
+https://live-team.pages.debian.net/live-manual/html/live-manual/index.ja.html
+
+Package: live-manual (2:20151217.1) 
+https://packages.debian.org/bullseye/live-manual
+
+root@mx:/home/user# apt install live-manual-pdf
+
