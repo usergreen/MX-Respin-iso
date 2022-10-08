@@ -1,0 +1,114 @@
+これはユーザーが意図していない状況なので、バグに当たると思われます。
+
+libreoffice-l10n-*
+
+apt remove libreoffice-l10n-*
+apt install libreoffice-l10n-ja
+
+root@user-fmva52dawj:/home/user# apt remove libreoffice-l10n-*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了 
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  culmus fonts-beng fonts-beng-extra fonts-deva fonts-deva-extra fonts-gargi
+  fonts-gujr fonts-gujr-extra fonts-guru fonts-guru-extra fonts-hosny-amiri
+  fonts-hosny-thabit fonts-kalapi fonts-lohit-taml-classical fonts-mlym
+  fonts-nakula fonts-sahadeva fonts-samyak-deva fonts-samyak-gujr
+  fonts-samyak-mlym fonts-samyak-taml fonts-sarai fonts-sil-scheherazade
+  fonts-smc fonts-smc-anjalioldlipi fonts-smc-chilanka fonts-smc-dyuthi
+  fonts-smc-gayathri fonts-smc-karumbi fonts-smc-keraleeyam fonts-smc-manjari
+  fonts-smc-meera fonts-smc-rachana fonts-smc-raghumalayalamsans
+  fonts-smc-suruma fonts-smc-uroob fonts-taml fonts-telu fonts-telu-extra
+  fonts-teluguvijayam fonts-yrsa-rasa libreoffice-help-common
+  node-normalize.css
+これを削除するには 'apt autoremove' を利用してください。
+以下のパッケージは「削除」されます:
+  libreoffice-help-ja libreoffice-l10n-ar libreoffice-l10n-ast
+  libreoffice-l10n-be libreoffice-l10n-bg libreoffice-l10n-bn
+  libreoffice-l10n-bs libreoffice-l10n-ca libreoffice-l10n-cs
+  libreoffice-l10n-cy libreoffice-l10n-da libreoffice-l10n-de
+  libreoffice-l10n-dz libreoffice-l10n-el libreoffice-l10n-en-gb
+  libreoffice-l10n-en-za libreoffice-l10n-eo libreoffice-l10n-es
+  libreoffice-l10n-et libreoffice-l10n-eu libreoffice-l10n-fa
+  libreoffice-l10n-fi libreoffice-l10n-fr libreoffice-l10n-ga
+  libreoffice-l10n-gl libreoffice-l10n-gu libreoffice-l10n-he
+  libreoffice-l10n-hi libreoffice-l10n-hr libreoffice-l10n-hu
+  libreoffice-l10n-id libreoffice-l10n-is libreoffice-l10n-it
+  libreoffice-l10n-ja libreoffice-l10n-ka libreoffice-l10n-km
+  libreoffice-l10n-ko libreoffice-l10n-lt libreoffice-l10n-lv
+  libreoffice-l10n-mk libreoffice-l10n-ml libreoffice-l10n-mr
+  libreoffice-l10n-nb libreoffice-l10n-ne libreoffice-l10n-nl
+  libreoffice-l10n-nn libreoffice-l10n-pa-in libreoffice-l10n-pl
+  libreoffice-l10n-pt libreoffice-l10n-pt-br libreoffice-l10n-ro
+  libreoffice-l10n-ru libreoffice-l10n-si libreoffice-l10n-sk
+  libreoffice-l10n-sl libreoffice-l10n-sr libreoffice-l10n-sv
+  libreoffice-l10n-ta libreoffice-l10n-te libreoffice-l10n-th
+  libreoffice-l10n-tr libreoffice-l10n-ug libreoffice-l10n-uk
+  libreoffice-l10n-vi libreoffice-l10n-xh libreoffice-l10n-zh-cn
+  libreoffice-l10n-zh-tw
+アップグレード: 0 個、新規インストール: 0 個、削除: 67 個、保留: 0 個。
+この操作後に 245 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+
+
+root@user-fmva52dawj:/home/user# apt remove mozc-*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+注意、glob 'mozc-*' のために 'mozc-server' を選択します
+注意、glob 'mozc-*' のために 'mozc-utils-gui' を選択します
+注意、glob 'mozc-*' のために 'mozc-data' を選択します
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  libabsl20200923 libprotobuf23 tegaki-zinnia-japanese
+これを削除するには 'apt autoremove' を利用してください。
+以下のパッケージは「削除」されます:
+  mozc-data mozc-server mozc-utils-gui uim-mozc
+アップグレード: 0 個、新規インストール: 0 個、削除: 4 個、保留: 0 個。
+この操作後に 23.4 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+
+
+root@user-fmva52dawj:/home/user# apt install uim-anthy
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージが新たにインストールされます:
+  uim-anthy
+アップグレード: 0 個、新規インストール: 1 個、削除: 0 個、保留: 0 個。
+1,920 B のアーカイブを取得する必要があります。
+この操作後に追加で 9,216 B のディスク容量が消費されます。
+
+
+root@user-fmva52dawj:/home/user# apt remove fcitx*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  libboost-regex1.74.0 libchewing3 libchewing3-data libfcitx-config4
+  libfcitx-core0 libfcitx-gclient1 libfcitx-qt5-1 libfcitx-qt5-data
+  libfcitx-utils0 libfcitx5-qt-data libfcitx5-qt1 libfcitx5config6
+  libfcitx5core7 libfcitx5gclient1 libfcitx5utils2 libgettextpo0 libime-bin
+  libime-data libime-data-language-model libimecore0 libimepinyin0
+  libimetable0 libkf5itemviews-data libkf5itemviews5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 liblua5.2-0 libminizip1 libpresage-data libpresage1v5
+  libqt5quickwidgets5 libqt5webengine-data libqt5webenginecore5
+  libqt5webenginewidgets5 libre2-9 libtinyxml2.6.2v5 libxcb-ewmh2
+  libxcb-imdkit1 presage unicode-cldr-core
+これを削除するには 'apt autoremove' を利用してください。
+以下のパッケージは「削除」されます:
+  fcitx fcitx-bin fcitx-config-common fcitx-config-gtk fcitx-data
+  fcitx-frontend-all fcitx-frontend-gtk2 fcitx-frontend-gtk3
+  fcitx-frontend-qt5 fcitx-m17n fcitx-module-dbus fcitx-module-kimpanel
+  fcitx-module-lua fcitx-module-x11 fcitx-modules fcitx-pinyin fcitx-table
+  fcitx-table-amharic fcitx-table-malayalam-phonetic fcitx-ui-classic fcitx5
+  fcitx5-chewing fcitx5-chinese-addons fcitx5-chinese-addons-bin
+  fcitx5-chinese-addons-data fcitx5-config-qt fcitx5-data fcitx5-frontend-gtk3
+  fcitx5-frontend-qt5 fcitx5-module-chttrans fcitx5-module-cloudpinyin
+  fcitx5-module-emoji fcitx5-module-fullwidth fcitx5-module-pinyinhelper
+  fcitx5-module-punctuation fcitx5-module-quickphrase
+  fcitx5-module-quickphrase-editor fcitx5-module-wayland fcitx5-module-xorg
+  fcitx5-modules fcitx5-pinyin fcitx5-table
+アップグレード: 0 個、新規インストール: 0 個、削除: 42 個、保留: 0 個。
+この操作後に 32.3 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+
