@@ -1,0 +1,288 @@
+root@debian:/home/user# apt purge fcitx*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+注意、glob 'fcitx*' のために 'fcitx5-module-lua-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-quick-classic' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-arabic' を選択します
+注意、glob 'fcitx*' のために 'fcitx-ui-kimpanel' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cangjie-big' を選択します
+注意、glob 'fcitx*' のために 'fcitx-libpinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-chinese-addons' を選択します
+注意、glob 'fcitx*' のために 'fcitx-config-gtk' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cns11643' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-ibus' を選択します
+注意、glob 'fcitx*' のために 'fcitx-libs' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-compose' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-chewing' を選択します
+注意、glob 'fcitx*' のために 'fcitx-qimpanel-configtool' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-easy-big' を選択します
+注意、glob 'fcitx*' のために 'fcitx-frontend-fbterm' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-cloudpinyin-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-dbus' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-erbi' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-kimpanel' を選択します
+注意、glob 'fcitx*' のために 'fcitx-rime' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-all' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-cloudpinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-sunpinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cantonhk' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-quickphrase-editor' を選択します
+注意、glob 'fcitx*' のために 'fcitx' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-viqr' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-punc-ng' を選択します
+注意、glob 'fcitx*' のために 'fcitx-sayura' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-dbus' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-wanfeng' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-translit' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-kimpanel' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-quick3' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-quick5' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-fullwidthchar-enhance' を選択します
+注意、glob 'fcitx*' のために 'fcitx-mozc' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-wayland' を選択します
+注意、glob 'fcitx*' のために 'fcitx-modules' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-array30' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-config-qt' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-quickphrase' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-emoji' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-modules-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx-pinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-googlepinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-keyboard' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-fcitx4' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-wbpy' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-punctuation' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-jyutping' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-pinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-latex' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-emoji' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-translit-ua' を選択します
+注意、glob 'fcitx*' のために 'fcitx-qw' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-zhengma-large' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-stroke5' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-rime' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-wubi-large' を選択します
+注意、glob 'fcitx*' のために 'fcitx-bin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-lua' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-frontend-qt5' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-wubi' を選択します
+注意、glob 'fcitx*' のために 'fcitx-libs-qt5-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx-kkc' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-modules' を選択します
+注意、glob 'fcitx*' のために 'fcitx-kkc-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx5' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-lua-common' を選択します
+注意、glob 'fcitx*' のために 'fcitx-ui-light' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-pinyinhelper-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-quickphrase-editor' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-x11' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-punctuation-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx-modules-x11' を選択します
+注意、glob 'fcitx*' のために 'fcitx-skk' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-bingchan' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-mozc' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cangjie' を選択します
+注意、glob 'fcitx*' のために 'fcitx-frontend-gtk2' を選択します
+注意、glob 'fcitx*' のために 'fcitx-frontend-gtk3' を選択します
+注意、glob 'fcitx*' のために 'fcitx-config-common' を選択します
+注意、glob 'fcitx*' のために 'fcitx-tools' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-boshiamy' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-malayalam-phonetic' を選択します
+注意、glob 'fcitx*' のために 'fcitx-data' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-t9' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-wu' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-tamil-remington' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-frontend-gtk2' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-frontend-gtk3' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-pinyinhelper' を選択します
+注意、glob 'fcitx*' のために 'fcitx-hangul' を選択します
+注意、glob 'fcitx*' のために 'fcitx-libs-dev' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-autoeng-ng' を選択します
+注意、glob 'fcitx*' のために 'fcitx-frontend-all' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-chinese-addons-data' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-scj6' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-hangul' を選択します
+注意、glob 'fcitx*' のために 'fcitx-ui-classic' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-material-color' を選択します
+注意、glob 'fcitx*' のために 'fcitx-imlist' を選択します
+注意、glob 'fcitx*' のために 'fcitx-libs-qt5' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-array30-big' を選択します
+注意、glob 'fcitx*' のために 'fcitx-frontend-qt5' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-amharic' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-zhengma' を選択します
+注意、glob 'fcitx*' のために 'fcitx-dbus-status' を選択します
+注意、glob 'fcitx*' のために 'fcitx-unikey' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-ipa-x-sampa' を選択します
+注意、glob 'fcitx*' のために 'fcitx-anthy' を選択します
+注意、glob 'fcitx*' のために 'fcitx-mozc-data' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-yawerty' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-fullwidth' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-data' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-table' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cangjie3' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cangjie5' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-thai' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-ziranma' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-cantonese' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-chttrans' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-chinese-addons-bin' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-skk' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-dianbaoma' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table-rustrad' を選択します
+注意、glob 'fcitx*' のために 'fcitx-ui-qimpanel' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-xorg' を選択します
+注意、glob 'fcitx*' のために 'fcitx-module-cloudpinyin' を選択します
+注意、glob 'fcitx*' のために 'fcitx-chewing' を選択します
+注意、glob 'fcitx*' のために 'fcitx5-module-lua' を選択します
+注意、glob 'fcitx*' のために 'fcitx-libs-gclient' を選択します
+注意、glob 'fcitx*' のために 'fcitx-config-gtk2' を選択します
+注意、glob 'fcitx*' のために 'fcitx-table' を選択します
+注意、glob 'fcitx*' のために 'fcitx-m17n' を選択します
+注意、'fcitx-ui-kimpanel' の代わりに 'fcitx-module-kimpanel' を選択します
+注意、'fcitx-keyboard' の代わりに 'fcitx-modules' を選択します
+パッケージ 'fcitx-module-quickphrase-editor' はインストールされていないため削除もされません
+パッケージ 'fcitx-modules-x11' はインストールされていないため削除もされません
+パッケージ 'fcitx-libs-gclient' はインストールされていないため削除もされません
+パッケージ 'fcitx-qimpanel-configtool' はインストールされていないため削除もされません
+パッケージ 'fcitx-config-gtk2' はインストールされていないため削除もされません
+パッケージ 'fcitx-libs-qt5' はインストールされていないため削除もされません
+パッケージ 'fcitx-libs-qt5-dev' はインストールされていないため削除もされません
+注意、'fcitx5-module-dbus' の代わりに 'fcitx5-modules' を選択します
+パッケージ 'fcitx5-module-fcitx4' はインストールされていないため削除もされません
+注意、'fcitx5-module-ibus' の代わりに 'fcitx5-modules' を選択します
+注意、'fcitx5-module-kimpanel' の代わりに 'fcitx5-modules' を選択します
+パッケージ 'fcitx-libs' はインストールされていないため削除もされません
+パッケージ 'fcitx-libs-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx-qw' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-all' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-bingchan' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cangjie' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-dianbaoma' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-erbi' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-wanfeng' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-wbpy' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-wubi' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-ziranma' はインストールされていないため削除もされません
+パッケージ 'fcitx-tools' はインストールされていないため削除もされません
+パッケージ 'fcitx-anthy' はインストールされていないため削除もされません
+パッケージ 'fcitx-module-autoeng-ng' はインストールされていないため削除もされません
+パッケージ 'fcitx-chewing' はインストールされていないため削除もされません
+パッケージ 'fcitx-module-cloudpinyin' はインストールされていないため削除もされません
+パッケージ 'fcitx-dbus-status' はインストールされていないため削除もされません
+パッケージ 'fcitx-frontend-fbterm' はインストールされていないため削除もされません
+パッケージ 'fcitx-module-fullwidthchar-enhance' はインストールされていないため削除もされません
+パッケージ 'fcitx-googlepinyin' はインストールされていないため削除もされません
+パッケージ 'fcitx-hangul' はインストールされていないため削除もされません
+パッケージ 'fcitx-imlist' はインストールされていないため削除もされません
+パッケージ 'fcitx-kkc' はインストールされていないため削除もされません
+パッケージ 'fcitx-kkc-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx-libpinyin' はインストールされていないため削除もされません
+パッケージ 'fcitx-module-punc-ng' はインストールされていないため削除もされません
+パッケージ 'fcitx-ui-qimpanel' はインストールされていないため削除もされません
+パッケージ 'fcitx-rime' はインストールされていないため削除もされません
+パッケージ 'fcitx-sayura' はインストールされていないため削除もされません
+パッケージ 'fcitx-skk' はインストールされていないため削除もされません
+パッケージ 'fcitx-sunpinyin' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-array30' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-array30-big' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-boshiamy' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cangjie-big' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cangjie3' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cangjie5' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cantonese' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cantonhk' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-easy-big' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-jyutping' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-quick-classic' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-quick3' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-quick5' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-scj6' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-stroke5' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-t9' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-wu' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-wubi-large' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-zhengma' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-zhengma-large' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-arabic' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-cns11643' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-compose' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-emoji' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-ipa-x-sampa' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-latex' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-rustrad' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-tamil-remington' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-thai' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-translit' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-translit-ua' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-viqr' はインストールされていないため削除もされません
+パッケージ 'fcitx-table-yawerty' はインストールされていないため削除もされません
+パッケージ 'fcitx-ui-light' はインストールされていないため削除もされません
+パッケージ 'fcitx-unikey' はインストールされていないため削除もされません
+パッケージ 'fcitx5-modules-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx5-module-cloudpinyin-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx5-module-pinyinhelper-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx5-module-punctuation-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx5-frontend-gtk2' はインストールされていないため削除もされません
+パッケージ 'fcitx5-hangul' はインストールされていないため削除もされません
+パッケージ 'fcitx5-module-lua' はインストールされていないため削除もされません
+パッケージ 'fcitx5-module-lua-common' はインストールされていないため削除もされません
+パッケージ 'fcitx5-module-lua-dev' はインストールされていないため削除もされません
+パッケージ 'fcitx5-material-color' はインストールされていないため削除もされません
+パッケージ 'fcitx5-rime' はインストールされていないため削除もされません
+パッケージ 'fcitx5-skk' はインストールされていないため削除もされません
+パッケージ 'fcitx-mozc' はインストールされていないため削除もされません
+パッケージ 'fcitx-mozc-data' はインストールされていないため削除もされません
+パッケージ 'fcitx5-mozc' はインストールされていないため削除もされません
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  hunspell-gl-es hunspell-sv-se libboost-regex1.74.0 libchewing3
+  libchewing3-data libfcitx-config4 libfcitx-core0 libfcitx-gclient1
+  libfcitx-qt5-1 libfcitx-qt5-data libfcitx-utils0 libfcitx5-qt-data
+  libfcitx5-qt1 libfcitx5config6 libfcitx5core7 libfcitx5gclient1
+  libfcitx5utils2 libgettextpo0 libime-bin libime-data
+  libime-data-language-model libimecore0 libimepinyin0 libimetable0
+  libkf5itemviews-data libkf5itemviews5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 liblua5.2-0 libminizip1 libpresage-data libpresage1v5
+  libqt5quickwidgets5 libqt5webengine-data libqt5webenginecore5
+  libqt5webenginewidgets5 libre2-9 libtinyxml2.6.2v5 libxcb-ewmh2
+  libxcb-imdkit1 presage unicode-cldr-core
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下のパッケージは「削除」されます:
+  fcitx* fcitx-bin* fcitx-config-common* fcitx-config-gtk* fcitx-data*
+  fcitx-frontend-all* fcitx-frontend-gtk2* fcitx-frontend-gtk3*
+  fcitx-frontend-qt5* fcitx-m17n* fcitx-module-dbus* fcitx-module-kimpanel*
+  fcitx-module-lua* fcitx-module-x11* fcitx-modules* fcitx-pinyin*
+  fcitx-table* fcitx-table-amharic* fcitx-table-malayalam-phonetic*
+  fcitx-ui-classic* fcitx5* fcitx5-chewing* fcitx5-chinese-addons*
+  fcitx5-chinese-addons-bin* fcitx5-chinese-addons-data* fcitx5-config-qt*
+  fcitx5-data* fcitx5-frontend-gtk3* fcitx5-frontend-qt5*
+  fcitx5-module-chttrans* fcitx5-module-cloudpinyin* fcitx5-module-emoji*
+  fcitx5-module-fullwidth* fcitx5-module-pinyinhelper*
+  fcitx5-module-punctuation* fcitx5-module-quickphrase*
+  fcitx5-module-quickphrase-editor* fcitx5-module-wayland* fcitx5-module-xorg*
+  fcitx5-modules* fcitx5-pinyin* fcitx5-table*
+アップグレード: 0 個、新規インストール: 0 個、削除: 42 個、保留: 0 個。
+この操作後に 32.3 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+
+
+root@debian:/home/user# apt autoremove
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージは「削除」されます:
+  hunspell-gl-es hunspell-sv-se libabsl20200923 libboost-regex1.74.0
+  libchewing3 libchewing3-data libfcitx-config4 libfcitx-core0
+  libfcitx-gclient1 libfcitx-qt5-1 libfcitx-qt5-data libfcitx-utils0
+  libfcitx5-qt-data libfcitx5-qt1 libfcitx5config6 libfcitx5core7
+  libfcitx5gclient1 libfcitx5utils2 libgettextpo0 libime-bin libime-data
+  libime-data-language-model libimecore0 libimepinyin0 libimetable0
+  libkf5itemviews-data libkf5itemviews5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 liblua5.2-0 libminizip1 libpresage-data libpresage1v5
+  libprotobuf23 libqt5quickwidgets5 libqt5webengine-data libqt5webenginecore5
+  libqt5webenginewidgets5 libre2-9 libtinyxml2.6.2v5 libxcb-ewmh2
+  libxcb-imdkit1 presage tegaki-zinnia-japanese unicode-cldr-core
+アップグレード: 0 個、新規インストール: 0 個、削除: 45 個、保留: 0 個。
+この操作後に 426 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+

@@ -1,0 +1,184 @@
+root@debian:/home/user# apt remove firefox-esr-l10n-*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-bn-bd' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-bn-in' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-sv-se' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-es-ar' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-es-cl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-es-es' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-es-mx' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-pa-in' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-en-ca' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-en-gb' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-en-za' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-fy-nl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ach' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-all' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ast' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-cak' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-dsb' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-nb-no' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-hy-am' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-hsb' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-kab' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-lij' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-sco' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-son' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-szl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-trs' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-hi-in' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-nn-no' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-gu-in' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-af' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-an' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ar' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-az' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-be' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-bg' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-bn' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-br' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-bs' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ca' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-cs' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-cy' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-da' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-de' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-el' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-eo' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-et' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-eu' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-fa' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ff' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-fi' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-fr' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-gd' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-gl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-gn' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-he' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-hr' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-hu' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ia' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-id' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-is' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-it' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ja' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ka' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-kk' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-km' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-kn' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ko' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-lt' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-lv' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-mk' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ml' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-mr' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ms' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-my' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-nl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-oc' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-pl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-rm' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ro' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ru' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-si' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-sk' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-sl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-sq' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-sr' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ta' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-te' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-th' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-tl' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-tr' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-uk' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ur' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-uz' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-vi' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-xh' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ca-valencia' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-pt-br' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-pt-pt' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-zh-cn' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-zh-tw' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ne-np' を選択します
+注意、glob 'firefox-esr-l10n-*' のために 'firefox-esr-l10n-ga-ie' を選択します
+注意、'firefox-esr-l10n-bn-bd' の代わりに 'firefox-esr-l10n-bn' を選択します
+注意、'firefox-esr-l10n-bn-in' の代わりに 'firefox-esr-l10n-bn' を選択します
+パッケージ 'firefox-esr-l10n-ml' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-en-za' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ach' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-af' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-all' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-an' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-az' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-br' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ca-valencia' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-cak' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-dsb' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-en-ca' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ff' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-fy-nl' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-gd' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-gn' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-hsb' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-hy-am' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ia' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ka' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-kab' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-lij' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ms' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-my' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-oc' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-rm' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-sco' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-son' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-szl' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-tl' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-trs' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-ur' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-uz' はインストールされていないため削除もされません
+パッケージ 'firefox-esr-l10n-xh' はインストールされていないため削除もされません
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  hunspell-gl-es hunspell-sv-se
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下のパッケージは「削除」されます:
+  firefox-esr-l10n-ar firefox-esr-l10n-ast firefox-esr-l10n-be firefox-esr-l10n-bg firefox-esr-l10n-bn firefox-esr-l10n-bs
+  firefox-esr-l10n-ca firefox-esr-l10n-cs firefox-esr-l10n-cy firefox-esr-l10n-da firefox-esr-l10n-de firefox-esr-l10n-el
+  firefox-esr-l10n-en-gb firefox-esr-l10n-eo firefox-esr-l10n-es-ar firefox-esr-l10n-es-cl firefox-esr-l10n-es-es
+  firefox-esr-l10n-es-mx firefox-esr-l10n-et firefox-esr-l10n-eu firefox-esr-l10n-fa firefox-esr-l10n-fi firefox-esr-l10n-fr
+  firefox-esr-l10n-ga-ie firefox-esr-l10n-gl firefox-esr-l10n-gu-in firefox-esr-l10n-he firefox-esr-l10n-hi-in firefox-esr-l10n-hr
+  firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-is firefox-esr-l10n-it firefox-esr-l10n-ja firefox-esr-l10n-kk
+  firefox-esr-l10n-km firefox-esr-l10n-kn firefox-esr-l10n-ko firefox-esr-l10n-lt firefox-esr-l10n-lv firefox-esr-l10n-mk
+  firefox-esr-l10n-mr firefox-esr-l10n-nb-no firefox-esr-l10n-ne-np firefox-esr-l10n-nl firefox-esr-l10n-nn-no
+  firefox-esr-l10n-pa-in firefox-esr-l10n-pl firefox-esr-l10n-pt-br firefox-esr-l10n-pt-pt firefox-esr-l10n-ro firefox-esr-l10n-ru
+  firefox-esr-l10n-si firefox-esr-l10n-sk firefox-esr-l10n-sl firefox-esr-l10n-sq firefox-esr-l10n-sr firefox-esr-l10n-sv-se
+  firefox-esr-l10n-ta firefox-esr-l10n-te firefox-esr-l10n-th firefox-esr-l10n-tr firefox-esr-l10n-uk firefox-esr-l10n-vi
+  firefox-esr-l10n-zh-cn firefox-esr-l10n-zh-tw
+アップグレード: 0 個、新規インストール: 0 個、削除: 66 個、保留: 19 個。
+この操作後に 46.7 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+
+
+root@debian:/home/user# apt install firefox-esr-l10n-ja
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  hunspell-gl-es hunspell-sv-se
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下の追加パッケージがインストールされます:
+  firefox-esr
+提案パッケージ:
+  fonts-stix | otf-stix fonts-lmodern
+以下のパッケージが新たにインストールされます:
+  firefox-esr-l10n-ja
+以下のパッケージはアップグレードされます:
+  firefox-esr
+アップグレード: 1 個、新規インストール: 1 個、削除: 0 個、保留: 18 個。
+60.6 MB のアーカイブを取得する必要があります。
+この操作後に追加で 8,858 kB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+
+

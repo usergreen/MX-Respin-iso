@@ -1,0 +1,24 @@
+root@debian:/home/user# apt purge fonts-noto*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+注意、glob 'fonts-noto*' のために 'fonts-noto-unhinted' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-cjk-extra' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-hinted' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-mono' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-core' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-ui-extra' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-color-emoji' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-extra' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-cjk' を選択します
+注意、glob 'fonts-noto*' のために 'fonts-noto-ui-core' を選択します
+パッケージ 'fonts-noto-hinted' はインストールされていないため削除もされません
+以下のパッケージは「削除」されます:
+  fonts-noto* fonts-noto-cjk* fonts-noto-cjk-extra* fonts-noto-color-emoji*
+  fonts-noto-core* fonts-noto-extra* fonts-noto-mono* fonts-noto-ui-core*
+  fonts-noto-ui-extra* fonts-noto-unhinted*
+アップグレード: 0 個、新規インストール: 0 個、削除: 10 個、保留: 0 個。
+この操作後に 783 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+

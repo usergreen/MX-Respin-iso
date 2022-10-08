@@ -1,0 +1,156 @@
+root@debian:/home/user# apt remove ibus*
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+注意、glob 'ibus*' のために 'ibus-libzhuyin' を選択します
+注意、glob 'ibus*' のために 'ibus-tests' を選択します
+注意、glob 'ibus*' のために 'ibus-table-quick' を選択します
+注意、glob 'ibus*' のために 'ibus-anthy' を選択します
+注意、glob 'ibus*' のために 'ibus-avro' を選択します
+注意、glob 'ibus*' のために 'ibus-rime' を選択します
+注意、glob 'ibus*' のために 'ibus-table-yong' を選択します
+注意、glob 'ibus*' のために 'ibus-gtk3' を選択します
+注意、glob 'ibus*' のために 'ibus-table-compose' を選択します
+注意、glob 'ibus*' のために 'ibus-table-thai' を選択します
+注意、glob 'ibus*' のために 'ibus-table' を選択します
+注意、glob 'ibus*' のために 'ibus-table-old-hungarian-rovas' を選択します
+注意、glob 'ibus*' のために 'ibus-pinyin' を選択します
+注意、glob 'ibus*' のために 'ibus-table-telex' を選択します
+注意、glob 'ibus*' のために 'ibus-table-emoji' を選択します
+注意、glob 'ibus*' のために 'ibus-table-translit-ua' を選択します
+注意、glob 'ibus*' のために 'ibus-mozc' を選択します
+注意、glob 'ibus*' のために 'ibus-table-latex' を選択します
+注意、glob 'ibus*' のために 'ibus-libpinyin' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cangjie3' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cangjie5' を選択します
+注意、glob 'ibus*' のために 'ibus-tabel-erbi' を選択します
+注意、glob 'ibus*' のために 'ibus-table-array30' を選択します
+注意、glob 'ibus*' のために 'ibus-input-pad' を選択します
+注意、glob 'ibus*' のために 'ibus-table-ipa-x-sampa' を選択します
+注意、glob 'ibus*' のために 'ibus-table-easy' を選択します
+注意、glob 'ibus*' のために 'ibus-table-wu' を選択します
+注意、glob 'ibus*' のために 'ibus-el' を選択します
+注意、glob 'ibus*' のために 'ibus-table-quick3' を選択します
+注意、glob 'ibus*' のために 'ibus-table-quick5' を選択します
+注意、glob 'ibus*' のために 'ibus-table-erbi-qs' を選択します
+注意、glob 'ibus*' のために 'ibus-hangul' を選択します
+注意、glob 'ibus*' のために 'ibus-table-erbi' を選択します
+注意、glob 'ibus*' のために 'ibus-googlepinyin' を選択します
+注意、glob 'ibus*' のために 'ibus-data' を選択します
+注意、glob 'ibus*' のために 'ibus-typing-booster' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cns11643' を選択します
+注意、glob 'ibus*' のために 'ibus-table-vni' を選択します
+注意、glob 'ibus*' のために 'ibus-table-easy-big' を選択します
+注意、glob 'ibus*' のために 'ibus-table-viqr' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cantonese' を選択します
+注意、glob 'ibus*' のために 'ibus-anthy-dev' を選択します
+注意、glob 'ibus*' のために 'ibus-unikey' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cangjie-big' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cantonhk' を選択します
+注意、glob 'ibus*' のために 'ibus-sunpinyin' を選択します
+注意、glob 'ibus*' のために 'ibus-chewing' を選択します
+注意、glob 'ibus*' のために 'ibus-table-translit' を選択します
+注意、glob 'ibus*' のために 'ibus-table-stroke5' を選択します
+注意、glob 'ibus*' のために 'ibus-cangjie' を選択します
+注意、glob 'ibus*' のために 'ibus-doc' を選択します
+注意、glob 'ibus*' のために 'ibus-gtk' を選択します
+注意、glob 'ibus*' のために 'ibus-kkc' を選択します
+注意、glob 'ibus*' のために 'ibus-array' を選択します
+注意、glob 'ibus*' のために 'ibus-keyman' を選択します
+注意、glob 'ibus*' のために 'ibus-table-wubi' を選択します
+注意、glob 'ibus*' のために 'ibus-table-jyutping' を選択します
+注意、glob 'ibus*' のために 'ibus-qt5' を選択します
+注意、glob 'ibus*' のために 'ibus-skk' を選択します
+注意、glob 'ibus*' のために 'ibus' を選択します
+注意、glob 'ibus*' のために 'ibus-kmfl' を選択します
+注意、glob 'ibus*' のために 'ibus-table-cangjie' を選択します
+注意、glob 'ibus*' のために 'ibus-wayland' を選択します
+注意、glob 'ibus*' のために 'ibus-m17n' を選択します
+注意、glob 'ibus*' のために 'ibus-table-yawerty' を選択します
+注意、glob 'ibus*' のために 'ibus-clutter' を選択します
+注意、glob 'ibus*' のために 'ibus-zhuyin' を選択します
+注意、glob 'ibus*' のために 'ibus-table-extraphrase' を選択します
+注意、glob 'ibus*' のために 'ibus-braille' を選択します
+注意、glob 'ibus*' のために 'ibus-table-quick-classic' を選択します
+注意、glob 'ibus*' のために 'ibus-avro-trusty' を選択します
+注意、glob 'ibus*' のために 'ibus-table-rustrad' を選択します
+注意、glob 'ibus*' のために 'ibus-table-scj6' を選択します
+注意、glob 'ibus*' のために 'ibus-libthai' を選択します
+パッケージ 'ibus-el' はインストールされていないため削除もされません
+パッケージ 'ibus-googlepinyin' はインストールされていないため削除もされません
+パッケージ 'ibus-avro-trusty' はインストールされていないため削除もされません
+パッケージ 'ibus-tabel-erbi' はインストールされていないため削除もされません
+パッケージ 'ibus-qt5' はインストールされていないため削除もされません
+パッケージ 'ibus-doc' はインストールされていないため削除もされません
+パッケージ 'ibus-tests' はインストールされていないため削除もされません
+パッケージ 'ibus-wayland' はインストールされていないため削除もされません
+パッケージ 'ibus-anthy' はインストールされていないため削除もされません
+パッケージ 'ibus-anthy-dev' はインストールされていないため削除もされません
+パッケージ 'ibus-array' はインストールされていないため削除もされません
+パッケージ 'ibus-avro' はインストールされていないため削除もされません
+パッケージ 'ibus-braille' はインストールされていないため削除もされません
+パッケージ 'ibus-cangjie' はインストールされていないため削除もされません
+パッケージ 'ibus-chewing' はインストールされていないため削除もされません
+パッケージ 'ibus-clutter' はインストールされていないため削除もされません
+パッケージ 'ibus-input-pad' はインストールされていないため削除もされません
+パッケージ 'ibus-keyman' はインストールされていないため削除もされません
+パッケージ 'ibus-kkc' はインストールされていないため削除もされません
+パッケージ 'ibus-kmfl' はインストールされていないため削除もされません
+パッケージ 'ibus-libpinyin' はインストールされていないため削除もされません
+パッケージ 'ibus-libthai' はインストールされていないため削除もされません
+パッケージ 'ibus-libzhuyin' はインストールされていないため削除もされません
+パッケージ 'ibus-m17n' はインストールされていないため削除もされません
+パッケージ 'ibus-pinyin' はインストールされていないため削除もされません
+パッケージ 'ibus-rime' はインストールされていないため削除もされません
+パッケージ 'ibus-skk' はインストールされていないため削除もされません
+パッケージ 'ibus-sunpinyin' はインストールされていないため削除もされません
+パッケージ 'ibus-table' はインストールされていないため削除もされません
+パッケージ 'ibus-table-array30' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cangjie' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cangjie-big' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cangjie3' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cangjie5' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cantonese' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cantonhk' はインストールされていないため削除もされません
+パッケージ 'ibus-table-easy' はインストールされていないため削除もされません
+パッケージ 'ibus-table-easy-big' はインストールされていないため削除もされません
+パッケージ 'ibus-table-erbi' はインストールされていないため削除もされません
+パッケージ 'ibus-table-erbi-qs' はインストールされていないため削除もされません
+パッケージ 'ibus-table-jyutping' はインストールされていないため削除もされません
+パッケージ 'ibus-table-quick' はインストールされていないため削除もされません
+パッケージ 'ibus-table-quick-classic' はインストールされていないため削除もされません
+パッケージ 'ibus-table-quick3' はインストールされていないため削除もされません
+パッケージ 'ibus-table-quick5' はインストールされていないため削除もされません
+パッケージ 'ibus-table-scj6' はインストールされていないため削除もされません
+パッケージ 'ibus-table-stroke5' はインストールされていないため削除もされません
+パッケージ 'ibus-table-wu' はインストールされていないため削除もされません
+パッケージ 'ibus-table-wubi' はインストールされていないため削除もされません
+パッケージ 'ibus-table-yong' はインストールされていないため削除もされません
+パッケージ 'ibus-table-extraphrase' はインストールされていないため削除もされません
+パッケージ 'ibus-table-cns11643' はインストールされていないため削除もされません
+パッケージ 'ibus-table-compose' はインストールされていないため削除もされません
+パッケージ 'ibus-table-emoji' はインストールされていないため削除もされません
+パッケージ 'ibus-table-ipa-x-sampa' はインストールされていないため削除もされません
+パッケージ 'ibus-table-latex' はインストールされていないため削除もされません
+パッケージ 'ibus-table-old-hungarian-rovas' はインストールされていないため削除もされません
+パッケージ 'ibus-table-rustrad' はインストールされていないため削除もされません
+パッケージ 'ibus-table-telex' はインストールされていないため削除もされません
+パッケージ 'ibus-table-thai' はインストールされていないため削除もされません
+パッケージ 'ibus-table-translit' はインストールされていないため削除もされません
+パッケージ 'ibus-table-translit-ua' はインストールされていないため削除もされません
+パッケージ 'ibus-table-viqr' はインストールされていないため削除もされません
+パッケージ 'ibus-table-vni' はインストールされていないため削除もされません
+パッケージ 'ibus-table-yawerty' はインストールされていないため削除もされません
+パッケージ 'ibus-typing-booster' はインストールされていないため削除もされません
+パッケージ 'ibus-unikey' はインストールされていないため削除もされません
+パッケージ 'ibus-zhuyin' はインストールされていないため削除もされません
+パッケージ 'ibus-mozc' はインストールされていないため削除もされません
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  gir1.2-ibus-1.0 libhangul-data libhangul1 libibus-1.0-5 python3-ibus-1.0
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下のパッケージは「削除」されます:
+  ibus ibus-data ibus-gtk ibus-gtk3 ibus-hangul
+アップグレード: 0 個、新規インストール: 0 個、削除: 5 個、保留: 0 個。
+この操作後に 61.0 MB のディスク容量が解放されます。
+続行しますか? [Y/n] 
+

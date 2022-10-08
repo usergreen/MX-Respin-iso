@@ -1,0 +1,16 @@
+
+# apt purge fcitx*
+
+# apt -s remove ibus*
+
+# apt purge mozc-data mozc-server uim-mozc mozc-utils-gui
+
+# apt install uim-anthy
+
+//The followings are already installed:
+//uim zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+
+apt autoremove
+
+# apt clean
+

@@ -1,0 +1,11 @@
+Note:
+
+This directory contains installation memos
+about debian-live for Debian 11 bullseye,
+done and confirmed at 2022-10-01 03 am UTC.
+
+These logs might be helpful when you perform
+stand-alone installation of Debian onto
+a computer using a debian-live installer of
+Calamares.
+

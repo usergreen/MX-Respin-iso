@@ -1,0 +1,117 @@
+user@debian:~$ sudo su
+
+あなたはシステム管理者から通常の講習を受けたはずです。
+これは通常、以下の3点に要約されます:
+
+    #1) 他人のプライバシーを尊重すること。
+    #2) タイプする前に考えること。
+    #3) 大いなる力には大いなる責任が伴うこと。
+
+[sudo] user のパスワード:
+root@debian:/home/user# apt update
+ヒット:1 http://deb.debian.org/debian bullseye InRelease
+取得:2 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+取得:3 http://security.debian.org/debian-security bullseye-security InRelease [48.4 kB]
+取得:4 http://deb.debian.org/debian bullseye/main Sources [8,633 kB]   
+取得:5 http://security.debian.org/debian-security bullseye-security/main Sources [158 kB]
+取得:6 http://security.debian.org/debian-security bullseye-security/main amd64 Packages [186 kB]
+取得:7 http://security.debian.org/debian-security bullseye-security/main Translation-en [117 kB]
+取得:8 http://deb.debian.org/debian bullseye/main Translation-ja [804 kB]      
+取得:9 http://deb.debian.org/debian bullseye-updates/main Sources [3,588 B]    
+取得:10 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [6,344 B]
+取得:11 http://deb.debian.org/debian bullseye-updates/main Translation-en [5,890 B]
+10.0 MB を 10秒 で取得しました (1,004 kB/s)                                    
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了
+状態情報を読み取っています... 完了        
+アップグレードできるパッケージが 85 個あります。表示するには 'apt list --upgradable' を実行してください。
+root@debian:/home/user# apt list --upgradable
+一覧表示... 完了
+bind9-host/stable-security 1:9.16.33-1~deb11u1 amd64 [1:9.16.27-1~deb11u1 からアップグレード可]
+bind9-libs/stable-security 1:9.16.33-1~deb11u1 amd64 [1:9.16.27-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ar/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ast/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-be/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-bg/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-bn/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-bs/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ca/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-cs/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-cy/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-da/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-de/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-el/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-en-gb/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-eo/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-es-ar/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-es-cl/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-es-es/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-es-mx/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-et/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-eu/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-fa/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-fi/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-fr/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ga-ie/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-gl/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-gu-in/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-he/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-hi-in/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-hr/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-hu/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-id/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-is/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-it/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ja/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-kk/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-km/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-kn/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ko/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-lt/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-lv/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-mk/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-mr/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-nb-no/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ne-np/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-nl/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-nn-no/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-pa-in/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-pl/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-pt-br/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-pt-pt/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ro/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ru/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-si/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-sk/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-sl/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-sq/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-sr/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-sv-se/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-ta/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-te/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-th/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-tr/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-uk/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-vi/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-zh-cn/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr-l10n-zh-tw/stable-security 102.3.0esr-1~deb11u1 all [91.13.0esr-1~deb11u1 からアップグレード可]
+firefox-esr/stable-security 102.3.0esr-1~deb11u1 amd64 [91.13.0esr-1~deb11u1 からアップグレード可]
+gir1.2-gdkpixbuf-2.0/stable-security 2.42.2+dfsg-1+deb11u1 amd64 [2.42.2+dfsg-1 からアップグレード可]
+grub-common/stable-updates 2.06-3~deb11u2 amd64 [2.06-3~deb11u1 からアップグレード可]
+grub-efi-amd64-bin/stable-updates 2.06-3~deb11u2 amd64 [2.06-3~deb11u1 からアップグレード可]
+grub-efi-amd64-signed/stable-updates 1+2.06+3~deb11u2 amd64 [1+2.06+3~deb11u1 からアップグレード可]
+grub-efi-amd64/stable-updates 2.06-3~deb11u2 amd64 [2.06-3~deb11u1 からアップグレード可]
+grub2-common/stable-updates 2.06-3~deb11u2 amd64 [2.06-3~deb11u1 からアップグレード可]
+libexpat1/stable-security 2.2.10-2+deb11u4 amd64 [2.2.10-2+deb11u3 からアップグレード可]
+libgdk-pixbuf-2.0-0/stable-security 2.42.2+dfsg-1+deb11u1 amd64 [2.42.2+dfsg-1 からアップグレード可]
+libgdk-pixbuf2.0-bin/stable-security 2.42.2+dfsg-1+deb11u1 amd64 [2.42.2+dfsg-1 からアップグレード可]
+libgdk-pixbuf2.0-common/stable-security 2.42.2+dfsg-1+deb11u1 all [2.42.2+dfsg-1 からアップグレード可]
+libjavascriptcoregtk-4.0-18/stable-security 2.38.0-1~deb11u1 amd64 [2.36.7-1~deb11u1 からアップグレード可]
+libpoppler-cpp0v5/stable-security 20.09.0-3.1+deb11u1 amd64 [20.09.0-3.1 からアップグレード可]
+libpoppler-glib8/stable-security 20.09.0-3.1+deb11u1 amd64 [20.09.0-3.1 からアップグレード可]
+libpoppler102/stable-security 20.09.0-3.1+deb11u1 amd64 [20.09.0-3.1 からアップグレード可]
+libwebkit2gtk-4.0-37/stable-security 2.38.0-1~deb11u1 amd64 [2.36.7-1~deb11u1 からアップグレード可]
+poppler-utils/stable-security 20.09.0-3.1+deb11u1 amd64 [20.09.0-3.1 からアップグレード可]
+root@debian:/home/user# 
+
+
