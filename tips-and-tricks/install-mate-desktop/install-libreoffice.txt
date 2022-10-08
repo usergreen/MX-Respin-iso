@@ -1,0 +1,73 @@
+root@mx1:/home/demo# apt install libreoffice
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  coinor-libcbc3 coinor-libcgl1 coinor-libclp1 coinor-libcoinmp1v5
+  coinor-libcoinutils3v5 coinor-libosi1v5 fonts-opensymbol libabw-0.1-1
+  libboost-filesystem1.74.0 libboost-locale1.74.0 libboost-thread1.74.0
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6
+  liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3
+  libmythes-1.2-0 libneon27-gnutls libnumbertext-1.0-0 libnumbertext-data
+  libodfgen-0.1-1 liborcus-0.16-0 liborcus-parser-0.16-0 libpagemaker-0.0-0
+  libqrcodegencpp1 libqxp-0.0-0 libraptor2-0 librasqal3 librdf0
+  libreoffice-base libreoffice-base-core libreoffice-base-drivers
+  libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw
+  libreoffice-impress libreoffice-math libreoffice-report-builder-bin
+  libreoffice-style-colibre libreoffice-writer librevenge-0.0-0
+  libstaroffice-0.0-0 libsuitesparseconfig5 libuno-cppu3
+  libuno-cppuhelpergcc3-3 libuno-purpenvhelpergcc3-3 libuno-sal3
+  libuno-salhelpergcc3-3 libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3
+  libwps-0.4-4 libxmlsec1 libxmlsec1-nss libyajl2 libzmf-0.0-0 lp-solve
+  python3-uno uno-libs-private ure
+Suggested packages:
+  raptor2-utils rasqal-utils librdf-storage-postgresql librdf-storage-mysql
+  librdf-storage-sqlite librdf-storage-virtuoso redland-utils cups-bsd
+  ghostscript gpa hyphen-hyphenation-patterns libreoffice-gnome
+  | libreoffice-plasma libreoffice-grammarcheck libreoffice-help
+  libreoffice-l10n libreoffice-librelogo myspell-dictionary mythes-thesaurus
+  openclipart2-libreoffice | openclipart-libreoffice pstoedit unixodbc
+  gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad default-jre
+  | java8-runtime | jre libsane1 libofficebean-java libreoffice-report-builder
+  libjtds-java libreoffice-sdbc-mysql | libmyodbc | libmariadb-java
+  libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java libsqliteodbc
+  | tdsodbc | odbc-mdbtools fonts-crosextra-caladea fonts-crosextra-carlito
+  libreoffice-java-common
+Recommended packages:
+  fonts-crosextra-caladea fonts-crosextra-carlito fonts-dejavu
+  fonts-liberation2 fonts-linuxlibertine fonts-noto-extra fonts-noto-mono
+  fonts-noto-ui-core fonts-sil-gentium-basic libreoffice-nlpsolver
+  libreoffice-report-builder libreoffice-script-provider-bsh
+  libreoffice-script-provider-js libreoffice-script-provider-python
+  libreoffice-sdbc-mysql libreoffice-sdbc-postgresql
+  libreoffice-wiki-publisher libreoffice-java-common default-jre
+  | java8-runtime | jre libreoffice-sdbc-hsqldb libreoffice-sdbc-firebird
+  fonts-liberation2 | ttf-mscorefonts-installer apparmor libpaper-utils
+  gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad libjuh-java libjurt-java
+  liblibreoffice-java libridl-java libunoloader-java
+The following NEW packages will be installed:
+  coinor-libcbc3 coinor-libcgl1 coinor-libclp1 coinor-libcoinmp1v5
+  coinor-libcoinutils3v5 coinor-libosi1v5 fonts-opensymbol libabw-0.1-1
+  libboost-filesystem1.74.0 libboost-locale1.74.0 libboost-thread1.74.0
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6
+  liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3
+  libmythes-1.2-0 libneon27-gnutls libnumbertext-1.0-0 libnumbertext-data
+  libodfgen-0.1-1 liborcus-0.16-0 liborcus-parser-0.16-0 libpagemaker-0.0-0
+  libqrcodegencpp1 libqxp-0.0-0 libraptor2-0 librasqal3 librdf0 libreoffice
+  libreoffice-base libreoffice-base-core libreoffice-base-drivers
+  libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw
+  libreoffice-impress libreoffice-math libreoffice-report-builder-bin
+  libreoffice-style-colibre libreoffice-writer librevenge-0.0-0
+  libstaroffice-0.0-0 libsuitesparseconfig5 libuno-cppu3
+  libuno-cppuhelpergcc3-3 libuno-purpenvhelpergcc3-3 libuno-sal3
+  libuno-salhelpergcc3-3 libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3
+  libwps-0.4-4 libxmlsec1 libxmlsec1-nss libyajl2 libzmf-0.0-0 lp-solve
+  python3-uno uno-libs-private ure
+0 upgraded, 75 newly installed, 0 to remove and 2 not upgraded.
+Need to get 99.9 MB of archives.
+After this operation, 372 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 

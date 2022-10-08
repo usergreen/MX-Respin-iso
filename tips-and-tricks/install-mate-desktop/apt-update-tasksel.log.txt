@@ -1,0 +1,38 @@
+demo@mx1:~
+$ su
+Password: 
+root@mx1:/home/demo# apt update
+Get:1 http://security.debian.org/debian-security bullseye-security InRelease [44.1 kB]
+Get:2 http://security.debian.org/debian-security bullseye-security/main amd64 Packages [153 kB]
+Get:3 http://security.debian.org/debian-security bullseye-security/main i386 Packages [152 kB]     
+Get:4 http://security.debian.org/debian-security bullseye-security/main Translation-en [95.1 kB]   
+Get:5 http://deb.debian.org/debian bullseye-updates InRelease [39.4 kB]                            
+Get:6 http://deb.debian.org/debian bullseye InRelease [116 kB]      
+Get:7 http://deb.debian.org/debian bullseye-updates/main i386 Packages [2,600 B]                   
+Get:8 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [2,592 B]                  
+Get:9 http://deb.debian.org/debian bullseye-updates/main Translation-en [2,343 B]            
+Get:10 http://deb.debian.org/debian bullseye/main amd64 Packages [8,182 kB]                  
+Get:11 http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo bullseye InRelease [19.9 kB]
+Get:12 http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo bullseye/main i386 Packages [295 kB]
+Get:13 http://deb.debian.org/debian bullseye/main i386 Packages [8,121 kB]        
+Get:14 http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo bullseye/main amd64 Packages [302 kB]
+Get:15 http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo bullseye/non-free amd64 Packages [47.5 kB]
+Get:16 http://mirrors.rit.edu/mxlinux/mx-packages/mx/repo bullseye/non-free i386 Packages [48.5 kB]
+Get:17 http://deb.debian.org/debian bullseye/main Translation-en [6,241 kB]                   
+Get:18 http://deb.debian.org/debian bullseye/contrib i386 Packages [45.4 kB]
+Get:19 http://deb.debian.org/debian bullseye/contrib amd64 Packages [50.5 kB]
+Get:20 http://deb.debian.org/debian bullseye/contrib Translation-en [46.9 kB]
+Get:21 http://deb.debian.org/debian bullseye/non-free i386 Packages [76.8 kB]
+Get:22 http://deb.debian.org/debian bullseye/non-free amd64 Packages [93.8 kB]
+Get:23 http://deb.debian.org/debian bullseye/non-free Translation-en [91.3 kB]
+Fetched 24.3 MB in 9s (2,819 kB/s)                                                                 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+14 packages can be upgraded. Run 'apt list --upgradable' to see them.
+root@mx1:/home/demo# 
+
+Commandline: apt install tasksel
+
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y -o APT::Install-Recommends=true -o APT::Get::AutomaticRemove=true -o Acquire::Retries=3 install task-laptop task-mate-desktop
+

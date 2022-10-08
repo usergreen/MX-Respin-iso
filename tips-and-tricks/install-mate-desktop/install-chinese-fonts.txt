@@ -1,0 +1,2 @@
+root@mx1:/home/demo# apt install fonts-wqy-zenhei
+

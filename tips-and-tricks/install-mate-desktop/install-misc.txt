@@ -1,0 +1,299 @@
+oot@mx1:/home/demo# apt install sylpheed sylpheed-doc sylpheed-i18n bogofilter bsfilter
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  bogofilter-bdb bogofilter-common libcompfaceg1 libgsl25 libgslcblas0
+  libgtkspell0 libonig5 libruby2.7 rake ruby ruby-minitest ruby-net-telnet
+  ruby-power-assert ruby-rubygems ruby-test-unit ruby-xmlrpc ruby2.7
+  rubygems-integration
+Suggested packages:
+  db5.3-util doc-base ruby-mecab ruby-qdbm gsl-ref-psdoc | gsl-doc-pdf
+  | gsl-doc-info | gsl-ref-html ri ruby-dev bundler claws-mail-tools
+  sylpheed-plugins
+Recommended packages:
+  zip fonts-lato libjs-jquery aspell-en | aspell-dictionary
+The following NEW packages will be installed:
+  bogofilter bogofilter-bdb bogofilter-common bsfilter libcompfaceg1 libgsl25
+  libgslcblas0 libgtkspell0 libonig5 libruby2.7 rake ruby ruby-minitest
+  ruby-net-telnet ruby-power-assert ruby-rubygems ruby-test-unit ruby-xmlrpc
+  ruby2.7 rubygems-integration sylpheed sylpheed-doc sylpheed-i18n
+0 upgraded, 23 newly installed, 0 to remove and 13 not upgraded.
+Need to get 9,332 kB of archives.
+After this operation, 35.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install libreoffice
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  coinor-libcbc3 coinor-libcgl1 coinor-libclp1 coinor-libcoinmp1v5
+  coinor-libcoinutils3v5 coinor-libosi1v5 fonts-opensymbol libabw-0.1-1
+  libboost-filesystem1.74.0 libboost-locale1.74.0 libboost-thread1.74.0
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6
+  liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3
+  libmythes-1.2-0 libneon27-gnutls libnumbertext-1.0-0 libnumbertext-data
+  libodfgen-0.1-1 liborcus-0.16-0 liborcus-parser-0.16-0 libpagemaker-0.0-0
+  libqrcodegencpp1 libqxp-0.0-0 libraptor2-0 librasqal3 librdf0
+  libreoffice-base libreoffice-base-core libreoffice-base-drivers
+  libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw
+  libreoffice-impress libreoffice-math libreoffice-report-builder-bin
+  libreoffice-style-colibre libreoffice-writer librevenge-0.0-0
+  libstaroffice-0.0-0 libsuitesparseconfig5 libuno-cppu3
+  libuno-cppuhelpergcc3-3 libuno-purpenvhelpergcc3-3 libuno-sal3
+  libuno-salhelpergcc3-3 libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3
+  libwps-0.4-4 libxmlsec1 libxmlsec1-nss libyajl2 libzmf-0.0-0 lp-solve
+  python3-uno uno-libs-private ure
+Suggested packages:
+  raptor2-utils rasqal-utils librdf-storage-postgresql librdf-storage-mysql
+  librdf-storage-sqlite librdf-storage-virtuoso redland-utils cups-bsd
+  ghostscript gpa hyphen-hyphenation-patterns libreoffice-gnome
+  | libreoffice-plasma libreoffice-grammarcheck libreoffice-help
+  libreoffice-l10n libreoffice-librelogo myspell-dictionary mythes-thesaurus
+  openclipart2-libreoffice | openclipart-libreoffice pstoedit unixodbc
+  gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad default-jre
+  | java8-runtime | jre libsane1 libofficebean-java libreoffice-report-builder
+  libjtds-java libreoffice-sdbc-mysql | libmyodbc | libmariadb-java
+  libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java libsqliteodbc
+  | tdsodbc | odbc-mdbtools fonts-crosextra-caladea fonts-crosextra-carlito
+  libreoffice-java-common
+Recommended packages:
+  fonts-crosextra-caladea fonts-crosextra-carlito fonts-dejavu
+  fonts-liberation2 fonts-linuxlibertine fonts-noto-extra fonts-noto-mono
+  fonts-noto-ui-core fonts-sil-gentium-basic libreoffice-nlpsolver
+  libreoffice-report-builder libreoffice-script-provider-bsh
+  libreoffice-script-provider-js libreoffice-script-provider-python
+  libreoffice-sdbc-mysql libreoffice-sdbc-postgresql
+  libreoffice-wiki-publisher libreoffice-java-common default-jre
+  | java8-runtime | jre libreoffice-sdbc-hsqldb libreoffice-sdbc-firebird
+  fonts-liberation2 | ttf-mscorefonts-installer apparmor libpaper-utils
+  gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad libjuh-java libjurt-java
+  liblibreoffice-java libridl-java libunoloader-java
+The following NEW packages will be installed:
+  coinor-libcbc3 coinor-libcgl1 coinor-libclp1 coinor-libcoinmp1v5
+  coinor-libcoinutils3v5 coinor-libosi1v5 fonts-opensymbol libabw-0.1-1
+  libboost-filesystem1.74.0 libboost-locale1.74.0 libboost-thread1.74.0
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcolamd2 libe-book-0.1-1 libeot0 libepubgen-0.1-1 libetonyek-0.1-1
+  libexttextcat-2.0-0 libexttextcat-data libfreehand-0.1-1 libgpgmepp6
+  liblangtag-common liblangtag1 libmhash2 libmspub-0.1-1 libmwaw-0.3-3
+  libmythes-1.2-0 libneon27-gnutls libnumbertext-1.0-0 libnumbertext-data
+  libodfgen-0.1-1 liborcus-0.16-0 liborcus-parser-0.16-0 libpagemaker-0.0-0
+  libqrcodegencpp1 libqxp-0.0-0 libraptor2-0 librasqal3 librdf0 libreoffice
+  libreoffice-base libreoffice-base-core libreoffice-base-drivers
+  libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw
+  libreoffice-impress libreoffice-math libreoffice-report-builder-bin
+  libreoffice-style-colibre libreoffice-writer librevenge-0.0-0
+  libstaroffice-0.0-0 libsuitesparseconfig5 libuno-cppu3
+  libuno-cppuhelpergcc3-3 libuno-purpenvhelpergcc3-3 libuno-sal3
+  libuno-salhelpergcc3-3 libvisio-0.1-1 libwpd-0.10-10 libwpg-0.3-3
+  libwps-0.4-4 libxmlsec1 libxmlsec1-nss libyajl2 libzmf-0.0-0 lp-solve
+  python3-uno uno-libs-private ure
+0 upgraded, 75 newly installed, 0 to remove and 13 not upgraded.
+Need to get 99.9 MB of archives.
+After this operation, 372 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install gnome-sound-recorder
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  gir1.2-gst-plugins-bad-1.0 gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0
+  gir1.2-handy-1 gjs libgjs0g libgstreamer-plugins-bad1.0-0 libhandy-1-0
+  libmozjs-78-0
+The following NEW packages will be installed:
+  gir1.2-gst-plugins-bad-1.0 gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0
+  gir1.2-handy-1 gjs gnome-sound-recorder libgjs0g
+  libgstreamer-plugins-bad1.0-0 libhandy-1-0 libmozjs-78-0
+0 upgraded, 10 newly installed, 0 to remove and 13 not upgraded.
+Need to get 11.4 MB of archives.
+After this operation, 24.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install audacious
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  audacious-plugins audacious-plugins-data libaudcore5 libaudgui5 libaudqt2
+  libaudtag3 libcddb2 libcue2 libfaad2 libfluidsynth2 libinstpatch-1.0-2
+  liblirc-client0 libmms0 libmodplug1 libqt5multimedia5 libqt5opengl5
+  libsdl2-2.0-0 libsidplayfp5 libsndio7.0 timgm6mb-soundfont
+Suggested packages:
+  lirc sidplayfp sndiod fluid-soundfont-gm
+The following NEW packages will be installed:
+  audacious audacious-plugins audacious-plugins-data libaudcore5 libaudgui5
+  libaudqt2 libaudtag3 libcddb2 libcue2 libfaad2 libfluidsynth2
+  libinstpatch-1.0-2 liblirc-client0 libmms0 libmodplug1 libqt5multimedia5
+  libqt5opengl5 libsdl2-2.0-0 libsidplayfp5 libsndio7.0 timgm6mb-soundfont
+0 upgraded, 21 newly installed, 0 to remove and 13 not upgraded.
+Need to get 9,696 kB of archives.
+After this operation, 24.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install smplayer
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libavdevice58 libdc1394-25 libdvdnav4 libdvdread8 liblua5.2-0 libopenal-data
+  libopenal1 libva-wayland2 mpv smplayer-l10n smplayer-themes youtube-dl
+Suggested packages:
+  libdvdcss2 libportaudio2 smtube libfribidi-bin | bidiv phantomjs
+Recommended packages:
+  smplayer-skins ffmpeg python3-pyxattr rtmpdump
+The following NEW packages will be installed:
+  libavdevice58 libdc1394-25 libdvdnav4 libdvdread8 liblua5.2-0 libopenal-data
+  libopenal1 libva-wayland2 mpv smplayer smplayer-l10n smplayer-themes
+  youtube-dl
+0 upgraded, 13 newly installed, 0 to remove and 13 not upgraded.
+Need to get 9,231 kB of archives.
+After this operation, 31.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install gimp
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  gimp-data graphviz libamd2 libann0 libbabl-0.1-0 libcamd2 libccolamd2
+  libcdt5 libcgraph6 libcholmod3 libexiv2-27 libgegl-0.4-0 libgegl-common
+  libgexiv2-2 libgimp2.0 libgts-0.7-5 libgvc6 libgvpr2 libilmbase25
+  liblab-gamut1 libmetis5 libmng1 libmypaint-1.5-1 libmypaint-common
+  libopenexr25 libpathplan4 libraw20 libumfpack5 libwmf0.2-7
+Suggested packages:
+  gimp-help-en | gimp-help gimp-data-extras gsfonts graphviz-doc exiv2
+  libwmf0.2-7-gtk
+Recommended packages:
+  ghostscript libgts-bin gsfonts
+The following NEW packages will be installed:
+  gimp gimp-data graphviz libamd2 libann0 libbabl-0.1-0 libcamd2 libccolamd2
+  libcdt5 libcgraph6 libcholmod3 libexiv2-27 libgegl-0.4-0 libgegl-common
+  libgexiv2-2 libgimp2.0 libgts-0.7-5 libgvc6 libgvpr2 libilmbase25
+  liblab-gamut1 libmetis5 libmng1 libmypaint-1.5-1 libmypaint-common
+  libopenexr25 libpathplan4 libraw20 libumfpack5 libwmf0.2-7
+0 upgraded, 30 newly installed, 0 to remove and 13 not upgraded.
+Need to get 29.0 MB of archives.
+After this operation, 152 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install cups cups-pdf
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'printer-driver-cups-pdf' instead of 'cups-pdf'
+The following additional packages will be installed:
+  cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common
+  ghostscript libcups2 libcupsfilters1 libfontembed1 libpaper-utils
+  libpoppler-cpp0v5 libqpdf28 poppler-utils
+Suggested packages:
+  cups-bsd foomatic-db-compressed-ppds | foomatic-db smbclient antiword
+  docx2txt ghostscript-x system-config-printer
+Recommended packages:
+  colord cups-browsed ipp-usb liblouisutdml-bin | liblouis-bin
+The following NEW packages will be installed:
+  cups cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common
+  ghostscript libcupsfilters1 libfontembed1 libpaper-utils libpoppler-cpp0v5
+  libqpdf28 poppler-utils printer-driver-cups-pdf
+The following packages will be upgraded:
+  libcups2
+1 upgraded, 18 newly installed, 0 to remove and 12 not upgraded.
+Need to get 4,787 kB of archives.
+After this operation, 16.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install gutenprint-locales
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  gutenprint-locales
+0 upgraded, 1 newly installed, 0 to remove and 12 not upgraded.
+Need to get 408 kB of archives.
+After this operation, 3,654 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 gutenprint-locales all 5.3.3-5 [408 kB]
+Fetched 408 kB in 2s (263 kB/s)             
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package gutenprint-locales.
+(Reading database ... 273621 files and directories currently installed.)
+Preparing to unpack .../gutenprint-locales_5.3.3-5_all.deb ...
+Unpacking gutenprint-locales (5.3.3-5) ...
+Setting up gutenprint-locales (5.3.3-5) ...
+root@mx1:/home/demo# 
+
+
+root@mx1:/home/demo# apt install synaptic
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libept1.6.0
+Suggested packages:
+  dwww deborphan apt-xapian-index tasksel software-properties-gtk
+The following NEW packages will be installed:
+  libept1.6.0 synaptic
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 2,195 kB of archives.
+After this operation, 8,362 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install uim uim-anthy kasumi im-config zenity uim-gtk2.0 uim-qt5 uim-gtk3 uim-xim uim-fep
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+zenity is already the newest version (3.32.0-6).
+zenity set to manually installed.
+The following additional packages will be installed:
+  anthy anthy-common libanthy1 libanthyinput0 libgcroots0 libm17n-0 libotf0
+  libuim-custom2 libuim-data libuim-scm0 libuim8 m17n-db uim-data
+  uim-gtk2.0-immodule uim-gtk3-immodule uim-plugins uim-qt5-immodule
+Suggested packages:
+  m17n-docs
+The following NEW packages will be installed:
+  anthy anthy-common im-config kasumi libanthy1 libanthyinput0 libgcroots0
+  libm17n-0 libotf0 libuim-custom2 libuim-data libuim-scm0 libuim8 m17n-db uim
+  uim-anthy uim-data uim-fep uim-gtk2.0 uim-gtk2.0-immodule uim-gtk3
+  uim-gtk3-immodule uim-plugins uim-qt5 uim-qt5-immodule uim-xim
+0 upgraded, 26 newly installed, 0 to remove and 12 not upgraded.
+Need to get 9,420 kB of archives.
+After this operation, 46.1 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+root@mx1:/home/demo# apt install fonts-vlgothic
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  fonts-vlgothic
+0 upgraded, 1 newly installed, 0 to remove and 12 not upgraded.
+Need to get 2,240 kB of archives.
+After this operation, 8,290 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 fonts-vlgothic all 20200720-1 [2,240 kB]
+Fetched 2,240 kB in 1s (3,311 kB/s)  
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package fonts-vlgothic.
+(Reading database ... 275217 files and directories currently installed.)
+Preparing to unpack .../fonts-vlgothic_20200720-1_all.deb ...
+Unpacking fonts-vlgothic (20200720-1) ...
+Setting up fonts-vlgothic (20200720-1) ...
+update-alternatives: using /usr/share/fonts/truetype/vlgothic/VL-Gothic-Regular.
+ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japane
+se-gothic.ttf) in auto mode
+Processing triggers for fontconfig (2.13.1-4.2) ...
+root@mx1:/home/demo# 
+

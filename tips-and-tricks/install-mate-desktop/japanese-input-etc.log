@@ -1,0 +1,19 @@
+
+//Commandline: apt purge featherpad featherpad-l10n
+
+Commandline: apt remove pavucontrol
+
+Commandline: apt install sylpheed sylpheed-doc sylpheed-i18n bogofilter bsfilter
+
+Commandline: apt install gnome-sound-recorder
+
+//Commandline: apt install cups cups-pdf
+
+//Commandline: apt install gutenprint-locales
+
+Commandline: apt install uim uim-anthy uim-chewing kasumi im-config zenity uim-gtk2.0 uim-qt5 uim-gtk3 uim-xim uim-fep
+
+//# apt install fonts-wqy-zenhei
+
+//Commandline: apt install fonts-vlgothic
+
