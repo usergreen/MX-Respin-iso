@@ -38,5 +38,6 @@ I: Retrieving apt-utils 2.2.4
 ...
 
 -----------------
-* The above process may take several hours to complete.
+Note: The above process may take several hours to complete. It seems time-consuming.
+      I don't think libe-built is a practica tool so far.
 
