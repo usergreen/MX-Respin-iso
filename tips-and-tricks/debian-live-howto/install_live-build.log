@@ -1,0 +1,43 @@
+root@mx:/home/user# apt update
+ヒット:1 http://security.debian.org/debian-security bullseye-security InRelease
+取得:2 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]       
+ヒット:3 http://deb.debian.org/debian bullseye InRelease                       
+取得:4 https://ftp.yz.yamagata-u.ac.jp/pub/Linux/MX-Linux-Packages/mx/repo bullseye InRelease [19.8 kB]
+63.9 kB を 4秒 で取得しました (16.5 kB/s)                
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了
+状態情報を読み取っています... 完了        
+パッケージはすべて最新です。
+root@mx:/home/user# apt install live-build
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下の追加パッケージがインストールされます:
+  debootstrap
+提案パッケージ:
+  ubuntu-archive-keyring squid-deb-proxy-client mtd-utils
+推奨パッケージ:
+  arch-test apt-utils file live-boot-doc live-config-doc systemd-container
+以下のパッケージが新たにインストールされます:
+  debootstrap live-build
+アップグレード: 0 個、新規インストール: 2 個、削除: 0 個、保留: 0 個。
+472 kB のアーカイブを取得する必要があります。
+この操作後に追加で 1,517 kB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+取得:1 http://deb.debian.org/debian bullseye/main amd64 debootstrap all 1.0.123+deb11u1 [75.9 kB]
+取得:2 http://deb.debian.org/debian bullseye/main amd64 live-build all 1:20210407 [396 kB]
+472 kB を 1秒 で取得しました (623 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+以前に未選択のパッケージ debootstrap を選択しています。
+(データベースを読み込んでいます ... 現在 244607 個のファイルとディレクトリがイン
+ストールされています。)
+.../debootstrap_1.0.123+deb11u1_all.deb を展開する準備をしています ...
+debootstrap (1.0.123+deb11u1) を展開しています...
+以前に未選択のパッケージ live-build を選択しています。
+.../live-build_1%3a20210407_all.deb を展開する準備をしています ...
+live-build (1:20210407) を展開しています...
+debootstrap (1.0.123+deb11u1) を設定しています ...
+live-build (1:20210407) を設定しています ...
+man-db (2.9.4-2) のトリガを処理しています ...
+root@mx:/home/user# 
+

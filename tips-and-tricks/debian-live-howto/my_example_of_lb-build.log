@@ -1,0 +1,42 @@
+user@mx:~
+$ mkdir tutorial1 ; cd tutorial1 ; lb config
+[2022-10-09 18:20:18] lb config 
+P: Creating config tree for a debian/bullseye/amd64 system
+P: Symlinking hooks...
+
+user@mx:~/tutorial1
+$ su
+パスワード:
+root@mx:/home/user/tutorial1# lb build
+[2022-10-09 18:21:37] lb build 
+P: live-build 20210407
+P: Building for a debian/bullseye/amd64 system
+[2022-10-09 18:21:37] lb bootstrap 
+P: Setting up clean exit handler
+[2022-10-09 18:21:37] lb bootstrap_cache restore
+[2022-10-09 18:21:37] lb bootstrap_debootstrap 
+P: Begin bootstrapping system...
+P: If the following stage fails, the most likely cause of the problem is with your mirror configuration or a caching proxy.
+P: Running debootstrap (download-only)...
+I: Retrieving InRelease 
+I: Checking Release signature
+I: Valid Release signature (key id A4285295FC7B1A81600062A9605C66F00D6C9793)
+I: Retrieving Packages 
+I: Validating Packages 
+I: Resolving dependencies of required packages...
+I: Resolving dependencies of base packages...
+I: Checking component main on http://deb.debian.org/debian...
+I: Retrieving libacl1 2.2.53-10
+I: Validating libacl1 2.2.53-10
+I: Retrieving adduser 3.118
+I: Validating adduser 3.118
+I: Retrieving libapparmor1 2.13.6-10
+I: Validating libapparmor1 2.13.6-10
+I: Retrieving apt 2.2.4
+I: Validating apt 2.2.4
+I: Retrieving apt-utils 2.2.4
+...
+
+-----------------
+* The above process may take several hours to complete.
+
