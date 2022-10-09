@@ -11,3 +11,6 @@ https://packages.debian.org/bullseye/live-manual
 
 root@mx:/home/user# apt install live-manual-pdf
 
+
+Other helpful website's URL:
+https://blog.vcborn.com/2022/02/debian-live-build/
