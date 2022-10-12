@@ -1,0 +1,155 @@
+root@mx1:/home/demo# apt install gnome-core
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  acl apache2-bin apg appstream apt-config-icons baobab caribou cheese-common colord colord-data
+  dconf-cli desktop-base dictionaries-common emacsen-common eog evince evince-common
+  evolution-data-server evolution-data-server-common folks-common fonts-cantarell fonts-quicksand
+  fonts-urw-base35 gcr gdm3 gedit gedit-common gir1.2-accountsservice-1.0 gir1.2-atspi-2.0
+  gir1.2-caribou-1.0 gir1.2-clutter-1.0 gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-evince-3.0
+  gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdm-1.0 gir1.2-geoclue-2.0
+  gir1.2-gmenu-3.0 gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0
+  gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gtksource-4 gir1.2-gweather-3.0
+  gir1.2-ibus-1.0 gir1.2-javascriptcoregtk-4.0 gir1.2-json-1.0 gir1.2-mutter-7 gir1.2-nma-1.0
+  gir1.2-notify-0.7 gir1.2-packagekitglib-1.0 gir1.2-peas-1.0 gir1.2-polkit-1.0 gir1.2-rsvg-2.0
+  gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gir1.2-webkit2-4.0 gjs gkbd-capplet gnome-backgrounds
+  gnome-bluetooth gnome-calculator gnome-characters gnome-contacts gnome-control-center
+  gnome-control-center-data gnome-disk-utility gnome-font-viewer gnome-keyring gnome-logs
+  gnome-menus gnome-online-accounts gnome-online-miners gnome-session gnome-session-bin
+  gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell
+  gnome-shell-common gnome-shell-extensions gnome-software gnome-software-common gnome-sushi
+  gnome-system-monitor gnome-terminal gnome-terminal-data gnome-themes-extra
+  gnome-themes-extra-data gnome-user-docs gnome-user-share grilo-plugins-0.3
+  gstreamer1.0-clutter-3.0 gstreamer1.0-gtk3 gstreamer1.0-packagekit gstreamer1.0-pipewire
+  gstreamer1.0-plugins-bad gstreamer1.0-x gtk2-engines-pixbuf gvfs gvfs-backends gvfs-daemons
+  gvfs-fuse gvfs-libs hunspell-en-us libamtk-5-0 libamtk-5-common libapache2-mod-dnssd
+  libappstream4 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libaspell15
+  libatk-adaptor libcamel-1.2-62 libcanberra-pulse libcaribou-common libcaribou0 libcdio-cdda2
+  libcdio-paranoia2 libcdio19 libcheese-gtk25 libcheese8 libclutter-1.0-0 libclutter-gst-3.0-0
+  libclutter-gtk-1.0-0 libcogl-pango20 libcogl-path20 libcogl20 libcolord-gtk1 libcolorhug2
+  libcrack2 libcue2 libdc1394-25 libdca0 libde265-0 libdjvulibre-text libdjvulibre21
+  libdmapsharing-3.0-2 libdvdnav4 libdvdread8 libebackend-1.2-10 libebook-1.2-20
+  libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1
+  libedataserver-1.2-25 libedataserverui-1.2-2 libenchant-2-2 libevdocument3-4 libevview3-3
+  libexempi8 libexiv2-27 libfaad2 libfftw3-double3 libfluidsynth2 libfolks-eds25 libfolks25
+  libfwupd2 libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgdm1 libgee-0.8-2 libgeoclue-2-0
+  libgeocode-glib0 libgexiv2-2 libgfbgraph-0.2-0 libgif7 libgjs0g libgles2 libgnome-autoar-0-0
+  libgnome-bluetooth13 libgnome-menu-3-0 libgnomekbd-common libgnomekbd8 libgoa-1.0-0b
+  libgoa-1.0-common libgoa-backend-1.0-1 libgom-1.0-0 libgphoto2-6 libgphoto2-port12
+  libgraphene-1.0-0 libgrilo-0.3-0 libgs9 libgs9-common libgsf-1-114 libgsf-1-common libgsound0
+  libgspell-1-2 libgspell-1-common libgssdp-1.2-0 libgstreamer-gl1.0-0
+  libgstreamer-plugins-bad1.0-0 libgtksourceview-4-0 libgtksourceview-4-common libgtop-2.0-11
+  libgtop2-common libgupnp-1.2-0 libgupnp-igd-1.0-4 libgusb2 libgweather-3-16 libgweather-common
+  libgxps2 libhandy-1-0 libharfbuzz-icu0 libhyphen0 libibus-1.0-5 libidn11 libieee1284-3
+  libijs-0.35 libilmbase25 libinstpatch-1.0-2 libiptcdata0 libjavascriptcoregtk-4.0-18
+  libjbig2dec0 libjcat1 libkate1 libkpathsea6 libldb2 libltc11 liblua5.2-0 liblua5.3-0
+  libmanette-0.2-0 libmediaart-2.0-0 libmjpegutils-2.1-0 libmms0 libmodplug1 libmozjs-78-0
+  libmpcdec6 libmpeg2encpp-2.1-0 libmplex2-2.1-0 libmusicbrainz5-2 libmusicbrainz5cc2v5
+  libmutter-7-0 libnautilus-extension1a libneon27-gnutls libnfs13 libnice10 liboauth0 libofa0
+  libopenal-data libopenal1 libopenexr25 libopengl0 libopenni2-0 libosinfo-1.0-0
+  libpackagekit-glib2-18 libpam-gnome-keyring libpaper1 libpeas-1.0-0 libpeas-common
+  libphonenumber8 libpipewire-0.3-modules libprotobuf23 libproxy1-plugin-gsettings
+  libproxy1-plugin-webkit libpwquality-common libpwquality1 libquvi-0.9-0.9.3 libquvi-scripts-0.9
+  libsane-common libsane1 libsdl2-2.0-0 libsmbclient libsndio7.0 libsnmp-base libsnmp40
+  libsoundtouch1 libspandsp2 libspectre1 libsrtp2-1 libsynctex2 libtalloc2 libtepl-5-0 libtevent0
+  libtotem-plparser-common libtotem-plparser18 libtotem0 libtracker-control-2.0-0
+  libtracker-miner-2.0-0 libtracker-sparql-2.0-0 libvo-aacenc0 libvo-amrwbenc0 libwbclient0
+  libwebkit2gtk-4.0-37 libwebpdemux2 libwildmidi2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1
+  libxcb-res0 libxmlb1 libxslt1.1 libyelp0 libzapojit-0.0-0 libzbar0 lua-bitop lua-expat lua-json
+  lua-lpeg lua-socket mutter-common nautilus nautilus-data osinfo-db p11-kit p11-kit-modules
+  packagekit pinentry-gnome3 pipewire pipewire-bin poppler-data python3-certifi python3-chardet
+  python3-cups python3-cupshelpers python3-distro python3-idna python3-ldb python3-pkg-resources
+  python3-pyatspi python3-pycurl python3-requests python3-software-properties python3-talloc
+  samba-libs software-properties-common software-properties-gtk system-config-printer-common
+  system-config-printer-udev timgm6mb-soundfont totem totem-common tracker tracker-extract
+  tracker-miner-fs usb.ids xwayland yelp yelp-xsl zenity zenity-common
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom gnome | kde-standard | xfce4
+  | wmaker ispell | aspell | hunspell eog-plugins nautilus-sendto unrar evolution fonts-texgyre
+  gnome-orca libpam-fprintd gedit-plugins libcanberra-gtk-module libcanberra-gtk3-module gnome
+  usbguard gir1.2-telepathyglib-0.12 gir1.2-telepathylogger-0.2 apt-config-icons-hidpi
+  gnome-software-plugin-flatpak gnome-software-plugin-snap frei0r-plugins samba-common hunspell
+  openoffice.org-hunspell | openoffice.org-core aspell libdvdcss2 libenchant-2-voikko exiv2
+  libfftw3-bin libfftw3-dev libgd-tools gphoto2 libportaudio2 libosinfo-l10n hplip sndiod
+  snmp-mibs-downloader libwildmidi-config nautilus-extension-brasero pinentry-doc poppler-utils
+  ghostscript fonts-japanese-mincho | fonts-ipafont-mincho fonts-japanese-gothic
+  | fonts-ipafont-gothic fonts-arphic-ukai fonts-arphic-uming fonts-nanum python3-setuptools
+  libcurl4-gnutls-dev python-pycurl-doc python3-pycurl-dbg python3-cryptography python3-openssl
+  python3-socks python-requests-doc fluid-soundfont-gm gnome-codec-install
+Recommended packages:
+  plymouth-label xserver-xephyr fonts-noto-color-emoji cups-pk-helper rygel | rygel-tracker
+  malcontent-gui cracklib-runtime realmd libproxy1-plugin-networkmanager gnome-keyring-pkcs11
+  dleyna-server iio-sensor-proxy bolt chrome-gnome-shell ibus switcheroo-control
+  gnome-shell-extension-prefs fwupd nautilus-extension-gnome-terminal gnome-accessibility-themes
+  aspell-en | aspell-dictionary | aspell6a-dictionary libclutter-1.0-common libcogl-common
+  enchant-2 libgphoto2-l10n fonts-droid-fallback gstreamer1.0-gl libpaper-utils sane-utils ipp-usb
+  libgdk-pixbuf2.0-bin packagekit-tools gir1.2-secret-1 python3-smbc gstreamer1.0-plugins-ugly
+  totem-plugins docbook-xml fonts-dejavu
+The following NEW packages will be installed:
+  acl apache2-bin apg appstream apt-config-icons baobab caribou cheese-common colord colord-data
+  dconf-cli desktop-base dictionaries-common emacsen-common eog evince evince-common
+  evolution-data-server evolution-data-server-common folks-common fonts-cantarell fonts-quicksand
+  fonts-urw-base35 gcr gdm3 gedit gedit-common gir1.2-accountsservice-1.0 gir1.2-atspi-2.0
+  gir1.2-caribou-1.0 gir1.2-clutter-1.0 gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-evince-3.0
+  gir1.2-gck-1 gir1.2-gcr-3 gir1.2-gdesktopenums-3.0 gir1.2-gdm-1.0 gir1.2-geoclue-2.0
+  gir1.2-gmenu-3.0 gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-graphene-1.0
+  gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gtksource-4 gir1.2-gweather-3.0
+  gir1.2-ibus-1.0 gir1.2-javascriptcoregtk-4.0 gir1.2-json-1.0 gir1.2-mutter-7 gir1.2-nma-1.0
+  gir1.2-notify-0.7 gir1.2-packagekitglib-1.0 gir1.2-peas-1.0 gir1.2-polkit-1.0 gir1.2-rsvg-2.0
+  gir1.2-soup-2.4 gir1.2-upowerglib-1.0 gir1.2-webkit2-4.0 gjs gkbd-capplet gnome-backgrounds
+  gnome-bluetooth gnome-calculator gnome-characters gnome-contacts gnome-control-center
+  gnome-control-center-data gnome-core gnome-disk-utility gnome-font-viewer gnome-keyring
+  gnome-logs gnome-menus gnome-online-accounts gnome-online-miners gnome-session gnome-session-bin
+  gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell
+  gnome-shell-common gnome-shell-extensions gnome-software gnome-software-common gnome-sushi
+  gnome-system-monitor gnome-terminal gnome-terminal-data gnome-themes-extra
+  gnome-themes-extra-data gnome-user-docs gnome-user-share grilo-plugins-0.3
+  gstreamer1.0-clutter-3.0 gstreamer1.0-gtk3 gstreamer1.0-packagekit gstreamer1.0-pipewire
+  gstreamer1.0-plugins-bad gstreamer1.0-x gtk2-engines-pixbuf gvfs gvfs-backends gvfs-daemons
+  gvfs-fuse gvfs-libs hunspell-en-us libamtk-5-0 libamtk-5-common libapache2-mod-dnssd
+  libappstream4 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libaspell15
+  libatk-adaptor libcamel-1.2-62 libcanberra-pulse libcaribou-common libcaribou0 libcdio-cdda2
+  libcdio-paranoia2 libcdio19 libcheese-gtk25 libcheese8 libclutter-1.0-0 libclutter-gst-3.0-0
+  libclutter-gtk-1.0-0 libcogl-pango20 libcogl-path20 libcogl20 libcolord-gtk1 libcolorhug2
+  libcrack2 libcue2 libdc1394-25 libdca0 libde265-0 libdjvulibre-text libdjvulibre21
+  libdmapsharing-3.0-2 libdvdnav4 libdvdread8 libebackend-1.2-10 libebook-1.2-20
+  libebook-contacts-1.2-3 libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1
+  libedataserver-1.2-25 libedataserverui-1.2-2 libenchant-2-2 libevdocument3-4 libevview3-3
+  libexempi8 libexiv2-27 libfaad2 libfftw3-double3 libfluidsynth2 libfolks-eds25 libfolks25
+  libfwupd2 libgcr-ui-3-1 libgd3 libgdata-common libgdata22 libgdm1 libgee-0.8-2 libgeoclue-2-0
+  libgeocode-glib0 libgexiv2-2 libgfbgraph-0.2-0 libgif7 libgjs0g libgles2 libgnome-autoar-0-0
+  libgnome-bluetooth13 libgnome-menu-3-0 libgnomekbd-common libgnomekbd8 libgoa-1.0-0b
+  libgoa-1.0-common libgoa-backend-1.0-1 libgom-1.0-0 libgphoto2-6 libgphoto2-port12
+  libgraphene-1.0-0 libgrilo-0.3-0 libgs9 libgs9-common libgsf-1-114 libgsf-1-common libgsound0
+  libgspell-1-2 libgspell-1-common libgssdp-1.2-0 libgstreamer-gl1.0-0
+  libgstreamer-plugins-bad1.0-0 libgtksourceview-4-0 libgtksourceview-4-common libgtop-2.0-11
+  libgtop2-common libgupnp-1.2-0 libgupnp-igd-1.0-4 libgusb2 libgweather-3-16 libgweather-common
+  libgxps2 libhandy-1-0 libharfbuzz-icu0 libhyphen0 libibus-1.0-5 libidn11 libieee1284-3
+  libijs-0.35 libilmbase25 libinstpatch-1.0-2 libiptcdata0 libjavascriptcoregtk-4.0-18
+  libjbig2dec0 libjcat1 libkate1 libkpathsea6 libldb2 libltc11 liblua5.2-0 liblua5.3-0
+  libmanette-0.2-0 libmediaart-2.0-0 libmjpegutils-2.1-0 libmms0 libmodplug1 libmozjs-78-0
+  libmpcdec6 libmpeg2encpp-2.1-0 libmplex2-2.1-0 libmusicbrainz5-2 libmusicbrainz5cc2v5
+  libmutter-7-0 libnautilus-extension1a libneon27-gnutls libnfs13 libnice10 liboauth0 libofa0
+  libopenal-data libopenal1 libopenexr25 libopengl0 libopenni2-0 libosinfo-1.0-0
+  libpackagekit-glib2-18 libpam-gnome-keyring libpaper1 libpeas-1.0-0 libpeas-common
+  libphonenumber8 libpipewire-0.3-modules libprotobuf23 libproxy1-plugin-gsettings
+  libproxy1-plugin-webkit libpwquality-common libpwquality1 libquvi-0.9-0.9.3 libquvi-scripts-0.9
+  libsane-common libsane1 libsdl2-2.0-0 libsmbclient libsndio7.0 libsnmp-base libsnmp40
+  libsoundtouch1 libspandsp2 libspectre1 libsrtp2-1 libsynctex2 libtalloc2 libtepl-5-0 libtevent0
+  libtotem-plparser-common libtotem-plparser18 libtotem0 libtracker-control-2.0-0
+  libtracker-miner-2.0-0 libtracker-sparql-2.0-0 libvo-aacenc0 libvo-amrwbenc0 libwbclient0
+  libwebkit2gtk-4.0-37 libwebpdemux2 libwildmidi2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1
+  libxcb-res0 libxmlb1 libxslt1.1 libyelp0 libzapojit-0.0-0 libzbar0 lua-bitop lua-expat lua-json
+  lua-lpeg lua-socket mutter-common nautilus nautilus-data osinfo-db p11-kit p11-kit-modules
+  packagekit pinentry-gnome3 pipewire pipewire-bin poppler-data python3-certifi python3-chardet
+  python3-cups python3-cupshelpers python3-distro python3-idna python3-ldb python3-pkg-resources
+  python3-pyatspi python3-pycurl python3-requests python3-software-properties python3-talloc
+  samba-libs software-properties-common software-properties-gtk system-config-printer-common
+  system-config-printer-udev timgm6mb-soundfont totem totem-common tracker tracker-extract
+  tracker-miner-fs usb.ids xwayland yelp yelp-xsl zenity zenity-common
+0 upgraded, 350 newly installed, 0 to remove and 0 not upgraded.
+Need to get 213 MB of archives.
+After this operation, 721 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
