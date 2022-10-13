@@ -1,0 +1,198 @@
+root@mx1:/home/demo# apt remove xfce* exo-utils desktop-defaults-mx-xfce* libexo* libgarcon* libxfce* thunar* xfwm4
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'xfce4-weather-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-statusnotifier-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-xkb-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-diskperf-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-xapp-status-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-dict' for glob 'xfce*'
+Note, selecting 'xfce4-battery-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-xapp-status-plugin-dbg' for glob 'xfce*'
+Note, selecting 'xfce4-cpugraph-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-dev-tools' for glob 'xfce*'
+Note, selecting 'xfce4-multiload-ng-plugin-dbgsym' for glob 'xfce*'
+Note, selecting 'xfce4-power-manager-data' for glob 'xfce*'
+Note, selecting 'xfce4-netload-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-smartbookmark-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-sntray-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-sensors-plugin-dbgsym' for glob 'xfce*'
+Note, selecting 'xfce4-panel' for glob 'xfce*'
+Note, selecting 'xfce-superkey-mx-dbgsym' for glob 'xfce*'
+Note, selecting 'xfce4-eyes-plugin' for glob 'xfce*'
+Note, selecting 'xfce4' for glob 'xfce*'
+Note, selecting 'xfce4-goodies' for glob 'xfce*'
+Note, selecting 'xfce4-dxreminders-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-cpufreq-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-taskmanager' for glob 'xfce*'
+Note, selecting 'xfce4-mailwatch-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-radio-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-power-manager' for glob 'xfce*'
+Note, selecting 'xfce4-multiload-ng-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-docklike-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-timer-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-clipman-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-helpers' for glob 'xfce*'
+Note, selecting 'xfce4-settings' for glob 'xfce*'
+Note, selecting 'xfce4-terminal' for glob 'xfce*'
+Note, selecting 'xfce4-session' for glob 'xfce*'
+Note, selecting 'xfce4-places-plugin' for glob 'xfce*'
+Note, selecting 'xfce-keyboard-shortcuts' for glob 'xfce*'
+Note, selecting 'xfce4-appfinder' for glob 'xfce*'
+Note, selecting 'xfce4-appmenu-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-clipman' for glob 'xfce*'
+Note, selecting 'xfce4-power-manager-plugins' for glob 'xfce*'
+Note, selecting 'xfce4-wavelan-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-sntray-plugin-common' for glob 'xfce*'
+Note, selecting 'xfce4-systemload-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-notes' for glob 'xfce*'
+Note, selecting 'xfce4-notes-plugin' for glob 'xfce*'
+Note, selecting 'xfce-superkey-mx' for glob 'xfce*'
+Note, selecting 'xfce4-volstatus-icon' for glob 'xfce*'
+Note, selecting 'xfce4-verve-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-screenshooter' for glob 'xfce*'
+Note, selecting 'xfce4-genmon-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-indicator-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-utils' for glob 'xfce*'
+Note, selecting 'xfce4-sensors-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-mount-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-pulseaudio-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-whiskermenu-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-datetime-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-fsguard-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-mpc-plugin' for glob 'xfce*'
+Note, selecting 'xfce4-notifyd' for glob 'xfce*'
+Note, selecting 'xfce4-cddrive-plugin' for glob 'xfce*'
+Package 'xfce4-cddrive-plugin' is not installed, so not removed
+Package 'xfce4-volstatus-icon' is not installed, so not removed
+Note, selecting 'libxfce4ui-common' instead of 'xfce-keyboard-shortcuts'
+Package 'xfce4-radio-plugin' is not installed, so not removed
+Package 'xfce4-utils' is not installed, so not removed
+Note, selecting 'desktop-defaults-mx-xfce-system' for glob 'desktop-defaults-mx-xfce*'
+Note, selecting 'desktop-defaults-mx-xfce' for glob 'desktop-defaults-mx-xfce*'
+Note, selecting 'desktop-defaults-mx-xfce-desktop' for glob 'desktop-defaults-mx-xfce*'
+Note, selecting 'libexodusii5' for glob 'libexo*'
+Note, selecting 'libexo-2-dev' for glob 'libexo*'
+Note, selecting 'libexodusii-dev' for glob 'libexo*'
+Note, selecting 'libexo-2-0' for glob 'libexo*'
+Note, selecting 'libexo-helpers' for glob 'libexo*'
+Note, selecting 'libexo-common' for glob 'libexo*'
+Package 'libexo-helpers' is not installed, so not removed
+Note, selecting 'libgarcon-1-dev' for glob 'libgarcon*'
+Note, selecting 'libgarcon-1-0-dev' for glob 'libgarcon*'
+Note, selecting 'libgarcon-gtk3-1-0' for glob 'libgarcon*'
+Note, selecting 'libgarcon-gtk3-1-dev' for glob 'libgarcon*'
+Note, selecting 'libgarcon-1-0' for glob 'libgarcon*'
+Note, selecting 'libgarcon-common' for glob 'libgarcon*'
+Note, selecting 'libxfce4util-bin' for glob 'libxfce*'
+Note, selecting 'libxfce4util-dev' for glob 'libxfce*'
+Note, selecting 'libxfce4ui-common' for glob 'libxfce*'
+Note, selecting 'libxfce4ui-2-dev' for glob 'libxfce*'
+Note, selecting 'libxfce4ui-1-0' for glob 'libxfce*'
+Note, selecting 'libxfce4panel-2.0-dev' for glob 'libxfce*'
+Note, selecting 'libxfce4ui-2-0' for glob 'libxfce*'
+Note, selecting 'libxfce4panel-2.0-4' for glob 'libxfce*'
+Note, selecting 'libxfce4ui-utils' for glob 'libxfce*'
+Note, selecting 'libxfce4ui-glade' for glob 'libxfce*'
+Note, selecting 'libxfce4util4' for glob 'libxfce*'
+Note, selecting 'libxfce4util7' for glob 'libxfce*'
+Note, selecting 'libxfce4util-common' for glob 'libxfce*'
+Package 'libxfce4ui-1-0' is not installed, so not removed
+Package 'libxfce4util4' is not installed, so not removed
+Note, selecting 'thunar-modified-desktop-file' for glob 'thunar*'
+Note, selecting 'thunar-shares-plugin' for glob 'thunar*'
+Note, selecting 'thunar-data' for glob 'thunar*'
+Note, selecting 'thunar-custom-actions-mx' for glob 'thunar*'
+Note, selecting 'thunar-sendto-clamtk' for glob 'thunar*'
+Note, selecting 'thunarx-python' for glob 'thunar*'
+Note, selecting 'thunar-archive-plugin' for glob 'thunar*'
+Note, selecting 'thunar-gtkhash' for glob 'thunar*'
+Note, selecting 'thunar-archive-plugin-dbgsym' for glob 'thunar*'
+Note, selecting 'thunar-volman' for glob 'thunar*'
+Note, selecting 'thunar-media-tags-plugin' for glob 'thunar*'
+Note, selecting 'thunar-dropbox-plugin' for glob 'thunar*'
+Note, selecting 'thunar' for glob 'thunar*'
+Note, selecting 'thunar-vcs-plugin' for glob 'thunar*'
+Note, selecting 'thunar-font-manager' for glob 'thunar*'
+Package 'thunar-sendto-clamtk' is not installed, so not removed
+Package 'thunarx-python' is not installed, so not removed
+Package 'libexodusii-dev' is not installed, so not removed
+Package 'libexodusii5' is not installed, so not removed
+Package 'libgarcon-1-0-dev' is not installed, so not removed
+Package 'libgarcon-1-dev' is not installed, so not removed
+Package 'libgarcon-gtk3-1-dev' is not installed, so not removed
+Package 'thunar-gtkhash' is not installed, so not removed
+Package 'libxfce4util-bin' is not installed, so not removed
+Package 'libxfce4util-dev' is not installed, so not removed
+Package 'thunar-media-tags-plugin' is not installed, so not removed
+Package 'thunar-vcs-plugin' is not installed, so not removed
+Package 'xfce4-appmenu-plugin' is not installed, so not removed
+Package 'xfce4' is not installed, so not removed
+Package 'xfce4-dict' is not installed, so not removed
+Package 'xfce4-diskperf-plugin' is not installed, so not removed
+Package 'xfce4-eyes-plugin' is not installed, so not removed
+Package 'xfce4-goodies' is not installed, so not removed
+Package 'xfce4-indicator-plugin' is not installed, so not removed
+Package 'xfce4-mailwatch-plugin' is not installed, so not removed
+Package 'xfce4-mpc-plugin' is not installed, so not removed
+Package 'xfce4-netload-plugin' is not installed, so not removed
+Package 'xfce4-smartbookmark-plugin' is not installed, so not removed
+Package 'xfce4-sntray-plugin' is not installed, so not removed
+Package 'xfce4-sntray-plugin-common' is not installed, so not removed
+Package 'xfce4-statusnotifier-plugin' is not installed, so not removed
+Package 'xfce4-timer-plugin' is not installed, so not removed
+Package 'xfce4-verve-plugin' is not installed, so not removed
+Package 'xfce4-weather-plugin' is not installed, so not removed
+Package 'thunar-dropbox-plugin' is not installed, so not removed
+Package 'libexo-2-dev' is not installed, so not removed
+Package 'libxfce4panel-2.0-dev' is not installed, so not removed
+Package 'libxfce4ui-2-dev' is not installed, so not removed
+Package 'libxfce4ui-glade' is not installed, so not removed
+Package 'libxfce4ui-utils' is not installed, so not removed
+Package 'thunar-archive-plugin-dbgsym' is not installed, so not removed
+Package 'thunar-font-manager' is not installed, so not removed
+Package 'thunar-shares-plugin' is not installed, so not removed
+Package 'xfce-superkey-mx-dbgsym' is not installed, so not removed
+Package 'xfce4-clipman' is not installed, so not removed
+Package 'xfce4-clipman-plugin' is not installed, so not removed
+Package 'xfce4-cpufreq-plugin' is not installed, so not removed
+Package 'xfce4-cpugraph-plugin' is not installed, so not removed
+Package 'xfce4-dxreminders-plugin' is not installed, so not removed
+Package 'xfce4-multiload-ng-plugin' is not installed, so not removed
+Package 'xfce4-multiload-ng-plugin-dbgsym' is not installed, so not removed
+Package 'xfce4-notes' is not installed, so not removed
+Package 'xfce4-notes-plugin' is not installed, so not removed
+Package 'xfce4-sensors-plugin' is not installed, so not removed
+Package 'xfce4-sensors-plugin-dbgsym' is not installed, so not removed
+Package 'xfce4-systemload-plugin' is not installed, so not removed
+Package 'xfce4-xapp-status-plugin' is not installed, so not removed
+Package 'xfce4-xapp-status-plugin-dbg' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  gir1.2-nm-1.0 libexif12 libkeybinder-3.0-0 libstartup-notification0 libvte-2.91-0
+  libvte-2.91-common libwnck-3-0 libwnck-3-common libxpresent1 libxres1 python3-six
+  python3-urllib3 xfdesktop4-data
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  xbitmaps xterm
+Suggested packages:
+  xfonts-cyrillic
+The following packages will be REMOVED:
+  blueman desktop-defaults-mx-xfce desktop-defaults-mx-xfce-desktop
+  desktop-defaults-mx-xfce-system exo-utils libexo-2-0 libexo-common libgarcon-1-0
+  libgarcon-common libgarcon-gtk3-1-0 libthunarx-3-0 libxfce4panel-2.0-4 libxfce4ui-2-0
+  libxfce4ui-common libxfce4util-common libxfce4util7 libxfconf-0-3 thunar thunar-archive-plugin
+  thunar-custom-actions-mx thunar-data thunar-modified-desktop-file thunar-volman xfce-superkey-mx
+  xfce4-appfinder xfce4-battery-plugin xfce4-datetime-plugin xfce4-dev-tools xfce4-docklike-plugin
+  xfce4-fsguard-plugin xfce4-genmon-plugin xfce4-helpers xfce4-mount-plugin xfce4-notifyd
+  xfce4-panel xfce4-places-plugin xfce4-power-manager xfce4-power-manager-data
+  xfce4-power-manager-plugins xfce4-pulseaudio-plugin xfce4-screenshooter xfce4-session
+  xfce4-settings xfce4-taskmanager xfce4-terminal xfce4-wavelan-plugin xfce4-whiskermenu-plugin
+  xfce4-xkb-plugin xfconf xfdesktop4 xfwm4
+The following NEW packages will be installed:
+  xbitmaps xterm
+0 upgraded, 2 newly installed, 51 to remove and 0 not upgraded.
+Need to get 844 kB of archives.
+After this operation, 51.5 MB disk space will be freed.
+Do you want to continue? [Y/n] 
+

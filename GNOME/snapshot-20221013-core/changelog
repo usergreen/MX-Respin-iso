@@ -1,0 +1,11 @@
+This snapshot has designed for users who do not prefer extra applications of GNOME desktop.
+
+This is a reviewed version of the provides release. Yet, the size of ISO image file still remains relatively very smaii.
+
+Removed the leftover of Xfce components from the previous ISO image.
+
+Added file-roller, gnome-screenshot and cups for convenience.
+
+The system has been fully updated so far at the time of this release.
+
+End.
