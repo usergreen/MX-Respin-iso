@@ -73,7 +73,7 @@ zenity-common (3.32.0-6)
 zenity (3.32.0-6)
 
 
-apt install mozo mate-tweak mate-media
+apt install mate-tweak mate-media mate-screensaver mate-user-guide
 
 apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
 
@@ -95,7 +95,7 @@ apt install libreoffice-l10n-de libreoffice-l10n-es libreoffice-l10n-fr libreoff
 
 system-locales-mx
 
-add:
+ADD:
 de_DE.UTF-8... done - German locale for Germany
 en_US.UTF-8... done - English locale for the USA
 es_ES.UTF-8... done - Spanish locale for Spain
