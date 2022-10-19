@@ -1,4 +1,4 @@
-# mx respin - Flora Linux
+# Flora Linux - MX Respin
 This is a project to create an<br>
 Unofficial MX Respin iso (personally customized snapshots)<br>
 These products are based on MX Linux but are not connected with it.
