@@ -1,10 +1,10 @@
-# Flora Linux - MX respin
-This is a project to create an<br>
-Unofficial MX Respin iso (personally customized snapshots)<br>
+# Flora Linux (unofficial MX respin)
+This is a project to develop Linux distribution for Desktop,<br>
+which has derived MX Linux (a personally customized snapshot)<br>
 These products are based on MX Linux but are not connected with it.
  
 The ultimate goal of the project at first was to create and provide Linux users around the globe with a complete Japanese environment by default. But now, this project also tries to support multilingualism (M17n).<br>
-（このプロジェクトの当初の目標は、完全な日本語環境を構築することによって、標準（デフォルト）で世界中の Linux ユーザーに完全な日本語環境を提供することでした。ほぼ完全な日本語環境（日本語入力も含む）を備えているので、起動直後から日本語で利用できます。インターネット接続環境は一切要りません。現在、公開している各リスピンは標準で世界の主要言語に対応する仕様（システムロケール）になっています。）
+（このプロジェクトの当初の目標は、完全な日本語環境を構築することによって、標準（デフォルト）で世界中の Linux ユーザーに完全な日本語環境を提供することでした。ほぼ完全な日本語環境（日本語入力も含む）を備えているので、起動直後から日本語で利用できます。初期設定でインターネット接続環境は一切要りません。現在、公開しているリスピンは標準で世界の主要言語に対応する仕様（システムロケール）です。）
 
 ISO image files already created, are distributed at:
 
