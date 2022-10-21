@@ -1,4 +1,4 @@
-# Flora Linux (unofficial MX respin)
+# MX Respin iso (unofficial MX respin)
 This is a project to develop Linux distribution for Desktop,<br>
 which has derived from MX Linux (a personally customized snapshot)<br>
 These products are based on MX Linux but are not connected with it.
