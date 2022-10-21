@@ -1,0 +1,10 @@
+Adopted "Flora Linux" as a new project name
+
+2022-10-19
+
+This is a project to develop Linux distribution based upon Debian and MX Linux.
+In short, it is a hybrid re-spin ISO of Debian stabe and MX.
+I have adopted a picture of flowers as Desktop wallpaper on the last release, that is why it is named Flora Linux.
+
+After all, this is a derivative of Debian and MX for end users of Linux Desktop.
+
