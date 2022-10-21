@@ -1,0 +1,42 @@
+### How to change default wallpapers on Flora Linux 20221019-cinnamon edition
+
+The place where the default wallpapers with debian logo exists in
+
+/usr/share/desktop-base/homeworld-theme/wallpaper/contents/images
+
+Use .svg image instead of .jpg image.
+To change into SVG format, use Inkscape software.
+
+Copy as root user:
+
+cp sample.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images
+
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images
+
+To replace the default image, overwrite as:
+
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/1280x1024.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/1920x1080.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/2560x1080.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/2560x1600.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/3840x2160.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/1600x1200.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/1920x1200.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/2560x1440.svg
+cp IMG_0003.svg /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images/2560x2048.svg
+
+
+Edit /usr/share/desktop-base/homeworld-theme/wallpaper/metadata.desktop file as:
+
+[Desktop Entry]
+Name=IMG_0003.jpg
+X-KDE-PluginInfo-Name=Clematis
+X-KDE-PluginInfo-Author=Green, alias usergreen
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-License=GPLv2+
+
+**************************************************************
+To Remove the default wallpapers as follows
+
+# rm -r /usr/share/desktop-base/homeworld-theme
+
