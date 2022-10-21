@@ -1,0 +1,10 @@
+Changes:
+
+Added Greek locale: el_GR.UTF-8
+Installed firefox-l10n-el
+Installed libreoffice-xpi-l10n-el
+Installed nemo-fileroller for cinnamon plugin
+Removed default wallpapers with Debian logo
+Updated to the up-to-date Debian and MX base so far
+
+END.
