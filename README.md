@@ -1,6 +1,6 @@
 # Flora Linux (unofficial MX respin)
 This is a project to develop Linux distribution for Desktop,<br>
-which has derived MX Linux (a personally customized snapshot)<br>
+which has derived from MX Linux (a personally customized snapshot)<br>
 These products are based on MX Linux but are not connected with it.
  
 The ultimate goal of the project at first was to create and provide Linux users around the globe with a complete Japanese environment by default. But now, this project also tries to support multilingualism (M17n).<br>
