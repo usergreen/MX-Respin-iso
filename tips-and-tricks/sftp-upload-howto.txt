@@ -1,23 +1,27 @@
-user@debian:~/mx-respin-iso/MATE/snapshot-20220724$
+user@debian:~/flora-linux/japanese-edition/snapshot-20220724$
 sftp usergreen@frs.sourceforge.net
 
 sftp>
-cd /home/frs/project/mx-respin-iso/MATE/snapshot-20220724
+cd /home/frs/project/flora-linux/japanese-edition/snapshot-20221020
 
 sftp>
-put snapshot-20220724_0855.iso
+put snapshot-20221020_1459.iso
 
 sftp>
 exit
 
 ---------------------------------------------------------
+[Template]
 
-user@debian:~/mx-respin-iso/MATE/snapshot-20220901$ sftp usergreen@frs.sourceforge.net
-Connected to usergreen@frs.sourceforge.net.
-sftp> cd /home/frs/project/mx-respin-iso/MATE/snapshot-20220901
-sftp> put snapshot-20220901_0530.iso
-Uploading snapshot-20220901_0530.iso to /home/pfs/project/mx-respin-iso/MATE/snapshot-20220901/snapshot-20220901_0530.iso
-snapshot-20220901_0530.iso                                                      snapshot-20220901_0530.iso                    100% 2568MB   4.4MB/s   09:45    
-sftp> exit
-user@debian:~/mx-respin-iso/MATE/snapshot-20220901$ 
+$ sftp jsmith@frs.sourceforge.net
+Connecting to frs.sourceforge.net...
+jsmith@frs.sourceforge.net's password: 
+sftp> cd /home/frs/project/fooproject/release1
+sftp> put file.zip
+Uploading file.zip to /home/frs/project/fooproject/release1/file.zip
+ws                                            100% 1573     1.5KB/s   00:00    
+sftp>
+
+
+https://sourceforge.net/p/forge/documentation/Release%20Files%20for%20Download/#sftp
 
