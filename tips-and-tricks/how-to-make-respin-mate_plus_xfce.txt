@@ -89,14 +89,15 @@ apt install uim-chewing uim-pinyin fonts-wqy-microhei
 
 //apt remove pavucontrol
 
-apt install firefox-l10n-xpi-de firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
+apt install firefox-l10n-xpi-de firefox-l10n-xpi-el firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
 
-apt install libreoffice-l10n-de libreoffice-l10n-es libreoffice-l10n-fr libreoffice-l10n-hi libreoffice-l10n-hr libreoffice-l10n-hu libreoffice-l10n-id libreoffice-l10n-it libreoffice-l10n-ja libreoffice-l10n-nl libreoffice-l10n-pt-br libreoffice-l10n-ru libreoffice-l10n-sv libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw
+apt install libreoffice-l10n-de libreoffice-l10n-el libreoffice-l10n-es libreoffice-l10n-fr libreoffice-l10n-hi libreoffice-l10n-hr libreoffice-l10n-hu libreoffice-l10n-id libreoffice-l10n-it libreoffice-l10n-ja libreoffice-l10n-nl libreoffice-l10n-pt-br libreoffice-l10n-ru libreoffice-l10n-sv libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw
 
 system-locales-mx
 
 ADD:
 de_DE.UTF-8... done - German locale for Germany
+el_GR.UTF-8... done - Greek locale for Greece
 en_US.UTF-8... done - English locale for the USA
 es_ES.UTF-8... done - Spanish locale for Spain
 fr_FR.UTF-8... done - French locale for France
