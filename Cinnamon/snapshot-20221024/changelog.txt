@@ -1,0 +1,8 @@
+Changelog:
+
+To reduce the size of ISO file, reviewed as follows:
+
+Removed LibreOffice-Writer and LibreOffice-Calc and related packages.
+Therefore, please install by MX Package Installer afterwards, if it is needed for you.
+
+END.
