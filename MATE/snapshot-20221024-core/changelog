@@ -1,0 +1,11 @@
+Changelog:
+
+Added system locale: el_GR for Greek
+
+Updated to the up-to-date MX-21.2.1 base as of 2022-10-24
+
+Updated Live Linux kernel
+
+Removed the last Linux Kernel
+
+END.
