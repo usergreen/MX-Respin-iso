@@ -1,6 +1,6 @@
 ### How to change default wallpapers on Flora Linux 20221019-cinnamon edition
 
-The place where the default wallpapers with debian logo exists in
+The place where the default wallpapers with debian logo exists is in
 
 /usr/share/desktop-base/homeworld-theme/wallpaper/contents/images
 
@@ -36,7 +36,7 @@ X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-License=GPLv2+
 
 **************************************************************
-To Remove the default wallpapers as follows
+To Remove the default wallpapers, do as follows
 
 # rm -r /usr/share/desktop-base/homeworld-theme
 
