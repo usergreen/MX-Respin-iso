@@ -1,0 +1,10 @@
+Changelog:
+
+This ISO image mainly includes core components of Xfce Desktop.
+Modified from unofficial MX-21.1_minimal_x64.
+
+Added multiple locales along with Chinese and Japanese input.
+
+This edition is relatively a small size and keeps simple. Thus, many basic desktop applications are included besides LibreOffice office suite.
+
+End.
