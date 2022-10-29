@@ -1,0 +1,13 @@
+Changelog:
+
+***IMPORTANT***
+The original base of this edition is the Official MX-21.2.1_x64.iso, NOT an unofficial MX-21.1_minimal_x64.
+*******************
+
+No desktop applications are removed from the original version rather than mailer to introduce more light mailer.
+
+Updated to the up-to-date base as of 2022-10-29.
+
+Updated many translations for desktop applications.
+
+END.
