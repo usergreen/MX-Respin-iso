@@ -1,0 +1,21 @@
+### How to set default wallpaper on MX-21 Xfce
+
+The default wallpaper for new users is defined in the file /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml.
+
+In line 7 of the file 11 you can define the path to the wallpaper that will be used for new users (the image can’t be in your home directory).
+
+Bare in mind that any changes in that file will get overridden after each update of the package manjaro-xfce-settings, so you’ll have to make this change every time a new version of this package gets installed.
+
+https://forum.manjaro.org/t/xfce-change-background-for-all-users/46367
+
+
+cp sample.jpg /usr/share/backgrounds
+
+cat /etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+
+Replace all Honesty.jpg with sample.jpg
+
+Change values of strings:
+<property name="image-style" type="int" value="5"/>
+
+## Deleting default Honesty.jpg automatically sets Xfce wallpaper of Upstream's.
