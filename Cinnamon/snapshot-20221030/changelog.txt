@@ -1,0 +1,11 @@
+Changelog:
+
+Labeled this snapshot as "MX Respin iso_21.2.1, 30 October 2022 (Clematis)
+
+Added mx-docs for FAQ and user's manual
+
+Updated translations
+
+Updated to the up-to-date base as of 2022-10-30 so far.
+
+END.
