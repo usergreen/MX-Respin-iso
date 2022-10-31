@@ -21,7 +21,7 @@ apt install gnome-core file-roller gnome-screenshot
 
 apt install cups cups-pdf
 
-apt install formatusb quick-system-info-gui
+apt install formatusb quick-system-info-gui mx-docs
 
 apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
 
