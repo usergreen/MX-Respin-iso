@@ -1,12 +1,12 @@
 2022-07-23 13:40 JST
-updated: 2022-10-31 18:24 JST
+updated: 2022-10-31 18:56 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
 
 This snapshot provides core components of GNOME Desktop environment, and modified thoroughly
 from MX-21.2.1_minimal_x64 Wildflower September 18, 2022.
-Thus, this respin is now shown as "Flora Linux-21.2.1_x64 (October 31, 2022)" at the boot menu.
+Thus, this respin is now shown as "MX Respin iso-21.2.1_x64 (October 31, 2022)" at the boot menu.
 
 User: demo
 Demo password: demo
