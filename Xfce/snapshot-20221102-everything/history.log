@@ -1,0 +1,15 @@
+
+Start-Date: 2022-11-02  11:52:27
+Commandline: apt upgrade
+Upgrade: tzdata:amd64 (2021a-1+deb11u7, 2021a-1+deb11u8), mx-iso-template:amd64 (22.03.01mx21, 22.10.mx21), libexpat1:amd64 (2.2.10-2+deb11u4, 2.2.10-2+deb11u5), libpostproc55:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), libavcodec58:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), libavutil56:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), libswscale5:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), mx-snapshot:amd64 (22.10, 22.10.05), libswresample3:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), libavformat58:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), libavresample4:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1), libavfilter7:amd64 (7:4.3.4-0+deb11u1+mx21+1, 7:4.3.5-0+deb11u1)
+End-Date: 2022-11-02  11:52:36
+
+Start-Date: 2022-11-02  11:53:18
+Commandline: apt install thunderbird
+Install: libtspi1:amd64 (0.3.14+fixed1-1.2, automatic), thunderbird:amd64 (2:78.13.0-1mx21+1), libbotan-2-17:amd64 (2.17.3+dfsg-2, automatic)
+End-Date: 2022-11-02  11:53:25
+
+Start-Date: 2022-11-02  11:53:55
+Commandline: apt install thunderbird-l10n-de thunderbird-l10n-el thunderbird-l10n-es-es thunderbird-l10n-fr thunderbird-l10n-hr thunderbird-l10n-hu thunderbird-l10n-id thunderbird-l10n-it thunderbird-l10n-ja thunderbird-l10n-nl thunderbird-l10n-pt-br thunderbird-l10n-sv-se thunderbird-l10n-ru thunderbird-l10n-zh-cn thunderbird-l10n-zh-tw
+Install: thunderbird-l10n-sv-se:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-es-es:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-de:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-el:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-fr:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-hr:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-hu:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-id:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-it:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-ja:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-nl:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-ru:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-pt-br:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-zh-cn:amd64 (2:78.13.0-1mx21+1), thunderbird-l10n-zh-tw:amd64 (2:78.13.0-1mx21+1)
+End-Date: 2022-11-02  11:53:58

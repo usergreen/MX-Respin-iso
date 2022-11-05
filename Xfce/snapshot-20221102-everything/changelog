@@ -1,0 +1,11 @@
+Changelog:
+
+Updated translation
+
+Adopted Zstandard compression instead of LZ4 to reduce filesize
+
+Re-installed Thunderbird mailer. As Zstandard is a good compression, disc size has been reduced.
+
+Updated to up-to-date official base as of 2022-11-02
+
+END.
