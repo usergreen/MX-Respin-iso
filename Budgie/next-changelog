@@ -1,0 +1,6 @@
+
+Remove images in desktop-base directory, but leave desktop-base itself
+
+Relace desktopfolder with budgie-desktop-view
+
+Add budgie-trash-applet
