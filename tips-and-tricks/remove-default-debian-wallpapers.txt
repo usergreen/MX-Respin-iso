@@ -1,0 +1,10 @@
+/usr/share/desktop-base/active-theme/wallpaper/gnome-background.xml
+
+/usr/share/desktop-base/active-theme/wallpaper
+
+/usr/share/desktop-base/active-theme/wallpaper/contents/images
+
+### cp IMG_0003.svg /usr/share/desktop-base/active-theme/wallpaper/contents/images
+
+
+rm -r /usr/share/desktop-base
