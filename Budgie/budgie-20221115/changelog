@@ -1,0 +1,19 @@
+Changelog:
+
+This is a minor fix version.
+
+Replaced GNOME backgrounds with the following ones, imported from Budgie Project.
+
+apollo-11-earth.jpg
+beacon-street-sunset.jpg
+lake-sherburne.jpg
+saturnian-profile.jpg
+ufo-galaxy.jpg
+
+License: Public Domain
+Source: https://github.com/BuddiesOfBudgie/budgie-backgrounds
+
+These are saved in /usr/share/images directory.
+
+END.
+
