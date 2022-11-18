@@ -1,0 +1,5 @@
+
+Start-Date: 2022-11-01  03:26:44
+Commandline: apt install mate-utils
+Install: libmatedict6:amd64 (1.24.0-1, automatic), mate-utils:amd64 (1.24.0-1), mate-utils-common:amd64 (1.24.0-1, automatic)
+End-Date: 2022-11-01  03:26:46
