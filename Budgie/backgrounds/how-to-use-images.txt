@@ -1,0 +1,10 @@
+How to use images as Desktop Background:
+
+1.Download a image into your home directory.
+
+2.Open a window from Main Menu > Preferences > Tweaks > Appearance > Background > image.
+
+3.Click Icon "image (none)"
+
+4.Select the image from where you downloaded (ex. /home/demo).
+
