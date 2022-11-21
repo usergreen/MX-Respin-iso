@@ -16,8 +16,8 @@ apt upgrade
 
 apt remove xfce* exo-utils desktop-defaults-mx-xfce* libexo* libgarcon* libxfce* thunar* xfwm4
 
-apt install budgie-desktop budgie-desktop-doc desktopfolder gnome-tweaks nemo nemo-fileroller
-//budgie-desktop-view --- this is optional (but desktopfolder might have much better functions.)
+apt install budgie-desktop budgie-desktop-doc budgie-desktop-view gnome-tweaks nemo nemo-fileroller
+//desktopfolder --- this is optional (it might have much better functions like cut and past on Desktop than budgie-desktop-view.)
 
 apt install eog evince gnome-screenshot gnome-terminal
 
@@ -69,4 +69,3 @@ apt clean
 rm -r /usr/share/desktop-base
 
 END.
-
