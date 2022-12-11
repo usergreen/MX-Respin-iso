@@ -1,0 +1,60 @@
+root@mx1:/home/demo# apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch ukui-sidebar qt5-ukui-platformtheme kylin-nm ukui-wallpapers
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gir1.2-nm-1.0 libexif12 libkeybinder-3.0-0 libvte-2.91-0 libvte-2.91-common libxpresent1
+  python3-urllib3 xfdesktop4-data
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  bamfdaemon dconf-cli dictionaries-common emacsen-common gvfs gvfs-daemons gvfs-libs
+  hunspell-en-us imwheel kwayland-data libaspell15 libbamf3-2 libenchant-2-2 libfam0
+  libgeoclue-2-0 libgif7 libgsettings-qt1 libgstreamer-gl1.0-0 libgtop-2.0-11 libgtop2-common
+  libharfbuzz-icu0 libhyphen0 libid3tag0 libimlib2 libjavascriptcoregtk-4.0-18 libkf5config-data
+  libkf5configcore5 libkf5coreaddons-data libkf5coreaddons5 libkf5i18n-data libkf5i18n5
+  libkf5idletime5 libkf5screen-bin libkf5screen7 libkf5waylandclient5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 libkf5windowsystem-data libkf5windowsystem5 liblightdm-qt5-3-0
+  libmanette-0.2-0 libmate-desktop-2-17 libmatekbd-common libmatekbd4 libmatemixer-common
+  libmatemixer0 libmng1 libopengl0 libpeony3 libpolkit-qt5-1-1 libpoppler-qt5-1 libqt5-ukui-style1
+  libqt5charts5 libqt5concurrent5 libqt5multimedia5 libqt5multimedia5-plugins
+  libqt5multimediagsttools5 libqt5multimediawidgets5 libqt5qml5 libqt5qmlmodels5
+  libqt5qmlworkerscript5 libqt5quick5 libqt5quickwidgets5 libqt5sensors5 libukwm-1-0
+  libwebkit2gtk-4.0-37 libwebpdemux2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libxcb-res0
+  libxslt1.1 mate-desktop-common peony-common python3-xlib qml-module-qtgraphicaleffects
+  qml-module-qtqml qml-module-qtqml-models2 qml-module-qtquick-controls qml-module-qtquick-layouts
+  qml-module-qtquick-window2 qml-module-qtquick2 qt5-image-formats-plugins qt5-styles-ukui
+  ukui-media-common ukui-notification-daemon ukui-polkit ukui-power-manager-common
+  ukui-settings-daemon-common ukwm ukwm-common zenity zenity-common
+Suggested packages:
+  ispell | aspell | hunspell gvfs-backends hunspell openoffice.org-hunspell | openoffice.org-core
+  aspell libenchant-2-voikko fam qt5-qmltooling-plugins ukui-screensaver biometric-auth
+Recommended packages:
+  aspell-en | aspell-dictionary | aspell6a-dictionary enchant-2 gstreamer1.0-gl libkf5config-bin
+  kwayland-integration hwdata qtwayland5 gvfs-backends gstreamer1.0-plugins-bad peony-extensions
+  alsa-utils ukui-panel ukui-screensaver
+The following NEW packages will be installed:
+  bamfdaemon dconf-cli dictionaries-common emacsen-common gvfs gvfs-daemons gvfs-libs
+  hunspell-en-us imwheel kwayland-data kylin-display-switch kylin-nm libaspell15 libbamf3-2
+  libenchant-2-2 libfam0 libgeoclue-2-0 libgif7 libgsettings-qt1 libgstreamer-gl1.0-0
+  libgtop-2.0-11 libgtop2-common libharfbuzz-icu0 libhyphen0 libid3tag0 libimlib2
+  libjavascriptcoregtk-4.0-18 libkf5config-data libkf5configcore5 libkf5coreaddons-data
+  libkf5coreaddons5 libkf5i18n-data libkf5i18n5 libkf5idletime5 libkf5screen-bin libkf5screen7
+  libkf5waylandclient5 libkf5widgetsaddons-data libkf5widgetsaddons5 libkf5windowsystem-data
+  libkf5windowsystem5 liblightdm-qt5-3-0 libmanette-0.2-0 libmate-desktop-2-17 libmatekbd-common
+  libmatekbd4 libmatemixer-common libmatemixer0 libmng1 libopengl0 libpeony3 libpolkit-qt5-1-1
+  libpoppler-qt5-1 libqt5-ukui-style1 libqt5charts5 libqt5concurrent5 libqt5multimedia5
+  libqt5multimedia5-plugins libqt5multimediagsttools5 libqt5multimediawidgets5 libqt5qml5
+  libqt5qmlmodels5 libqt5qmlworkerscript5 libqt5quick5 libqt5quickwidgets5 libqt5sensors5
+  libukwm-1-0 libwebkit2gtk-4.0-37 libwebpdemux2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1
+  libxcb-res0 libxslt1.1 mate-desktop-common peony peony-common python3-xlib
+  qml-module-qtgraphicaleffects qml-module-qtqml qml-module-qtqml-models2
+  qml-module-qtquick-controls qml-module-qtquick-layouts qml-module-qtquick-window2
+  qml-module-qtquick2 qt5-image-formats-plugins qt5-styles-ukui qt5-ukui-platformtheme
+  ukui-control-center ukui-greeter ukui-media ukui-media-common ukui-menu ukui-notification-daemon
+  ukui-polkit ukui-power-manager ukui-power-manager-common ukui-session-manager
+  ukui-settings-daemon ukui-settings-daemon-common ukui-sidebar ukui-themes ukui-wallpapers
+  ukui-window-switch ukwm ukwm-common zenity zenity-common
+0 upgraded, 108 newly installed, 0 to remove and 73 not upgraded.
+Need to get 154 MB of archives.
+After this operation, 438 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 

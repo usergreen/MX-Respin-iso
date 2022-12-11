@@ -1,0 +1,11 @@
+
+Start-Date: 2022-12-06  07:58:14
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: linux-headers-5.10.0-18-amd64:amd64 (5.10.140-1), linux-headers-5.10.0-18-common:amd64 (5.10.140-1), linux-image-5.10.0-18-amd64:amd64 (5.10.140-1)
+End-Date: 2022-12-06  07:59:13
+
+Start-Date: 2022-12-06  08:03:03
+Commandline: apt install ukui-screensaver
+Install: ukui-screensaver:amd64 (3.0.1-1)
+End-Date: 2022-12-06  08:03:05

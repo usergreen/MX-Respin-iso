@@ -1,0 +1,11 @@
+Changelog:
+
+This is a fixed version of the previous release of UKUI Desktop.
+
+Known bugs that Desktop icons do not appear at all and can not change the solid black background have been completely fixed.
+
+Added a function for Desktop to lock screen.
+
+Deleted older Linux kernel to reduce downloading fie size.
+
+END.

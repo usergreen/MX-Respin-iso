@@ -1,0 +1,162 @@
+root@mx1:/home/demo# apt install ukui* libukui* ukwm
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'ukui-themes' for glob 'ukui*'
+Note, selecting 'ukui-settings-daemon-common' for glob 'ukui*'
+Note, selecting 'ukui-power-manager' for glob 'ukui*'
+Note, selecting 'ukui-desktopserver' for glob 'ukui*'
+Note, selecting 'ukui-kwin' for glob 'ukui*'
+Note, selecting 'ukui-settings-daemon' for glob 'ukui*'
+Note, selecting 'ukui-powerserver' for glob 'ukui*'
+Note, selecting 'ukui-sidebar' for glob 'ukui*'
+Note, selecting 'ukui-biometric-manager' for glob 'ukui*'
+Note, selecting 'ukui-sessionserver' for glob 'ukui*'
+Note, selecting 'ukui-touchpadserver' for glob 'ukui*'
+Note, selecting 'ukui-polkit' for glob 'ukui*'
+Note, selecting 'ukui-media-common' for glob 'ukui*'
+Note, selecting 'ukui-system-monitor' for glob 'ukui*'
+Note, selecting 'ukui-media' for glob 'ukui*'
+Note, selecting 'ukui-backgroundserver' for glob 'ukui*'
+Note, selecting 'ukui-interfaceserver' for glob 'ukui*'
+Note, selecting 'ukui-menus' for glob 'ukui*'
+Note, selecting 'ukui-menu' for glob 'ukui*'
+Note, selecting 'ukui-screensaver-common' for glob 'ukui*'
+Note, selecting 'ukui-screensaverserver' for glob 'ukui*'
+Note, selecting 'ukui-window-switch' for glob 'ukui*'
+Note, selecting 'ukui-notification-daemon' for glob 'ukui*'
+Note, selecting 'ukui-keyboardserver' for glob 'ukui*'
+Note, selecting 'ukui-indicators' for glob 'ukui*'
+Note, selecting 'ukui-wallpapers' for glob 'ukui*'
+Note, selecting 'ukui-xkbgeneralserver' for glob 'ukui*'
+Note, selecting 'ukui-power-manager-common' for glob 'ukui*'
+Note, selecting 'ukui-panel' for glob 'ukui*'
+Note, selecting 'ukui-session-manager' for glob 'ukui*'
+Note, selecting 'ukui-control-center' for glob 'ukui*'
+Note, selecting 'ukui-screensaver' for glob 'ukui*'
+Note, selecting 'ukui-fontserver' for glob 'ukui*'
+Note, selecting 'ukui-greeter' for glob 'ukui*'
+Note, selecting 'ukui-mouseserver' for glob 'ukui*'
+Note, selecting 'ukui-marcogeneralserver' for glob 'ukui*'
+Note, selecting 'ukui-panel' instead of 'ukui-indicators'
+Note, selecting 'libukui-gsettings-dev' for glob 'libukui*'
+Note, selecting 'libukui-defaultprograms0' for glob 'libukui*'
+Note, selecting 'libukui-screensaverclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-sysinfo0' for glob 'libukui*'
+Note, selecting 'libukui-desktopclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-desktopclient0' for glob 'libukui*'
+Note, selecting 'libukui-marcogeneralclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-sysinfo-dev' for glob 'libukui*'
+Note, selecting 'libukui-mouseclient0' for glob 'libukui*'
+Note, selecting 'libukui-usersetting0' for glob 'libukui*'
+Note, selecting 'libukui-network-dev' for glob 'libukui*'
+Note, selecting 'libukui-powerclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-xkbgeneralclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-backgroundclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-print-dev' for glob 'libukui*'
+Note, selecting 'libukui-print0' for glob 'libukui*'
+Note, selecting 'libukui-touchpadclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-fontclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-subversion-dev' for glob 'libukui*'
+Note, selecting 'libukui-xkbgeneralclient0' for glob 'libukui*'
+Note, selecting 'libukui-sessionclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-keyboardclient0' for glob 'libukui*'
+Note, selecting 'libukui-marcogeneralclient0' for glob 'libukui*'
+Note, selecting 'libukui-defaultprograms-dev' for glob 'libukui*'
+Note, selecting 'libukui-interfaceclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-fontclient0' for glob 'libukui*'
+Note, selecting 'libukui-network0' for glob 'libukui*'
+Note, selecting 'libukui-usersetting-dev' for glob 'libukui*'
+Note, selecting 'libukui-datesetting-dev' for glob 'libukui*'
+Note, selecting 'libukui-sessionclient0' for glob 'libukui*'
+Note, selecting 'libukui-touchpadclient0' for glob 'libukui*'
+Note, selecting 'libukui-menu-dev' for glob 'libukui*'
+Note, selecting 'libukui-mouseclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-subversion0' for glob 'libukui*'
+Note, selecting 'libukui-keyboardclient-dev' for glob 'libukui*'
+Note, selecting 'libukui-screensaverclient0' for glob 'libukui*'
+Note, selecting 'libukui-interfaceclient0' for glob 'libukui*'
+Note, selecting 'libukui-menu2' for glob 'libukui*'
+Note, selecting 'libukui-datesetting0' for glob 'libukui*'
+Note, selecting 'libukui-gsettings0' for glob 'libukui*'
+Note, selecting 'libukui-powerclient0' for glob 'libukui*'
+Note, selecting 'libukui-backgroundclient0' for glob 'libukui*'
+The following packages were automatically installed and are no longer required:
+  gir1.2-nm-1.0 libexif12 libkeybinder-3.0-0 libvte-2.91-0 libvte-2.91-common libxpresent1
+  python3-six python3-urllib3 xfdesktop4-data
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  bamfdaemon biometric-auth dconf-cli dictionaries-common emacsen-common file gir1.2-ukuimenu-2.0
+  hunspell-en-us imwheel kwayland-data libaspell15 libbamf3-2 libbiometric0 libblkid-dev
+  libenchant-2-2 libfam0 libffi-dev libfile-basedir-perl libfile-desktopentry-perl
+  libfile-mimeinfo-perl libgeoclue-2-0 libgif7 libglib2.0-dev libglib2.0-dev-bin libgsettings-qt1
+  libgstreamer-gl1.0-0 libgtop-2.0-11 libgtop2-common libharfbuzz-icu0 libhyphen0 libid3tag0
+  libimlib2 libipc-system-simple-perl libjavascriptcoregtk-4.0-18 libkf5config-data
+  libkf5configcore5 libkf5coreaddons-data libkf5coreaddons5 libkf5i18n-data libkf5i18n5
+  libkf5idletime5 libkf5screen-bin libkf5screen7 libkf5waylandclient5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 libkf5windowsystem-data libkf5windowsystem5 liblightdm-qt5-3-0 libmagic-mgc
+  libmagic1 libmanette-0.2-0 libmate-desktop-2-17 libmatekbd-common libmatekbd4
+  libmatemixer-common libmatemixer0 libmng1 libmount-dev libopengl0 libpam-biometric libpcre16-3
+  libpcre2-32-0 libpcre2-dev libpcre2-posix2 libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpolkit-qt5-1-1 libqt5charts5 libqt5concurrent5 libqt5multimedia5 libqt5multimedia5-plugins
+  libqt5multimediagsttools5 libqt5multimediawidgets5 libqt5positioning5 libqt5qml5
+  libqt5qmlmodels5 libqt5qmlworkerscript5 libqt5quick5 libqt5quickwidgets5 libqt5sensors5
+  libqt5webchannel5 libqt5webkit5 libqt5xdg3 libqt5xdgiconloader3 libselinux1-dev libsepol1-dev
+  libukwm-1-0 libwebkit2gtk-4.0-37 libwebpdemux2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1
+  libxcb-res0 libxslt1.1 mate-desktop-common python3-ukui-menu qml-module-qtgraphicaleffects
+  qml-module-qtqml qml-module-qtqml-models2 qml-module-qtquick-controls qml-module-qtquick-layouts
+  qml-module-qtquick-window2 qml-module-qtquick2 qt5-image-formats-plugins ukwm-common uuid-dev
+  zenity zenity-common zlib1g-dev
+Suggested packages:
+  ispell | aspell | hunspell hunspell openoffice.org-hunspell | openoffice.org-core aspell
+  libenchant-2-voikko fam libgirepository1.0-dev libglib2.0-doc libgdk-pixbuf2.0-bin
+  | libgdk-pixbuf2.0-dev libxml2-utils qt5-qmltooling-plugins
+Recommended packages:
+  aspell-en | aspell-dictionary | aspell6a-dictionary enchant-2 libio-stringy-perl gstreamer1.0-gl
+  libkf5config-bin kwayland-integration hwdata qtwayland5 geoclue-2.0 gstreamer1.0-plugins-bad
+  alsa-utils peony
+The following NEW packages will be installed:
+  bamfdaemon biometric-auth dconf-cli dictionaries-common emacsen-common file gir1.2-ukuimenu-2.0
+  hunspell-en-us imwheel kwayland-data libaspell15 libbamf3-2 libbiometric0 libblkid-dev
+  libenchant-2-2 libfam0 libffi-dev libfile-basedir-perl libfile-desktopentry-perl
+  libfile-mimeinfo-perl libgeoclue-2-0 libgif7 libglib2.0-dev libglib2.0-dev-bin libgsettings-qt1
+  libgstreamer-gl1.0-0 libgtop-2.0-11 libgtop2-common libharfbuzz-icu0 libhyphen0 libid3tag0
+  libimlib2 libipc-system-simple-perl libjavascriptcoregtk-4.0-18 libkf5config-data
+  libkf5configcore5 libkf5coreaddons-data libkf5coreaddons5 libkf5i18n-data libkf5i18n5
+  libkf5idletime5 libkf5screen-bin libkf5screen7 libkf5waylandclient5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 libkf5windowsystem-data libkf5windowsystem5 liblightdm-qt5-3-0 libmagic-mgc
+  libmagic1 libmanette-0.2-0 libmate-desktop-2-17 libmatekbd-common libmatekbd4
+  libmatemixer-common libmatemixer0 libmng1 libmount-dev libopengl0 libpam-biometric libpcre16-3
+  libpcre2-32-0 libpcre2-dev libpcre2-posix2 libpcre3-dev libpcre32-3 libpcrecpp0v5
+  libpolkit-qt5-1-1 libqt5charts5 libqt5concurrent5 libqt5multimedia5 libqt5multimedia5-plugins
+  libqt5multimediagsttools5 libqt5multimediawidgets5 libqt5positioning5 libqt5qml5
+  libqt5qmlmodels5 libqt5qmlworkerscript5 libqt5quick5 libqt5quickwidgets5 libqt5sensors5
+  libqt5webchannel5 libqt5webkit5 libqt5xdg3 libqt5xdgiconloader3 libselinux1-dev libsepol1-dev
+  libukui-backgroundclient-dev libukui-backgroundclient0 libukui-datesetting-dev
+  libukui-datesetting0 libukui-defaultprograms-dev libukui-defaultprograms0
+  libukui-desktopclient-dev libukui-desktopclient0 libukui-fontclient-dev libukui-fontclient0
+  libukui-gsettings-dev libukui-gsettings0 libukui-interfaceclient-dev libukui-interfaceclient0
+  libukui-keyboardclient-dev libukui-keyboardclient0 libukui-marcogeneralclient-dev
+  libukui-marcogeneralclient0 libukui-menu-dev libukui-menu2 libukui-mouseclient-dev
+  libukui-mouseclient0 libukui-network-dev libukui-network0 libukui-powerclient-dev
+  libukui-powerclient0 libukui-print-dev libukui-print0 libukui-screensaverclient-dev
+  libukui-screensaverclient0 libukui-sessionclient-dev libukui-sessionclient0
+  libukui-subversion-dev libukui-subversion0 libukui-sysinfo-dev libukui-sysinfo0
+  libukui-touchpadclient-dev libukui-touchpadclient0 libukui-usersetting-dev libukui-usersetting0
+  libukui-xkbgeneralclient-dev libukui-xkbgeneralclient0 libukwm-1-0 libwebkit2gtk-4.0-37
+  libwebpdemux2 libwoff1 libwpe-1.0-1 libwpebackend-fdo-1.0-1 libxcb-res0 libxslt1.1
+  mate-desktop-common python3-ukui-menu qml-module-qtgraphicaleffects qml-module-qtqml
+  qml-module-qtqml-models2 qml-module-qtquick-controls qml-module-qtquick-layouts
+  qml-module-qtquick-window2 qml-module-qtquick2 qt5-image-formats-plugins ukui-backgroundserver
+  ukui-biometric-manager ukui-control-center ukui-desktopserver ukui-fontserver ukui-greeter
+  ukui-interfaceserver ukui-keyboardserver ukui-marcogeneralserver ukui-media ukui-media-common
+  ukui-menu ukui-menus ukui-mouseserver ukui-notification-daemon ukui-panel ukui-polkit
+  ukui-power-manager ukui-power-manager-common ukui-powerserver ukui-screensaver
+  ukui-screensaverserver ukui-session-manager ukui-sessionserver ukui-settings-daemon
+  ukui-settings-daemon-common ukui-sidebar ukui-system-monitor ukui-themes ukui-touchpadserver
+  ukui-wallpapers ukui-window-switch ukui-xkbgeneralserver ukwm ukwm-common uuid-dev zenity
+  zenity-common zlib1g-dev
+0 upgraded, 187 newly installed, 0 to remove and 0 not upgraded.
+Need to get 172 MB of archives.
+After this operation, 518 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
