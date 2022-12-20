@@ -1,0 +1,11 @@
+Changelog:
+
+Adopted Zstandard compression instead of LZ4 to reduce filesize
+
+Updated translation
+
+Installed cups and cups-pdf to support printing
+
+Updated to up-to-date official base as of 2022-11-05
+
+END.
