@@ -1,0 +1,10 @@
+Changelog:
+
+Updated to the up-to-date Debian 11.6 base and Official MX Linux base as of 2022-12-22.
+
+Removed wallpapers from Solus 4.3 version, which ware saved in /usr/share/images/solus-4.3 directory, to reduce the downloading size of its ISO image.
+
+Updated to the up-to-date official base as of 2022-11-16
+
+END.
+
