@@ -1,5 +1,5 @@
 2022-12-19 15:59 JST
-updated: 2023-01-13 15:43 JST
+updated: 2023-01-13 17:02 JST
 
 Read this readme.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -43,8 +43,9 @@ zh_CN.UTF-8 - Chinese locale for Simplified Chinese (簡体字)
 zh_TW.UTF-8 - Chinese locale for Traditional Chinese (繁体字)
 
 Note:
-No default language (locale) is set; that is "C" for English.
-To change another locale after system booting, logout a present desktop session. Then, click on the upper right corner on the login screen, and choose a locale from a drop-down list. Simply logout and then login again can change a locale for a desktop session.
+Default language (locale) is set to en_US for English, but you can change whatever locale as you like at Boot Menu.
+
+And aso, to change another locale after system booting, logout a present desktop session. Then, click on the upper right corner on the login screen, and choose a locale from a drop-down list. Simply logout and then login again can change a locale for a desktop session.
 
 ** Multilingualization (m17n) support
 In order to enable Chinese input, click IME toolbar which appears at the right corner on the bottom. Then select item "Chewing". Now you can start Chinese input by pressing Crtl + Space key.
