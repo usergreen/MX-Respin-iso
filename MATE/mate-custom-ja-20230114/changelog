@@ -1,0 +1,8 @@
+Changelog
+
+A change from the previous mate-custom-en is the following:
+
+Boot Option has modified into
+quiet lang=ja_JP kbd=jp,us tz=Asia/Tokyo
+
+End.
