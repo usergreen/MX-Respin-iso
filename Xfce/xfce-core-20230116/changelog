@@ -1,0 +1,11 @@
+Changelog:
+
+Updated to up-to-date Xfce 4.18 and Debian 11.6 as of 2023-01-16 08:28:17 UTC.
+
+Adopted horizontal Panel instead of vertical one on Desktop.
+
+Disabled single-click on desktop
+Disabled single-click in Thunar File Manager
+(Changed default from single-click to double-click)
+
+End.
