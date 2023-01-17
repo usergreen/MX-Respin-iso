@@ -1,10 +1,10 @@
 2022-12-18 22:15 JST
-updated: 2023-01-17 23:25 JST
+updated: 2023-01-18 00:11 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
 
-This snapshot is based on unofficial MX-21.1_x64 Wildflower 18 May 2022. But now this snapshot is fully updated to "MX Respin iso-21.3_x64 (January 15/17, 2023 )", based on Debian 11.6.
+This snapshot is based on unofficial MX-21.1_x64 Wildflower 18 May 2022. But now this snapshot is fully updated to "MX Respin iso-21.3_x64 (January 16/17, 2023 )", based on Debian 11.6.
 
 User: demo
 Demo password: demo
@@ -19,7 +19,7 @@ Modified from the unofficial release of MX-21.1_x64 Wildflower 18 May 2022
 https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Minimal/
 
 ** Optional localizations (L10n)
-The following locales are supported:
+The following locales are fully supported (localized):
 
 de_DE.UTF-8 - German locale for Germany
 el_GR.UTF-8 - Greek locale for Greece
