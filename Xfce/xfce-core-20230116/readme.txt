@@ -1,10 +1,10 @@
 2022-12-18 22:15 JST
-updated: 2023-01-16 18:52 JST
+updated: 2023-01-17 23:25 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
 
-This snapshot is based on unofficial MX-21.1_x64 Wildflower 18 May 2022. But now this snapshot is fully updated to "MX Respin iso-21.3_x64 (January 15, 2023 )", based on Debian 11.6.
+This snapshot is based on unofficial MX-21.1_x64 Wildflower 18 May 2022. But now this snapshot is fully updated to "MX Respin iso-21.3_x64 (January 15/17, 2023 )", based on Debian 11.6.
 
 User: demo
 Demo password: demo
@@ -18,8 +18,9 @@ Alternatively, you could download the same file at a mirror site at https://linu
 Modified from the unofficial release of MX-21.1_x64 Wildflower 18 May 2022
 https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-Minimal/
 
-** Default localization (L10n)
-Supported default options are:
+** Optional localizations (L10n)
+The following locales are supported:
+
 de_DE.UTF-8 - German locale for Germany
 el_GR.UTF-8 - Greek locale for Greece
 en_US.UTF-8 - English locale for the USA
@@ -39,7 +40,9 @@ zh_CN.UTF-8 - Chinese locale for China (簡体字)
 zh_TW.UTF-8 - Chinese locale for China (繁体字)
 
 Note:
-Default language (locale) is set to "en_US" for English and UTC.
+xfce-core-20230116_0919.iso ----- Default language (locale) is set to "en_US" for English and UTC.
+xfce-core-ja-20230117_2253.iso -- Default language (locale) is set to "ja_JP" for Japanese and JST.
+
 You can choose whatever locale from Boot Option. Also, to change another locale after system booting, logout a present desktop session. Then, click on the upper right corner on the login screen, and choose a locale from a drop-down list. Simply logout and then login again can change a locale for a desktop session.
 
 ** Multilingualization (m17n) support
