@@ -1,5 +1,5 @@
 2022-12-18 22:15 JST
-updated: 2023-01-18 00:11 JST
+updated: 2023-01-19 10:45 JST
 
 Read this README.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -40,6 +40,8 @@ zh_CN.UTF-8 - Chinese locale for China (簡体字)
 zh_TW.UTF-8 - Chinese locale for China (繁体字)
 
 Note:
+xfce-core-20230116_0919.iso is identical to xfce-core-ja-20230117_2253.iso besides "boot parameter" below.
+
 xfce-core-20230116_0919.iso ----- Default language (locale) is set to "en_US" for English and UTC.
 xfce-core-ja-20230117_2253.iso -- Default language (locale) is set to "ja_JP" for Japanese and JST.
 
