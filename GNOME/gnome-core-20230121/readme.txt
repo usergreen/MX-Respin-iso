@@ -1,5 +1,5 @@
 2023-01-21 12:30 UTC
-fixed: 01-21 22:43 UTC
+fixed: 01-22 23:45 UTC
 
 Read this readme.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -10,6 +10,13 @@ This updated version is now shown as "mx-respin-iso-21.3_x64 (January 21, 2023).
 User: demo
 Demo password: demo
 Root password: root
+
+** Installation into Hard Disc
+In order to install this respin into hard disc, execute the following command from GNOME Terminal as root
+
+ minstall
+
+GNOME Desktop does not support Desktop icons by default, so does installer icon neither.
 
 ** Downloading sites
 An updated version is usually available at https://sourceforge.net/projects/mx-respin-iso/
