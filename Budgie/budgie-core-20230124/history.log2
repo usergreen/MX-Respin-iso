@@ -1,0 +1,6 @@
+
+Start-Date: 2023-01-24  08:20:53
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: linux-image-5.10.0-20-amd64:amd64 (5.10.158-2), linux-headers-5.10.0-20-common:amd64 (5.10.158-2), linux-headers-5.10.0-20-amd64:amd64 (5.10.158-2)
+End-Date: 2023-01-24  08:21:44
