@@ -1,0 +1,10 @@
+Changelog:
+
+This is a bug-fixed version of the previous release.
+
+Installed LXDE PolicyKit, which fixes the bug and enable to start MX applications from the Main Menu.
+
+Enabled auto-mount a removal media like USB-stick for convenience.
+
+End.
+
