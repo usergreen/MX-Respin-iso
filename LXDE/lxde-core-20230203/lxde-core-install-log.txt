@@ -1,0 +1,26 @@
+root@mx1:/home/demo# apt install lxde-core
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libexif12 libfm-data libfm-extra4 libfm-gtk-data libfm-gtk4 libfm-modules libfm4 libgif7
+  libid3tag0 libimlib2 libkeybinder0 libmenu-cache-bin libmenu-cache3 libobrender32v5 libobt2v5
+  libstartup-notification0 libwnck-common libwnck22 libxres1 lxde-common lxmenu-data lxpanel
+  lxpanel-data lxsession lxsession-data lxsession-logout openbox openbox-lxde-session pcmanfm
+Suggested packages:
+  libfm-tools nautilus-actions lxlauncher lxde gpicview fonts-dejavu libxml2-dev tint2
+  openbox-gnome-session openbox-kde-session
+Recommended packages:
+  lxtask gnome-screenshot lxrandr lxlock notification-daemon xscreensaver libnotify-bin
+  lxsession-default-apps | lxsession-edit obconf | obconf-qt obsession scrot gvfs-backends
+  gvfs-fuse
+The following NEW packages will be installed:
+  libexif12 libfm-data libfm-extra4 libfm-gtk-data libfm-gtk4 libfm-modules libfm4 libgif7
+  libid3tag0 libimlib2 libkeybinder0 libmenu-cache-bin libmenu-cache3 libobrender32v5 libobt2v5
+  libstartup-notification0 libwnck-common libwnck22 libxres1 lxde-common lxde-core lxmenu-data
+  lxpanel lxpanel-data lxsession lxsession-data lxsession-logout openbox openbox-lxde-session
+  pcmanfm
+0 upgraded, 30 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4,969 kB of archives.
+After this operation, 18.4 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 

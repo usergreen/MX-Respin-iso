@@ -1,0 +1,22 @@
+Changelog:
+
+This is the first release for LXDE Desktop environment.
+
+Added Japanese edition which differs only in boot parameters.
+
+Updated to the up-to-date official base as of 2023-02-03.
+
+Changed a look of desktop wallpaper from the default.
+
+
+--- NOTE (Known bugs) ---
+
+Each MX Tool should start from command line, as it might NOT start up from Main Menu.
+To fix it, please install LXDE PolicyKit as below:
+
+ apt install lxpolkit
+
+Audio is muted by default (this is not a bug).
+
+End.
+
