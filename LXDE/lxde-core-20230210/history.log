@@ -1,0 +1,21 @@
+
+Start-Date: 2023-02-10  10:24:32
+Commandline: apt upgrade
+Install: libxfce4util-bin:amd64 (4.18.1-1~mx21+1, automatic)
+Upgrade: firefox-l10n-xpi-hi-in:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-de:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-fr:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-hr:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-hu:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-id:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-it:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-ja:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-nl:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-pl:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-ru:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), libxfce4ui-common:amd64 (4.18.0-1~mx21, 4.18.1-1~mx21+1), xserver-xorg-core:amd64 (2:1.20.11-1+deb11u4, 2:1.20.11-1+deb11u5), mx-iso-template:amd64 (23.01.03mx21, 23.01.04mx21), firefox-l10n-xpi-pt-br:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), libxfce4ui-2-0:amd64 (4.18.0-1~mx21, 4.18.1-1~mx21+1), firefox-l10n-xpi-zh-tw:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), xserver-xorg-legacy:amd64 (2:1.20.11-1+deb11u4, 2:1.20.11-1+deb11u5), firefox:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), xserver-common:amd64 (2:1.20.11-1+deb11u4, 2:1.20.11-1+deb11u5), libjavascriptcoregtk-4.0-18:amd64 (2.38.3-1~deb11u1, 2.38.4-2~deb11u1), libssl1.1:amd64 (1.1.1n-0+deb11u3, 1.1.1n-0+deb11u4), libxfce4util7:amd64 (4.18.0-1~mx21, 4.18.1-1~mx21+1), firefox-l10n-xpi-sv-se:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), firefox-l10n-xpi-es-es:amd64 (109.0~mozillabinaries-1mx21+1, 109.0.1~mozillabinaries-1mx21+1), ddm-mx:amd64 (22.12.01mx21, 23.02.02mx21), libwebkit2gtk-4.0-37:amd64 (2.38.3-1~deb11u1, 2.38.4-2~deb11u1), mx-usb-unmounter:amd64 (22.10, 23.02), libxfce4util-common:amd64 (4.18.0-1~mx21, 4.18.1-1~mx21+1), openssl:amd64 (1.1.1n-0+deb11u3, 1.1.1n-0+deb11u4)
+End-Date: 2023-02-10  10:24:54
+
+Start-Date: 2023-02-10  10:25:43
+Commandline: apt install light-locker lxlock
+Install: light-locker:amd64 (1.8.0-3), lxlock:amd64 (0.5.5-2)
+End-Date: 2023-02-10  10:25:44
+
+Start-Date: 2023-02-10  10:26:11
+Commandline: apt install touchpad-indicator
+Install: gconf2-common:amd64 (3.2.6-7, automatic), gir1.2-gconf-2.0:amd64 (3.2.6-7, automatic), gir1.2-notify-0.7:amd64 (0.7.9-3, automatic), python3-evdev:amd64 (1.4.0+dfsg-1+b1, automatic), gir1.2-appindicator3-0.1:amd64 (0.4.92-8~mx21+1, automatic), python3-xlib:amd64 (0.29-1, automatic), gconf-service:amd64 (3.2.6-7, automatic), python3-pyudev:amd64 (0.22.0-2, automatic), python3-six:amd64 (1.16.0-2, automatic), gir1.2-rsvg-2.0:amd64 (2.50.3+dfsg-1, automatic), touchpad-indicator:amd64 (2.2.3-0mx21), libgconf-2-4:amd64 (3.2.6-7, automatic), libindicator3-7:amd64 (0.5.0-4~mx21+1, automatic), libappindicator3-1:amd64 (0.4.92-8~mx21+1, automatic)
+End-Date: 2023-02-10  10:26:14
+
+Start-Date: 2023-02-10  10:26:44
+Commandline: apt autoremove
+Remove: gvfs-bin:amd64 (1.46.2-1)
+End-Date: 2023-02-10  10:26:45
