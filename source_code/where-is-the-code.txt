@@ -1,9 +1,14 @@
 2022-06-09 23:14 JST
-Updated: 2022-06-18 16:58 JST
+Updated: 2023-03-02 10:04 UTC
 
-For all source code, they are available to download here in this local
+
+== Download links ==
+
+For source code, they are available to download here in the local
 source-code repository at:
-https://sourceforge.net/projects/mx-respin-iso/files/source-code/ .
+https://linux.sakura.ne.jp/mx-respin-iso/source/
+and
+https://sourceforge.net/projects/mx-respin-iso/files/source/
 
 You can also obtain source code from the sites below.
 
@@ -17,7 +22,7 @@ and
 https://mxlinux.org/uncategorized/repos-mx-21/
 
 
-Additional information:
+== Additional information ==
 
 As for the list of Debian mirror sites, they is available here:
 https://www.debian.org/mirror/list
@@ -30,4 +35,5 @@ http://rsync-mxlinux.org/mirmon/packages.html
 As for Firefox source:
 https://ftp.mozilla.org/pub/firefox/releases/
 
-END
+END.
+
