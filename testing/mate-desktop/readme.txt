@@ -1,7 +1,7 @@
 readme.txt
 
 2023-04-24 01:58 UTC
-updated: 04-25 13:25 UTC
+updated: 04-26 05:08 UTC
 
 This MATE version is based on the upstream version:
 MX-23_alpha2_x64 Libretto April 7, 2023
@@ -11,8 +11,8 @@ Upstream announcement:
 MX-23 alpha 2 available for testing
 https://forum.mxlinux.org/viewtopic.php?t=74777
 
-Official forum:
-https://forum.mxlinux.org/viewtopic.php?t=74777
+Forum dedicated for testing:
+https://forum.mxlinux.org/viewtopic.php?t=74775
 
 MATE version: 1.26.0
 Default language: English
