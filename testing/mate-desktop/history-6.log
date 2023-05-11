@@ -1,0 +1,5 @@
+
+Start-Date: 2023-05-02  21:30:39
+Commandline: apt upgrade
+Upgrade: libfreetype6:amd64 (2.12.1+dfsg-4, 2.12.1+dfsg-5), mx-repo-manager:amd64 (23.3, 23.5), mx-bootrepair:amd64 (23.4, 23.5)
+End-Date: 2023-05-02  21:30:42
