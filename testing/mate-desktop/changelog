@@ -1,7 +1,11 @@
-2003-05-12 10:35 UTC
+Changelog
 
-Changelog:
+2003-05-13 04:44 UTC:
+Updated to the latest Linux kernel
+Replaced galculator with mate-calc
+Added sylpheed mailer
 
+2003-05-12 10:35 UTC:
 Added caja-extention-common
 Added caja-open-terminal to open folder in terminal
 Added gnome-sound-recorder
