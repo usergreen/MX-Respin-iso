@@ -1,0 +1,133 @@
+
+Start-Date: 2023-05-03  21:11:51
+Commandline: apt install gnome-sound-recorder
+Install: gir1.2-adw-1:amd64 (1.2.2-1, automatic), gnome-sound-recorder:amd64 (43~beta-1), gir1.2-gtk-4.0:amd64 (4.8.3+ds-2, automatic), gir1.2-graphene-1.0:amd64 (1.10.8-1, automatic), gir1.2-gst-plugins-bad-1.0:amd64 (1.22.0-4, automatic)
+End-Date: 2023-05-03  21:11:53
+
+Start-Date: 2023-05-03  21:12:12
+Commandline: apt upgrade
+Upgrade: libqt5core5a:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), qt5-gtk-platformtheme:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libjavascriptcoregtk-4.1-0:amd64 (2.40.0-3, 2.40.1-1), libqt5network5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), gir1.2-javascriptcoregtk-4.0:amd64 (2.40.0-3, 2.40.1-1), gir1.2-webkit2-4.0:amd64 (2.40.0-3, 2.40.1-1), libqt5dbus5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libqt5test5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libqt5widgets5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libqt5gui5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libfuse3-3:amd64 (3.14.0-3, 3.14.0-4), libqt5printsupport5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libqt5xml5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), fuse3:amd64 (3.14.0-3, 3.14.0-4), libqt5sql5:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libjavascriptcoregtk-4.0-18:amd64 (2.40.0-3, 2.40.1-1), libwebkit2gtk-4.1-0:amd64 (2.40.0-3, 2.40.1-1), libqt5sql5-sqlite:amd64 (5.15.8+dfsg-3, 5.15.8+dfsg-7), libwebkit2gtk-4.0-37:amd64 (2.40.0-3, 2.40.1-1)
+End-Date: 2023-05-03  21:12:50
+
+Start-Date: 2023-05-04  07:16:23
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: alsa-utils:amd64 (1.2.8-1)
+End-Date: 2023-05-04  07:16:27
+
+Start-Date: 2023-05-04  07:20:25
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: alsa-tools:amd64 (1.2.5-2)
+End-Date: 2023-05-04  07:20:27
+
+Start-Date: 2023-05-04  07:23:30
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: volumeicon-alsa:amd64 (0.5.1+git20170117-1+b2)
+End-Date: 2023-05-04  07:23:32
+
+Start-Date: 2023-05-04  07:34:13
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Upgrade: mx-packageinstaller-pkglist:amd64 (23.07.06mx23, 23.07.07mx23)
+End-Date: 2023-05-04  07:34:14
+
+Start-Date: 2023-05-04  07:38:09
+Commandline: apt-get -o=Dpkg::Use-Pty=0 install -y --reinstall onlyoffice-desktopeditors
+Requested-By: demo (1000)
+Install: onlyoffice-desktopeditors:amd64 (7.3.3-50~stretch)
+End-Date: 2023-05-04  07:38:36
+
+Start-Date: 2023-05-04  07:43:04
+Commandline: apt install alsa-utils alsa-tools volumeicon-alsa
+Install: alsa-utils:amd64 (1.2.8-1), alsa-tools:amd64 (1.2.5-2), volumeicon-alsa:amd64 (0.5.1+git20170117-1+b2)
+End-Date: 2023-05-04  07:43:06
+
+Start-Date: 2023-05-04  07:43:48
+Commandline: apt autoremove
+Remove: libqt5pas1:amd64 (2.6+2.2.0+dfsg1-3)
+End-Date: 2023-05-04  07:43:49
+
+Start-Date: 2023-05-06  08:50:51
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Install: mx-launcher-l10n:amd64 (23.04, automatic)
+Upgrade: libsdl2-2.0-0:amd64 (2.26.4+dfsg-1, 2.26.5+dfsg-1), iso-codes:amd64 (4.13.0-1, 4.15.0-1), formatusb:amd64 (22.10.01, 23.05.01)
+End-Date: 2023-05-06  08:50:54
+
+Start-Date: 2023-05-07  08:41:39
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Upgrade: pipewire-setup-mx:amd64 (23.03.01, 23.05.01), distro-info-data:amd64 (0.57, 0.58), mx-installer:amd64 (23.4mx23, 23.5.01mx23)
+End-Date: 2023-05-07  08:41:41
+
+Start-Date: 2023-05-08  09:45:54
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Upgrade: manpages-dev:amd64 (6.03-1, 6.03-2), gir1.2-packagekitglib-1.0:amd64 (1.2.6-3, 1.2.6-4), pipewire-setup-mx:amd64 (23.05.01, 23.05.04), manpages:amd64 (6.03-1, 6.03-2), libpackagekit-glib2-18:amd64 (1.2.6-3, 1.2.6-4), grub-files-mx:amd64 (23.03.04, 23.05.01), mx-packageinstaller:amd64 (23.4, 23.5)
+End-Date: 2023-05-08  09:46:00
+
+Start-Date: 2023-05-09  09:20:35
+Commandline: apt upgrade
+Install: linux-headers-6.1.0-8-common:amd64 (6.1.25-1, automatic), linux-image-6.1.0-8-amd64:amd64 (6.1.25-1, automatic), linux-headers-6.1.0-8-amd64:amd64 (6.1.25-1, automatic)
+Upgrade: python3-lib2to3:amd64 (3.11.2-2, 3.11.2-3), mx-iso-template:amd64 (23.04.01mx23, 23.05.01mx23), linux-compiler-gcc-12-x86:amd64 (6.1.20-2, 6.1.25-1), linux-headers-amd64:amd64 (6.1.20-2, 6.1.25-1), linux-kbuild-6.1:amd64 (6.1.20-2, 6.1.25-1), linux-image-amd64:amd64 (6.1.20-2, 6.1.25-1), python3-distutils:amd64 (3.11.2-2, 3.11.2-3), linux-libc-dev:amd64 (6.1.20-2, 6.1.25-1)
+End-Date: 2023-05-09  09:21:16
+
+Start-Date: 2023-05-09  10:44:06
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Install: caja-open-terminal:amd64 (1.26.1-1.2), caja-extensions-common:amd64 (1.26.1-1.2)
+End-Date: 2023-05-09  10:44:07
+
+Start-Date: 2023-05-09  15:09:01
+Commandline: apt upgrade
+Upgrade: openvpn:amd64 (2.6.1-1, 2.6.3-1), mx-packageinstaller-pkglist:amd64 (23.07.07mx23, 23.07.08mx23)
+End-Date: 2023-05-09  15:09:04
+
+Start-Date: 2023-05-09  15:10:16
+Commandline: apt remove onlyoffice-desktopeditors
+Remove: onlyoffice-desktopeditors:amd64 (7.3.3-50~stretch)
+End-Date: 2023-05-09  15:10:18
+
+Start-Date: 2023-05-09  15:11:15
+Commandline: apt install libreoffice-writer libreoffice-calc
+Install: liborcus-parser-0.17-0:amd64 (0.17.2-2+b2, automatic), libreoffice-calc:amd64 (4:7.4.5-2), libgpgmepp6:amd64 (1.18.0-3+b1, automatic), libexttextcat-2.0-0:amd64 (3.4.5-1, automatic), libreoffice-base-core:amd64 (4:7.4.5-2, automatic), libreoffice-core:amd64 (4:7.4.5-2, automatic), libepubgen-0.1-1:amd64 (0.1.1-1, automatic), libabw-0.1-1:amd64 (0.1.3-1, automatic), libsuitesparseconfig5:amd64 (1:5.12.0+dfsg-2, automatic), libetonyek-0.1-1:amd64 (0.1.10-3+b1, automatic), libe-book-0.1-1:amd64 (0.1.3-2+b2, automatic), libreoffice-common:amd64 (4:7.4.5-2, automatic), libclucene-contribs1v5:amd64 (2.3.3.4+dfsg-1.1, automatic), librdf0:amd64 (1.0.17-3, automatic), libwpd-0.10-10:amd64 (0.10.3-2+b1, automatic), lp-solve:amd64 (5.5.2.5-2, automatic), libclucene-core1v5:amd64 (2.3.3.4+dfsg-1.1, automatic), libodfgen-0.1-1:amd64 (0.1.8-2, automatic), libboost-filesystem1.74.0:amd64 (1.74.0+ds1-20, automatic), libnumbertext-data:amd64 (1.0.11-1, automatic), libmhash2:amd64 (0.9.9.9-9, automatic), libboost-locale1.74.0:amd64 (1.74.0+ds1-20, automatic), libreoffice-style-colibre:amd64 (4:7.4.5-2, automatic), libwps-0.4-4:amd64 (0.4.13-1, automatic), libreoffice-writer:amd64 (4:7.4.5-2), liborcus-0.17-0:amd64 (0.17.2-2+b2, automatic), libstaroffice-0.0-0:amd64 (0.0.7-1, automatic), libcolamd2:amd64 (1:5.12.0+dfsg-2, automatic), libmwaw-0.3-3:amd64 (0.3.21-1, automatic), libnumbertext-1.0-0:amd64 (1.0.11-1, automatic), librevenge-0.0-0:amd64 (0.0.5-3, automatic), coinor-libcbc3:amd64 (2.10.8+ds1-1, automatic), coinor-libcoinutils3v5:amd64 (2.11.4+repack1-2, automatic), coinor-libcgl1:amd64 (0.60.3+repack1-4, automatic), libmythes-1.2-0:amd64 (2:1.2.5-1, automatic), coinor-libclp1:amd64 (1.17.6-3, automatic), librasqal3:amd64 (0.9.33-2, automatic), coinor-libosi1v5:amd64 (0.108.6+repack1-2, automatic), libexttextcat-data:amd64 (3.4.5-1, automatic), libxmlsec1-nss:amd64 (1.2.37-2, automatic), libwpg-0.3-3:amd64 (0.3.3-1, automatic), coinor-libcoinmp1v5:amd64 (1.8.3-3, automatic), libeot0:amd64 (0.01-5+b1, automatic)
+End-Date: 2023-05-09  15:11:36
+
+Start-Date: 2023-05-09  15:17:29
+Commandline: apt install libreoffice-l10n-de libreoffice-l10n-es libreoffice-l10n-fr libreoffice-l10n-hi libreoffice-l10n-hr libreoffice-l10n-hu libreoffice-l10n-id libreoffice-l10n-it libreoffice-l10n-ja libreoffice-l10n-nl libreoffice-l10n-pt-br libreoffice-l10n-ru libreoffice-l10n-sv libreoffice-l10n-zh-cn libreoffice-l10n-zh-tw
+Install: libreoffice-l10n-de:amd64 (4:7.4.5-2), libreoffice-l10n-es:amd64 (4:7.4.5-2), libreoffice-l10n-fr:amd64 (4:7.4.5-2), libreoffice-l10n-hi:amd64 (4:7.4.5-2), libreoffice-l10n-hr:amd64 (4:7.4.5-2), libreoffice-l10n-hu:amd64 (4:7.4.5-2), libreoffice-l10n-id:amd64 (4:7.4.5-2), libreoffice-l10n-it:amd64 (4:7.4.5-2), libreoffice-l10n-ja:amd64 (4:7.4.5-2), libreoffice-l10n-nl:amd64 (4:7.4.5-2), libreoffice-l10n-ru:amd64 (4:7.4.5-2), libreoffice-l10n-sv:amd64 (4:7.4.5-2), libreoffice-l10n-pt-br:amd64 (4:7.4.5-2), libreoffice-l10n-zh-cn:amd64 (4:7.4.5-2), libreoffice-l10n-zh-tw:amd64 (4:7.4.5-2)
+End-Date: 2023-05-09  15:18:10
+
+Start-Date: 2023-05-09  22:02:01
+Commandline: apt remove libreoffice*
+Remove: libreoffice-calc:amd64 (4:7.4.5-2), libreoffice-base-core:amd64 (4:7.4.5-2), libreoffice-core:amd64 (4:7.4.5-2), libreoffice-common:amd64 (4:7.4.5-2), libreoffice-l10n-de:amd64 (4:7.4.5-2), libreoffice-l10n-es:amd64 (4:7.4.5-2), libreoffice-l10n-fr:amd64 (4:7.4.5-2), libreoffice-l10n-hi:amd64 (4:7.4.5-2), libreoffice-l10n-hr:amd64 (4:7.4.5-2), libreoffice-l10n-hu:amd64 (4:7.4.5-2), libreoffice-l10n-id:amd64 (4:7.4.5-2), libreoffice-l10n-it:amd64 (4:7.4.5-2), libreoffice-l10n-ja:amd64 (4:7.4.5-2), libreoffice-l10n-nl:amd64 (4:7.4.5-2), libreoffice-l10n-ru:amd64 (4:7.4.5-2), libreoffice-l10n-sv:amd64 (4:7.4.5-2), libreoffice-l10n-pt-br:amd64 (4:7.4.5-2), libreoffice-style-colibre:amd64 (4:7.4.5-2), libreoffice-writer:amd64 (4:7.4.5-2), libreoffice-l10n-zh-cn:amd64 (4:7.4.5-2), libreoffice-l10n-zh-tw:amd64 (4:7.4.5-2)
+End-Date: 2023-05-09  22:02:05
+
+Start-Date: 2023-05-10  08:29:29
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Upgrade: grub-files-mx:amd64 (23.05.01, 23.05.04)
+End-Date: 2023-05-10  08:29:32
+
+Start-Date: 2023-05-10  08:30:03
+Commandline: apt autoremove
+Remove: liborcus-parser-0.17-0:amd64 (0.17.2-2+b2), libgpgmepp6:amd64 (1.18.0-3+b1), libexttextcat-2.0-0:amd64 (3.4.5-1), libepubgen-0.1-1:amd64 (0.1.1-1), libabw-0.1-1:amd64 (0.1.3-1), libsuitesparseconfig5:amd64 (1:5.12.0+dfsg-2), libetonyek-0.1-1:amd64 (0.1.10-3+b1), libe-book-0.1-1:amd64 (0.1.3-2+b2), libclucene-contribs1v5:amd64 (2.3.3.4+dfsg-1.1), librdf0:amd64 (1.0.17-3), libwpd-0.10-10:amd64 (0.10.3-2+b1), lp-solve:amd64 (5.5.2.5-2), libclucene-core1v5:amd64 (2.3.3.4+dfsg-1.1), libodfgen-0.1-1:amd64 (0.1.8-2), libboost-filesystem1.74.0:amd64 (1.74.0+ds1-20), libnumbertext-data:amd64 (1.0.11-1), libmhash2:amd64 (0.9.9.9-9), libboost-locale1.74.0:amd64 (1.74.0+ds1-20), libwps-0.4-4:amd64 (0.4.13-1), liborcus-0.17-0:amd64 (0.17.2-2+b2), libstaroffice-0.0-0:amd64 (0.0.7-1), libcolamd2:amd64 (1:5.12.0+dfsg-2), libmwaw-0.3-3:amd64 (0.3.21-1), libnumbertext-1.0-0:amd64 (1.0.11-1), librevenge-0.0-0:amd64 (0.0.5-3), coinor-libcbc3:amd64 (2.10.8+ds1-1), coinor-libcoinutils3v5:amd64 (2.11.4+repack1-2), coinor-libcgl1:amd64 (0.60.3+repack1-4), libmythes-1.2-0:amd64 (2:1.2.5-1), coinor-libclp1:amd64 (1.17.6-3), librasqal3:amd64 (0.9.33-2), coinor-libosi1v5:amd64 (0.108.6+repack1-2), libexttextcat-data:amd64 (3.4.5-1), libxmlsec1-nss:amd64 (1.2.37-2), libwpg-0.3-3:amd64 (0.3.3-1), coinor-libcoinmp1v5:amd64 (1.8.3-3), libeot0:amd64 (0.01-5+b1)
+End-Date: 2023-05-10  08:30:07
+
+Start-Date: 2023-05-12  07:41:30
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Upgrade: xserver-xorg-core:amd64 (2:21.1.7-2, 2:21.1.7-3), mx-welcome:amd64 (23.03, 23.05), isc-dhcp-common:amd64 (4.4.3-P1-1.1, 4.4.3-P1-2), mx-launcher-l10n:amd64 (23.04, 23.05.01), xserver-xorg-legacy:amd64 (2:21.1.7-2, 2:21.1.7-3), xserver-common:amd64 (2:21.1.7-2, 2:21.1.7-3), isc-dhcp-client:amd64 (4.4.3-P1-1.1, 4.4.3-P1-2), grub-files-mx:amd64 (23.05.04, 23.05.05), whois:amd64 (5.5.16, 5.5.17)
+End-Date: 2023-05-12  07:41:36
+
+Start-Date: 2023-05-12  17:00:28
+Commandline: apt remove alsa-tools
+Remove: alsa-tools:amd64 (1.2.5-2)
+End-Date: 2023-05-12  17:00:30
+
+Start-Date: 2023-05-12  17:03:01
+Commandline: apt upgrade
+Upgrade: firmware-bnx2x:amd64 (20230210-4, 20230210-5), firmware-iwlwifi:amd64 (20230210-4, 20230210-5), firmware-brcm80211:amd64 (20230210-4, 20230210-5), firmware-atheros:amd64 (20230210-4, 20230210-5), firmware-myricom:amd64 (20230210-4, 20230210-5), firmware-ipw2x00:amd64 (20230210-4, 20230210-5), firmware-netxen:amd64 (20230210-4, 20230210-5), firmware-linux:amd64 (20230210-4, 20230210-5), firmware-intel-sound:amd64 (20230210-4, 20230210-5), firmware-realtek:amd64 (20230210-4, 20230210-5), firmware-libertas:amd64 (20230210-4, 20230210-5), firmware-amd-graphics:amd64 (20230210-4, 20230210-5), firmware-bnx2:amd64 (20230210-4, 20230210-5), firmware-misc-nonfree:amd64 (20230210-4, 20230210-5), firmware-qlogic:amd64 (20230210-4, 20230210-5), firmware-linux-nonfree:amd64 (20230210-4, 20230210-5)
+End-Date: 2023-05-12  17:03:37

@@ -1,0 +1,52 @@
+# UIP - ユーザーインストールパッケージ
+# 日付：  Mon, 22 May 2023 10:51:09 +0900
+# システムのホスト名： mx1
+# システム： MX-Respin-testing-23_x64 Libretto May 20, 2023
+#
+# ユーザー自身が追加したパッケージの全一覧です。
+# パッケージ名            説明
+
+atril                           MATE document viewer
+caja-open-terminal              Caja plugin for opening terminals in arbitrary local paths
+engrampa                        archive manager for MATE
+eom                             Eye of MATE graphics viewer program
+firefox-l10n-xpi-de             German language packs for Firefox
+firefox-l10n-xpi-el             Greek language packs for Firefox
+firefox-l10n-xpi-es-es          Spanish language packs for Firefox
+firefox-l10n-xpi-fr             French language packs for Firefox
+firefox-l10n-xpi-hi-in          Hindi language packs for Firefox
+firefox-l10n-xpi-hr             Croatian language packs for Firefox
+firefox-l10n-xpi-hu             Hungarian language packs for Firefox
+firefox-l10n-xpi-id             Indonesian language packs for Firefox
+firefox-l10n-xpi-it             Italian language packs for Firefox
+firefox-l10n-xpi-ja             Japanese language packs for Firefox
+firefox-l10n-xpi-nl             Dutch language packs for Firefox
+firefox-l10n-xpi-pl             Polish language packs for Firefox
+firefox-l10n-xpi-pt-br          Portuguese Brazilian language packs for Firefox
+firefox-l10n-xpi-ru             Russian language packs for Firefox
+firefox-l10n-xpi-sv-se          Swedish language packs for Firefox
+firefox-l10n-xpi-zh-tw          Chinese language packs for Firefox
+gnome-sound-recorder            simple and modern sound recorder for GNOME
+hypnotix                        IPTV Player
+im-config                       Input method configuration framework
+kasumi                          Simple dictionary utility for Anthy
+lazpaint-gtk2                   Image editor with raster and vector layers (gtk2)
+mate-calc                       MATE desktop calculator
+mate-core                       MATE Desktop Environment (essential components, dummy package)
+mate-desktop-environment        MATE Desktop Environment (metapackage)
+mate-media                      MATE media utilities
+mate-power-manager              power management tool for the MATE desktop
+mate-screensaver                MATE screen saver and locker
+mate-system-monitor             Process viewer and system resource monitor for MATE
+mate-tweak                      MATE desktop tweak tool
+mate-user-guide                 User documentation for MATE Desktop Environment
+mate-utils                      MATE desktop utilities
+mozo                            easy MATE menu editing tool
+pluma                           official text editor of the MATE desktop environment
+sylpheed-i18n                   Locale data for Sylpheed (i18n support)
+uim-anthy                       Universal Input Method - Anthy support metapackage
+uim-fep                         Universal Input Method - front end processor
+uim-gtk2.0                      Universal Input Method - GTK+2.x front end
+uim-gtk3                        Universal Input Method - GTK+3.x front end
+uim-qt5                         Universal Input Method - Qt 5.x front end
+uim-xim                         Universal Input Method - XIM compatibility interface

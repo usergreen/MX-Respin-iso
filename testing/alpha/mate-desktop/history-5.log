@@ -1,0 +1,22 @@
+
+Start-Date: 2023-04-28  07:40:29
+Commandline: apt upgrade
+Upgrade: console-setup:amd64 (1.218, 1.219), libx264-164:amd64 (2:0.164.3095+gitbaee400-2+b1, 2:0.164.3095+gitbaee400-3), grub-pc-bin:amd64 (2.06-8, 2.06-12), console-setup-linux:amd64 (1.218, 1.219), grub-efi-amd64-bin:amd64 (2.06-8, 2.06-12), grub2-common:amd64 (2.06-8, 2.06-12), installation-report:amd64 (2.87, 2.88), grub-common:amd64 (2.06-8, 2.06-12), keyboard-configuration:amd64 (1.218, 1.219), grub-efi-ia32-bin:amd64 (2.06-8, 2.06-12), grub-pc:amd64 (2.06-8, 2.06-12), libdebconfclient0:amd64 (0.268, 0.269)
+End-Date: 2023-04-28  07:41:01
+
+Start-Date: 2023-04-28  09:16:34
+Commandline: apt install lazpaint-gtk2
+Install: lazpaint-gtk2:amd64 (7.2.2-2)
+Remove: lazpaint-qt5:amd64 (7.2.2-2)
+End-Date: 2023-04-28  09:16:38
+
+Start-Date: 2023-04-30  06:16:40
+Commandline: apt --verbose-versions full-upgrade
+Requested-By: demo (1000)
+Upgrade: libopenexr-3-1-30:amd64 (3.1.5-4, 3.1.5-5)
+End-Date: 2023-04-30  06:16:42
+
+Start-Date: 2023-04-30  06:17:19
+Commandline: apt autoremove
+Remove: libqt5pas1:amd64 (2.6+2.2.0+dfsg1-3)
+End-Date: 2023-04-30  06:17:19
