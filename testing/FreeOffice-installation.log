@@ -1,0 +1,60 @@
+SoftMaker Office は相当以前からリリースされていました。
+この SoftMaker Office という有償版から一部の機能を省略した無償版が FreeOffice です。
+無償版には日本語サポートで問題があります。2003年6月3日現在、ローマ字によるインライン入力時、変換候補が文字化けします。
+
+
+FreeOffice Installer 
+---------------------
+adding Softmaker repository key: 0x3413DA98AA3E7F5E
+pub   rsa2048/0x3413DA98AA3E7F5E 2018-01-04 [SC]
+      CC7D2EDF4808EFFA0E00FC723413DA98AA3E7F5E
+uid                             SoftMaker repository (GPG key for signing files) <info@softmaker.com>
+adding Softmaker repository  /etc/apt/sources.list.d/softmaker.list:
+deb http://shop.softmaker.com/repo/apt stable non-free
+ヒット:1 https://ftp.yz.yamagata-u.ac.jp/pub/Linux/MX-Linux-Packages/mx/repo bookworm InRelease
+ヒット:2 http://deb.debian.org/debian bookworm InRelease
+取得:3 http://shop.softmaker.com/repo/apt stable InRelease [2,345 B]
+取得:4 http://shop.softmaker.com/repo/apt stable/non-free amd64 Packages [917 B]
+3,262 B を 2秒 で取得しました (1,386 B/s)
+パッケージリストを読み込んでいます...
+パッケージリストを読み込んでいます...
+依存関係ツリーを作成しています...
+状態情報を読み取っています...
+以下のパッケージが新たにインストールされます:
+  softmaker-freeoffice-2021
+アップグレード: 0 個、新規インストール: 1 個、削除: 0 個、保留: 1 個。
+131 MB のアーカイブを取得する必要があります。
+この操作後に追加で 281 MB のディスク容量が消費されます。
+取得:1 http://shop.softmaker.com/repo/apt stable/non-free amd64 softmaker-freeoffice-2021 amd64 3186 [131 MB]
+131 MB を 1分 16秒 で取得しました (1,711 kB/s)
+以前に未選択のパッケージ softmaker-freeoffice-2021 を選択しています。
+(データベースを読み込んでいます ... 現在 303091 個のファイルとディレクトリがインストールされています。)
+.../softmaker-freeoffice-2021_3186_amd64.deb を展開する準備をしています ...
+softmaker-freeoffice-2021 (3186) を展開しています...
+softmaker-freeoffice-2021 (3186) を設定しています ...
+Using existing xdg-utils
+Create MIME
+Adding document icons. This may take a few minutes...
+Updating theme Adwaita /1 of 2/
+Updating theme ContrastHigh /1 of 2/
+Updating theme HighContrast /1 of 2/
+Updating theme Papirus /1 of 2/
+Updating theme Papirus-Dark /1 of 2/
+Updating theme Papirus-Light /1 of 2/
+Updating theme ePapirus /1 of 2/
+Updating theme gnome /1 of 2/
+Updating theme hicolor /1 of 2/
+Updating theme mate /1 of 2/
+Updating theme Adwaita /2 of 2/
+Updating theme ContrastHigh /2 of 2/
+Updating theme HighContrast /2 of 2/
+Updating theme Papirus /2 of 2/
+Updating theme Papirus-Dark /2 of 2/
+Updating theme Papirus-Light /2 of 2/
+Updating theme ePapirus /2 of 2/
+Updating theme gnome /2 of 2/
+Updating theme hicolor /2 of 2/
+Updating theme mate /2 of 2/
+Registering MIME types...
+Creating /etc/SoftMaker folder...
+
