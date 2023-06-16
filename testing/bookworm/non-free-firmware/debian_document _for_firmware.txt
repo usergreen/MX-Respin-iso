@@ -1,0 +1,40 @@
+Unofficial non-free images including firmware packages
+
+UPDATE 19 Feb 2023: As of the bookworm d-i alpha 2 release, firmware is included in the normal Debian installer images. USERS WILL NO LONGER NEED TO LOOK FOR SPECIAL VERSIONS HERE.
+
+https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/
+
+----------------------------
+
+What is firmware?
+
+Firmware refers to embedded software which controls electronic devices. Well-defined boundaries between firmware and software do not exist, as both terms cover some of the same code. Typically, the term firmware deals with low-level operations in a device, without which the device would be completely non-functional (read more on Wikipedia).
+
+Many devices require firmware to operate. Historically, firmware would be built into the device's ROM or Flash memory, but more and more often, a firmware image has to be loaded into the device RAM by a device driver during device initialisation.
+
+A few firmware images are Free Software and Open Source but unfortunately almost all of them are non-free, which means that Debian cannot include them as normal in the archive under main or contrib. 
+
+Using non-free firmware on a Debian system
+
+Debian 12 (bookworm) and later
+
+For Debian 12 onwards, all the packaged non-free firmware binaries that Debian can distribute have been moved to a new component in the Debian archive, called non-free-firmware. If you're upgrading from an older release of Debian and you need these firmware binaries, you should update the apt sources.list on your system to use this new component. If you only had the non-free component enabled on your system to allow you to install firmware, you can safely remove that now.
+
+Debian's installation and live images now include all of those firmware packages. The system should automatically detect, load and install the firmware available for your devices, where possible. There are a small number of cases where Debian can't do this, typically because of not being allowed to distribute the needed firmware binaries.
+
+If you are booting the Debian installer over the network, that will not include all the firmware packages in the initramfs. This is a deliberate choice due to the extra space needed for all the firmware here. Many/most users will already need to modify the initramfs when setting up netboot, so an extra step here is reasonable. Adding the firmware blobs to your initramfs is easy: simply grab the appropriate cpio archive for your target release from https://cdimage.debian.org/cdimage/firmware/ and append it directly to the initramfs file. 
+
+https://wiki.debian.org/Firmware
+
+----------------------------
+
+Debian WWW Pages License
+
+Copyright © 1997-2023 Software in the Public Interest, Inc. and others
+SPI can be contacted at:
+1732 1st Ave #20327
+New York, NY 10128-5177
+United States
+
+Since 25 January 2012, the new material can be redistributed and/or modified under the terms of the MIT (Expat) License or, at your option, of the GNU General Public License; either version 2 of the License, or (at your option) any later version (the latest version is usually available at https://www.gnu.org/licenses/gpl.html).
+
