@@ -8,7 +8,7 @@ users in Japanese language environment.
 
 
 This is the README file for stopwatch, a program that implements a
-stopwatch. The author wrote it to help me time talks or individual slides
+stopwatch. The author wrote it to help him time talks or individual slides
 within a talk. For that purpose, it works well.
 
 --------------------
