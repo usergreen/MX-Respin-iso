@@ -1,3 +1,47 @@
+demo@mx1:~/ダウンロード
+$ msgfmt ja_JP.po -o ja_JP.mo
+コマンド 'msgfmt' が見つかりません。次の方法でインストールできます:
+sudo apt install gettext
+demo@mx1:~/ダウンロード
+$ su
+パスワード:
+root@mx1:/home/demo/ダウンロード# apt install gettext
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+提案パッケージ:
+  autopoint gettext-doc libasprintf-dev libgettextpo-dev
+以下のパッケージが新たにインストールされます:
+  gettext
+アップグレード: 0 個、新規インストール: 1 個、削除: 0 個、保留: 0 個。
+1,300 kB のアーカイブを取得する必要があります。
+この操作後に追加で 5,965 kB のディスク容量が消費されます。
+取得:1 http://deb.debian.org/debian bookworm/main amd64 gettext amd64 0.21-12 [1,300 kB]
+1,300 kB を 1秒 で取得しました (1,682 kB/s)                               
+以前に未選択のパッケージ gettext を選択しています。
+(データベースを読み込んでいます ... 現在 306754 個のファイルとディレクトリがイン
+ストールされています。)
+.../gettext_0.21-12_amd64.deb を展開する準備をしています ...
+gettext (0.21-12) を展開しています...
+gettext (0.21-12) を設定しています ...
+man-db (2.11.2-2) のトリガを処理しています ...
+install-info (6.8-6+b1) のトリガを処理しています ...
+install-info: warning: no info dir entry in `/usr/share/info/gtkdialog.info.gz'
+libc-bin (2.36-9) のトリガを処理しています ...
+root@mx1:/home/demo/ダウンロード# exit
+exit
+demo@mx1:~/ダウンロード
+$ msgfmt ja.po -o ja.mo
+demo@mx1:~/ダウンロード
+$ su
+パスワード:
+root@mx1:/home/demo/ダウンロード# cp ja.mo /usr/share/locale/ja/LC_MESSAGES/mate-utils.mo
+root@mx1:/home/demo/ダウンロード# exit
+exit
+demo@mx1:~/ダウンロード
+$ 
+
+-------------------------------------
 
 root@mx1:/home/demo/Live-usb-storage# apt install grsync
 from grsync:amd64 (1.3.0-2mx23)
@@ -38,4 +82,71 @@ DESCRIPTION
 
 参考外部リンク
 https://qiita.com/take-out-any/items/5e8ebb3e7e3ec89b649c
+
+-------------------------------------
+
+$ msgunfmt ja.mo -o ja.po
+
+$ msgunfmt -h
+使用法: msgunfmt [オプション] [ファイル]...
+
+バイナリメッセージカタログを Uniforum 形式の .po ファイルに変換.
+
+長いオプションに必須の引数は短いオプションにも必須です.
+
+操作モード:
+  -j, --java                  Java モード: 入力は Java ResourceBundle クラス
+      --csharp                C# モード: 入力は .NET .dll ファイル
+      --csharp-resources      C# resources モード: 入力は .NET .resources ファイル
+      --tcl                   Tcl モード: 入力は tcl/msgcat .msg ファイル
+
+入力ファイルの指定:
+  FILE ...                    入力する .mo ファイル
+入力ファイルが指定されない, もしくは - の場合は標準入力が読み込まれます.
+
+Java モードにおける入力ファイルの場所:
+  -r, --resource=RESOURCE     リソース名
+  -l, --locale=LOCALE          ロカール名. 言語名もしくは "言語名_国名"
+クラス名は, リソース名の末尾に下付きバー "_" を挟んでロカール名を加えること
+で決められます. クラスの場所は CLASSPATH で指定されます.
+
+C# モードにおける入力ファイルの場所:
+  -r, --resource=RESOURCE     リソース名
+  -l, --locale=LOCALE          ロカール名. 言語名もしくは "言語名_国名"
+  -d DIRECTORY                ロカール依存の .dll ファイルの基本ディレクトリ
+-l と -d オプションは必須. .dll ファイルはロカールに依存した名前を持つ
+指定されたディレクトリのサブディレクトリに置かれます.
+
+Tcl モードにおける入力ファイルの場所:
+  -l, --locale=LOCALE          ロカール名. 言語名もしくは "言語名_国名"
+  -d DIRECTORY                .msg メッセージカタログの基本ディレクトリ
+-l と -d オプションは必須. .msg ファイルは指定されたディレクトリに置かれます.
+
+出力ファイルの指定:
+  -o, --output-file=FILE      指定したファイルに出力
+出力ファイルが指定されない, もしくは - の場合は標準出力に結果が書き出されます.
+
+出力の詳細:
+      --color                 常にカラーと他のテキスト属性を使う
+      --color=WHEN            WHEN ならばカラーと他のテキスト属性を使う.
+                              WHEN は 'always', 'never', 'auto', または 'html'.
+      --style=STYLEFILE       --color に対する CSS スタイルルールを指定
+  -e, --no-escape             出力に C 言語のエスケープを使わない (標準)
+  -E, --escape                出力に C 言語のエスケープを使い,
+                              拡張文字を含めない
+      --force-po              空であっても PO ファイルを書き出す
+  -i, --indent                字下げ形式の出力
+      --strict                厳密な Uniforum 形式で出力
+  -p, --properties-output     Java .properties ファイルを出力
+      --stringtable-output    NeXTstep/GNUstep .strings ファイルを出力
+  -w, --width=NUMBER          出力ページの幅を設定
+      --no-wrap               出力ページの幅より長いメッセージ行を改行しない
+  -s, --sort-output           ソートされた出力を生成
+
+情報出力:
+  -h, --help                  このヘルプを表示して終了
+  -V, --version               バージョン情報を表示して終了
+  -v, --verbose               診断レベルを上げる
+
+https://www.opena.tv/skripte/34155-convert-translation-file-mo-po-gettext.html
 
