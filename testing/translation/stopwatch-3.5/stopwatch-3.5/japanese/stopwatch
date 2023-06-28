@@ -321,16 +321,16 @@ proc about {} {
 	return
     }
     toplevel     $w
-    wm title     $w "about stopwatch"
+    wm title     $w "Stopwatch について"
     wm iconname  $w "about stopwatch"
     wm resizable $w 0 0
 
-    button $w.b -text Dismiss -command [list wm withdraw $w]
+    button $w.b -text 閉じる -command [list wm withdraw $w]
 
     label $w.title -text "Stopwatch" -font "Times 16" -borderwidth 10 -fg red
-    label $w.version -text "Version $::version, Released $::versionDate"
-    label $w.author -text "Written by Don Libes <don@libes.com>"
-    label $w.using -text "Using Tcl $::tcl_patchLevel,\
+    label $w.version -text "バージョン $::version, 公開日 $::versionDate"
+    label $w.author -text "作者 Don Libes <don@libes.com>"
+    label $w.using -text "次を利用： Tcl $::tcl_patchLevel,\
                                 Tk $::tk_patchLevel"
     grid $w.title
     grid $w.version
@@ -346,13 +346,13 @@ proc help {} {
     }
 
     toplevel .help
-    wm title .help "Stopwatch help"
+    wm title .help "Stopwatch ヘルプ"
     wm iconname .help "Stopwatch help"
 
     scrollbar .help.sb -command {.help.text yview}
     text .help.text -width 80 -height 30 -yscroll {.help.sb set} -wrap word
 
-    button .help.ok -text "OK" -command {destroy .help} -relief raised
+    button .help.ok -text "OK（この画面を閉じる）" -command {destroy .help} -relief raised
     bind .help <Return> {destroy .help;break}
     grid .help.sb -row 0 -column 0 -sticky ns
     grid .help.text -row 0 -column 1 -sticky nsew
@@ -367,41 +367,41 @@ proc help {} {
     .help.text insert end "Stopwatch $::version - by Don Libes <don@libes.com>" h1
     .help.text insert end {
 
-Stopwatch does what its name implies - enables hand timing much like a physical stopwatch.  Stopwatch can also countdown like a timer.
+Stopwatchはその名の通り、実際のストップウォッチと同じような操作で時間を計ることができます。Stopwatchはタイマーのようにカウントダウンすることもできます。
 
-Stopwatch runs on UNIX, Windows, and MacOS.  Stopwatch may run as a traditional program or in a browser.
+Stopwatchは、UNIX、Windows、MacOSで作動します。Stopwatchは、従来のプログラムとして、あるいはブラウザでも作動します。
 
 }
 
-    .help.text insert end "Directions" h1
+    .help.text insert end "使い方" h1
     .help.text insert end {
 
-Press "start" to start timing and "stop" to stop it.  "record" records the current time and selects it so that it can readily be pasted into other programs.  Recorded times are marked with an L for "lap" or T for "total".  When stopped, you can cut/paste/edit the time by hand and set it to any valid time.  "zero" resets the time to zero.
+「開始」を押すと計測を開始し、「停止」を押すと停止します。「記録」は経過時間を記録し、これを他のプログラムに簡単に貼り付けられることができます。記録された時間については、「ラップ時間」なら「L」、「合計時間」なら「T」のマークが付きます。停止しているときは、手の操作で時間を切取り／貼付け／編集し、有効な任意の時間に設定することができます。「リセット」は時間をゼロにリセットします。
 
-Time moves forward or backward according to the Run menu.  By default, time stops automatically when either the lap or total time reaches zero.  To disable the automatic stop, unselect Run -> Stop At Zero.
+時間は操作メニューに従って前進または後退します。既定では、ラップ時間または合計時間がゼロになると、タイマーは自動的に停止します。この自動停止機能を無効にするには、「開始」 -> 「ゼロで停止」の選択を解除します。
 
 }
 
-    .help.text insert end "Shortcuts" h1
+    .help.text insert end "ショートカットキー" h1
     .help.text insert end "
 
-<z> zeros the lap time.  <Z> zeros the total time.
-<r> resets the lap time.  <R> resets the total time.
-<s> starts/stops the time.
-<c> clears the recorded times.
+<z> ラップ時間をゼロにする。  <Z> 合計時間をゼロにする。
+<r> ラップ時間をゼロにリセット。  <R> 合計時間をゼロにリセット。
+<s> 計測の開始／停止。
+<c> 記録をすべてクリア。
 
-Holding down the control key while pressing the record or zero buttons/keys, records and then zeros the time.
+コントロールキーを押しながら記録ボタンまたはリセットボタンを押すと、時間を記録し、リセットします。
 
 "
 
-    .help.text insert end "Caveats" h1
+    .help.text insert end "注意書き" h1
     .help.text insert end {
 
-Stopwatch requires Tcl/Tk.  Millisecond timing is only available when using Tcl 8.3 or later.
+Stopwatchには、Tcl/Tkが必要です。ミリ秒の計時は、Tcl8.3以降を使用している場合にだけ利用できます。
 
-By default, the maximum time is just over 596 hours (about 25 days).  The range may be increased (to about 68 years) by disabling the millisecond timer.  To disable the millisecond timer, select Run => Milliseconds (or edit the source to change it permanently.)
+既定では最大計測時間は、596時間強（約25日）です。ミリ秒表示を無効にすることで、この範囲を（約68年まで）広げることができます。ミリ秒表示を無効にするには、「開始」⇒「ミリ秒表示」を選択してください（あるいは、ソースを編集することで恒久的に変更できます）。
 
-By default, the "Stop At Zero" action is a bell.  To change this, edit the source and redefine the "bell" procedure as desired.}
+既定では「ゼロで停止」したときベルが鳴ります。これを変更するには、ソースを編集して、お好きなように「ベル」の設定を再定義してください。}
 }
 
 ######################################################################
