@@ -38,7 +38,7 @@ apt install caja-open-terminal caja-extensions-common
 
 apt install lazpaint-gtk2 gnome-sound-recorder l3afpad
 
-//apt install libcanberra-gtk-module libcanberra-gtk3-module
+//apt install libcanberra-gtk-module libcanberra-gtk3-module libgdk-pixbuf2.0-bin
 
 //apt install cups cups-pdf
 
