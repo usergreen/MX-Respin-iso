@@ -1,0 +1,5 @@
+
+Start-Date: 2023-07-15  10:58:59
+Commandline: apt upgrade
+Upgrade: mx-datetime:amd64 (23.5.01, 23.7), mx-packageinstaller-pkglist:amd64 (23.07.17mx23, 23.07.18mx23), mx-installer:amd64 (23.7.05mx23, 23.7.06mx23)
+End-Date: 2023-07-15  10:59:02
