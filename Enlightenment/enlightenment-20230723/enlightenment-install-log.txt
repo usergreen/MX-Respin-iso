@@ -1,0 +1,34 @@
+root@mx1:/home/demo# apt install enlightenment
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下の追加パッケージがインストールされます:
+  enlightenment-data libecore-audio1 libecore-bin libecore-con1 libecore-drm2-1 libecore-evas1
+  libecore-fb1 libecore-file1 libecore-imf1 libecore-input1 libecore-ipc1 libecore-wl2-1
+  libecore-x1 libecore1 libector1 libedje-bin libedje1 libeet1 libeeze1 libefreet-bin libefreet1a
+  libeina1a libeio1 libelementary-data libelementary1 libelput1 libembryo-bin libembryo1 libemile1
+  libemotion1 libethumb-client-bin libethumb-client1 libethumb1 libevas1 libevas1-engines-drm
+  libevas1-engines-wayland libevas1-engines-x libscim8v5
+提案パッケージ:
+  gdb
+推奨パッケージ:
+  libddcutil4 | libddcutil3 libevas-loaders packagekit libelementary-bin libevas1-engines-fb
+以下のパッケージが新たにインストールされます:
+  enlightenment enlightenment-data libecore-audio1 libecore-bin libecore-con1 libecore-drm2-1
+  libecore-evas1 libecore-fb1 libecore-file1 libecore-imf1 libecore-input1 libecore-ipc1
+  libecore-wl2-1 libecore-x1 libecore1 libector1 libedje-bin libedje1 libeet1 libeeze1
+  libefreet-bin libefreet1a libeina1a libeio1 libelementary-data libelementary1 libelput1
+  libembryo-bin libembryo1 libemile1 libemotion1 libethumb-client-bin libethumb-client1 libethumb1
+  libevas1 libevas1-engines-drm libevas1-engines-wayland libevas1-engines-x libscim8v5
+アップグレード: 0 個、新規インストール: 39 個、削除: 0 個、保留: 126 個。
+434 MB のアーカイブを取得する必要があります。
+この操作後に追加で 485 MB のディスク容量が消費されます。
+続行しますか? [Y/n] 
+
+-----------------------------------------------------
+参照外部リンク：
+見過ごしてはならないLinuxのデスクトップ10選
+https://japan.zdnet.com/article/20383788/
+
+How to customise your Linux desktop: Enlightenment
+https://www.zdnet.com/article/how-to-customise-your-linux-desktop-enlightenment/
