@@ -1,0 +1,37 @@
+
+Start-Date: 2023-07-30  13:43:25
+Commandline: apt upgrade
+Upgrade: mx-docs:amd64 (20230712, 20230728), virtualbox-guest-utils:amd64 (7.0.8-dfsg-1~mx23+1, 7.0.10-dfsg-2~mx23+1), mx-datetime:amd64 (23.7.02mx23, 23.7.03mx23), network-manager-sysvinit-compat:amd64 (21.02.01, 23.07.01), plymouth-modified-init:amd64 (23.03.01, 23.07.021), mx-packageinstaller-pkglist:amd64 (23.07.24mx23, 23.07.25mx23), avahi-sysvinit-compat:amd64 (23.05.01, 23.07.01)
+End-Date: 2023-07-30  13:43:41
+
+Start-Date: 2023-07-30  13:44:30
+Commandline: apt install pulseaudio
+Install: pulseaudio:amd64 (16.1+dfsg1-2+b1)
+Remove: pipewire-setup-mx:amd64 (23.05.10), pipewire-alsa:amd64 (0.3.65-3)
+End-Date: 2023-07-30  13:44:36
+
+Start-Date: 2023-07-30  14:15:26
+Commandline: apt remove network-manager
+Remove: network-manager-openvpn-gnome:amd64 (1.10.2-2), network-manager-openvpn:amd64 (1.10.2-2), network-manager-openconnect-gnome:amd64 (1.2.8-3), network-manager-gnome:amd64 (1.30.0-2), network-manager-openconnect:amd64 (1.2.8-3), network-manager:amd64 (1.42.4-1), network-manager-pptp:amd64 (1.2.12-1), network-manager-vpnc:amd64 (1.2.8-4)
+End-Date: 2023-07-30  14:15:29
+
+Start-Date: 2023-07-30  14:15:49
+Commandline: apt autoremove
+Remove: libnma-gtk4-0:amd64 (1.10.6-1), libayatana-appindicator3-1:amd64 (0.5.92-1), pptp-linux:amd64 (1.10.0-1), libnma-common:amd64 (1.10.6-1), libndp0:amd64 (1.8-1), libspa-0.2-jack:amd64 (0.3.65-3), pipewire-jack:amd64 (0.3.65-3), libnma0:amd64 (1.10.6-1), libteamdctl0:amd64 (1.31-1), gstreamer1.0-pipewire:amd64 (0.3.65-3), libdbusmenu-glib4:amd64 (18.10.20180917~bzr492+repack1-3), libdbusmenu-gtk3-4:amd64 (18.10.20180917~bzr492+repack1-3), libnm0:amd64 (1.42.4-1)
+End-Date: 2023-07-30  14:15:52
+
+Start-Date: 2023-07-30  14:30:02
+Commandline: apt install l3afpad geany-plugin-spellcheck
+Install: l3afpad:amd64 (0.8.18.1.11-4), geany-plugin-spellcheck:amd64 (1.38+dfsg-2), geany-plugins-common:amd64 (1.38+dfsg-2, automatic)
+End-Date: 2023-07-30  14:30:04
+
+Start-Date: 2023-07-30  18:43:50
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: network-manager-sysvinit-compat:amd64 (23.07.01)
+End-Date: 2023-07-30  18:43:52
+
+Start-Date: 2023-07-30  19:03:05
+Commandline: apt upgrade
+Upgrade: linux-headers-6.1.0-10-amd64:amd64 (6.1.38-1, 6.1.38-2), linux-compiler-gcc-12-x86:amd64 (6.1.38-1, 6.1.38-2), linux-headers-amd64:amd64 (6.1.38-1, 6.1.38-2), linux-kbuild-6.1:amd64 (6.1.38-1, 6.1.38-2), linux-image-6.1.0-10-amd64:amd64 (6.1.38-1, 6.1.38-2), linux-image-amd64:amd64 (6.1.38-1, 6.1.38-2), linux-headers-6.1.0-10-common:amd64 (6.1.38-1, 6.1.38-2), linux-libc-dev:amd64 (6.1.38-1, 6.1.38-2)
+End-Date: 2023-07-30  19:04:00
