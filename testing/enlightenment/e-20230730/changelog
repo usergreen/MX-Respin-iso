@@ -1,0 +1,8 @@
+Changelog
+
+2023-07-30 15:40 UTC
+Fixed "No Sound" problem by legacy Intel sound card.
+Removed Network-Manager as no longer needed
+This ISO image file is fully up-to-date as of 2023-07-27.
+
+END.
