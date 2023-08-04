@@ -1,5 +1,3 @@
-# Enlightenment Desktop howto for MX-21.3 Minimal (of Community Respins)
-
 reference:
 https://wiki.mate-desktop.org/introduction/installation/#manual-installation
 
