@@ -1,0 +1,5 @@
+NOTE:
+All releases use pipewire & wireplumber instead of pulseaudio.
+UFW firewall is enabled by default. This may affect printer setup for some users.
+
+https://mxlinux.org/blog/mx-23-libretto-now-available/
