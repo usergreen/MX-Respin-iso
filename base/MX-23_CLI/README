@@ -1,0 +1,20 @@
+This is a personal respin, it's not officially supported by MX Linux.
+
+This ISO is only for EXPERTS. It boots to CLI (no Xorg, no applications, pretty much nothing). 
+It's meant to be a way to install a Linux OS from a CD, or for people to build minimal servers or custom ISOs on top of it. 
+
+User: demo
+Password: demo
+Root password: root
+
+It comes with 3 important tools: 
+ * cli-installer -- a CLI based installer that comes from antiX
+ * iso-snapshot-cli -- this is mx-snapshot app stripped down that runs only from CLI; it can create custom ISOs for the running or installed system
+ * live-usb-maker -- for burning ISOs, or the current live system to USB drives
+
+Again this is only for experts and people very comfortable with CLI. For a more GUI centric experience but still stripped down use MX Minimal.
+If you want a full working system, download the regular MX release, not this one.
+
+Source: README, updated 2023-07-31
+https://sourceforge.net/projects/mx-linux/files/Community_Respins/MX-CLI/
+
