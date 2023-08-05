@@ -1,0 +1,24 @@
+user@debian:~/xxx$ apt download mousepad
+取得:1 http://deb.debian.org/debian buster/main amd64 mousepad amd64 0.4.1-2 [334 kB]
+334 kB を 1秒 で取得しました (491 kB/s)                                   
+user@debian:~/xxx$ apt source mousepad
+パッケージリストを読み込んでいます... 完了
+注意: 'mousepad' パッケージは以下の場所の 'Git' バージョン制御システムで保守されています:
+https://salsa.debian.org/xfce-team/apps/mousepad.git
+パッケージの最新の (まだリリースされていないかもしれない) 更新を取得するには、
+git clone https://salsa.debian.org/xfce-team/apps/mousepad.git
+を使用してください。
+652 kB のソースアーカイブを取得する必要があります。
+取得:1 http://deb.debian.org/debian buster/main mousepad 0.4.1-2 (dsc) [1,595 B]
+取得:2 http://deb.debian.org/debian buster/main mousepad 0.4.1-2 (tar) [644 kB]
+取得:3 http://deb.debian.org/debian buster/main mousepad 0.4.1-2 (diff) [6,572 B]
+652 kB を 1秒 で取得しました (805 kB/s)
+dpkg-source: info: extracting mousepad in mousepad-0.4.1
+dpkg-source: info: unpacking mousepad_0.4.1.orig.tar.bz2
+dpkg-source: info: unpacking mousepad_0.4.1-2.debian.tar.xz
+user@debian:~/xxx$ ls
+mousepad-0.4.1                  mousepad_0.4.1-2_amd64.deb
+mousepad_0.4.1-2.debian.tar.xz  mousepad_0.4.1.orig.tar.bz2
+mousepad_0.4.1-2.dsc
+user@debian:~/xxx$ 
+

@@ -1,0 +1,23 @@
+user@debian:~/zzz$ apt download stopwatch
+取得:1 http://deb.debian.org/debian buster/main amd64 stopwatch all 3.5-6 [13.8 kB]
+13.8 kB を 1秒 で取得しました (22.8 kB/s)                                 
+user@debian:~/zzz$ apt source stopwatch
+パッケージリストを読み込んでいます... 完了
+15.5 kB のソースアーカイブを取得する必要があります。
+取得:1 http://deb.debian.org/debian buster/main stopwatch 3.5-6 (dsc) [1,736 B]
+取得:2 http://deb.debian.org/debian buster/main stopwatch 3.5-6 (tar) [7,962 B]
+取得:3 http://deb.debian.org/debian buster/main stopwatch 3.5-6 (diff) [5,768 B]
+15.5 kB を 1秒 で取得しました (29.9 kB/s)
+dpkg-source: info: extracting stopwatch in stopwatch-3.5
+dpkg-source: info: unpacking stopwatch_3.5.orig.tar.gz
+dpkg-source: info: unpacking stopwatch_3.5-6.debian.tar.xz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: applying 01_debianize.diff
+dpkg-source: info: applying 02_path_wish.diff
+dpkg-source: info: applying 03_start.diff
+user@debian:~/zzz$ ls
+stopwatch-3.5                  stopwatch_3.5-6_all.deb
+stopwatch_3.5-6.debian.tar.xz  stopwatch_3.5.orig.tar.gz
+stopwatch_3.5-6.dsc
+user@debian:~/zzz$ 
+
