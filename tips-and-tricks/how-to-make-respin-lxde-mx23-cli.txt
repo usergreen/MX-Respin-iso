@@ -1,0 +1,51 @@
+
+MX-23_CLI で最小構成の Xfce デスクトップをインストールする場合。
+How to make Xfce Desktop:
+
+apt install xorg xserver-xorg-video-all xserver-xorg-input-all
+
+# the command below also install lightdm as default window manager
+
+apt install lxde lightdm
+
+# exit to demo user
+exit
+
+startx
+
+apt install avahi-daemon libnss-mdns anacron
+
+apt install avahi-autoipd bluetooth powertop iw wireless-tools wpasupplicant network-manage-gnome
+
+apt install desktop-defaults-mx-common xfce4-power-manager
+
+apt install mx-packageinstaller mx-live-usb-maker mx-snapshot
+
+apt install cups cups-pdf
+
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+
+apt install uim-chewing uim-pinyin fonts-wqy-microhei
+
+apt install sylpheed sylpheed-i18n aspell-en
+
+apt install gnome-sound-recorder audacious vlc vlc-l10n
+
+apt install formatusb synaptic
+
+apt install l3afpad geany geany-plugin-spellcheck
+
+apt install firefox firefox-l10n-xpi-de firefox-l10n-xpi-el firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
+
+# If there is no locale, set below:
+from gui: mx system-configure-locales by super-user:
+(or # system-locales-mx)
+
+Add locales
+
+apt autoremove
+
+apt clean
+
+END.
+
