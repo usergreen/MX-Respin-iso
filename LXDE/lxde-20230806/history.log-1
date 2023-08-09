@@ -1,0 +1,20 @@
+
+Start-Date: 2023-08-06  07:38:56
+Commandline: apt remove xfce4-power-manager
+Remove: xfce4-power-manager:amd64 (4.18.1-1)
+End-Date: 2023-08-06  07:38:57
+
+Start-Date: 2023-08-06  07:40:44
+Commandline: apt install gnome-power-manager
+Install: gnome-power-manager:amd64 (43.0-1), gnome-settings-daemon-common:amd64 (43.0-4, automatic)
+End-Date: 2023-08-06  07:40:45
+
+Start-Date: 2023-08-06  07:40:55
+Commandline: apt autoremove
+Remove: libxfce4ui-common:amd64 (4.18.4-0.1~mx23+1), xfce4-power-manager-data:amd64 (4.18.1-1), libxfce4ui-2-0:amd64 (4.18.4-0.1~mx23+1), libxfconf-0-3:amd64 (4.18.0-2), xfconf:amd64 (4.18.0-2), libxfce4util7:amd64 (4.18.1-2), libxfce4util-common:amd64 (4.18.1-2)
+End-Date: 2023-08-06  07:40:56
+
+Start-Date: 2023-08-06  10:07:04
+Commandline: apt install gnome-screenshot
+Install: gnome-screenshot:amd64 (41.0-2), libhandy-1-0:amd64 (1.8.1-1, automatic)
+End-Date: 2023-08-06  10:07:04

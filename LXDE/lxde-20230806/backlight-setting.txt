@@ -1,0 +1,20 @@
+How to change backlight brightness on LXDE
+画面のバックライトの調整方法について
+
+当方で検証した範囲では、gnome/or xfce power manager による電源管理が出来ない現象が見られたので、以下に対処方法を掲載します。（注：必ず発生するわけではありません。）
+
+輝度調整のできない LXDE 版の Lubuntu、Debian をやっつけてやりました。
+https://ameblo.jp/gokurakuhaze/entry-12357545401.html
+
+「このモジュールのインターフェイスは sysfs のフォルダ /sys/class/backlight に実装されてます。」
+
+# 当方が検証した結果、この方法は動作確認できました。
+# Intel_backlight にリンク時の場合、最大値は 6976 なので、推奨値は 5000 です。
+# LiveUSB 運用では変更値は保存不可で、次回起動時に初期値に戻ります。
+
+その他の方法
+
+xbacklight
+https://wiki.archlinux.jp/index.php/%E3%83%90%E3%83%83%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%88#xbacklight
+
+以上
