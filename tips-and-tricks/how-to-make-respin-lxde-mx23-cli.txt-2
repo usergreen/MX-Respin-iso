@@ -1,0 +1,86 @@
+
+How to install typical LXDE Desktop Environment
+MX-23_CLI で標準的な構成の LXDE デスクトップをインストールする
+
+As for LXDE:
+
+apt install xorg xserver-xorg-video-all xserver-xorg-input-all
+
+# the command below also install lightdm as optional window manager
+
+apt install lxde lxdm
+
+# exit to demo user
+exit
+
+startx
+
+Choose lightdm or lxdm (I chose lxdm.)
+
+apt install avahi-daemon libnss-mdns anacron
+
+apt install avahi-autoipd bluetooth powertop iw wireless-tools wpasupplicant network-manager-gnome
+
+apt install desktop-defaults-mx-common
+
+apt install mx-packageinstaller mx-live-usb-maker mx-snapshot formatusb
+
+# Issue: gnome-settings-daemon-common is needed to avoid the error message of "Unable to get connection to the message bus session". It will be automatically installed, because gnome-power-manager has dependency with it. 
+# Both xfce4-power-manager and gnome-power-manager do NOT seems to support LXDE!!
+
+//apt install gnome-power-manager
+
+apt install gnome-screenshot
+
+apt install cups cups-pdf
+
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+
+apt install uim-chewing uim-pinyin fonts-wqy-microhei
+
+apt install sylpheed sylpheed-i18n aspell-en
+
+apt install gnome-sound-recorder audacious vlc vlc-l10n
+
+apt install synaptic
+
+apt install l3afpad geany geany-plugin-spellcheck
+
+apt install libgdk-pixbuf2.0-bin xinput
+
+apt install firefox firefox-l10n-xpi-de firefox-l10n-xpi-el firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
+
+# If there is no locale, set locales as below:
+
+dpkg-reconfigure locales
+
+167,164,72,81,110,134,151,160,220,235,97,241,271,154,157,314,317
+
+de_DE.UTF-8... done - German locale for Germany
+el-GR.UTF-8... done - Greek locale for Greece
+en_US.UTF-8... done - English locale for the USA
+es_ES.UTF-8... done - Spanish locale for Spain
+fr_FR.UTF-8... done - French locale for France
+hi_IN.UTF-8... done - Hindi language locale for India
+hr_HR.UTF-8... done - Croatian locale for Croatia
+hu_HU.UTF-8... done - Hungarian locale for Hungary
+id_ID.UTF-8... done - Indonesian locale for Indonesia
+it_IT.UTF-8... done - Italian locale for Italy
+ja_JP.UTF-8... done - Japanese language locale for Japan
+nl_NL.UTF-8... done - Dutch locale for the Netherlands
+pt_BR.UTF-8... done - Portuguese locale for Brasil
+ru_RU.UTF-8... done - Russian locale for Russia
+sv_SE.UTF-8... done - Swedish locale for Sweden
+zh_CN.UTF-8... done - Chinese locale for Peoples Republic of China
+zh_TW.UTF-8... done - Chinese locale for Taiwan R.O.C.
+
+Then, set default locale "None" - 1
+
+apt autoremove
+
+apt clean
+
+exit
+
+END.
+

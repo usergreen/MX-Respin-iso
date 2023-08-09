@@ -22,7 +22,8 @@ Description: Debian デスクトップ環境
  
 ------------------------------------
 MX-23_CLI で標準的な MATE デスクトップをインストールする場合。
-Typical MATE Desktop installation:
+
+MATE Desktop installation:
 
 apt install xorg xserver-xorg-video-all xserver-xorg-input-all
 
@@ -49,7 +50,7 @@ apt install desktop-defaults-mx-common mx-tweak
 
 apt install mx-docs mx-snapshot mx-live-usb-maker mx-packageinstaller formatusb synaptic
 
-apt install atril eom caja-open-terminal engrampa mate-calc mate-media mate-power-manager mate-system-monitor mate-utils mate-user-guide mozo mate-tweak mate-screensaver
+apt install atril engrampa eom caja-open-terminal mate-calc mate-media mate-menu mate-power-manager mate-screensaver mate-system-monitor mate-utils mate-user-guide mozo mate-tweak
 
 apt install cups cups-pdf
 
@@ -60,6 +61,10 @@ apt install uim-chewing uim-pinyin fonts-wqy-microhei
 apt install sylpheed sylpheed-i18n aspell-en
 
 apt install gnome-sound-recorder audacious vlc vlc-l10n
+
+# optionall:
+
+//apt install lazpaint-gtk2 hypnotix
 
 apt install l3afpad geany geany-plugin-spellcheck
 
