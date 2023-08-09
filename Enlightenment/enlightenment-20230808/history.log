@@ -1,0 +1,92 @@
+
+Start-Date: 2023-08-08  22:25:24
+Commandline: apt remove xfce4 exo-utils libexo-2-0 libexo-common libexo-helpers libgarcon-1-0 libgarcon-common libnotify-bin libthunarx-3-0 libtumbler-1-0 libwnck-common libwnck22 libxfce4panel-2.0-4 libxfce4ui-1-0 libxfce4ui-2-0 libxfce4ui-common libxfce4ui-utils libxfce4util-bin libxfce4util-common libxfce4util7 light-locker pavucontrol tango-icon-theme thunar thunar-data thunar-volman tumbler tumbler-common xfce4-appfinder xfce4-notifyd xfce4-panel xfce4-pulseaudio-plugin xfce4-session xfce4-settings xfconf xfdesktop4 xfdesktop4-data xfwm4 thunar-archive-plugin thunar-media-tags-plugin tumbler-plugins-extra xfce4-goodies xfce4-power-manager
+Install: xbitmaps:amd64 (1.1.1-2.2, automatic), xterm:amd64 (379-1, automatic)
+Remove: xfce4-xkb-plugin:amd64 (1:0.8.3-1), thunar-modified-desktop-file:amd64 (21.07.01), xfce4-battery-plugin:amd64 (1.1.4-1), exo-utils:amd64 (4.18.0-1), libxfce4ui-common:amd64 (4.18.4-0.1~mx23+1), thunar-data:amd64 (4.18.4-1), blueman:amd64 (2.3.5-2+b1), xfce4-panel:amd64 (4.18.2-1), tumbler:amd64 (4.18.0-1), libxfce4ui-2-0:amd64 (4.18.4-0.1~mx23+1), tumbler-common:amd64 (4.18.0-1), pavucontrol:amd64 (5.0-2), libxfconf-0-3:amd64 (4.18.0-2), xfce4-taskmanager:amd64 (1.5.5-1), libxfce4panel-2.0-4:amd64 (4.18.2-1), xfwm4:amd64 (4.18.0-1), libnotify-bin:amd64 (0.8.1-1), libgarcon-gtk3-1-0:amd64 (4.18.0-1), xfce4-power-manager:amd64 (4.18.1-1), xfce4-docklike-plugin:amd64 (0.4.1-0.1~mx23+1), xfdesktop4:amd64 (4.18.1-1), thunar-archive-plugin:amd64 (0.5.0-1), xfconf:amd64 (4.18.0-2), xfce4-settings:amd64 (4.18.2-1), xfce4-terminal:amd64 (1.0.4-1), xfce4-session:amd64 (4.18.1-1), thunar-volman:amd64 (4.18.0-1), libtumbler-1-0:amd64 (4.18.0-1), xfce4-places-plugin:amd64 (1.8.3-1), libexo-2-0:amd64 (4.18.0-1), xfce4-appfinder:amd64 (4.18.0-1), desktop-defaults-mx-xfce:amd64 (23.06.02mx23), thunar:amd64 (4.18.4-1), xfce4-power-manager-plugins:amd64 (4.18.1-1), xfce4-wavelan-plugin:amd64 (0.6.3-1), libxfce4util7:amd64 (4.18.1-2), xfdesktop4-data:amd64 (4.18.1-1), user-installed-packages:amd64 (23.07.02), xfce4-screenshooter:amd64 (1.10.3-1), libthunarx-3-0:amd64 (4.18.4-1), xfce4-genmon-plugin:amd64 (4.1.1-1), xfce4-mount-plugin:amd64 (1.1.5-1), xfce4-pulseaudio-plugin:amd64 (0.4.5-1), xfce4-whiskermenu-plugin:amd64 (2.7.2-1), xfce4-datetime-plugin:amd64 (0.8.2-1), libgarcon-1-0:amd64 (4.18.0-1), xfce4-fsguard-plugin:amd64 (1.1.2-1), xfce4-notifyd:amd64 (0.7.3-1), libxfce4util-common:amd64 (4.18.1-2), libgarcon-common:amd64 (4.18.0-1), libexo-common:amd64 (4.18.0-1)
+End-Date: 2023-08-08  22:25:45
+
+Start-Date: 2023-08-08  22:25:51
+Commandline: apt remove xfce-superkey-mx xfce4-dev-tools xfce4-power-manager-data xfce4-helpers desktop-defaults-mx-xfce-system desktop-defaults-mx-xfce-desktop file-roller menulibre qpdfview gthumb pdfarranger mx-tour mc info gsmartcontrol htop luckybackup transmission-gtk
+Remove: xfce4-power-manager-data:amd64 (4.18.1-1), desktop-defaults-mx-xfce-system:amd64 (23.06.02mx23), xfce4-helpers:amd64 (4.18.2-1), xfce-superkey-mx:amd64 (21.09.01), desktop-defaults-mx-xfce-desktop:amd64 (23.06.02mx23)
+End-Date: 2023-08-08  22:25:52
+
+Start-Date: 2023-08-08  22:26:50
+Commandline: apt install enlightenment terminology
+Install: terminology:amd64 (1.13.0-1), libelementary-data:amd64 (1.26.3-1, automatic), libethumb-client1:amd64 (1.26.3-1+b1, automatic), enlightenment-data:amd64 (0.25.4-2, automatic), libedje-bin:amd64 (1.26.3-1+b1, automatic), libecore-evas1:amd64 (1.26.3-1+b1, automatic), libecore-x1:amd64 (1.26.3-1+b1, automatic), libevas1:amd64 (1.26.3-1+b1, automatic), libelementary1:amd64 (1.26.3-1+b1, automatic), libeeze1:amd64 (1.26.3-1+b1, automatic), libheif1:amd64 (1.15.1-1, automatic), libscim8v5:amd64 (1.4.18+git20211204-0.1, automatic), libefreet1a:amd64 (1.26.3-1+b1, automatic), libgif7:amd64 (5.2.1-2.5, automatic), liblua5.2-0:amd64 (5.2.4-3, automatic), libwebpdemux2:amd64 (1.2.4-0.2, automatic), libector1:amd64 (1.26.3-1+b1, automatic), libeina1a:amd64 (1.26.3-1+b1, automatic), libecore-audio1:amd64 (1.26.3-1+b1, automatic), libecore-bin:amd64 (1.26.3-1+b1, automatic), libethumb-client-bin:amd64 (1.26.3-1+b1, automatic), libecore1:amd64 (1.26.3-1+b1, automatic), libecore-fb1:amd64 (1.26.3-1+b1, automatic), libefreet-bin:amd64 (1.26.3-1+b1, automatic), libevas1-engines-wayland:amd64 (1.26.3-1+b1, automatic), libecore-wl2-1:amd64 (1.26.3-1+b1, automatic), libemile1:amd64 (1.26.3-1+b1, automatic), terminology-data:amd64 (1.13.0-1, automatic), enlightenment:amd64 (0.25.4-2), libevas1-engines-x:amd64 (1.26.3-1+b1, automatic), libembryo1:amd64 (1.26.3-1+b1, automatic), libethumb1:amd64 (1.26.3-1+b1, automatic), libecore-con1:amd64 (1.26.3-1+b1, automatic), libemotion1:amd64 (1.26.3-1+b1, automatic), libecore-drm2-1:amd64 (1.26.3-1+b1, automatic), libecore-input1:amd64 (1.26.3-1+b1, automatic), libecore-imf1:amd64 (1.26.3-1+b1, automatic), libecore-file1:amd64 (1.26.3-1+b1, automatic), libecore-ipc1:amd64 (1.26.3-1+b1, automatic), libeet1:amd64 (1.26.3-1+b1, automatic), libeio1:amd64 (1.26.3-1+b1, automatic), libedje1:amd64 (1.26.3-1+b1, automatic), libevas1-engines-drm:amd64 (1.26.3-1+b1, automatic), libelput1:amd64 (1.26.3-1+b1, automatic), libembryo-bin:amd64 (1.26.3-1+b1, automatic)
+End-Date: 2023-08-08  22:27:16
+
+Start-Date: 2023-08-08  22:27:27
+Commandline: apt install libddcutil4 libevas-loaders packagekit libelementary-bin libevas1-engines-fb
+Install: libddcutil4:amd64 (1.4.1-1), libpaper1:amd64 (1.1.29, automatic), libjbig2dec0:amd64 (0.19-3, automatic), libidn12:amd64 (1.41-1, automatic), usb.ids:amd64 (2023.05.17-0+deb12u1, automatic), libijs-0.35:amd64 (0.35-15, automatic), libgs10-common:amd64 (10.0.0~dfsg-11+deb12u1, automatic), libgs10:amd64 (10.0.0~dfsg-11+deb12u1, automatic), libevas-loaders:amd64 (1.26.3-1+b1), libpoppler-cpp0v5:amd64 (22.12.0-2+b1, automatic), poppler-data:amd64 (0.4.12-1, automatic), packagekit:amd64 (1.2.6-5), fonts-urw-base35:amd64 (20200910-7, automatic), libpackagekit-glib2-18:amd64 (1.2.6-5, automatic), libraw20:amd64 (0.20.2-2.1, automatic), libevas1-engines-fb:amd64 (1.26.3-1+b1), libgs-common:amd64 (10.0.0~dfsg-11+deb12u1, automatic), libelementary-bin:amd64 (1.26.3-1+b1), libspectre1:amd64 (0.2.12-1, automatic)
+End-Date: 2023-08-08  22:27:35
+
+Start-Date: 2023-08-08  22:27:48
+Commandline: apt remove dpkg-dev g++ gcc libc6-dev make fakeroot open-vm-tools
+Remove: rtl8821cu-dkms:amd64 (5.12.0+git20230215-1~mx23+3), rtl8812au-dkms:amd64 (5.13.6+git20230615-1~mx23), broadcom-sta-dkms:amd64 (6.30.223.271-23), rtl8821ce-dkms:amd64 (5.5.2.1+git20230504-0~mx23+1), dpkg-dev:amd64 (1.21.22), make:amd64 (4.3-4.1), libc6-dev:amd64 (2.36-9+deb12u1), dkms:amd64 (3.0.10-8+deb12u1)
+End-Date: 2023-08-08  22:28:11
+
+Start-Date: 2023-08-08  22:30:13
+Commandline: apt upgrade
+Upgrade: gazelle-installer-data-mx:amd64 (23.07.03mx23, 23.08mx23), mx-repo-manager:amd64 (23.7.01, 23.8), mx23-artwork:amd64 (23.07.01, 23.07.02), firefox:amd64 (115.0.3~mozillabinaries-1mx23+1, 116.0.1~mozillabinaries-1mx23+1), mx-packageinstaller-pkglist:amd64 (23.07.25mx23, 23.08.04mx23), mx-remaster:amd64 (23.05.01, 23.05.02mx23), mx-bootrepair:amd64 (23.7, 23.8), mx-goodies:amd64 (23.07.01, 23.07.02), mx-installer:amd64 (23.7.14mx23, 23.8.01mx23), mx-system:amd64 (23.07.09mx23, 23.07.10mx23)
+End-Date: 2023-08-08  22:30:35
+
+Start-Date: 2023-08-08  22:30:42
+Commandline: apt install connman cmst
+Install: connman:amd64 (1.41-3), cmst:amd64 (2022.11.30-1)
+End-Date: 2023-08-08  22:30:44
+
+Start-Date: 2023-08-08  22:31:15
+Commandline: apt install mx-docs formatusb quick-system-info-gui synaptic
+Install: synaptic:amd64 (0.91.3), mx-docs:amd64 (20230728), libept1.6.0:amd64 (1.2.1, automatic), quick-system-info-gui:amd64 (23.07.04), formatusb:amd64 (23.07.02)
+End-Date: 2023-08-08  22:31:24
+
+Start-Date: 2023-08-08  22:31:30
+Commandline: apt install cups cups-pdf
+Install: cups-filters:amd64 (1.28.17-3, automatic), cups-common:amd64 (2.4.2-3+deb12u1, automatic), cups-client:amd64 (2.4.2-3+deb12u1, automatic), cups-ppdc:amd64 (2.4.2-3+deb12u1, automatic), cups-daemon:amd64 (2.4.2-3+deb12u1, automatic), libfontembed1:amd64 (1.28.17-3, automatic), libqpdf29:amd64 (11.3.0-1, automatic), cups-filters-core-drivers:amd64 (1.28.17-3, automatic), poppler-utils:amd64 (22.12.0-2+b1, automatic), cups-ipp-utils:amd64 (2.4.2-3+deb12u1, automatic), ghostscript:amd64 (10.0.0~dfsg-11+deb12u1, automatic), printer-driver-cups-pdf:amd64 (3.0.1-14), libpaper-utils:amd64 (1.1.29, automatic), cups-core-drivers:amd64 (2.4.2-3+deb12u1, automatic), cups:amd64 (2.4.2-3+deb12u1), cups-server-common:amd64 (2.4.2-3+deb12u1, automatic), libcupsfilters1:amd64 (1.28.17-3, automatic)
+End-Date: 2023-08-08  22:31:38
+
+Start-Date: 2023-08-08  22:31:48
+Commandline: apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+Install: libm17n-0:amd64 (1.8.0-6, automatic), libgcroots0:amd64 (0.9.1-2, automatic), uim-gtk2.0:amd64 (1:1.8.8-9.2+b2), libwpebackend-fdo-1.0-1:amd64 (1.14.2-1, automatic), anthy:amd64 (1:0.4-2, automatic), uim-gtk3:amd64 (1:1.8.8-9.2+b2), uim:amd64 (1:1.8.8-9.2+b2), uim-gtk2.0-immodule:amd64 (1:1.8.8-9.2+b2, automatic), libanthyinput0:amd64 (1:0.4-2, automatic), libmanette-0.2-0:amd64 (0.2.6-3+b1, automatic), libjavascriptcoregtk-4.1-0:amd64 (2.40.5-1~deb12u1, automatic), libuim-scm0:amd64 (1:1.8.8-9.2+b2, automatic), emacsen-common:amd64 (3.0.5, automatic), uim-gtk3-immodule:amd64 (1:1.8.8-9.2+b2, automatic), libgav1-1:amd64 (0.18.0-1+b1, automatic), im-config:amd64 (0.55-2), uim-qt5-immodule:amd64 (1:1.8.8-9.2+b2, automatic), libwoff1:amd64 (1.0.2-2, automatic), libanthy1:amd64 (1:0.4-2, automatic), libaspell15:amd64 (0.60.8-4+b1, automatic), uim-data:amd64 (1:1.8.8-9.2, automatic), uim-anthy:amd64 (1:1.8.8-9.2), libharfbuzz-icu0:amd64 (6.0.0+dfsg-3, automatic), hunspell-en-us:amd64 (1:2020.12.07-2, automatic), libwpe-1.0-1:amd64 (1.14.0-1, automatic), dictionaries-common:amd64 (1.29.5, automatic), libuim-data:amd64 (1:1.8.8-9.2, automatic), libuim-custom2:amd64 (1:1.8.8-9.2+b2, automatic), zenity-common:amd64 (3.44.0-1, automatic), libyuv0:amd64 (0.0~git20230123.b2528b0-1, automatic), zenity:amd64 (3.44.0-1), libwebkit2gtk-4.1-0:amd64 (2.40.5-1~deb12u1, automatic), libabsl20220623:amd64 (20220623.1-1, automatic), libavif15:amd64 (0.11.1-1, automatic), anthy-common:amd64 (1:0.4-2, automatic), fonts-vlgothic:amd64 (20220612-1), m17n-db:amd64 (1.8.0-5, automatic), kasumi:amd64 (2.5-11), uim-plugins:amd64 (1:1.8.8-9.2+b2, automatic), libotf1:amd64 (0.9.16-4, automatic), libhyphen0:amd64 (2.8.8-7, automatic), libuim8:amd64 (1:1.8.8-9.2+b2, automatic), libenchant-2-2:amd64 (2.3.3-2, automatic), uim-fep:amd64 (1:1.8.8-9.2+b2), libgd3:amd64 (2.3.3-9, automatic), uim-qt5:amd64 (1:1.8.8-9.2+b2), uim-xim:amd64 (1:1.8.8-9.2+b2)
+End-Date: 2023-08-08  22:32:01
+
+Start-Date: 2023-08-08  22:32:07
+Commandline: apt install uim-chewing uim-pinyin fonts-wqy-microhei
+Install: libchewing3-data:amd64 (0.5.1-5, automatic), uim-pinyin:amd64 (1:1.8.8-9.2), uim-chewing:amd64 (0.1.0-7), fonts-wqy-microhei:amd64 (0.2.0-beta-3.1), libchewing3:amd64 (0.5.1-5, automatic)
+End-Date: 2023-08-08  22:32:09
+
+Start-Date: 2023-08-08  22:32:18
+Commandline: apt install sylpheed sylpheed-i18n aspell-en
+Install: libonig5:amd64 (6.9.8-1, automatic), sylpheed:amd64 (3.8.0~beta1-1), sylpheed-i18n:amd64 (3.8.0~beta1-1), libgtkspell0:amd64 (2.0.16-1.3, automatic), libcompfaceg1:amd64 (1:1.5.2-5.1, automatic), aspell-en:amd64 (2020.12.07-0-1), aspell:amd64 (0.60.8-4+b1, automatic)
+End-Date: 2023-08-08  22:32:21
+
+Start-Date: 2023-08-08  22:32:41
+Commandline: apt install gnome-sound-recorder audacious vlc vlc-l10n
+Install: vlc-plugin-qt:amd64 (3.0.18-2, automatic), libneon27-gnutls:amd64 (0.32.5-1, automatic), gir1.2-adw-1:amd64 (1.2.2-1, automatic), libvlc5:amd64 (3.0.18-2, automatic), liblirc-client0:amd64 (0.10.1-7.2, automatic), libsdl-image1.2:amd64 (1.2.12-13+b2, automatic), gnome-sound-recorder:amd64 (43~beta-1), vlc-data:amd64 (3.0.18-2, automatic), libgtk-4-common:amd64 (4.8.3+ds-2, automatic), gjs:amd64 (1.74.2-1, automatic), libgjs0g:amd64 (1.74.2-1, automatic), libmatroska7:amd64 (1.7.1-1, automatic), libvlccore9:amd64 (3.0.18-2, automatic), vlc:amd64 (3.0.18-2), audacious:amd64 (4.3.1-1~mx23+1), libcdio-cdda2:amd64 (10.2+2.0.1-1, automatic), vlc-bin:amd64 (3.0.18-2, automatic), libresid-builder0c2a:amd64 (2.1.1-15+b1, automatic), libopenmpt-modplug1:amd64 (0.8.9.0-openmpt1-2+b1, automatic), libopusfile0:amd64 (0.12-4, automatic), audacious-plugins:amd64 (4.3.1-1~mx23+1, automatic), vlc-l10n:amd64 (3.0.18-2), libcdio19:amd64 (2.1.0-4, automatic), libspatialaudio0:amd64 (0.3.0+git20180730+dfsg1-2+b1, automatic), audacious-plugins-data:amd64 (4.3.1-1~mx23+1, automatic), libmad0:amd64 (0.15.1b-10.1+b1, automatic), libsidplay2:amd64 (2.1.1-15+b1, automatic), libdvbpsi10:amd64 (1.3.3-1, automatic), libprotobuf-lite32:amd64 (3.21.12-3, automatic), libmms0:amd64 (0.6.4-3, automatic), gir1.2-gtk-4.0:amd64 (4.8.3+ds-2, automatic), gir1.2-gst-plugins-base-1.0:amd64 (1.22.0-3+deb12u1, automatic), libcairo-script-interpreter2:amd64 (1.16.0-7, automatic), libupnp13:amd64 (1:1.8.4-2, automatic), gir1.2-graphene-1.0:amd64 (1.10.8-1, automatic), libqt5multimedia5:amd64 (5.15.8-2, automatic), libcloudproviders0:amd64 (0.3.1-2, automatic), libebml5:amd64 (1.4.4-1, automatic), libcue2:amd64 (2.2.1-4, automatic), libnfs13:amd64 (4.0.0-1, automatic), libaudgui5:amd64 (4.3.1-1~mx23+1, automatic), libmozjs-102-0:amd64 (102.11.0-1, automatic), libmpeg2-4:amd64 (0.5.1-9, automatic), gir1.2-gst-plugins-bad-1.0:amd64 (1.22.0-4+deb12u1, automatic), libgtk-4-1:amd64 (4.8.3+ds-2, automatic), libadwaita-1-0:amd64 (1.2.2-1, automatic), libva-wayland2:amd64 (2.17.0-1, automatic), vlc-plugin-video-output:amd64 (3.0.18-2, automatic), libsdl1.2debian:amd64 (1.2.15+dfsg2-8, automatic), liba52-0.7.4:amd64 (0.7.4-20, automatic), libaudcore5:amd64 (4.3.1-1~mx23+1, automatic), libcddb2:amd64 (1.3.2-7, automatic), libaudqt2:amd64 (4.3.1-1~mx23+1, automatic), libaribb24-0:amd64 (1.0.3-2, automatic), libgraphene-1.0-0:amd64 (1.10.8-1, automatic), libaudtag3:amd64 (4.3.1-1~mx23+1, automatic), libixml10:amd64 (1:1.8.4-2, automatic), libsidplayfp6:amd64 (2.4.2-1, automatic), libvlc-bin:amd64 (3.0.18-2, automatic), vlc-plugin-base:amd64 (3.0.18-2, automatic), libxcb-xv0:amd64 (1.15-1, automatic)
+End-Date: 2023-08-08  22:32:52
+
+Start-Date: 2023-08-08  22:34:13
+Commandline: apt install firefox firefox-l10n-xpi-de firefox-l10n-xpi-el firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
+Install: firefox-l10n-xpi-hi-in:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-de:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-el:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-fr:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-hr:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-hu:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-id:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-it:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-ja:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-nl:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-ru:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-pt-br:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-zh-tw:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-sv-se:amd64 (116.0.1~mozillabinaries-1mx23+1), firefox-l10n-xpi-es-es:amd64 (116.0.1~mozillabinaries-1mx23+1)
+End-Date: 2023-08-08  22:34:16
+
+Start-Date: 2023-08-08  22:35:06
+Commandline: apt remove network-manager
+Remove: network-manager-gnome:amd64 (1.30.0-2), network-manager:amd64 (1.42.4-1), network-manager-pptp:amd64 (1.2.12-1)
+End-Date: 2023-08-08  22:35:07
+
+Start-Date: 2023-08-08  22:35:11
+Commandline: apt autoremove
+Remove: libcanberra-gtk3-0:amd64 (0.30-10), libgcr-base-3-1:amd64 (3.41.1-1+b1), libayatana-appindicator3-1:amd64 (0.5.92-1), pptp-linux:amd64 (1.10.0-1), libxpresent1:amd64 (1.0.0-2+b10), python3-urllib3:amd64 (1.26.12-1), libnma-common:amd64 (1.10.6-1), libpulse-mainloop-glib0:amd64 (16.1+dfsg1-2+b1), gir1.2-nm-1.0:amd64 (1.42.4-1), libndp0:amd64 (1.8-1), libnsl-dev:amd64 (1.3.0-2), libpoppler-glib8:amd64 (22.12.0-2+b1), rpcsvc-proto:amd64 (1.4.3-1), libnma0:amd64 (1.10.6-1), libteamdctl0:amd64 (1.31-1), libcrypt-dev:amd64 (1:4.4.33-2), libc-dev-bin:amd64 (2.36-9+deb12u1), libdbusmenu-glib4:amd64 (18.10.20180917~bzr492+repack1-3), python3-idna:amd64 (3.3-1), libdbusmenu-gtk3-4:amd64 (18.10.20180917~bzr492+repack1-3), libnm0:amd64 (1.42.4-1), libgck-1-0:amd64 (3.41.1-1+b1), libtirpc-dev:amd64 (1.3.3+ds-1), libkeybinder-3.0-0:amd64 (0.3.2-1.1)
+End-Date: 2023-08-08  22:35:14
+
+Start-Date: 2023-08-08  22:43:00
+Commandline: apt install pulseaudio
+Install: pulseaudio:amd64 (16.1+dfsg1-2+b1), libfftw3-single3:amd64 (3.3.10-1, automatic)
+Remove: pipewire-setup-mx:amd64 (23.05.10), pipewire-alsa:amd64 (0.3.65-3)
+End-Date: 2023-08-08  22:43:02
+
+Start-Date: 2023-08-08  22:43:58
+Commandline: apt autoremove
+Remove: libspa-0.2-jack:amd64 (0.3.65-3), pipewire-jack:amd64 (0.3.65-3), gstreamer1.0-pipewire:amd64 (0.3.65-3)
+End-Date: 2023-08-08  22:43:59
