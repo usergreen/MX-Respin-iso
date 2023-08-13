@@ -1,0 +1,13 @@
+Changelog:
+
+2023-08-12 06:19 UTC
+Based on ISO image of MX-23_CLI_x64 Libretto July 31, 2023
+Updated to the up-to-date as of 2023-08-12.
+Note: double-click is now default as same as default Xfce4
+Note: horizontal panel is also default as same as default Xfce4
+
+23023-05-01 06:48 JST
+Updated to the up-to-date base of Debian 11.7 as of 2023-05-01.
+Restore Xfce Desktop defaulf from the previous settings
+
+End.
