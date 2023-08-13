@@ -1,0 +1,19 @@
+root@mx1:/home/demo# apt install pulseaudio
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libasound2-plugins libpulsedsp pulseaudio-utils
+Suggested packages:
+  pavumeter pavucontrol paprefs
+Recommended packages:
+  rtkit
+The following packages will be REMOVED:
+  gnome-core pipewire-alsa pipewire-audio
+The following NEW packages will be installed:
+  libasound2-plugins libpulsedsp pulseaudio pulseaudio-utils
+0 upgraded, 4 newly installed, 3 to remove and 0 not upgraded.
+Need to get 1,375 kB of archives.
+After this operation, 7,217 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+

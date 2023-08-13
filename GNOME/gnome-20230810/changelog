@@ -1,0 +1,9 @@
+Changelog:
+
+Upgraded to MX Linux 23 and Debian 12.1, and also up-to-date as of 2023-05-02
+
+Adopted Ibus for input method instead of uim to avoid an issue
+
+This re-spin is based on MX-23_CLI_x64.
+
+END.

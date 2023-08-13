@@ -1,0 +1,11 @@
+
+Start-Date: 2023-08-10  06:30:32
+Commandline: apt install pulseaudio
+Install: libpulsedsp:amd64 (16.1+dfsg1-2+b1, automatic), pulseaudio:amd64 (16.1+dfsg1-2+b1), pulseaudio-utils:amd64 (16.1+dfsg1-2+b1, automatic), libasound2-plugins:amd64 (1.2.7.1-1, automatic)
+Remove: pipewire-audio:amd64 (0.3.65-3), gnome-core:amd64 (1:43+1), pipewire-alsa:amd64 (0.3.65-3)
+End-Date: 2023-08-10  06:30:35
+
+Start-Date: 2023-08-10  06:32:31
+Commandline: apt remove dkms
+Remove: rtl8821cu-dkms:amd64 (5.12.0+git20230215-1~mx23+3), rtl8812au-dkms:amd64 (5.13.6+git20230615-1~mx23), broadcom-sta-dkms:amd64 (6.30.223.271-23), rtl8821ce-dkms:amd64 (5.5.2.1+git20230504-0~mx23+1), dkms:amd64 (3.0.10-8+deb12u1)
+End-Date: 2023-08-10  06:32:41
