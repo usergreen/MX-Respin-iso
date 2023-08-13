@@ -9,39 +9,41 @@ apt update
 
 //apt install xorg xserver-xorg-video-all xserver-xorg-input-all
 
-apt install task-desktop enlightenment lightdm
+apt install enlightenment lightdm dbus-x11 acpid
 
 exit
 
-# Important!!
-# startx does NOT work. The issue is not fixed for now.
-
 startx
 
-apt remove vim-common vim-tiny tmux gnome-mahjongg lbreakout2 peg-e gxkb
+apt install l3afpad geany geany-plugin-spellcheck
 
-apt remove openjdk* alsa-tools
+apt install terminology libdbus-1-3 libdbus-glib-1-2 rtkit
+
+//apt remove vim-common vim-tiny tmux gnome-mahjongg lbreakout2 peg-e gxkb
+
+//apt remove openjdk* alsa-tools
 
 apt remove dpkg-dev g++ gcc libc6-dev make fakeroot open-vm-tools
 
-apt remove openjdk* alsa-tools
+//apt remove openjdk* alsa-tools
 
-apt remove dpkg-dev g++ gcc libc6-dev make fakeroot open-vm-tools
+//apt remove dpkg-dev g++ gcc libc6-dev make fakeroot open-vm-tools
 
 apt remove dkms
 
-apt upgrade
-
 apt install desktop-defaults-mx-common
 
-apt install libddcutil4 libevas-loaders packagekit  libelementary-bin libevas1-engines-fb terminology geany-plugin-spellckeck
+apt upgrade
+
+apt install libddcutil4 libevas-loaders packagekit libelementary-bin libevas1-engines-fb
 
 apt install avahi-daemon libnss-mdns anacron alsa-utils
 
 # Install below to use wireless network.
+
 apt install anacron avahi-autoipd bluetooth powertop iw wireless-tools wpasupplicant
 
-apt install connman cmst formatusb quick-system-info-gui
+apt install connman cmst
 
 apt install mx-docs mx-snapshot mx-live-usb-maker formatusb synaptic
 
@@ -55,14 +57,14 @@ apt install sylpheed sylpheed-i18n aspell-en
 
 apt install gnome-sound-recorder audacious vlc vlc-l10n
 
-apt install l3afpad geany geany-plugin-spellcheck
-
 apt install firefox firefox-l10n-xpi-de firefox-l10n-xpi-el firefox-l10n-xpi-es-es firefox-l10n-xpi-fr firefox-l10n-xpi-hi-in firefox-l10n-xpi-hr firefox-l10n-xpi-hu firefox-l10n-xpi-id firefox-l10n-xpi-it firefox-l10n-xpi-ja firefox-l10n-xpi-nl firefox-l10n-xpi-pt-br firefox-l10n-xpi-ru firefox-l10n-xpi-sv-se firefox-l10n-xpi-zh-tw
 
 # If you want to use several locales, set as below.
 # Run the command below.
 # Also available from gui: mx system-configure-locales
 # by super-user is it exist. (or # system-locales-mx)
+#
+#Confirm available locale by locale -a command.
 
 dpkg-reconfigure locales
 
@@ -86,7 +88,10 @@ sv_SE.UTF-8... done - Swedish locale for Sweden
 zh_CN.UTF-8... done - Chinese locale for Peoples Republic of China
 zh_TW.UTF-8... done - Chinese locale for Taiwan R.O.C.
 
-Then, set default locale "None" and exit.
+# Then, set default locale "None" and exit.
+
+# No need to do below as MX-23 CLI does not include below. 
+//apt remove network-manager network-manager-gnome
 
 apt autoremove
 
