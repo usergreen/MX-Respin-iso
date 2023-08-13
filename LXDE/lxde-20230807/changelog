@@ -9,6 +9,6 @@ Added missing libgdk-pixbuf2.0-bin to support thumbnail icon
 Fixed locale settings. Default locale was set to English by mistake, so other locales were not enabled after normal boot-up.
 
 2023-08-06 10:09 UTC
-Upgraded the base system to MX 23 an Debian 12.1 as of 2023-08-06
+Upgraded the base system to MX 23 and Debian 12.1 as of 2023-08-06
 
 End.
