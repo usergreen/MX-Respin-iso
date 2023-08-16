@@ -1,5 +1,5 @@
 2022-12-19 15:59 JST
-updated: 2023-08-05 00:38 UTC
+updated: 2023-08-16 12:09 UTC
 
 Read this readme.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -9,6 +9,11 @@ A snapshot is modified thoroughly from MX-23_CLI_x64.iso, 31 July 2023, and appl
 User: demo
 Demo password: demo
 Root password: root
+
+** Installation into Hard Disc
+To install this respin into internal hard disc, Double-click Installer Icon on Desktop. If it does not appear, run the following command instead from MATE Terminal as root: 
+
+ minstall
 
 ** Downloading sites
 An updated version is usually available at https://sourceforge.net/projects/mx-respin-iso/
