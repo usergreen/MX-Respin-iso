@@ -1,5 +1,5 @@
 2023-08-12 07:45 UTC
-updated: 2023-08-12 09:09 UTC
+updated: 2023-08-16 12:19 UTC
 
 Read this readme.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -7,6 +7,11 @@ The ISO image can be used as Live USB/DVD or for HDD installation.
 User: demo
 Demo password: demo
 Root password: root
+
+** Installation into Hard Disc
+To install this respin into internal hard disc, Click Installer Icon on Desktop. If it does not appear, run the following command instead from Xfce4 Terminal as root: 
+
+ minstall
 
 ** Downloading sites
 This ISO and an updated version is available at https://sourceforge.net/projects/mx-respin-xfce/
