@@ -1,5 +1,5 @@
 2023-05-02 01:16 UTC
-Updated: 2023-08-07 07:30 UTC
+Updated: 2023-08-16 12:00 UTC
 
 Read this readme.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -7,6 +7,11 @@ The ISO image can be used as Live USB/DVD or for HDD installation.
 User: demo
 Demo password: demo
 Root password: root
+
+** Installation into Hard Disc
+To install this respin into internal hard disc, Double-click Installer Icon on Desktop. If it does not appear, run the following command instead from LXDE Terminal as root: 
+
+ minstall
 
 ** Note
 Default LXDE wallpapers are located in /usr/share/lxde/backgrounds directory.
