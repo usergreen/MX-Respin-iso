@@ -1,9 +1,0 @@
-Main changes are as follows;
-
-Applied the latest Debian 11.4 updates
-Applied all latest updates from MX repsitory
-Install the latest Linux kernel 
-Add sv_SE.UTF-8 for Swedish locale
-Replace fonts-wqy-zenhei with fonts-wqy-microhei to restore default Japanese font to vlgothic
-
-End.

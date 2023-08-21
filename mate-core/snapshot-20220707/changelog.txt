@@ -1,8 +1,0 @@
-Main changes are:
-
-Added Chinese input method
-Added missing Chinese fonts
-Added several more locales as alternatives
-Removed mozc, due to redundancy
-
-End.
