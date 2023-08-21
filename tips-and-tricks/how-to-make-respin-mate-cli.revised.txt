@@ -46,11 +46,11 @@ apt install avahi-daemon libnss-mdns anacron alsa-utils
 
 apt install anacron avahi-autoipd bluetooth powertop iw wireless-tools wpasupplicant network-manager-pptp-gnome network-manager-gnome
 
-apt install desktop-defaults-mx-common mx-tweak
+apt install desktop-defaults-mx-common
 
 apt install mx-docs mx-snapshot mx-live-usb-maker mx-packageinstaller formatusb synaptic
 
-apt install atril engrampa eom caja-open-terminal mate-calc mate-media mate-menu mate-power-manager mate-screensaver mate-system-monitor mate-utils mate-user-guide mozo mate-tweak
+apt install atril engrampa eom caja-open-terminal mate-calc mate-media mate-menu mate-power-manager mate-screensaver mate-system-monitor mate-utils mate-user-guide mozo mate-tweak mate-screensaver
 
 apt install cups cups-pdf
 
