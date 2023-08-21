@@ -1,8 +1,0 @@
-Changes are as follows;
-
-Install: fonts-wqy-microhei:amd64 (0.2.0-beta-3.1)
-Purge: fonts-wqy-zenhei:amd64 (0.9.45-8)
-
-Upgrade: smplayer:amd64 (22.2.0-0.1~mx21+1, 22.7.0-0.1~mx21+1), libjavascriptcoregtk-4.0-18:amd64 (2.36.3-1~deb11u1, 2.36.4-1~deb11u1), mx-packageinstaller-pkglist:amd64 (22.06.01mx21, 22.07.01mx21), smplayer-l10n:amd64 (22.2.0-0.1~mx21+1, 22.7.0-0.1~mx21+1), libwebkit2gtk-4.0-37:amd64 (2.36.3-1~deb11u1, 2.36.4-1~deb11u1)
-
-End.

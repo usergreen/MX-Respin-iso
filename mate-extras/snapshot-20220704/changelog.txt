@@ -1,6 +1,0 @@
-Changelog
-
-Fixed:
-Some garbling in Chinese characters (漢字) in locale:zh_CH.UTF-8 for Chinese.
-
-End.
