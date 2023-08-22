@@ -1,0 +1,8 @@
+SpaceFM
+http://ignorantguru.github.io/spacefm/
+
+zzzFM file manager, derived from the SpaceFM v1.0.6 codebase (which had been unmaintained since 2018)
+https://gitlab.com/skidoo/zzzfm
+
+What's the future of this project? #800
+https://github.com/IgnorantGuru/spacefm/issues/800

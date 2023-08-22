@@ -1,0 +1,31 @@
+
+Start-Date: 2023-08-18  22:42:45
+Commandline: apt upgrade
+Install: linux-headers-5.10.0-25-amd64:amd64 (5.10.191-1, automatic), linux-headers-5.10.0-25-common:amd64 (5.10.191-1, automatic), linux-image-5.10.0-25-amd64:amd64 (5.10.191-1, automatic)
+Upgrade: linux-kbuild-5.10:amd64 (5.10.179-5, 5.10.191-1), linux-compiler-gcc-10-x86:amd64 (5.10.179-5, 5.10.191-1), linux-headers-amd64:amd64 (5.10.179-5, 5.10.191-1), linux-image-amd64:amd64 (5.10.179-5, 5.10.191-1), linux-libc-dev:amd64 (5.10.179-5, 5.10.191-1)
+End-Date: 2023-08-18  22:43:16
+
+Start-Date: 2023-08-18  22:43:37
+Commandline: apt reinstall lightdm
+Reinstall: lightdm:amd64 (1.26.0-7)
+End-Date: 2023-08-18  22:43:39
+
+Start-Date: 2023-08-18  22:44:05
+Commandline: apt purge lightdm
+Purge: lightdm:amd64 (1.26.0-7)
+End-Date: 2023-08-18  22:44:07
+
+Start-Date: 2023-08-18  22:48:12
+Commandline: synaptic
+Remove: lightdm-modified-init:amd64 (23.01.02), lightdm-gtk-greeter-settings:amd64 (1.2.2-4), lightdm-gtk-greeter:amd64 (2.0.8-2), lightdm-gtk-greeter-mx21:amd64 (22.12.01mx21), liblightdm-gobject-1-0:amd64 (1.26.0-7)
+End-Date: 2023-08-18  22:48:14
+
+Start-Date: 2023-08-18  22:48:50
+Commandline: apt autoremove
+Remove: libxklavier16:amd64 (5.4-4)
+End-Date: 2023-08-18  22:48:51
+
+Start-Date: 2023-08-18  22:51:12
+Commandline: apt install autofs
+Install: autofs:amd64 (5.1.7-1)
+End-Date: 2023-08-18  22:51:17
