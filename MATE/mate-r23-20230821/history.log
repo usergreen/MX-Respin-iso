@@ -1,0 +1,21 @@
+
+Start-Date: 2023-08-21  07:18:08
+Commandline: apt remove mx-tweak
+Remove: mx-tweak:amd64 (23.07.02mx23)
+End-Date: 2023-08-21  07:18:09
+
+Start-Date: 2023-08-21  07:18:20
+Commandline: apt autoremove
+Remove: mx-tweak-data:amd64 (21.09.01mx21)
+End-Date: 2023-08-21  07:18:20
+
+Start-Date: 2023-08-21  07:20:09
+Commandline: apt upgrade
+Install: linux-image-6.1.0-11-amd64:amd64 (6.1.38-4, automatic), linux-headers-6.1.0-11-common:amd64 (6.1.38-4, automatic), linux-headers-6.1.0-11-amd64:amd64 (6.1.38-4, automatic)
+Upgrade: firefox-l10n-xpi-hi-in:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-de:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-el:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-fr:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-hr:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-hu:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-id:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-it:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-ja:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-nl:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox-l10n-xpi-ru:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), gazelle-installer-data-mx:amd64 (23.07.03mx23, 23.08mx23), libldb2:amd64 (2:2.6.2+samba4.17.9+dfsg-0+deb12u3, 2:2.6.2+samba4.17.10+dfsg-0+deb12u1), linux-compiler-gcc-12-x86:amd64 (6.1.38-2, 6.1.38-4), firefox-l10n-xpi-pt-br:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), libwbclient0:amd64 (2:4.17.9+dfsg-0+deb12u3, 2:4.17.10+dfsg-0+deb12u1), linux-headers-amd64:amd64 (6.1.38-2, 6.1.38-4), mx-docs:amd64 (20230728, 20230728+1), libsmbclient:amd64 (2:4.17.9+dfsg-0+deb12u3, 2:4.17.10+dfsg-0+deb12u1), linux-kbuild-6.1:amd64 (6.1.38-2, 6.1.38-4), firefox-l10n-xpi-zh-tw:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), firefox:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), linux-image-amd64:amd64 (6.1.38-2, 6.1.38-4), mx-packageinstaller-pkglist:amd64 (23.08.04mx23, 23.08.09mx23), mx-remaster:amd64 (23.05.01, 23.05.02mx23), mx-installer:amd64 (23.8mx23, 23.8.01mx23), samba-libs:amd64 (2:4.17.9+dfsg-0+deb12u3, 2:4.17.10+dfsg-0+deb12u1), firefox-l10n-xpi-sv-se:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), mx-packageinstaller:amd64 (23.7.02, 23.8), firefox-l10n-xpi-es-es:amd64 (116.0.1~mozillabinaries-1mx23+1, 116.0.3~mozillabinaries-1mx23+1), intel-microcode:amd64 (3.20230512.1, 3.20230808.1~deb12u1), linux-libc-dev:amd64 (6.1.38-2, 6.1.38-4)
+End-Date: 2023-08-21  07:21:24
+
+Start-Date: 2023-08-21  07:21:48
+Commandline: apt install mate-screensaver
+Install: mate-screensaver-common:amd64 (1.26.1-1, automatic), mate-screensaver:amd64 (1.26.1-1)
+End-Date: 2023-08-21  07:21:49
