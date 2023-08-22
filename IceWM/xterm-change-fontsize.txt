@@ -1,0 +1,12 @@
+How to change the default font size of XTerm?
+
+XTerm font is very small. How can I set it larger?
+
+
+If you don't already have one, create a file in your home directory named .Xresources to store your preferences for various X programs. Append a line to the file such as
+
+xterm*font:     *-fixed-*-*-*-18-*
+
+This informs xterm to use the 'fixed' font at size 18.
+
+https://askubuntu.com/questions/161652/how-to-change-the-default-font-size-of-xterm
