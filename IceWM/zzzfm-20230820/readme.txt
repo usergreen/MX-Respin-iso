@@ -1,5 +1,5 @@
 2023-08-19 00:29 UTC
-updated: 2023-08-21 09:48 UTC
+updated: 2023-08-22 05:02 UTC
 
 Read this readme.txt file first, before using this snapshot for x64 architecture.
 The ISO image can be used as Live USB/DVD or for HDD installation.
@@ -18,10 +18,10 @@ To install this respin into internal hard disc, run the following command instea
 Applications which need root privilege such as Synaptic, MX Snaptot and MX Live-USB Maker can not start from Desktop menu, so run commandline as root instead.
 For example:
 <app name> --> <command>
-Synaptic --> synaptic
+Synaptic --> synaptic (as user)
 MX Snapshot --> mx-snapshot -c
 MX LiveUSB Maker --> live-usb-maker
-MX Package Installer --> mxpi-launcher
+MX Package Installer --> cli-aptiX (Need to install cli-aptix)
 
 Xedit text editor is included but it needs additional configuration for use in languages other than English. Use Geany, L3afpad or FeatherPad editors instead.
 
