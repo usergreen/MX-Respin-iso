@@ -1,0 +1,21 @@
+
+Start-Date: 2023-08-14  23:44:16
+Commandline: apt install lightdm
+Install: lightdm-gtk-greeter:amd64 (2.0.8-2+b1, automatic), lightdm:amd64 (1.26.0-8), liblightdm-gobject-1-0:amd64 (1.26.0-8, automatic)
+End-Date: 2023-08-14  23:44:28
+
+Start-Date: 2023-08-14  23:54:27
+Commandline: apt install mx-user
+Install: mx-user:amd64 (23.7.07)
+End-Date: 2023-08-14  23:54:29
+
+Start-Date: 2023-08-15  00:49:04
+Commandline: apt remove xdm
+Remove: xdm:amd64 (1:1.1.11-3+b2)
+End-Date: 2023-08-15  00:49:06
+
+Start-Date: 2023-08-15  04:56:30
+Commandline: /usr/sbin/synaptic
+Requested-By: demo (1000)
+Remove: linux-headers-6.1.0-10-amd64:amd64 (6.1.38-2), linux-image-6.1.0-10-amd64:amd64 (6.1.38-2), linux-headers-6.1.0-10-common:amd64 (6.1.38-2)
+End-Date: 2023-08-15  04:56:34

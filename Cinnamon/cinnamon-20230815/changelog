@@ -1,0 +1,16 @@
+Changelog:
+
+2023-08-15 04:57 UTC
+Changed back to LightDM as XDM does not support auto-login
+Removed older Linux kernel
+
+2023-08-14 14:31 UTC
+Rework of Cinnamon re-spin out of MX-23_CLI_x64 by MX Community.
+As a whole, several applications were removed to make it simple.
+Replaced display manager from LightDM into XDM
+
+2023-08-02 16:21 UTC
+Respin of MX-23_Minimal_x64 by MX Community.
+Updated to the up-to-date as of 2023-08-02, which includes Debian 12.1 point release.
+
+End.
