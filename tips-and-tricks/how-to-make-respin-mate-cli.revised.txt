@@ -44,7 +44,9 @@ apt install avahi-daemon libnss-mdns anacron alsa-utils
 
 # Install below to use wireless network.
 
-apt install anacron avahi-autoipd bluetooth powertop iw wireless-tools wpasupplicant network-manager-pptp-gnome network-manager-gnome
+apt install connman connman-ui cmst
+
+apt install anacron avahi-autoipd bluetooth powertop iw wireless-tools wpasupplicant
 
 apt install desktop-defaults-mx-common
 
@@ -54,7 +56,7 @@ apt install atril engrampa eom caja-open-terminal mate-calc mate-media mate-menu
 
 apt install cups cups-pdf
 
-apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic
+apt install uim-anthy uim im-config zenity kasumi uim-gtk2.0 uim-gtk3 uim-qt5 uim-xim uim-fep fonts-vlgothic fonts-ipafont-mincho
 
 apt install uim-chewing uim-pinyin fonts-wqy-microhei
 
@@ -64,7 +66,7 @@ apt install gnome-sound-recorder audacious vlc vlc-l10n
 
 # optionall:
 
-//apt install lazpaint-gtk2 hypnotix
+//apt install lazpaint-gtk2 hypnotix sxiv
 
 apt install l3afpad geany geany-plugin-spellcheck
 
