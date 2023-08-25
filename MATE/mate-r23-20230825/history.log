@@ -1,0 +1,35 @@
+
+Start-Date: 2023-08-25  07:46:00
+Commandline: apt upgrade
+Upgrade: iso-snapshot-cli:amd64 (23.7.02, 23.8), mx-snapshot:amd64 (23.7.02, 23.8)
+End-Date: 2023-08-25  07:46:02
+
+Start-Date: 2023-08-25  07:46:43
+Commandline: apt install sxiv
+Install: libgif7:amd64 (5.2.1-2.5, automatic), libimlib2:amd64 (1.10.0-4+b1, automatic), libid3tag0:amd64 (0.15.1b-14, automatic), sxiv:amd64 (26-1)
+End-Date: 2023-08-25  07:46:45
+
+Start-Date: 2023-08-25  07:48:13
+Commandline: apt install fonts-ipafont-mincho
+Install: fonts-ipafont-mincho:amd64 (00303-23)
+End-Date: 2023-08-25  07:48:14
+
+Start-Date: 2023-08-25  07:49:22
+Commandline: apt install connman connman-ui cmst
+Install: libnetfilter-conntrack3:amd64 (1.0.9-3, automatic), iptables:amd64 (1.8.9-2, automatic), connman-ui:amd64 (0~20150623-1+b2), connman:amd64 (1.41-3), libnfnetlink0:amd64 (1.0.2-2, automatic), libip6tc2:amd64 (1.8.9-2, automatic), cmst:amd64 (2022.11.30-1)
+End-Date: 2023-08-25  07:49:24
+
+Start-Date: 2023-08-25  07:49:46
+Commandline: apt remove network-manager
+Remove: network-manager-gnome:amd64 (1.30.0-2), network-manager-pptp-gnome:amd64 (1.2.12-1), network-manager:amd64 (1.42.4-1), network-manager-pptp:amd64 (1.2.12-1)
+End-Date: 2023-08-25  07:49:47
+
+Start-Date: 2023-08-25  07:50:00
+Commandline: apt autoremove
+Remove: libmm-glib0:amd64 (1.20.4-1), libnma-gtk4-0:amd64 (1.10.6-1), libayatana-appindicator3-1:amd64 (0.5.92-1), pptp-linux:amd64 (1.10.0-1), libnma-common:amd64 (1.10.6-1), libndp0:amd64 (1.8-1), libnma0:amd64 (1.10.6-1), libteamdctl0:amd64 (1.31-1), libbluetooth3:amd64 (5.66-1), libdbusmenu-glib4:amd64 (18.10.20180917~bzr492+repack1-3), libdbusmenu-gtk3-4:amd64 (18.10.20180917~bzr492+repack1-3), libnm0:amd64 (1.42.4-1)
+End-Date: 2023-08-25  07:50:01
+
+Start-Date: 2023-08-25  07:52:44
+Commandline: apt install mate-menu
+Install: gir1.2-matepanelapplet-4.0:amd64 (1.27.0-1, automatic), gir1.2-matedesktop-2.0:amd64 (1.26.0-2, automatic), mate-menu:amd64 (22.04.2-1), python3-cairo:amd64 (1.20.1-5+b1, automatic), python3-xlib:amd64 (0.33-2, automatic), python3-six:amd64 (1.16.0-4, automatic), python3-xdg:amd64 (0.28-2, automatic), python3-configobj:amd64 (5.0.8-1, automatic), python3-gi-cairo:amd64 (3.42.2-3+b1, automatic)
+End-Date: 2023-08-25  07:52:47
