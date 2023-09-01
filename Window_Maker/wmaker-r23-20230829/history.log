@@ -1,0 +1,25 @@
+
+Start-Date: 2023-08-29  02:09:41
+Commandline: apt upgrade
+Upgrade: iso-snapshot-cli:amd64 (23.7.02, 23.8), mx-tweak:amd64 (23.07.02mx23, 23.08.01mx23), mx-docs:amd64 (20230728, 20230728+1), mx-packageinstaller-pkglist:amd64 (23.08.06mx23, 23.08.09mx23), librsvg2-2:amd64 (2.54.5+dfsg-1, 2.54.7+dfsg-1~deb12u1), mx-snapshot:amd64 (23.7.02, 23.8)
+End-Date: 2023-08-29  02:09:54
+
+Start-Date: 2023-08-29  02:11:09
+Commandline: apt install wmaker spacefm-gtk3 lxterminal
+Install: libsphinxbase3:amd64 (0.8+5prealpha+1-16, automatic), libserd-0-0:amd64 (0.30.16-1, automatic), librubberband2:amd64 (3.1.2+dfsg0-1, automatic), lxterminal:amd64 (0.4.0-2), libblas3:amd64 (3.11.0-2, automatic), libfftw3-double3:amd64 (3.3.10-1, automatic), libwings3:amd64 (0.95.9-3+b2, automatic), wmaker-common:amd64 (0.95.9-3, automatic), libgfortran5:amd64 (12.2.0-14, automatic), libvidstab1.1:amd64 (1.1.0-2+b1, automatic), wmaker:amd64 (0.95.9-3+b2), desktop-file-utils:amd64 (0.26-1, automatic), libzimg2:amd64 (3.0.4+ds1-1, automatic), libmagickwand-6.q16-6:amd64 (8:6.9.11.60+dfsg-1.6, automatic), libffmpegthumbnailer4v5:amd64 (2.2.2+git20220218+dfsg-1+b1, automatic), libpocketsphinx3:amd64 (0.8+5prealpha+1-15, automatic), libstartup-notification0:amd64 (0.12-6+b1, automatic), libwraster6:amd64 (0.95.9-3+b2, automatic), libmagickcore-6.q16-6:amd64 (8:6.9.11.60+dfsg-1.6, automatic), spacefm-common:amd64 (1.0.6-5, automatic), libsord-0-0:amd64 (0.16.14+git221008-1, automatic), libflite1:amd64 (2.2-5, automatic), libwutil5:amd64 (0.95.9-3+b2, automatic), imagemagick-6-common:amd64 (8:6.9.11.60+dfsg-1.6, automatic), liblilv-0-0:amd64 (0.24.14-1, automatic), liblapack3:amd64 (3.11.0-2, automatic), spacefm-gtk3:amd64 (1.0.6-5+b1), liblqr-1-0:amd64 (0.4.2-2.1, automatic), libavfilter8:amd64 (7:5.1.3-1, automatic), libsratom-0-0:amd64 (0.6.14-1, automatic)
+End-Date: 2023-08-29  02:11:14
+
+Start-Date: 2023-08-29  02:12:04
+Commandline: apt remove icewm rox-filer xterm
+Remove: icewm:amd64 (3.3.1-1), rox-filer:amd64 (1:2.11-7), xterm:amd64 (379-1)
+End-Date: 2023-08-29  02:12:05
+
+Start-Date: 2023-08-29  02:13:12
+Commandline: apt install fonts-ipafont-mincho cli-aptix
+Install: cli-aptix:amd64 (0.2.26mx19+1), fonts-ipafont-mincho:amd64 (00303-23)
+End-Date: 2023-08-29  02:13:13
+
+Start-Date: 2023-08-29  02:13:31
+Commandline: apt autoremove
+Remove: libimlib2:amd64 (1.10.0-4+b1), libid3tag0:amd64 (0.15.1b-14), libao-common:amd64 (1.2.2+20180113-1.1), libao4:amd64 (1.2.2+20180113-1.1), icewm-common:amd64 (3.3.1-1), libutempter0:amd64 (1.2.1-3), libspectre1:amd64 (0.2.12-1)
+End-Date: 2023-08-29  02:13:32

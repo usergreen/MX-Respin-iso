@@ -1,0 +1,12 @@
+
+apt upgrade
+# Upgraded firefox
+
+apt install wmaker wmaker-data wmaker-utils
+
+apt remove icewm xterm
+
+apt install fonts-ipafont-mincho cli-aptix xarchiver
+
+apt autoremove
+
