@@ -25,7 +25,7 @@ MATE:
 
 apt install xorg xserver-xorg-video-all xserver-xorg-input-all
 
-apt install mate-core pluma lightdm
+apt install mate-core pluma lightdm lightdm-gtk-greeter-settings
 
 # Login available by startx without display-manager below:
 # lightdm
