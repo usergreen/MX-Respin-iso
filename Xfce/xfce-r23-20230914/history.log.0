@@ -1,0 +1,41 @@
+
+Start-Date: 2023-09-13  15:42:43
+Commandline: apt remove firefox*
+Remove: firefox-l10n-xpi-hi-in:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-de:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-el:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-fr:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-hr:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-hu:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-id:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-it:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-ja:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-nl:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-ru:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-pt-br:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-zh-tw:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-sv-se:amd64 (116.0.2~mozillabinaries-1mx23+1), firefox-l10n-xpi-es-es:amd64 (116.0.2~mozillabinaries-1mx23+1)
+End-Date: 2023-09-13  15:42:44
+
+Start-Date: 2023-09-13  15:45:03
+Commandline: apt install firefox-esr firefox-esr-l10n-de firefox-esr-l10n-es-es firefox-esr-l10n-el firefox-esr-l10n-fr firefox-esr-l10n-hi-in firefox-esr-l10n-hr firefox-esr-l10n-hu firefox-esr-l10n-id firefox-esr-l10n-it firefox-esr-l10n-ja firefox-esr-l10n-nl firefox-esr-l10n-pl firefox-esr-l10n-pt-br firefox-esr-l10n-ru firefox-esr-l10n-sv-se firefox-esr-l10n-zh-tw
+Install: firefox-esr-l10n-sv-se:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-es-es:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-hi-in:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-de:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-el:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-fr:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-hr:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-hu:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-id:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-it:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-ja:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-nl:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-pl:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-ru:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-pt-br:amd64 (102.15.0esr-1~deb12u1), firefox-esr-l10n-zh-tw:amd64 (102.15.0esr-1~deb12u1), firefox-esr:amd64 (102.15.0esr-1~deb12u1)
+End-Date: 2023-09-13  15:45:10
+
+Start-Date: 2023-09-13  15:46:49
+Commandline: apt remove mx-tweak
+Remove: mx-tweak:amd64 (23.07.02mx23)
+End-Date: 2023-09-13  15:46:50
+
+Start-Date: 2023-09-13  15:47:26
+Commandline: apt install lightdm-gtk-greeter-settings
+Install: python3-gi:amd64 (3.42.2-3+b1, automatic), lightdm-gtk-greeter-settings:amd64 (1.2.2-5)
+End-Date: 2023-09-13  15:47:28
+
+Start-Date: 2023-09-13  15:48:14
+Commandline: apt install connman-ui cmst
+Install: libnetfilter-conntrack3:amd64 (1.0.9-3, automatic), iptables:amd64 (1.8.9-2, automatic), connman-ui:amd64 (0~20150623-1+b2), connman:amd64 (1.41-3, automatic), libnfnetlink0:amd64 (1.0.2-2, automatic), libip6tc2:amd64 (1.8.9-2, automatic), cmst:amd64 (2022.11.30-1)
+End-Date: 2023-09-13  15:48:17
+
+Start-Date: 2023-09-13  15:49:21
+Commandline: apt remove network-manager
+Remove: network-manager-gnome:amd64 (1.30.0-2), network-manager:amd64 (1.42.4-1)
+End-Date: 2023-09-13  15:49:22
+
+Start-Date: 2023-09-13  15:49:38
+Commandline: apt autoremove
+Remove: libmm-glib0:amd64 (1.20.4-1), libglib2.0-bin:amd64 (2.74.6-2), libayatana-appindicator3-1:amd64 (0.5.92-1), mx-tweak-data:amd64 (21.09.01mx21), libpango1.0-0:amd64 (1.50.12+ds-1), libnma-common:amd64 (1.10.6-1), libndp0:amd64 (1.8-1), libnma0:amd64 (1.10.6-1), libteamdctl0:amd64 (1.31-1), libbluetooth3:amd64 (5.66-1), libnm0:amd64 (1.42.4-1)
+End-Date: 2023-09-13  15:49:39
+
+Start-Date: 2023-09-13  15:50:41
+Commandline: apt upgrade
+Install: linux-headers-6.1.0-12-amd64:amd64 (6.1.52-1, automatic), linux-headers-6.1.0-12-common:amd64 (6.1.52-1, automatic), linux-image-6.1.0-12-amd64:amd64 (6.1.52-1, automatic)
+Upgrade: iso-snapshot-cli:amd64 (23.7.02, 23.8), linux-compiler-gcc-12-x86:amd64 (6.1.38-4, 6.1.52-1), linux-headers-amd64:amd64 (6.1.38-4, 6.1.52-1), mx-docs:amd64 (20230728, 20230728+1), linux-kbuild-6.1:amd64 (6.1.38-4, 6.1.52-1), linux-image-amd64:amd64 (6.1.38-4, 6.1.52-1), mx-packageinstaller-pkglist:amd64 (23.08.06mx23, 23.09.92mx23), librsvg2-2:amd64 (2.54.5+dfsg-1, 2.54.7+dfsg-1~deb12u1), mx-snapshot:amd64 (23.7.02, 23.8), mx-packageinstaller:amd64 (23.8, 23.9), mx-viewer:amd64 (23.7.02, 23.8), mx-gpg-keys:amd64 (22.11.11, 23.09.04), linux-libc-dev:amd64 (6.1.38-4, 6.1.52-1)
+End-Date: 2023-09-13  15:51:25
