@@ -66,6 +66,7 @@ apt install gnome-sound-recorder audacious vlc vlc-l10n
 
 # optionall:
 
+//apt install lightdm-gtk-greeter-settings
 //apt install lazpaint-gtk2 hypnotix sxiv
 
 apt install l3afpad geany geany-plugin-spellcheck
