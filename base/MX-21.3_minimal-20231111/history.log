@@ -1,0 +1,12 @@
+
+Start-Date: 2023-11-11  14:44:27
+Commandline: apt remove linux-headers-5.10.0-20-amd64 linux-headers-5.10.0-20-common linux-image-5.10.0-20-amd64
+Requested-By: demo (1000)
+Remove: linux-image-5.10.0-20-amd64:amd64 (5.10.158-2), linux-headers-5.10.0-20-common:amd64 (5.10.158-2), linux-headers-5.10.0-20-amd64:amd64 (5.10.158-2)
+End-Date: 2023-11-11  14:44:30
+
+Start-Date: 2023-11-11  14:44:40
+Commandline: apt autoremove
+Requested-By: demo (1000)
+Remove: python3-lib2to3:amd64 (3.9.2-1), gvfs-bin:amd64 (1.46.2-1), gvfs-common:amd64 (1.46.2-1), python3-distutils:amd64 (3.9.2-1)
+End-Date: 2023-11-11  14:44:41
