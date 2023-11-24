@@ -1,0 +1,15 @@
+Changelog:
+
+2023-11-16 05:30 UTC
+Added System-config-printer to support GUI printer settiing
+Updated to the up-to-date Official base as of 2023-11-16.
+
+2023-08-11 05:26 EST
+Replaced the base ISO image from MX-23_minimal_x64 to MX-23_CLI_x64
+Updated to the up-to-date as of 2023-08-11.
+
+2023-08-08 13:58 UTC
+Upgraded the base system to MX 23 an Debian 12.1.
+Updated to the up-to-date status as of 2023-08-08.
+
+End.

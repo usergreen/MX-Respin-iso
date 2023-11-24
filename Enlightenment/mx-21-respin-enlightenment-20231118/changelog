@@ -1,0 +1,14 @@
+Changelog:
+
+2023-11-18 01:14 UTC
+Added System-config-printer for GUI settings
+Removed dkms
+Removed older linux-image-5.10.0-20-amd64
+Applied all latest updates so far
+
+2023-07-24 03:10 UTC
+Added ConnMan, audacious, gnome-sound-recorder, VLC
+Added Format-USB, Quick-System-info-gui
+Updated the system to the up-to-date Official base as of 2023-07-24
+
+End.
