@@ -1,0 +1,14 @@
+Changelog:
+
+2023-11-19 12:24 UTC
+Added libgdk-pixbuf2.0-bin for thumbnail support
+Added caja-open-terminal
+Added system-config-printer for GUI support
+Removed dkms
+Removed old linux-image-5.10.0-20-amd64
+Applied all latest updates so far
+
+2023-05-01 09:29 UTC
+Updated to the up-to-date of Debian 11.7 base as of 2023-05-01.
+
+End.
