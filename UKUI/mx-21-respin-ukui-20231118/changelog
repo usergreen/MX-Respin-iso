@@ -1,0 +1,13 @@
+Changelog:
+
+2023-11-18 15:16 UTC
+Added EOM, Lazpaint to support image files
+Added System-config-printer for GUI
+Added Engrampa for archive files
+Removed dkms
+Applied all latest updates so far
+
+2023-05-01 08:19 UTC
+Updated to up-to-date official Debian 11.7 base as of 2023-05-01.
+
+End.
