@@ -1,0 +1,25 @@
+Changelog:
+
+2023-11-17 09:23 UTC
+Added System-config-printer to suport GUI
+Updated to the up-to-date Official base as of 2023-11-17
+
+2023-08-26 02:40 UTC
+Added LXTerminal for convenience
+Changed default Desktop theme to fix ja locale issue
+Custom toolbar
+
+2023-08-18 15:55 UTC
+Changed default file manager to SpaceFM (Space File Manager)
+
+2023-08-17 08:24 UTC
+Replaced network manager from GNOME Network-Manager to ConnMan
+Added L3afpad text editor
+Removed old Linux 6.1.0-10 kernel
+
+2023-08-16 04:56 UTC
+First release of MX re-spin for IceWM with ROX-Filer.
+Based on ISO image of MX-23_CLI_x64 Libretto July 31, 2023
+Updated to the up-to-date as of 2023-08-16.
+
+End.
