@@ -1,0 +1,14 @@
+Change.log:
+
+2023-11-20 02:31 UTC
+Added Laspaint for drawing
+Added libgdk-pixbuf2.0-bin for thumbnails
+Added System-config-printer for GUI
+Removed dkms
+Applied all latest updates so far
+
+2023-05-01 06:48 JST
+Updated to the up-to-date base of Debian 11.7 as of 2023-05-01.
+Restored Xfce Desktop defaulf from the previous settings
+
+End.
