@@ -1,0 +1,14 @@
+Changelog:
+
+23023-11-19 08:28 UTC
+Added system-config-printer
+Removed dkms
+Removed old linux-image-5.10.0-21-amd64
+Applied all latest updates so far
+
+2023-05-01 23:01 UTC
+Update to the up-to-date of Debian 11.7 point release as of 2023-05-01
+Restored to the original settings with no wallpaper and single-click.
+ISO file has been compressed with lz4, so that file size got bigger than before.
+
+End.
